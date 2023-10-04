@@ -24,7 +24,6 @@
 ## Testnet
 
 * [DeGate Testnet: Basic Information](testnet/degate-testnet-basic-information.md)
-* [DeGate Testnet: Get Free Testnet Tokens on Rinkeby](testnet/degate-testnet-get-free-testnet-tokens-on-rinkeby.md)
 * [DeGate Testnet: Get Free Testnet Tokens on Goerli](testnet/degate-testnet-get-free-testnet-tokens-on-goerli.md)
 * [DeGate Testnet Guidebook](testnet/degate-testnet-guidebook.md)
 * [How to withdraw assets in Exodus Mode](testnet/how-to-withdraw-assets-in-exodus-mode.md)
