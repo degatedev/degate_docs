@@ -6,11 +6,11 @@
 
 ### **1. 点击**[**网格策略**](https://app.degate.com/grid/USDC/ETH)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. 搜索并选择您想交易的交易对，例如ETH/USDC
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 选择\[一键创建]或\[手动创建]来设置网格策略参数。&#x20;
 
@@ -46,7 +46,7 @@
 
 为了方便起见，系统将根据当前最新价格自动填写价格区间的上限和下限。您可以根据自己的需求进行二次修改。
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 在所有参数设置完成后，如果您修改了任何值，其他值将自动进行相应调整。如果某个参数不符合创建网格的条件，下方将显示红色警告通知。请注意，每个网格数量对应的资金必须大于100美元。
 
@@ -56,7 +56,7 @@
 
 通过勾选\[**预览订单**]复选框，您可以在K线图上预览即将创建的网格订单。
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. 创建网格策略&#x20;
 
@@ -70,11 +70,11 @@
 
 您可以从界面底部的\[**运行中**]列表中选择要关闭的网格策略。点击\[**取消**]按钮即可关闭所选的网格策略。
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 您还可以通过详细信息弹出窗口内的\[**取消策略**]按钮来关闭网格策略。
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 关闭后，网格策略将出现在界面底部的\[**已完成**]列表中。您可以在此处查看已关闭网格策略的详细信息，并复制已关闭网格的参数，以便轻松地再次创建相同的的网格。
 

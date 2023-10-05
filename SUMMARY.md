@@ -44,4 +44,5 @@
 
 ## 产品教程 <a href="#product-tutorial" id="product-tutorial"></a>
 
+* [在DeGate DEX自主上架代币](product-tutorial/zai-degate-dex-zi-zhu-shang-jia-dai-bi.md)
 * [创建一个网格策略](product-tutorial/create-a-grid-strategy.md)
