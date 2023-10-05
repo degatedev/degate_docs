@@ -39,5 +39,6 @@
 
 ## Product Tutorial
 
+* [Listing your token on DeGate DEX](product-tutorial/listing-your-token-on-degate-dex.md)
 * [Create a Grid Strategy](product-tutorial/create-a-grid-strategy.md)
 * [Create a Grid Strategy on Mobile](product-tutorial/create-a-grid-strategy-on-mobile.md)
