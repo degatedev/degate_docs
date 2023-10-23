@@ -28,19 +28,19 @@ In addition, DeGate also has an ongoing $1.11 million Bug Bounty program with Im
 
 ## Why are there so few trading pairs?
 
-We are still on Mainnet Beta, and we will gradually introduce more trading pairs and liquidity in the coming days. Additionally, DeGate supports the Permissionless Listing feature, allowing anyone can list a token on DeGate orderbook DEX. For more information, please visit [https://docs.degate.com/main-features/permissionless-listing](https://docs.degate.com/main-features/permissionless-listing)
+We are still on Mainnet Beta, and we will progressively expand the selection of trading pairs and liquidity. Additionally, DeGate supports the Permissionless Listing feature, allowing anyone to list a tokens on DeGate orderbook DEX. For further details information, visit [https://docs.degate.com/main-features/permissionless-listing](https://docs.degate.com/main-features/permissionless-listing)
 
 ## How can I partner with DeGate?
 
-DeGate is always open to partnerships. Please join the DeGate Discord at [https://discord.gg/fKbGsvPMYf](https://discord.gg/fKbGsvPMYf) for any partnership requests.
+DeGate is always open to partnerships. Please join the DeGate Discord at [https://discord.gg/degate](https://discord.gg/degate) for any partnership requests.
 
 ## How can I provide feedback?
 
-Join the DeGate Discord channel at [https://discord.gg/fKbGsvPMYf](https://discord.gg/fKbGsvPMYf) and share your thoughts in the #Mainnet\_Beta channel.
+Join the DeGate Discord channel at [https://discord.gg/degate](https://discord.gg/degate) and share your thoughts in the #general channel.
 
 ## I am unable to access Mainnet Beta
 
-If you're having trouble accessing Mainnet Beta, please contact DeGate Discord at [https://discord.gg/fKbGsvPMYf](https://discord.gg/fKbGsvPMYf) and open a ticket to share your request.&#x20;
+If you're having trouble accessing Mainnet Beta, please contact DeGate Discord at [https://discord.gg/degate](https://discord.gg/degate) and open a ticket to share your request.&#x20;
 
 ## Was there a previous Mainnet Beta deployment?
 
