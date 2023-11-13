@@ -6,13 +6,13 @@ This document provides a detailed overview of the DeGate protocol, covering its 
 
 ## Trustless
 
-Funds in the DeGate protocol are non-custodial, with users having complete control over their assets. No other roles can access a user’s funds. There are no backdoors or administrator roles in the protocol. Specifically:&#x20;
+Funds in the DeGate protocol are non-custodial, with users having complete control over their assets. No other roles can access a user’s funds. Specifically:
 
-* The DeGate protocol cannot be upgraded.&#x20;
-* Users can unilaterally withdraw their deposits if a transaction is not confirmed before a preset deadline&#x20;
-* Users can initiate a forced withdrawal to enter the exodus mode and withdraw their assets.&#x20;
-* All operations involving asset changes in a user’s DeGate account require the user's signature, ensuring at the protocol layer that asset changes can only happen with users’ authorization.&#x20;
-* Trustless order cancellation is possible, with users able to add confirmation on the blockchain for 100% trust-free cancellation.&#x20;
+* Users can unilaterally withdraw their deposits if a transaction is not confirmed before a preset deadline
+* Users can initiate a forced withdrawal to enter the exodus mode and withdraw their assets.
+* All operations involving asset changes in a user’s DeGate account require the user's signature, ensuring at the protocol layer that asset changes can only happen with users’ authorization.
+* Trustless order cancellation is possible, with users able to add confirmation on the blockchain for 100% trust-free cancellation.
+* The DeGate protocol requires a minimum timelock of 45 days to complete an upgrade, during which the code logic cannot be changed.
 
 ## Permissionless Listing of Tokens
 
@@ -20,9 +20,9 @@ DeGate can be accessed and used with a blockchain wallet without KYC, and anyone
 
 ## Economic Security
 
-For an open protocol, functional and economical security are equally, if not more, important than direct access, listing and trading. DeGate is the only order book DEX that allows for direct listing of tokens, and it adopts several measures to guarantee economic security, including:&#x20;
+For an open protocol, functional and economical security are equally, if not more, important than direct access, listing and trading. DeGate is the only order book DEX that allows for direct listing of tokens, and it adopts several measures to guarantee economic security, including:
 
-• Free gas fee quota for deposits&#x20;
+• Free gas fee quota for deposits
 
  • Token parameter configuration 
 
@@ -74,7 +74,7 @@ The ZK-Rollup process of the DeGate protocol can be summarized into three steps:
 2. The DeGate node verifies and processes users’ requests, packages off-chain transactions into a block, and calls the circuit to compute a zero-knowledge proof.
 3. The node sends the proof to the on-chain smart contract for verification to complete ZK-Rollup, providing data availability for assets.
 
-Fore more, please refer to [introduction-to-zk-rollup.md](concepts/introduction-to-zk-rollup.md "mention")&#x20;
+Fore more, please refer to [introduction-to-zk-rollup.md](concepts/introduction-to-zk-rollup.md "mention")
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>ZK-Rollup Process</p></figcaption></figure>
 
@@ -82,31 +82,31 @@ Fore more, please refer to [introduction-to-zk-rollup.md](concepts/introduction-
 
 A signature is required when an off-chain request is initiated in DeGate, and two signature methods are supported: ECDSA and EdDSA. Users can use their "wallet private key” to complete the ECDSA signature and unlock their account, which will generate an EdDSA private key, called the "asset private key". The asset private key is used to sign users' off-chain requests as EdDSA is more zk-friendly while reducing the computational cost of proofs. Different off-chain requests require different signature methods. For example, an EdDSA signature is used for placing an order, without the need for users’ in-wallet confirmation. However, an ECDSA signature from the wallet is still required for withdrawal and transfer requests. This balances both security and convenience.
 
-For more, please refer to [secret-key-and-signatures.md](concepts/secret-key-and-signatures.md "mention")&#x20;
+For more, please refer to [secret-key-and-signatures.md](concepts/secret-key-and-signatures.md "mention")
 
 ## Account
 
 The Merkle tree in the DeGate protocol records all the accounts’ permissions and asset information. New users are required to create a decentralized DeGate account in a permissionless way to write their wallet address and assets’ public key into the account node on the Merkle tree for binding. The on-chain assets that users deposit into the DeGate protocol will be credited to a corresponding account node on the Merkle tree for future operations such as trading and placing orders.
 
-Fore more, please refer to [account-structure.md](concepts/account-structure.md "mention")&#x20;
+Fore more, please refer to [account-structure.md](concepts/account-structure.md "mention")
 
 ## Deposit
 
 Before starting trading on DeGate, users must first deposit assets into their DeGate account. Following confirmation by the DeGate node of a user’s on-chain deposit transaction, the deposited amount will be credited to the user’s DeGate account balance, enabling an **immediate use for operations such as placing orders**. Simultaneously, the Operator will initiate an off-chain transaction for confirming the deposit, and ultimately roll it up to the on-chain smart contract to guarantee the consistency of on-chain and off-chain data.
 
-Fore more, please refer to [deposit.md](main-features/deposit.md "mention")&#x20;
+Fore more, please refer to [deposit.md](main-features/deposit.md "mention")
 
 ## Withdrawal
 
 Once a user initiates an off-chain request for withdrawal, the Operator will automatically and immediately process the request. It is important to note that **all withdrawals on DeGate are conducted without manual review**. Upon submission of the zkBlock containing the off-chain withdrawal transaction to the on-chain block, users will receive their withdrawn assets. In order to achieve 100% self-custody of assets, the DeGate protocol provides a forced withdrawal method, which allows users to retrieve their assets stored in the DeGate protocol **without any impediments**. Specifically, users can initiate a mandatory on-chain withdrawal request and force the Operator to process the request. If the Operator fails to process the request before a preset deadline, the entire DeGate protocol will cease operation, and enter the exodus mode.
 
-Fore more, please refer to [withdrawal.md](main-features/withdrawal.md "mention")&#x20;
+Fore more, please refer to [withdrawal.md](main-features/withdrawal.md "mention")
 
 ## Exodus Mode
 
 Once in the exodus mode, users can call the DeGate smart contract to retrieve their assets from the DeGate protocol. The DeGate smart contract will reject any new rollup of transactions, and all off-chain requests will not be processed. All DeGate accounts and assets will remain in the state of the most recent rollup prior to entering the exodus mode, and the DeGate smart contract will handle assets accordingly. To retrieve assets, users must parse all the Calldata data of the DeGate smart contract to create a Merkle tree, obtain the latest account and asset status, and retrieve assets from the DeGate smart contract with these data. Users may engage a third party to perform the parsing of the latest account and asset status.
 
-Fore more, please refer to [exodus-mode.md](concepts/exodus-mode.md "mention")&#x20;
+Fore more, please refer to [exodus-mode.md](concepts/exodus-mode.md "mention")
 
 ## Protocol Fee
 
@@ -124,9 +124,9 @@ The trading system is the core module of order book trading, which mainly compri
 
 Currently, the protocol supports ETH, USDC, and USDT as quote token, which means each token can add up to 3 different trading pairs.
 
-For some non-standard ERC20 assets, such as tokens with a transfer-to-burn mechanism or automatic supply updates, the DeGate node can support their listing and trading as well after additional processing on a case-by-case basis.&#x20;
+For some non-standard ERC20 assets, such as tokens with a transfer-to-burn mechanism or automatic supply updates, the DeGate node can support their listing and trading as well after additional processing on a case-by-case basis.
 
-For more, please refer to [permissionless-listing.md](main-features/permissionless-listing.md "mention") and [trading-pairs.md](main-features/trading-pairs.md "mention")&#x20;
+For more, please refer to [permissionless-listing.md](main-features/permissionless-listing.md "mention") and [trading-pairs.md](main-features/trading-pairs.md "mention")
 
 ## Security Auditing
 
@@ -141,7 +141,7 @@ When the DeGate protocol is deployed to the Ethereum mainnet, it is necessary to
 
 For more, please refer to [Vitalik - How do trusted setups work?](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
 
-## DeGate Node&#x20;
+## DeGate Node
 
 Currently, the off-chain components of the DeGate protocol operates on a single node, with a node operator in charge. The situations where the node may fail or do evil and corresponding countermeasures are listed as follows:
 
