@@ -37,4 +37,3 @@ If you're having trouble accessing Mainnet Beta, please get in touch with DeGate
 ## Was there a previous Mainnet Beta deployment?
 
 Yes, Mainnet Beta is the redeployment of the previous Mainnet Beta(Legacy). This strategic upgrade reinforces protocol security, ensuring DeGate protocol is always 100% trustless. All assets in the old environment have been automatically withdrawn as per protocol design and returned to users' registered Ethereum wallet addresses via the shutdown mode. More details can be found in this article -> [https://medium.com/degate/degate-mainnet-beta-redeployment-oct-2023-e07c8eeaec4c](https://medium.com/degate/degate-mainnet-beta-redeployment-oct-2023-e07c8eeaec4c)
-
