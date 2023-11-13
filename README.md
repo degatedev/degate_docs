@@ -40,7 +40,7 @@ In the long term, the goal of DeGate protocol is to implement a standalone open-
 
 **Trustless**
 
-DeGate was designed such that the user always has the highest authority, and no malicious or centralized authority has access to the user's assets. In this sense, malicious actors "can't do evil" through DeGate's non-custodial storing of assets. Additionally, smart contracts can be upgraded only after a substantial timelock of 45 days. See details [here](broken-reference/).
+DeGate was designed such that the user always has the highest authority, and no malicious or centralized authority has access to the user's assets. In this sense, malicious actors "can't do evil" because of DeGate's non-custodial. Additionally, smart contracts can be upgraded only after a substantial timelock of 45 days. See details [here](broken-reference/).
 
 **Permissionless**
 
@@ -94,7 +94,7 @@ In this phase, concrete actions to be implemented include:
 
 **Expected launch: 3rd/4th Quarter 2023**
 
-In this phase, the restrictions on whitelist registration will be removed. The protocol will be open to anyone to use.&#x20;
+In this phase, the restrictions on whitelist registration will be removed. The protocol will be open to anyone to use.
 
 To attract an initial user base, liquidity mining incentives will be provided. In addition, the distributions of tokens awarded in our unique social media round, as well as other distributions will also commence at this time.
 

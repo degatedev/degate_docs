@@ -1,6 +1,6 @@
 # Trustless and Decentralized
 
-To ensure that DeGate is a trustless, decentralized and permissionless limit order exchange, the trust mechanism of the entire DeGate protocol is guaranteed by three factors: ZK-Rollup data availability and "Exodus Mode".&#x20;
+To ensure that DeGate is a trustless, decentralized and permissionless limit order exchange, the trust mechanism of the entire DeGate protocol is guaranteed by two factors: ZK-Rollup data availability and "Exodus Mode".
 
 ### ZK-Rollup Data Availability
 
@@ -22,5 +22,4 @@ To illustrate, suppose any force withdrawal has not been processed for more than
 
 In addition to the guarantees of the above three mechanisms, DeGate is also working on decentralizing operators to reduce the limited risk of denial of service, dropped orders, and changing transaction orders from one single operator node. DeGate will build towards an ultimate trustless protocol by establishing a consensus network with a punishment mechanism similar to public chains.
 
-In the redeployment of the DeGate protocol in November 2023, a timelock upgradable was introduced, aiming to provide greater flexibility in subsequent functional iterations. The initial delay time is set to 45 days. As the protocol becomes increasingly stable, the DeGate protocol plans to gradually extend the upgrade delay, and may even eliminate the upgrade capability altogether.
-
+In the redeployment of the DeGate protocol in November 2023, upgradeability with a time lock was introduced, to provide greater flexibility in subsequent iterations, but maintaining trustlessness. The initial delay time for the time lock is set to 45 days. As the protocol becomes increasingly stable, DeGate plans to gradually extend the upgrade delay, and may eventually eliminate his upgrade capability altogether.
