@@ -12,7 +12,7 @@
 
 1.1 在搜索栏中粘贴上你的代币合约地址，选择“免审核上币”
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>复制代币合约地址到搜索栏</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>复制代币合约地址到搜索栏</p></figcaption></figure>
 
 {% hint style="info" %}
 注意：DeGate DEX不支持弹性供应代币。
@@ -22,19 +22,19 @@
 
 1.2 确认你要添加的代币信息，并点击“立即上币”
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>在DeGate上添加你的代币</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>在DeGate上添加你的代币</p></figcaption></figure>
 
 1.3  耐心等待12个块的确认，你也可以随时查看上币进程
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>批准钱包签名以完成整个添加流程</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>批准钱包签名以完成整个添加流程</p></figcaption></figure>
 
 1.4 当代币完成添加后可以进行创建交易对
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Rocket Pool 代币 (RPL) 已成功被添加</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Rocket Pool 代币 (RPL) 已成功被添加</p></figcaption></figure>
 
 1.5 选择交易对的Quote代币，需支付一定的gas费来完成交易对的创建
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>选择一个代币与 $RPL 配对</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>选择一个代币与 $RPL 配对</p></figcaption></figure>
 
 {% hint style="info" %}
 注意：只支持USDC/USDT/ETH作为Quote代币。
@@ -42,15 +42,15 @@
 更多详细信息，请参考：[https://docs.degate.com/v/product\_en/main-features/trading-pairs。](https://docs.degate.com/v/product\_en/main-features/trading-pairs%E3%80%82)
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>继续添加交易对</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>继续添加交易对</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p>批准钱包签名以完成交易对流程</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>批准钱包签名以完成交易对流程</p></figcaption></figure>
 
 ## 第二阶段 - 为你的代币交易对提供流动性
 
 2.1 当交易对创建完毕后，你需要将相应的代币充值到DeGate DEX中
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>将交易对中的(RPL/USDC) 充值到DeGate DEX中</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>将交易对中的(RPL/USDC) 充值到DeGate DEX中</p></figcaption></figure>
 
 2.2  在正式为你的交易对注入流动性之前，你需要通过在该交易对中设置1笔卖出限价单和1笔买入限价单，来激活网格交易功能
 
