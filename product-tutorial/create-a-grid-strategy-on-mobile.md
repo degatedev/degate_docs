@@ -6,7 +6,7 @@ The Grid Strategy is a powerful tool that allows users automatically buy and sel
 
 ### 1. Click **\[**Grid]- \[Create Grid Strategy]
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2. At the top of the screen, search and select which trading pair you want  to set up a grid for, e.g. ETH/USDC
 

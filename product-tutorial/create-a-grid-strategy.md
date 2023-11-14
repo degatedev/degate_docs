@@ -49,7 +49,7 @@ Once all the parameters are set, if you modify any value, the other values will 
 
 By checking the **\[Preview Orders]** checkbox, you can preview the grid orders that are about to be created on the candlestick chart on the left.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Create Grid Strategy
 
@@ -67,7 +67,7 @@ You can select the grid strategy you want to close from the **\[Running]** list 
 
 You can also close the grid strategy by clicking the **\[Cancel Strategy]** button inside the details popup.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 After closing the strategy, the grid strategy will appear in the **\[Completed]** list at the bottom of the interface. You can view the details of the closed grid strategy here and copy the parameters of the closed grid for easy creation of a new grid.
 

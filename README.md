@@ -76,7 +76,7 @@ The ZK-Rollup process of the DeGate protocol can be summarized into three steps:
 
 Fore more, please refer to [introduction-to-zk-rollup.md](concepts/introduction-to-zk-rollup.md "mention")
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption><p>ZK-Rollup Process</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption><p>ZK-Rollup Process</p></figcaption></figure>
 
 ## Signature
 
