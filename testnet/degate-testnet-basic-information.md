@@ -30,7 +30,7 @@ While Testnet is being deployed, it is also constrained by certain limitations. 
 Please refer to the following ways below to leave feedback to the team
 
 **Report bugs and other issues:** \
-Any issues and bugs found can be submitted at the link [HERE](https://github.com/degatedev/testnet\_feedback/issues), through email: bug@degate.com, or by contacting DeGate directly on [Discord](https://discord.gg/bAZY2HcGDa).
+Any issues and bugs found can be submitted at the link [HERE](https://github.com/degatedev/testnet\_feedback/issues), through email: bug@degate.com, or by contacting DeGate directly on [Discord](https://discord.gg/degate).
 
 \
 **App Feedback Form:**\
