@@ -23,7 +23,7 @@
 * [Wallet Connectivity](main-features/wallet-connectivity.md)
 * [Account Registration](main-features/account-registration.md)
 * [Account Management](main-features/account-management.md)
-* [Add Funds](main-features/deposit.md)
+* [Add](main-features/deposit.md)
 * [Send](main-features/withdrawal.md)
 * [Transfer](main-features/transfer.md)
 * [Permissionless Listing](main-features/permissionless-listing.md)
