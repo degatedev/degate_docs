@@ -15,7 +15,7 @@ In order to make DeGate testnet a more seamless experience for users, we will ai
 
 There are no requirements on your first fund addition, all token additions will be eligible for the free 200 USDC AND 200 USDT test tokens. The stablecoins will be sent to your wallet via DeGate internal transfer mechanism almost instantly after the completion of your first fund addition.&#x20;
 
-![Internal transfer of 200 USDC AND 200 USDT (Rinkeby)](<../.gitbook/assets/image (21).png>)
+![Internal transfer of 200 USDC AND 200 USDT ](<../.gitbook/assets/image (21).png>)
 
 #### You can also test other altcoins trades using ETH through [DeGate](https://testnet.degate.com) on Goerli.
 
