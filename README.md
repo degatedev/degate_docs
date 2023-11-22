@@ -200,4 +200,4 @@ Liquidity mining is an element for DeGate’s cold start as it helps ensure suff
 
 ### 9. Historical Records
 
-The DeGate protocol also provides detailed historical records of an account, including deposits, withdrawals, transfer history, order and transactions history, grid strategy records, account activities, and etc.
+The DeGate protocol also provides detailed historical records of an account, including fund additions, send, transfer history, order and transactions history, grid strategy records, account activities, and etc.
