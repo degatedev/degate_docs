@@ -56,12 +56,12 @@ Note :digit\_one:: N represents the number of orders under the same grid strateg
 
 ###
 
-### Paid Deposits
+### Paid Fund Additions
 
-Each deposit incurs certain fees as it requires zero-knowledge proof. Currently, the node operator subsidizes deposit fees, so users do not need to pay for deposits. To prevent attackers from manipulating the subsidy policy to attack the DeGate protocol, an upper limit is added to the subsidies. If a user’s deposits incur more fees than the ceiling, they should pay a specified amount of ETH to complete the deposit.
+Each fund addition incurs certain fees as it requires zero-knowledge proof. Currently, the node operator subsidizes fund addition fees, so users do not need to pay for fund additions. To prevent attackers from manipulating the subsidy policy to attack the DeGate protocol, an upper limit is added to the subsidies. If a user’s deposits incur more fees than the ceiling, they should pay a specified amount of ETH to complete the fund addition.
 
-* Standard deposit: Users can pay fees from their wallet or DeGate account, and the payment amount is calculated based on the real-time Gas price of the network.
-* Advanced deposit: Fees are paid from users’ wallet. The payment amount parameters are configured in the DeGate smart contract, and the node operator has modification permissions. &#x20;
+* Standard fund addition: Users can pay fees from their wallet or DeGate account, and the payment amount is calculated based on the real-time Gas price of the network.
+* Advanced fund addition: Fees are paid from users’ wallet. The payment amount parameters are configured in the DeGate smart contract, and the node operator has modification permissions. &#x20;
 
 ## **Forced Withdrawal**
 
