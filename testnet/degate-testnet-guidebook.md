@@ -6,13 +6,13 @@ This document will serve as a guide to answer common questions, and also to prov
 
 Questions：
 
-* [Why do I need to deposit into DeGate account before trading?](degate-testnet-guidebook.md#degatetestnet-xin-shou-zhi-nan-whydoineedtodepositintodegateaccountbeforetrading)
-* [How can I be sure that my deposit funds are safe with DeGate？](degate-testnet-guidebook.md#degatetestnet-xin-shou-zhi-nan-howcanibesurethatmydepositfundsaresafewithdegate)
+* [Why do I need to add funds into DeGate account before trading?](degate-testnet-guidebook.md#degatetestnet-xin-shou-zhi-nan-whydoineedtodepositintodegateaccountbeforetrading)
+* [How can I be sure that my add funds are safe with DeGate？](degate-testnet-guidebook.md#degatetestnet-xin-shou-zhi-nan-howcanibesurethatmydepositfundsaresafewithdegate)
 * [How to use the Permissionless Listing feature to set up a new trading pair？](degate-testnet-guidebook.md#degatetestnet-xin-shou-zhi-nan-howtousethepermissionlesslistingfeaturetosetupanewtradingpair)
 
-## Why do I need to deposit into DeGate account before trading? <a href="#degatetestnet-xin-shou-zhi-nan-whydoineedtodepositintodegateaccountbeforetrading" id="degatetestnet-xin-shou-zhi-nan-whydoineedtodepositintodegateaccountbeforetrading"></a>
+## Why do I need to add funds into DeGate account before trading? <a href="#degatetestnet-xin-shou-zhi-nan-whydoineedtodepositintodegateaccountbeforetrading" id="degatetestnet-xin-shou-zhi-nan-whydoineedtodepositintodegateaccountbeforetrading"></a>
 
-In order to provide users with a trading experience similar to that of a traditional centralized exchange, DeGate orderbook product was built based on ZK Rollup technology. It is for this reason that users are required to deposit their assets from Ethereum main network to DeGate decentralized account before conducting any transactions. We firmly believe this feature will pay out in the long term as it can bring about significant user experience improvements such as:&#x20;
+In order to provide users with a trading experience similar to that of a traditional centralized exchange, DeGate orderbook product was built based on ZK Rollup technology. It is for this reason that users are required to add their assets from Ethereum main network to DeGate decentralized account before conducting any transactions. We firmly believe this feature will pay out in the long term as it can bring about significant user experience improvements such as:&#x20;
 
 * Real-time order placement, order cancellation, and matching of orders
 * Order placement and cancellation is completely free
@@ -20,7 +20,7 @@ In order to provide users with a trading experience similar to that of a traditi
 
 Simply put, trading on DeGate will be much faster and cheaper.
 
-## How can I be sure that my deposit funds are safe with DeGate？ <a href="#degatetestnet-xin-shou-zhi-nan-howcanibesurethatmydepositfundsaresafewithdegate" id="degatetestnet-xin-shou-zhi-nan-howcanibesurethatmydepositfundsaresafewithdegate"></a>
+## How can I be sure that my add funds are safe with DeGate？ <a href="#degatetestnet-xin-shou-zhi-nan-howcanibesurethatmydepositfundsaresafewithdegate" id="degatetestnet-xin-shou-zhi-nan-howcanibesurethatmydepositfundsaresafewithdegate"></a>
 
 In ZK-Rollup technology system, users' assets are hosted in smart contracts, leveraging on cryptography and immutable protocols to ensure that no one can manipulate these assets. In addition, in order to ensure that DeGate is a completely decentralized, trustless, permissionless order book DEX, the DeGate protocol has added security guarantees via the following 3 unique features:
 
