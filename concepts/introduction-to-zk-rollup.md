@@ -16,7 +16,7 @@ Operator是协议的重要一环，主要负责
 
 DeGate协议内需要经过零知识证明和验证的链下交易，包括以下：
 
-<table><thead><tr><th width="191">事件</th><th>说明</th></tr></thead><tbody><tr><td>No-op</td><td>空交易，用于填充未全部塞满链下交易的zkBlock</td></tr><tr><td>AccountUpdate</td><td>允许用户添加、更新资产私钥</td></tr><tr><td>AppKeyUpdate</td><td>允许用户添加、更新交易私钥，配置交易私钥权限</td></tr><tr><td>SpotTrade<span data-gb-custom-inline data-tag="emoji" data-code="0031">1</span></td><td>两个订单的链下撮合</td></tr><tr><td>BatchSpotTrade</td><td>Operator对SpotTrade进行聚合，提高交易吞吐量，并降低用户上链开销</td></tr><tr><td>OrderCancel <span data-gb-custom-inline data-tag="emoji" data-code="0032">2</span> </td><td>允许用户上链取消订单，此操作后的订单无法再被operator用于撮合</td></tr><tr><td>Deposit</td><td>确认用户在L1的充值行为，然后记账到L2账户</td></tr><tr><td>Withdraw</td><td>用户将资产从L2转移到L1</td></tr><tr><td>Transfer</td><td>两个L2账户之间的资产转移</td></tr></tbody></table>
+<table><thead><tr><th width="191">事件</th><th>说明</th></tr></thead><tbody><tr><td>No-op</td><td>空交易，用于填充未全部塞满链下交易的zkBlock</td></tr><tr><td>AccountUpdate</td><td>允许用户添加、更新资产私钥</td></tr><tr><td>AppKeyUpdate</td><td>允许用户添加、更新交易私钥，配置交易私钥权限</td></tr><tr><td>SpotTrade<span data-gb-custom-inline data-tag="emoji" data-code="0031">1</span></td><td>两个订单的链下撮合</td></tr><tr><td>BatchSpotTrade</td><td>Operator对SpotTrade进行聚合，提高交易吞吐量，并降低用户上链开销</td></tr><tr><td>OrderCancel <span data-gb-custom-inline data-tag="emoji" data-code="0032">2</span> </td><td>允许用户上链取消订单，此操作后的订单无法再被operator用于撮合</td></tr><tr><td>Add</td><td>确认用户在L1的资产划入行为，然后记账到L2账户</td></tr><tr><td>Send</td><td>用户将资产从L2发送到L1</td></tr><tr><td>Transfer</td><td>两个L2账户之间的资产转移</td></tr></tbody></table>
 
 注:digit\_one:：订单不会直接上链，只有订单成交后才会上链。
 
@@ -45,7 +45,7 @@ zkBlock可视为DeGate L2的区块。Operator处理的每个批次，根据事�
 * 资产树的默克尔树根哈希
 * 零知识证明
 * 账户权限和资产余额的变更数据
-* 充值、提现、账户更新这三种交易类型的额外数据
+* 划入、发送、账户更新这三种交易类型的额外数据
 
 节点运营方提交zkBlock的链上交易需要支付ETH作为gas，所以会向用户收取一定的矿工费。
 
@@ -54,7 +54,7 @@ zkBlock可视为DeGate L2的区块。Operator处理的每个批次，根据事�
 DeGate协议部署在链上的智能合约，负责存储用户资金，验证链下节点提交的零知识证明并存储最新的默克尔树根。其由多个合约构成，其中主要合约为：
 
 1. **Exchange：**Operator提交zkBlock、用户充值和强制提现的交互
-2. **Deposit：**托管用户存入的资产，提供充值、提现、转账的功能
+2. **Deposit：**托管用户存入的资产，提供划入、发送、转账的功能
 3. **Loopring：**Exchange合约参数配置
 4. **BlockVerify：**注册Verifying Key和验证零知识证明
 
@@ -64,6 +64,6 @@ Operator通过Postman来调用DeGate合约，严格按照zkBlock的出块顺序�
 
 ### 区块同步
 
-观察DeGate智能合约的所有链上交易，例如充值、强制提现、Rollup交易，确认交易后通知节点。
+观察DeGate智能合约的所有链上交易，例如划入资产、强制提现、Rollup交易，确认交易后通知节点。
 
 以上对DeGate协议的ZK-Rollup部分做了简单说明，想要了解更多，请查看协议设计文档
