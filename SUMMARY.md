@@ -16,8 +16,7 @@
 * [逃离模式](concepts/exodus-mode.md)
 * [协议费用](concepts/protocol-fees.md)
 * [经济安全](concepts/economic-security.md)
-* [常见问题](concepts/faq/README.md)
-  * [常见问题 (Mainnet Beta 重新部署）](concepts/faq/chang-jian-wen-ti-mainnet-beta-zhong-xin-bu-shu.md)
+* [常见问题](concepts/faq.md)
 
 ## 主要功能 <a href="#main-features" id="main-features"></a>
 
