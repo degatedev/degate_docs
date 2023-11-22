@@ -15,7 +15,7 @@
 
 ### 操作请求与费用
 
-<table><thead><tr><th width="133">操作请求</th><th width="100">矿工费</th><th width="100">手续费</th><th>说明</th></tr></thead><tbody><tr><td>普通订单成交</td><td>有</td><td>有</td><td>全部由Taker支付, Maker免费</td></tr><tr><td>网格策略成交</td><td>/</td><td>/</td><td>网格策略下均为Maker单</td></tr><tr><td>充值</td><td>/</td><td>/</td><td>DeGate节点运营方协议补贴矿工费</td></tr><tr><td>提现</td><td>有</td><td>/</td><td></td></tr><tr><td>转账</td><td>有</td><td>/</td><td>若转账给未开通的DeGate账户，发起转账的用户需额外支付开通账户的费用</td></tr><tr><td>开通账户</td><td>/</td><td>/</td><td>DeGate节点运营方协议补贴矿工费</td></tr><tr><td>重置资产私钥</td><td>有</td><td>/</td><td></td></tr><tr><td>链上取消订单</td><td>有</td><td>/</td><td></td></tr><tr><td>链上取消网格订单</td><td>有</td><td>/</td><td>网格策略下所有订单都需要一起链上取消，总费用为订单数*单次链上取消订单</td></tr><tr><td>注册交易对</td><td>有</td><td>/</td><td>交易对注册无需零知识证明，收取矿工费用来预防攻击</td></tr><tr><td>领取挖矿奖励</td><td>有</td><td>/</td><td>挖矿奖励通过转账方式完成领取</td></tr></tbody></table>
+<table><thead><tr><th width="133">操作请求</th><th width="100">矿工费</th><th width="100">手续费</th><th>说明</th></tr></thead><tbody><tr><td>普通订单成交</td><td>有</td><td>有</td><td>全部由Taker支付, Maker免费</td></tr><tr><td>网格策略成交</td><td>/</td><td>/</td><td>网格策略下均为Maker单</td></tr><tr><td>划入</td><td>/</td><td>/</td><td>DeGate节点运营方协议补贴矿工费</td></tr><tr><td>发送</td><td>有</td><td>/</td><td></td></tr><tr><td>转账</td><td>有</td><td>/</td><td>若转账给未开通的DeGate账户，发起转账的用户需额外支付开通账户的费用</td></tr><tr><td>开通账户</td><td>/</td><td>/</td><td>DeGate节点运营方协议补贴矿工费</td></tr><tr><td>重置资产私钥</td><td>有</td><td>/</td><td></td></tr><tr><td>链上取消订单</td><td>有</td><td>/</td><td></td></tr><tr><td>链上取消网格订单</td><td>有</td><td>/</td><td>网格策略下所有订单都需要一起链上取消，总费用为订单数*单次链上取消订单</td></tr><tr><td>注册交易对</td><td>有</td><td>/</td><td>交易对注册无需零知识证明，收取矿工费用来预防攻击</td></tr><tr><td>领取挖矿奖励</td><td>有</td><td>/</td><td>挖矿奖励通过转账方式完成领取</td></tr></tbody></table>
 
 ### 计算矿工费
 
@@ -30,8 +30,8 @@ USDT = GasUsage * GasPrice / ETHPrice
 | 操作请求                  | Gas使用量    |
 | --------------------- | --------- |
 | 成交                    | 800       |
-| 充值                    | /         |
-| 提现                    | 58393     |
+| 划入                    | /         |
+| 充值                    | 58393     |
 | 转账                    | 2225      |
 | 转账给新账户                | 22422     |
 | 开通账户                  | /         |
@@ -44,11 +44,11 @@ USDT = GasUsage * GasPrice / ETHPrice
 
 ###
 
-### 付费充值
+### 付费划入
 
 每笔充值都需要零知识证明而产生费用，目前节点运营方会补贴这类费用，用户无需为充值付费。但同时为避免补贴策略被利用在对DeGate协议的攻击，增加了免费补贴的上限保护。用户充值时如果触发了补贴上限，则需要支付指定数量的ETH才能完成该笔充值。
 
-* 标准充值：可以用钱包或DeGate账户来付费，支付数量根据当时网络的Gas价格计算
+* 标准h：可以用钱包或DeGate账户来付费，支付数量根据当时网络的Gas价格计算
 * 高级充值：通过钱包支付，支付数量参数配置在DeGate智能合约内，节点运营方有修改权限
 
 ### 强制提现
