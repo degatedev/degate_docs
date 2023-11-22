@@ -1,6 +1,6 @@
-# Add Funds
+# Add
 
-Once assets are added into a user’s DeGate account, they become available for placing orders and transactions. As illustrated in the figure below, the user initiates a add transaction on-chain. After the transaction is included in a block and confirmed after 12 blocks, the DeGate node will credit the added amount into the user’s DeGate account balance, so that the user can immediately use these assets. Meanwhile, the Operator will initiate an off-chain transaction to confirm the fund addition. The transaction goes through several phases, including block inclusion, block production, proof generation, and updating assets in the Merkle tree, before being rolled up on chain, thereby completing the fund addition.
+Once assets are added into a user’s DeGate account, they become available for placing orders and transactions. As illustrated in the figure below, the user initiates a depposit transaction on-chain. After the transaction is included in a block and confirmed after 12 blocks, the DeGate node will credit the deposited amount into the user’s DeGate account balance, so that the user can immediately use these assets. Meanwhile, the Operator will initiate an off-chain transaction to confirm the deposit. The transaction goes through several phases, including block inclusion, block production, proof generation, and updating assets in the Merkle tree, before being rolled up on chain, thereby completing the fund addition.
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-12-09 at 16.47.00.png" alt=""><figcaption><p>Deposit Process</p></figcaption></figure>
 
