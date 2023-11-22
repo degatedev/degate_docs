@@ -54,7 +54,7 @@ As the Node operator has to pay ETH as Gas to submit zkBlocks on-chain, users wi
 The on-chain DeGate smart contract is responsible for storing user funds, verifying the zero-knowledge proofs submitted by the off-chain node and storing the latest Merkle tree roots. It consists of multiple contracts, the main contracts of which are:
 
 1. **Exchange:** interactions where the Operator submits zkBlock or users’ deposits or mandatory withdrawals.&#x20;
-2. **Deposit:** stewarding the assets deposited by users, and providing the fund additions, withdrawal and transfer.
+2. **Deposit:** stewarding the assets deposited by users, and providing the providing the functions of deposit, withdrawal and transfer.
 3. **Loopring:** the Exchange contract parameters configuration.
 4. **BlockVerify:** registering verifying key and verifying zero-knowledge proofs.
 
