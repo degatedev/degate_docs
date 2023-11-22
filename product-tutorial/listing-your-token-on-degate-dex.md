@@ -40,9 +40,9 @@ Note: Only USDC/USDT/ETH are being supported as Quote Token. For more details, p
 
 ## Phase 2 - Providing Liquidity for your Token Pair
 
-#### 2.1 Deposit your token into DeGate DEX&#x20;
+#### 2.1 Add your token into DeGate DEX&#x20;
 
-<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>Deposit trading pair (RPL/USDC) into DeGate DEX</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>Add (RPL/USDC) into DeGate DEX</p></figcaption></figure>
 
 #### 2.2 Activate Grid Trading feature by placing 1 sell limit order and 1 buy limit order
 
