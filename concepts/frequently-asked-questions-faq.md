@@ -4,13 +4,13 @@
 
 All operations concerning funds require authorizations from a user’s account and no one else can embezzle their assets. Additionally, the DeGate smart contract does not have an admin key, thus making it impossible for the node operator to steal users’ funds.
 
-### Why do I need to deposit?
+### Why do I need to add funds?
 
-As DeGate is a decentralized exchange that uses ZK-Rollup technology. Performing a deposit and withdrawal is equivalent to utilizing an L2 bridge.
+As DeGate is a decentralized exchange that uses ZK-Rollup technology. Performing a fund addition and send is equivalent to utilizing an L2 bridge.
 
 ### What types of costs there are when trading on DeGate?
 
-1. First, users need to pay gas costs from a L1 wallet when depositing assets into DeGate.&#x20;
+1. First, users need to pay gas costs from a L1 wallet when adding funds into DeGate.&#x20;
 2. Users are also required to pre-authorize gas fees when placing an order. However, they only need to pay the gas fees and transactions handling fees as the Taker of a filled order.
 3. Gas fees are also required for operations such as assets withdrawals and transfers, resetting Asset Private Key, permissionless token listing, and adding trading pairs.
 
