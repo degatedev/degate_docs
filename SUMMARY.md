@@ -23,7 +23,7 @@
 * [连接钱包](main-features/wallet-connectivity.md)
 * [开通账户](main-features/account-registration.md)
 * [管理账户](main-features/account-management.md)
-* [充值](main-features/deposit.md)
+* [划入](main-features/deposit.md)
 * [提现](main-features/withdrawal.md)
 * [转账](main-features/transfer.md)
 * [免审核上币](main-features/permissionless-listing.md)
