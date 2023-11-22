@@ -24,7 +24,7 @@
 * [开通账户](main-features/account-registration.md)
 * [管理账户](main-features/account-management.md)
 * [划入](main-features/deposit.md)
-* [提现](main-features/withdrawal.md)
+* [发送](main-features/withdrawal.md)
 * [转账](main-features/transfer.md)
 * [免审核上币](main-features/permissionless-listing.md)
 * [交易对](main-features/trading-pair.md)
