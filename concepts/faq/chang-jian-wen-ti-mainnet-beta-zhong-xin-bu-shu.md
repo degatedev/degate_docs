@@ -30,13 +30,13 @@ Mainnet Beta - [http://app.degate.com/](http://app.degate.com/)
 
 抱歉，这无法进行迁移，因为Mainnet Beta（Legacy）和Mainnet Beta是两个独立的环境。请注意以下步骤。
 
-步骤1：从Mainnet Beta（Legacy）提现
+步骤1：从Mainnet Beta（Legacy）发送资产到L1钱包
 
-用户需要自己手动提现资金或等待资金在停用模式启动后自动提现并返回到用户注册的以太坊钱包地址。
+用户需要自己手动发送资金到L1钱包或等待资金在停用模式启动后自动返回到用户注册的以太坊钱包地址。
 
-步骤2：存入Mainnet Beta
+步骤2：划入资产到Mainnet Beta
 
-用户可以像原先一样充值到Mainnet Beta中。
+用户可以像原先一样划入资产到Mainnet Beta中。
 
 ### **若遇到资产丢失或余额不正确。我该如何解决这个问题？**
 
