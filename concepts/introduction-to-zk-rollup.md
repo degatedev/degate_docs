@@ -54,7 +54,7 @@ zkBlock可视为DeGate L2的区块。Operator处理的每个批次，根据事�
 DeGate协议部署在链上的智能合约，负责存储用户资金，验证链下节点提交的零知识证明并存储最新的默克尔树根。其由多个合约构成，其中主要合约为：
 
 1. **Exchange：**Operator提交zkBlock、用户充值和强制提现的交互
-2. **Deposit：**托管用户存入的资产，提供划入、发送、转账的功能
+2. **Deposit：**托管用户存入的资产，提供充值、提现、转账的功能
 3. **Loopring：**Exchange合约参数配置
 4. **BlockVerify：**注册Verifying Key和验证零知识证明
 
