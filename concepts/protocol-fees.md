@@ -19,8 +19,8 @@ To prevent the node operator from arbitrarily modifying the fee rate, a paramete
 | ------------------------------------------ | ------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Trade                                      | Yes     | Yes         | Fully incurred by taker, maker free                                                                                                               |
 | Grid Strategy Trade                        | -       | -           | All orders under a grid strategy are maker orders                                                                                                 |
-| Deposit                                    | -       | -           | Subsidised by the node operator of the protocol                                                                                                   |
-| Withdrawal                                 | Yes     | -           |                                                                                                                                                   |
+| Add                                        | -       | -           | Subsidised by the node operator of the protocol                                                                                                   |
+| Send                                       | Yes     | -           |                                                                                                                                                   |
 | Transfer                                   | Yes     | -           | Additional fee will be charged by the party that transfers asset to an unregistered DeGate account                                                |
 | Account Registration                       | -       | -           | Subsidised by the node operator of the protocol                                                                                                   |
 | Reset Asset Private Key                    | Yes     | -           |                                                                                                                                                   |
@@ -42,8 +42,8 @@ USDT = GasUsage * GasPrice / ETHPrice
 | Operation                               | Gas Usage Amount |
 | --------------------------------------- | ---------------- |
 | Trade                                   | 800              |
-| Deposit                                 | -                |
-| Withdrawal                              | 58393            |
+| Add                                     | -                |
+| Send                                    | 58393            |
 | Transfer                                | 2225             |
 | Transfer to New Account                 | 22422            |
 | Register Account                        | -                |
