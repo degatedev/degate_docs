@@ -44,9 +44,9 @@ The distinction is mainly made through icons and contract addresses, as illustra
 
 As DeGate allows for permissionless token listing and trading. Without a minimum order value requirement, the transaction costs will increase and it will be more vulnerable to attacks. So in DeGate, orders must meet a minimum value threshold, which is higher than that of centralized exchanges. To lower the minimum value requirement,  we have added actively traded tokens with a lower value threshold for trading. The[ order values ](economic-security.md#minimum-order-size)of actively and inactively traded tokens are calculated differently.
 
-## Supported Tokens for Standard Deposits
+## Supported Tokens for Standard Additions
 
-DeGate offers a standard deposit method that saves gas fees. Given the potential trustlessness issue this method may lead to, not all assets can be deposited this way. Generally speaking, all the default tokens support standard deposits.
+DeGate offers a standard addition method that saves gas fees. Given the potential trustlessness issue this method may lead to, not all assets can be added this way. Generally speaking, all the default tokens support standard additions.
 
 ## Quote Tokens of Trading Pairs
 
