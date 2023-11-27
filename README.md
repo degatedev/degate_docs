@@ -90,15 +90,15 @@ The Merkle tree in the DeGate protocol records all the accounts’ permissions a
 
 Fore more, please refer to [account-structure.md](concepts/account-structure.md "mention")
 
-## Deposit
+## Add
 
-Before starting trading on DeGate, users must first deposit assets into their DeGate account. Following confirmation by the DeGate node of a user’s on-chain deposit transaction, the deposited amount will be credited to the user’s DeGate account balance, enabling an **immediate use for operations such as placing orders**. Simultaneously, the Operator will initiate an off-chain transaction for confirming the deposit, and ultimately roll it up to the on-chain smart contract to guarantee the consistency of on-chain and off-chain data.
+Before starting trading on DeGate, users must first fund additions into their DeGate account. Following confirmation by the DeGate node of a user’s on-chain deposit transaction, the deposited amount will be credited to the user’s DeGate account balance, enabling an **immediate use for operations such as placing orders**. Simultaneously, the Operator will initiate an off-chain transaction for confirming the fund addition, and ultimately roll it up to the on-chain smart contract to guarantee the consistency of on-chain and off-chain data.
 
 Fore more, please refer to [deposit.md](main-features/deposit.md "mention")
 
-## Withdrawal
+## Send
 
-Once a user initiates an off-chain request for withdrawal, the Operator will automatically and immediately process the request. It is important to note that **all withdrawals on DeGate are conducted without manual review**. Upon submission of the zkBlock containing the off-chain withdrawal transaction to the on-chain block, users will receive their withdrawn assets. In order to achieve 100% self-custody of assets, the DeGate protocol provides a forced withdrawal method, which allows users to retrieve their assets stored in the DeGate protocol **without any impediments**. Specifically, users can initiate a mandatory on-chain withdrawal request and force the Operator to process the request. If the Operator fails to process the request before a preset deadline, the entire DeGate protocol will cease operation, and enter the exodus mode.
+Once a user initiates an off-chain request for Send, the Operator will automatically and immediately process the request. It is important to note that **all withdrawals on DeGate are conducted without manual review**. Upon submission of the zkBlock containing the off-chain send transaction to the on-chain block, users will receive their fund additions. In order to achieve 100% self-custody of assets, the DeGate protocol provides a forced withdrawal method, which allows users to retrieve their assets stored in the DeGate protocol **without any impediments**. Specifically, users can initiate a mandatory on-chain withdrawal request and force the Operator to process the request. If the Operator fails to process the request before a preset deadline, the entire DeGate protocol will cease operation, and enter the exodus mode.
 
 Fore more, please refer to [withdrawal.md](main-features/withdrawal.md "mention")
 
