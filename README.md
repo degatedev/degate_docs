@@ -84,15 +84,15 @@ DeGate协议的默克尔树记录了所有账户的权限和资产信息。用�
 
 了解更多：[account-structure.md](concepts/account-structure.md "mention")
 
-### 充值 <a href="#deposit" id="deposit"></a>
+### 划入 <a href="#deposit" id="deposit"></a>
 
-在DeGate开始交易前，需要先往DeGate账户充值资产。DeGate节点确认完用户的链上充值交易后，所转账数量就会计入DeGate账户的可用余额，该余额**立即可用于挂单等操作**；同时，Operator会发起一个确认充值的链下交易，并最终rollup到链上合约，以保证链上和链下数据的一致性。
+在DeGate开始交易前，需要先往DeGate账户划入资产。DeGate节点确认完用户的链上充值交易后，所转账数量就会计入DeGate账户的可用余额，该余额**立即可用于挂单等操作**；同时，Operator会发起一个确认充值的链下交易，并最终rollup到链上合约，以保证链上和链下数据的一致性。
 
 了解更多：[deposit.md](main-features/deposit.md "mention")
 
-### 提现 <a href="#withdraw" id="withdraw"></a>
+### 发送 <a href="#withdraw" id="withdraw"></a>
 
-用户发起提现的链下请求后，Operator会自动立即处理。这里需要强调，**DeGate中的提现不存在人工审核**。当包含了提现链下交易的zkBlock提交到链上区块后，用户就会收到所提现的资产。为了实现100%资产自托管的属性，DeGate协议提供了强制提现方法，强制提现实现了用户以**不受任何阻拦**的方式自主取回其存放在DeGate协议中资产的功能。用户可在链上发起强制提现，强迫Operator处理；如果Operator没有在预先规定的时间内处理，则整个DeGate协议的运行关停，DeGate协议进入逃离模式**。**
+用户发起发送的链下请求后，Operator会自动立即处理。这里需要强调，**DeGate中的发送不存在人工审核**。当包含了提现链下交易的zkBlock提交到链上区块后，用户就会收到发送的资产。为了实现100%资产自托管的属性，DeGate协议提供了强制提现方法，强制提现实现了用户以**不受任何阻拦**的方式自主取回其存放在DeGate协议中资产的功能。用户可在链上发起强制提现，强迫Operator处理；如果Operator没有在预先规定的时间内处理，则整个DeGate协议的运行关停，DeGate协议进入逃离模式**。**
 
 了解更多：[withdrawal.md](main-features/withdrawal.md "mention")
 
