@@ -31,8 +31,8 @@ After the Exodus Mode is activated, users can retrieve their assets. There are t
 1.  **DeGate account balance:** Users can call the `withdrawFromMerkleTree`&#x20;
 
     method on-chain to withdraw the entire balance of a token, which is the account balance status stored in the last block before the Exodus Mode.
-2. **Unconfirmed advanced deposit:** As the deposited assets are in the smart contract and have not been credited into the DeGate account balance, users can withdraw the assets using the withdrawFromDepositRequest method.&#x20;
-3.  **Unconfirmed standard deposit:** As the deposited assets are in the smart contract and have not been credited into the DeGate account balance, users must contact the node operator to apply for a refund.
+2. **Unconfirmed advanced addition:** As the deposited assets are in the smart contract and have not been credited into the DeGate account balance, users can withdraw the assets using the withdrawFromDepositRequest method.&#x20;
+3.  **Unconfirmed standard addition:** As the deposited assets are in the smart contract and have not been credited into the DeGate account balance, users must contact the node operator to apply for a refund.
 
 
 
