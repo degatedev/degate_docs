@@ -29,9 +29,9 @@ Every time a user unlocks their account, they need to obtain the latest KeyNonce
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-11-28 at 12.14.02.png" alt=""><figcaption><p>Asset Node under an Account Node</p></figcaption></figure>
 
-To start trading on DeGate, users must have assets in their DeGate account. Users can deposit tokens from their wallets to their DeGate accounts, or transfer assets from other DeGate accounts. All the assets deposited into the DeGate protocol are stored in the DeGate smart contract. Each deposit must be confirmed by zero-knowledge proofs, and simultaneously synchronized to the Asset Node under the corresponding Account Node in the Merkle tree.
+To start trading on DeGate, users must have assets in their DeGate account. Users can add tokens from their wallets to their DeGate accounts, or transfer assets from other DeGate accounts. All the assets added into the DeGate protocol are stored in the DeGate smart contract. Each deposit must be confirmed by zero-knowledge proofs, and simultaneously synchronized to the Asset Node under the corresponding Account Node in the Merkle tree.
 
-In other words, users can not use their in-wallet assets directly in DeGate,  and instead must deposit their assets first. On the other hand, if they need their assets back in their wallets, they must withdraw their assets. Despite the entry barriers arising from deposits and withdrawal, the resulting instantaneous and free order placements and cancellations are very friendly to long-term and professional traders.
+In other words, users can not use their in-wallet assets directly in DeGate,  and instead must add their assets first. On the other hand, if they need their assets back in their wallets, they must send their assets. Despite the entry barriers arising from addition and send, the resulting instantaneous and free order placements and cancellations are very friendly to long-term and professional traders.
 
 In addition, some operations may require gas fees that must be paid with assets in a DeGate account.
 
