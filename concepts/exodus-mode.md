@@ -29,8 +29,8 @@ DeGate链下节点的Operator负责生成zkBlock和提交证明，如果Operator
 逃离模式启动后，用户可以取回资产，分为三种情况
 
 1. **DeGate账户余额：**链上调用`withdrawFromMerkleTree`方法，每次提取一个币种的全部余额，为逃离模式前最新一个区块的账户余额状态
-2. **未得到确认的高级充值：**此时充值资产在合约内，未计入DeGate账户余额，可通过`withdrawFromDepositRequest`方法取回
-3. **未得到确认的标准充值：**此时充值资产在合约内，未计入DeGate账户余额，需要联系节点运营方申请退币。
+2. **未得到确认的高级划入：**此时充值资产在合约内，未计入DeGate账户余额，可通过`withdrawFromDepositRequest`方法取回
+3. **未得到确认的标准划入：**此时充值资产在合约内，未计入DeGate账户余额，需要联系节点运营方申请退币。
 
 {% hint style="info" %}
 **普通用户应该如何调用合约？**
