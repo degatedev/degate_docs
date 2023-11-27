@@ -157,7 +157,7 @@ To make the DeGate protocol more trustless and reduce costs for users while faci
 * The ability to cancel orders on-chain
 * Decentralized grid trading strategy
 * Aggregate transactions
-* Deposit by transfer (standard deposits)
+* Add by transfer (standard additions)
 * Advanced accounts and trading private key
 * SDK tooling and documentation
 * Shutdown mode
@@ -174,7 +174,7 @@ To manage a DeGate account is to manage its asset private key. Account managemen
 
 ### 3. Asset Management
 
-In addition to deposits and withdrawals, internal transfers between DeGate accounts are also supported. Internal transfer is an off-chain request that will be rolled up on-chain. However, as long as a signature is initiated, the transfer to the target account can be completed immediately, and the gas fee is much lower than that of on-chain transfers.
+In addition to fund additions and sends, internal transfers between DeGate accounts are also supported. Internal transfer is an off-chain request that will be rolled up on-chain. However, as long as a signature is initiated, the transfer to the target account can be completed immediately, and the gas fee is much lower than that of on-chain transfers.
 
 ### 4. Order Book Trading
 
