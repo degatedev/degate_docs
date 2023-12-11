@@ -2,7 +2,7 @@
 
 ## Language
 
-* [中文版](http://127.0.0.1:5000/o/-Mhlg413NpjGSPMY2M-4/s/t11o0eEBD13zSut1XI83/)
+* [中文版](https://app.gitbook.com/o/-Mhlg413NpjGSPMY2M-4/s/t11o0eEBD13zSut1XI83/)
 
 ***
 

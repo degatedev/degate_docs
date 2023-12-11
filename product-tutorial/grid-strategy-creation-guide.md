@@ -16,7 +16,7 @@ Let's assume that the ETH price is 1303 USDC. Let's choose the ETH/USDC trading 
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-* Enter Initial Allocation (the total amount you want to invest). In this example, we'll allocate 97 ETH, the system will automatically calculate the equivalent amount in USDC
+* Enter Initial Allocation (the total amount you want to invest). In this example, we'll allocate 97 ETH, the system will calculate the corresponding USDC amount.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -30,11 +30,9 @@ After successfully creating the grid strategy, the DeGate system will set multip
 
 The grid robot will continuously buy low and sell high within the set price range to automatically generate profits, as illustrated in the diagram below:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
 After completing one buy low and sell high cycle, you will profit 1 USDC.
 
-
+<figure><img src="../.gitbook/assets/Normal-Grid-EN-v2m (1) (1).gif" alt=""><figcaption></figcaption></figure>
 
 **Note:**
 
