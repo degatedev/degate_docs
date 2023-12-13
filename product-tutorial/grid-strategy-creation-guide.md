@@ -14,7 +14,9 @@ You can customize the parameters of your grid strategy according to your prefere
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.30.47.png" alt=""><figcaption></figcaption></figure>
+
+Of course, you can also choose "Auto" to directly create a grid strategy using the price range and parameters provided by the system
 
 Let's assume that the ETH price is 1303 USDC. Let's choose the ETH/USDC trading pair to create a grid.&#x20;
 
