@@ -6,11 +6,13 @@ Grid strategy is a powerful tool that can capitalize on market fluctuations with
 
 Let's work through a guided example below.
 
-First, open [DeGate DEX](https://app.degate.com/) with an Ethereum wallet, click on "Grid" at the bottom of the page, choose to "Create Grid Strategy".
+First, open [DeGate DEX](https://app.degate.com/) with an Ethereum wallet, click on "**Grid**" at the bottom of the page, then choose to "**Create Grid Strategy**".
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WechatIMG722.jpeg" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 2. At the top of the screen, search and select which trading pair you want  to set up a grid for, e.g. ETH/USDC
+
+
 
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
