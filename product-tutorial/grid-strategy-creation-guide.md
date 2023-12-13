@@ -30,9 +30,9 @@ After successfully creating the grid strategy, the DeGate system will set multip
 
 The grid robot will continuously buy low and sell high within the set price range to automatically generate profits, as illustrated in the diagram below:
 
-After completing one buy low and sell high cycle, you will profit 1 USDC.
-
 <figure><img src="../.gitbook/assets/Normal-Grid-EN-v2m (1) (1).gif" alt=""><figcaption></figcaption></figure>
+
+After completing one buy low and sell high cycle, you will profit 1 USDC.
 
 **Note:**
 
