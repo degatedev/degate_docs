@@ -2,7 +2,7 @@
 
 Grid strategy is a powerful tool that can capitalize on market fluctuations within a predetermined price range. A grid strategy sets multiple buy and sell orders to automatically buy low and sell high for profit.
 
-## How to create a Grid Strategy on DeGate？
+### How to create a Grid Strategy on DeGate？
 
 Let's work through a guided example below.
 
