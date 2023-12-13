@@ -4,7 +4,7 @@
 
 ## 如何在DeGate上创建网格策略？
 
-在以太坊钱包中打开[**DeGate DEX**](https://app.degate.com/)**，**点击页面底部选择**网格策略**，选择**创建网格策略**
+在以太坊钱包中打开[**DeGate DEX**](https://app.degate.com/)**，**点击页面底部选择**网格**，选择**创建网格策略**
 
 <figure><img src="../.gitbook/assets/WechatIMG721.jpeg" alt="" width="375"><figcaption></figcaption></figure>
 
