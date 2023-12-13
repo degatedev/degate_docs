@@ -10,11 +10,13 @@ First, open [DeGate DEX](https://app.degate.com/) with an Ethereum wallet, click
 
 <figure><img src="../.gitbook/assets/WechatIMG722.jpeg" alt="" width="375"><figcaption></figcaption></figure>
 
-### 2. At the top of the screen, search and select which trading pair you want  to set up a grid for, e.g. ETH/USDC
+**Create a Grid  Strategy**
 
+You can search and select the trading pair you want to trade at the top of the page, such as ETH/USDC.&#x20;
 
+Then, customize the parameters of your grid strategy according to your preferences, including the Price Range, Initial Allocation, Number of Grids, Quantity per Grid, and Duration."
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.24.58.png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Select **\[Auto]** or **\[Manual]** to set up Grid Strategy parameters.
 
