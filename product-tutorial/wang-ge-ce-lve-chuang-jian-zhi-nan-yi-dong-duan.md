@@ -24,15 +24,15 @@
 
 * 输入价格区间：1200 - 1400 USDC
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 13.17.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.54.55.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * 输入初始投入（我想投入的总资金）：输入97 ETH，系统将自动计算出USDC的数量
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 13.19.05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.55.26.png" alt="" width="375"><figcaption></figcaption></figure>
 
 * 设置网格密度：网格数设置为200，系统将自动计算出每格数量
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 13.22.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.55.36.png" alt="" width="375"><figcaption></figcaption></figure>
 
 创建网格策略创建成功之后，DeGate系统将在价格区间内设置多个买卖限价订单
 
