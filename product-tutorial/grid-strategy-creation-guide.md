@@ -8,6 +8,10 @@ Let's work through a guided example below.
 
 First, open [DeGate DEX](https://app.degate.com/), click on "[Grid Strategy](https://app.degate.com/grid/USDC/ETH)" at the top of the page, then search and select the trading pair you wish to trade, such as ETH/USDC.
 
+**Create a Grid  Strategy**
+
+You can customize the parameters of your grid strategy according to your preferences, including the Price Range, Initial Allocation, Number of Grids, Quantity per Grid, and Duration."
+
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
