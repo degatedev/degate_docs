@@ -1,10 +1,12 @@
-# Create a Grid Strategy on Mobile
+# Grid Strategy Creation Guide （Mobile）
 
-The Grid Strategy is a powerful tool that allows users automatically buy and sell between a token pair within a set price range, taking advantage of price fluctuations. If done right, grid strategy is one of the most powerful ways to earn profit by repeatedly buying low and selling high. Follow the step-by-step guide below to start grid trading on DeGate.
+Grid strategy is a powerful tool that can capitalize on market fluctuations within a predetermined price range. A grid strategy sets multiple buy and sell orders to automatically buy low and sell high for profit.
 
-## How to create a Grid Strategy on DeGate
+## How to create a Grid Strategy on DeGate？
 
-### 1. Click **\[**Grid]- \[Create Grid Strategy]
+Let's work through a guided example below.
+
+First, open [DeGate DEX](https://app.degate.com/) with an Ethereum wallet, click on "Grid" at the bottom of the page, choose to "Create Grid Strategy".
 
 <figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

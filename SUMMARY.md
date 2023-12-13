@@ -41,4 +41,4 @@
 
 * [Listing your token on DeGate DEX](product-tutorial/listing-your-token-on-degate-dex.md)
 * [Grid Strategy Creation Guide](product-tutorial/grid-strategy-creation-guide.md)
-* [Create a Grid Strategy on Mobile](product-tutorial/create-a-grid-strategy-on-mobile.md)
+* [Grid Strategy Creation Guide （Mobile）](product-tutorial/create-a-grid-strategy-on-mobile.md)
