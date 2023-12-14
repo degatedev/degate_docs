@@ -4,7 +4,7 @@
 
 ## 如何在DeGate上创建网格策略？
 
-打开 [**DeGate DEX**](https://app.degate.com/)**，**点击页面顶部[**网格策略**](https://app.degate.com/grid/USDC/ETH)**，** 搜索并选择您想交易的交易对，例如ETH/USDC
+打开 [**DeGate DEX**](https://app.degate.com/)**，**点击页面顶部[**网格策略**](https://app.degate.com/grid/USDC/ETH)**，** 搜索并选择你想交易的交易对，例如ETH/USDC
 
 #### 创建网格
 
