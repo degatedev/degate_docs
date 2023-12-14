@@ -44,5 +44,5 @@
 ## 产品教程 <a href="#product-tutorial" id="product-tutorial"></a>
 
 * [在DeGate DEX自主上架代币](product-tutorial/listing-your-token-on-degate-dex.md)
-* [网格策略创建指南](product-tutorial/wang-ge-ce-lve-chuang-jian-zhi-nan.md)
-* [网格策略创建指南（移动端）](product-tutorial/wang-ge-ce-lve-chuang-jian-zhi-nan-yi-dong-duan.md)
+* [网格策略创建指南](product-tutorial/grid-strategy-creation-guide.md)
+* [网格策略创建指南（移动端）](product-tutorial/grid-strategy-creation-guide-moblie.md)
