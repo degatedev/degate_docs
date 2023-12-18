@@ -22,19 +22,19 @@ Let's assume that the ETH price is 1303 USDC. Let's choose the ETH/USDC trading 
 
 * Enter price range. In this example we will set a grid in the range of 1200 - 1400 USDC
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 14.50.11.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.50.11.png" alt=""><figcaption></figcaption></figure>
 
 * Enter Initial Allocation (the total amount you want to invest). In this example, we'll allocate 97 ETH, the system will automatically calculate the equivalent amount in USDC
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 14.52.01.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.52.01.png" alt=""><figcaption></figcaption></figure>
 
 * Set grid density: let's set the number of grids to 200, the system will automatically calculate the quantity per grid.
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 14.52.18.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.52.18.png" alt=""><figcaption></figcaption></figure>
 
 After successfully creating the grid strategy, the DeGate system will set multiple buy and sell limit orders within the price range.
 
-<figure><img src="../.gitbook/assets/WechatIMG730.jpeg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WechatIMG743.jpeg" alt=""><figcaption></figcaption></figure>
 
 The grid robot will continuously buy low and sell high within the set price range to automatically generate profits, as illustrated in the diagram below:
 
