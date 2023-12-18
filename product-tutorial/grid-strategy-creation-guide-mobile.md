@@ -16,7 +16,7 @@ You can search and select the trading pair you want to trade at the top of the p
 
 Then, customize the parameters of your grid strategy according to your preferences, including the Price Range, Initial Allocation, Number of Grids, Quantity per Grid, and Duration."
 
-<figure><img src="../.gitbook/assets/截屏2023-12-18 19.05.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-18 20.03.43.png" alt=""><figcaption></figcaption></figure>
 
 Let's assume that the ETH price is 1303 USDC. Let's choose the ETH/USDC trading pair to create a grid.&#x20;
 
