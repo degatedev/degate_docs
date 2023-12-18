@@ -14,7 +14,7 @@
 
 然后根据你的偏好自定义网格策略参数，包括价格区间、初始投入、网格数、每格数量和有效期。
 
-<figure><img src="../.gitbook/assets/截屏2023-12-18 19.31.51.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-18 20.04.31.png" alt=""><figcaption></figcaption></figure>
 
 当然，你也可以选择“一键创建”，通过系统提供的价格区间和参数直接创建一个网格策略。
 
