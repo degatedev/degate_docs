@@ -6,7 +6,7 @@
 
 在以太坊钱包中打开[**DeGate DEX**](https://app.degate.com/)**，**点击页面底部选择**网格**，选择**创建网格策略**
 
-<figure><img src="../.gitbook/assets/WechatIMG721.jpeg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WechatIMG721.jpeg" alt=""><figcaption></figcaption></figure>
 
 #### 创建网格
 
@@ -14,7 +14,7 @@
 
 然后根据你的偏好自定义网格策略参数，包括价格区间、初始投入、网格数、每格数量和有效期。
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 13.11.29.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-18 19.31.51.png" alt=""><figcaption></figcaption></figure>
 
 当然，你也可以选择“一键创建”，通过系统提供的价格区间和参数直接创建一个网格策略。
 
@@ -24,19 +24,19 @@
 
 * 输入价格区间：1200 - 1400 USDC
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 14.54.55.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.54.55.png" alt=""><figcaption></figcaption></figure>
 
 * 输入初始投入（我想投入的总资金）：输入97 ETH，系统将自动计算出USDC的数量
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 14.55.26.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.55.26.png" alt=""><figcaption></figcaption></figure>
 
 * 设置网格密度：网格数设置为200，系统将自动计算出每格数量
 
-<figure><img src="../.gitbook/assets/截屏2023-12-13 14.55.36.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2023-12-13 14.55.36.png" alt=""><figcaption></figcaption></figure>
 
 创建网格策略创建成功之后，DeGate系统将在价格区间内设置多个买卖限价订单
 
-<figure><img src="../.gitbook/assets/WechatIMG729.jpeg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/WechatIMG744.jpeg" alt=""><figcaption></figcaption></figure>
 
 网格机器人将会在设置的价格区间内不断地进行低买高卖自动产生收益。原理如下图：
 
