@@ -40,7 +40,7 @@
 
 网格机器人将会在设置的价格区间内不断地进行低买高卖自动产生收益。原理如下图：
 
-<figure><img src="../.gitbook/assets/Normal-Grid-CN-m (2) (2).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Grid-Trading-Short-CN-v27.gif" alt=""><figcaption></figcaption></figure>
 
 当完成一次低买高卖后，您将获利1 USDC
 
