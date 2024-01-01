@@ -7,7 +7,7 @@ When using the DeGate protocol, users may need to pay different fees based on di
 
 ### Trading Fee Rate
 
-The node operator sets thetrading fee rate for each trading pair, which is currently fixed as:
+The node operator sets the trading fee rate for each trading pair, which is currently fixed as:
 
 <table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th>Trading Pair Type</th><th>Taker Rate</th><th>Maker Rate</th><th>Example</th></tr></thead><tbody><tr><td>Stable pairs</td><td>0.01%</td><td><strong>Free</strong></td><td>USDT/USDC, DAI/USDC,<br>DAI/USDT, wstETH/ETH</td></tr><tr><td>Others</td><td>0.05%</td><td><strong>Free</strong></td><td>ETH/UDSC, DG/USDT</td></tr></tbody></table>
 
