@@ -9,7 +9,7 @@
 * [DG Token](what-is-degate/dg-token.md)
 * [Security & Audits](what-is-degate/security-and-audits.md)
 * [Deployment Address](what-is-degate/deployment-address.md)
-* [Product Feature Docs](http://127.0.0.1:5000/o/-Mhlg413NpjGSPMY2M-4/s/fbF0sooTWQRz4qPy6903/)
+* [Product Feature Docs](https://app.gitbook.com/o/-Mhlg413NpjGSPMY2M-4/s/fbF0sooTWQRz4qPy6903/)
 
 ## ADVANCED
 
