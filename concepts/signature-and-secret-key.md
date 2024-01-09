@@ -9,7 +9,7 @@ DeGate协议需要用到两种签名方式
 
 资产私钥是用户通过以太坊钱包私钥签名生成的EdDSA私钥，用于发起DeGate内各种操作请求。用户登录DeGate账户时需要先解锁账户，即派生出资产私钥，临时存放在本地浏览器的session中。
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-10-21 at 14.43.51.png" alt=""><figcaption><p>ECDSA和ECDSA签名关系</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2022-10-21 at 14.43.51.png" alt=""><figcaption><p>ECDSA和EdDSA签名关系</p></figcaption></figure>
 
 ECDSA签名需要用户在钱包确认，例如下图MetaMask网页插件。
 
