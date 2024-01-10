@@ -34,17 +34,17 @@ During the verification process, the node verifies both the ECDSA signature and 
 | Account Registration                    | ECDSA                           | Node -> Contract            |
 | Reset Asset Trading Key                 | ECDSA                           | Node -> Contract            |
 | Lock Account                            | ECDSA                           | Node                        |
-| Withdrawal                              | ECDSA+EdDSA                     | Node -> Circiut -> Contract |
-| Transfer                                | ECDSA+EdDSA                     | Node -> Circiut             |
+| Withdrawal                              | ECDSA+EdDSA                     | Node -> Circuit -> Contract |
+| Transfer                                | ECDSA+EdDSA                     | Node -> Circuit             |
 | Place Order                             | EdDSA                           | Node                        |
 | Create Grid Strategy                    | EdDSA                           | Node                        |
 | Trade                                   | Using the placed order's EdDSA  | Circuit                     |
-| Register Trading Pair                   | ECDSA+EdDSA                     | Node -> Circiut             |
-| Processing Fee for Deposit :digit\_one: | ECDSA+EdDSA                     | Node -> Circiut             |
+| Register Trading Pair                   | ECDSA+EdDSA                     | Node -> Circuit             |
+| Processing Fee for Deposit :digit\_one: | ECDSA+EdDSA                     | Node -> Circuit             |
 | Cancel Order                            | EdDSA                           | Node                        |
-| On-Chain Order Cancellation             | ECDSA+EdDSA                     | Node -> Circiut             |
-| On-Chain Grid Cancellation              | ECDSA+EdDSA                     | Node -> Circiut             |
-| Claim Mining Rewards                    | ECDSA+EdDSA                     | Node -> Circiut             |
+| On-Chain Order Cancellation             | ECDSA+EdDSA                     | Node -> Circuit             |
+| On-Chain Grid Cancellation              | ECDSA+EdDSA                     | Node -> Circuit             |
+| Claim Mining Rewards                    | ECDSA+EdDSA                     | Node -> Circuit             |
 
 Note :digit\_one:: In paid deposit, payment can be made from a wallet or the DeGate account. Here we specifically refer to the latter.
 
