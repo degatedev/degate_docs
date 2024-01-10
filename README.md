@@ -124,7 +124,7 @@ DeGate协议费用有**矿工费**和**手续费**两类。ZK-Rollup会产生成
 
 ### 安全审计 <a href="#security-audit" id="security-audit"></a>
 
-目前为止DeGate协议的电路逻辑和智能合约正在进行或已完成了至少两家专业安全团队的审计。查看[审计报告](https://github.com/degatedev/protocols/tree/degate\_mainnet\_beta/packages/loopring\_v3/security\_audit)。
+目前为止DeGate协议的电路逻辑和智能合约正在进行或已完成了至少两家专业安全团队的审计。查看[审计报告](https://github.com/degatedev/protocols/tree/degate\_mainnet/packages/loopring\_v3/security\_audit)。
 
 ### 可信配置(Trusted Setup) <a href="#trusted-setup" id="trusted-setup"></a>
 
