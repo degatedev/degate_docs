@@ -2,7 +2,7 @@
 
 ### Are the assets stored in DeGate safe?
 
-All operations concerning funds require authorizations from a user’s account and no one else can embezzle their assets. Additionally, the DeGate smart contract does not have an admin key, thus making it impossible for the node operator to steal users’ funds.
+All operations concerning funds require authorizations from a user’s account and no one else can embezzle their assets. Additionally, DeGate's system includes the Exodus Mode, empowering users to initiate a forced withdrawal of their assets into their L1 wallet if they ever feel their funds are under threat.
 
 ### Why do I need to add funds?
 
