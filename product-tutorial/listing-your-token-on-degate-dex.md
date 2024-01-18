@@ -24,13 +24,11 @@ Note: Rebase tokens are not supported on DeGate DEX. For more details, please re
 
 <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption><p>Approve wallet signatures to complete listing process</p></figcaption></figure>
 
+You can also head to "My Balance" -> "History" -> "Miscellaneous". Check on the status of the "Token Listing" and proceed to add "Quote Token"
+
 <figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption><p>Rocket Pool Token (RPL) is successfully listed</p></figcaption></figure>
 
 #### 1.2 Choose Quote Token
-
-Head to "My Balance" -> "History" -> "Miscellaneous". Check on the status of "Listing Token" and proceed to add the "Quote Token"
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-01-18 at 12.28.46 PM.png" alt=""><figcaption><p>Add quote pair to your listed token</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Choose a Quote Token  pair with $RPL</p></figcaption></figure>
 
