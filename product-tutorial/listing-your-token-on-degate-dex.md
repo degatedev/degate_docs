@@ -28,6 +28,10 @@ Note: Rebase tokens are not supported on DeGate DEX. For more details, please re
 
 #### 1.2 Choose Quote Token
 
+Head to "My Balance" -> "History" -> "Miscellaneous". Check on the status of "Listing Token" and proceed to add the "Quote Token"
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-01-18 at 12.28.46 PM.png" alt=""><figcaption><p>Add quote pair to your listed token</p></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption><p>Choose a Quote Token  pair with $RPL</p></figcaption></figure>
 
 {% hint style="info" %}
