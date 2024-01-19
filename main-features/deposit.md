@@ -10,7 +10,7 @@
 
 为了降低用户的划入成本，DeGate提还供了标准划入，用户直接转账到DeGate合约地址便可完成资产划入。但标准划入方法无法实现资产完全trustless，用户需要信任DeGate节点会如实入账。所以节点运营方也限制了标准划入的资金量和支持的币种范围，来减少可能的用户损失。
 
-<table><thead><tr><th width="195">对比</th><th width="277">高级划入</th><th>标准划入</th></tr></thead><tbody><tr><td>用户发起的资产划入交易Gas使用量<span data-gb-custom-inline data-tag="emoji" data-code="0031">1</span></td><td>ETH：~110141<br>ERC20：~132605</td><td>ETH：~21055<br>ERC20：~60000</td></tr><tr><td>入账时间</td><td>资产划入交易12个区块确认</td><td>资产划入交易12个区块确认</td></tr><tr><td>适用资产</td><td>全部</td><td>部分，节点运营方配置</td></tr><tr><td>Trustless</td><td>DeGate合约会校验护乳目标地址和资产数量。如果划入未得到处理，一段时间后可调用合约方法取回。</td><td>DeGate合约只能校验资产数量，无法校验划入目标地址。<strong>DeGate节点有能力修改目标地址</strong>。如果划入未得到处理，用户无法自行取回，需要联系节点运营方退币。</td></tr><tr><td>限制</td><td>无限制</td><td>单笔划入有金额限制；<br>所有待确认的标准划入资产有金额总量限制</td></tr></tbody></table>
+<table><thead><tr><th width="195">对比</th><th width="277">高级划入</th><th>标准划入</th></tr></thead><tbody><tr><td>用户发起的资产划入交易Gas使用量<span data-gb-custom-inline data-tag="emoji" data-code="0031">1</span></td><td>ETH：~110141<br>ERC20：~132605</td><td>ETH：~21055<br>ERC20：~60000</td></tr><tr><td>入账时间</td><td>资产划入交易12个区块确认</td><td>资产划入交易12个区块确认</td></tr><tr><td>适用资产</td><td>全部</td><td>部分，节点运营方配置</td></tr><tr><td>Trustless</td><td>DeGate合约会校验划入目标地址和资产数量。如果划入未得到处理，一段时间后可调用合约方法取回。</td><td>DeGate合约只能校验资产数量，无法校验划入目标地址。<strong>DeGate节点有能力修改目标地址</strong>。如果划入未得到处理，用户无法自行取回，需要联系节点运营方退币。</td></tr><tr><td>限制</td><td>无限制</td><td>单笔划入有金额限制；<br>所有待确认的标准划入资产有金额总量限制</td></tr></tbody></table>
 
 注:digit\_one:：Gas消耗为测试结果平均值。划入ERC20币种的Gas消耗与其合约方法实现相关，可能实际会更多。
 
