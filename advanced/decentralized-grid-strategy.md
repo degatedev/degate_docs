@@ -93,7 +93,7 @@ This strategy is best deployed in a downtrend market in which the underlying tok
 
 The main premise of the Buy Grid Strategy is this - the underlying token has good potential which is suitable for a long-term hold, thus benefiting the trader in dollar averaging into the token even if its price falls outside of the grid range.&#x20;
 
-![Buy Grid Strategy in action](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAL2OD1V013zBslKO9O9m%2Fuploads%2F5FIoRAc8acjKmFhkXcOA%2FBuy-Grid-v19m.gif?alt=media\&token=ccccdf78-6d86-44c5-a8ef-15a5878b88d6)
+<figure><img src="../.gitbook/assets/Buy-Grid-v20m.gif" alt=""><figcaption></figcaption></figure>
 
 #### Sell Grid Strategy
 
