@@ -29,14 +29,20 @@
 1. 点击\[一键创建]标签&#x20;
 2. 输入用于网格策略\[ETH/USDC]的金额。例如，一旦您输入ETH数量，系统将自动计算对应的USDC用于网格策略，反之亦然。&#x20;
 
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.54.23.png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 请确保您在DeGate余额中有足够的ETH和USDC。
 {% endhint %}
 
-3. 一旦您输入了\[初始投入]的金额，系统将显示推荐的参数。 点击“创建网格策略”完成设置。
-4. 成功创建网格策略后，将在价格区间内下达多个买卖限价单，使您能够利用市场波动获得收益。
+3. 一旦您输入了\[初始投入]的金额，系统将显示推荐的参数。&#x20;
+4. 点击“创建网格策略”完成设置。
 
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.55.17.png" alt=""><figcaption></figcaption></figure>
 
+成功创建网格策略后，将在价格区间内下达多个买卖限价单，使您能够利用市场波动获得收益。
+
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.55.57.png" alt=""><figcaption></figcaption></figure>
 
 **设置网格策略\[手动创建]**&#x20;
 
@@ -52,7 +58,11 @@
 
 6. 点击“创建网格策略”完成设置。&#x20;
 
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.25.png" alt=""><figcaption></figcaption></figure>
+
 成功创建网格策略后，将在价格范围内下达多个买卖限价单，使您能够利用市场波动获得收益。
+
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.39.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 为了使网格策略获得最佳盈利，建议将当前市场价格处于网格策略设定的价格范围内。
