@@ -40,6 +40,4 @@
 ## Product Tutorial
 
 * [Listing your token on DeGate DEX](product-tutorial/listing-your-token-on-degate-dex.md)
-* [Grid Strategy Creation Guide](product-tutorial/grid-strategy-creation-guide.md)
-* [Grid Strategy Guidebook \[Draft\]](product-tutorial/grid-strategy-guidebook-draft.md)
-* [Grid Strategy Creation Guide （Mobile）](product-tutorial/grid-strategy-creation-guide-mobile.md)
+* [Grid Strategy Guidebook](product-tutorial/grid-strategy-guidebook.md)
