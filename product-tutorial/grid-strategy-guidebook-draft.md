@@ -53,7 +53,7 @@
 每个网格订单有最低$100的金额要求
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.25.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.25 (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.39.png" alt=""><figcaption></figcaption></figure>
 
