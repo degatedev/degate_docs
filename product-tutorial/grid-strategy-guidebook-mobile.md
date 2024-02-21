@@ -18,7 +18,7 @@ There are 2 Grid Strategy modes to choose from.
 For newcomers to Grid Strategy, it is recommended to start with \[Auto] mode.
 {% endhint %}
 
-<div align="left">
+<div align="center">
 
 <figure><img src="../.gitbook/assets/photo_2024-02-21_16-12-00.jpg" alt="" width="296"><figcaption></figcaption></figure>
 
