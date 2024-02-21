@@ -41,3 +41,4 @@
 
 * [Listing your token on DeGate DEX](product-tutorial/listing-your-token-on-degate-dex.md)
 * [Grid Strategy Guidebook](product-tutorial/grid-strategy-guidebook.md)
+* [Grid Strategy Guidebook (Mobile)](product-tutorial/grid-strategy-guidebook-mobile.md)
