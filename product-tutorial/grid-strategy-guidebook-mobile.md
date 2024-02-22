@@ -72,7 +72,7 @@ There is a minimum order size requirement of $100 for each grid order.
 
  
 
-<figure><img src="../.gitbook/assets/photo_2024-02-21_17-21-53.jpg" alt="" width="296"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/photo_2024-02-22_14-25-17.jpg" alt="" width="296"><figcaption></figcaption></figure>
 
  
 
