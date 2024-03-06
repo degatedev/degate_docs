@@ -101,7 +101,7 @@ This is similar to the Buy Grid Strategy but in a different direction. The Sell 
 
 The main benefit of the Sell Grid Strategy is this - the trader will get to take profit incrementally as the underlying token price break upwards, maximizing profits along the way up and buying back as the token price retrace downwards.&#x20;
 
-![Sell Grid Strategy in action](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FAL2OD1V013zBslKO9O9m%2Fuploads%2FZVL97pfmQqyWlSQRWjLx%2FSell-Grid-v2m.gif?alt=media\&token=52ff96b4-8938-4204-874b-7886d3397784)
+<figure><img src="../.gitbook/assets/Sell-Grid-v3m.gif" alt=""><figcaption></figcaption></figure>
 
 ### Conclusion
 
