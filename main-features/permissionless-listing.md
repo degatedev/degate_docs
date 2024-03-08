@@ -1,27 +1,27 @@
-# Permissionless Listing
+# 免审核上币
 
-To trade new assets in the DeGate protocol, users must register the token first and then add trading pairs for it, all in a permissionless manner. The registration information is recorded in the DeGate smart contract and cannot be modified.
+如果想在DeGate协议内交易新的资产，需要先注册币种，然后添加交易对，全流程免审核。注册信息记录在DeGate智能合约内，无法修改。
 
-### Listing Process
+### 上币流程
 
-Anyone can call the `registerToken` method of the DeGate smart contract to register a new asset. The DeGate node regularly observes on-chain asset registration transactions. After a transaction is confirmed, the new asset will be automatically added to the token list that the node maintains. Alternatively, if a user calls the smart contract’s deposit method, they can directly deposit unregistered assets, and the deposited tokens will be automatically registered.&#x20;
+任何人都可以调用智能合约的`registerToken`方法来注册新资产，DeGate节点定期观察链上注册资产的交易，交易确认后，新资产将会被自动添加至节点维护的币种列表。如果用户调用合约充值方法，也可以直接充值未注册的新资产，充值同时也会完成该币种的注册。
 
-Users can also list tokens on the degate.com website, via the following methods:
+用户还可以在degate.com网站发起上币，有以下入口：
 
-1. Searching for Assets in the Account Assets page;&#x20;
-2. Searching for Assets in the Trading Pair tab of the Trading /Grid Strategy page;&#x20;
-3. Entering the contract address of the new token on the Assets tab of the Deposit page.
+1. 账户资产界面，搜索资产
+2. 交易界面，选择交易对窗口，搜索资产
+3. 充值界面，选择资产，输入新币种的合约地址
 
-### Listing Fees
+### 上币费用
 
-DeGate does not charge any manual review fees that are common in centralized exchanges. Only Gas fees are required for a listing transaction.
+在DeGate没有中心化交易所惯常的人工上币费用，只需支付上币交易的矿工费即可。
 
-### Token List
+### 币种列表
 
-The DeGate node maintains a list of registered tokens for DeGate.
+DeGate节点维护了用于DeGate的已注册币种列表。
 
-### Limitations
+### 限制条件
 
-1. The DeGate protocol supports tokens up to: about 4.2 billion.
-2. The DeGate node also supports the listing and trading of non-standard ERC20 assets, such as those with a transfer-to-burn mechanism and tokens whose supply automatically updates. However, evaluation is done one a case-by-case basis.&#x20;
-3. Newly registered assets are non-default tokens that can become default tokens if they meet the [requirements](../concepts/economic-security.md#default-token-list) during regular updates of the node operator.
+1. DeGate协议支持币种上限：约42亿
+2. 对于部分非标准的ERC20资产，比如转账燃烧和自动更新数量的币种，DeGate节点做相应的额外处理后也能支持上币和开通交易，但需要根据情况逐一评估和调整。
+3. 新注册资产为非默认币种，节点运营方会定期更新，如果符合[要求](../concepts/economic-security.md#mo-ren-he-fei-mo-ren-bi-zhong)，则会改为默认币种。

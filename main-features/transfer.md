@@ -1,28 +1,28 @@
-# Transfer
+# 转账
 
-To quickly move assets between DeGate accounts, users can initiate a transfer by specifying the recipient address and the amount to be transferred. After users’ signature, the node verifies the transfer request. The recipient address receives the assets immediately after verification, whereas simultaneously the corresponding amount is deducted from the sender’s address. At the same time, the Operator will continue to process the transfer request, and roll it up on-chain after a series of operations from block inclusion, block production, proof generation, to updating the asset balance on Merkle tree.
+如果想快速转移资产到其他DeGate账户，用户可选择转账。发起转账时需要指定接收地址和资产数量，完成签名后，节点验证转账请求通过后，接收地址立即收到资产，发送地址则减少了相应数量。同时Operator会继续处理转账请求，经过打包、出块、生成证明流程、更新默克尔树资产一系列操作后，最终rollup到链上。
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-12-09 at 17.01.01.png" alt=""><figcaption><p>Transfer Process</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2022-10-07 at 13.09.02.png" alt=""><figcaption><p>转账过程</p></figcaption></figure>
 
-### Transfer Fees
+### 转账费用
 
-When initiating a transfer request, users are required to pay gas fees, which can currently be paid with ETH, USDC, and USDT, but not the token being transferred.
+发起转账时，需支付矿工费。目前支持ETH、USDC、USDT，不支持以转账币种支付矿工费。
 
-### Transfer to New Account
+### 转账给新账户
 
-Assets can be transferred to any DeGate account or any recipient address without a DeGate account. However, transferring to a new account incurs higher gas fees. Users will see a warning prompt when the recipient address they have entered does not have a DeGate account.
+可以转账给任意的DeGate账户，甚至目标地址还未开通账户。但转账给新账户所需矿工费会更高一些。输入接收地址后，如果是未开通账户的地址，用户可以看到相应提示。
 
-### Transfer Constraints
+### 转账限制
 
-1. . Users cannot transfer assets to their own address.
-2. &#x20;The effective number of digits of the transferred amount cannot exceed 7 to ensure the accuracy of circuit calculation.
+1. 不能转账给自己。
+2. 每次转账数量的有效数字不超过7位。这是电路计算精度的要求。
 
-> For example, if an account has 123456.78 DG, the user can only input 123456.7 instead of 123456.78, with a remnant of 0.08.
+> 例如账户内有123456.78个DG，无法输入123456.78，只能转出123456.7，剩余0.08。
 >
-> However,  for tokens with a large order of magnitude, such as SHIB,  a transfer amount of 12,345,670,000 is supported.&#x20;
+> 或对于数量级很大的币种，比如SHIB，支持转账为12345670000这样的数量。
 
-### How Transfer Differs From Withdrawal
+### 和提现的区别
 
-1. A transfer moves assets between DeGate accounts, but the assets remain in the DeGate smart contract. In contrast, a withdrawal retrieves assets from the DeGate smart contract to a specified Ethereum mainnet address.
-2. Transfers are completed immediately, whereas withdrawals require waiting for the rollup to complete.
-3. The gas fee for transfers is much lower than that for withdrawals.
+1. 转账是DeGate账户之间的资产变化，资产仍在DeGate智能合约内。提现是从DeGate智能合约取出资产，发往指定的以太坊主网地址。
+2. 转账即刻完成，提现需要等rollup完成。
+3. 转账所需矿工费比提现低得多。

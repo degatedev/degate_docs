@@ -1,26 +1,26 @@
-# Historical Data
+# 历史数据
 
-The DeGate node provides very detailed account history data that can be accessed on different devices. Historical data is divided into three sections:
+DeGate节点提供了非常详细的账户历史数据，用户在不同设备上都能查询。历史数据按类别分成三部分：
 
-* Orders
-* Asset History
-* Miscellaneous
+* 我的订单
+* 资产记录
+* 账户活动
 
-### Orders
+### 我的订单
 
-This section displays data about ordinary and grid strategy orders, including open and closed orders. The website provides access to information about ordinary orders and transactions over the previous three months. Users can also download historical data over the previous year.
+展示普通订单和网格策略数据，包括进行中和已结束的数据。在网站能查询三个月内的普通历史订单与成交，还可以下载一年内的历史数据。
 
-### &#x20;Asset History
+### 资产记录
 
-This section displays all the deposits, withdrawals and transfer records since beginning. Users can view the status of every record. The Paid Deposit operation for standard deposits is also completed in this section.
+展示所有资产划入、发送和转账的记录，没有时间限制。能看到每条记录的状态。标准划入的付费入账也在这里完成。
 
-### Miscellaneous
+### 账户活动
 
-This section displays other important account records, including:
+展示其他重要的账户历史行为，没有时间限制，包括：
 
-* Resetting of the Asset Private Key
-* Permissionless token listing
-* Adding a trading pair
-* Paid deposits
-* Order cancellation on-chain
-* Grid strategy cancellation on-chain
+* 重置资产私钥
+* 免审核上币
+* 添加交易对
+* 付费入账
+* 链上取消订单
+* 链上取消网格策略

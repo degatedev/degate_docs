@@ -1,17 +1,17 @@
-# Account Registration
+# 开通账户
 
-We have learned from [account structure](../concepts/account-structure.md) that each DeGate account is a node on a Merkle tree, represented by a unique AccountID. The node stores the latest information about account permissions and assets. Account permissions associate a user’s wallet address with their Asset Public Key. Once permissions are set, users can use their wallet account to operate the corresponding DeGate account. Assets information records the balance of assets in the DeGate account, and is updated every time a transaction, fund addition, send, transfer, and other operations incurring gas fees is performed.
+我们已经从[账户体系](../concepts/account-structure.md)中了解到，DeGate账户是默克尔树上的一个节点，用唯一的AccountID表示。节点内存放了最新的账户权限和资产信息。账户权限设置钱包地址和资产公钥的绑定关系，权限设置成功后，便可以用钱包账户来操作此DeGate账户。资产信息记录了此DeGate账户持有的资产余额，每次交易、划入、发送、转账、和其他支付矿工费的操作时都会更新。
 
-### Account Registration Procedure
+### 开通账户流程
 
-Writing account permissions and assets information to the Merkle tree is not subject to any mandatory sequence requirements. Users can add assets first and then set permissions, or do it in reverse order. However, the node operator subsidizes the gas fees incurred during setting account permissions for _write_ operations. **To ensure economic security, the node must obtain assets first before setting permissions.** Users can submit an off-chain request for setting permissions first, and wait until their DeGate account has received assets, such as from a fund addition or a transfer. The DeGate node will only process the permissions setting request after that.&#x20;
+往默克尔树写入账户权限和资产信息没有强制顺序要求，意味着可以先划入资产再设权限，也可以先设权限再划入资产。由于节点运营方补贴了开通账户写入权限操作的矿工费成本，**出于经济安全考虑，实际要求节点先获得资产，再继续设置权限**。用户可以先提交设置权限的链下请求，等到此DeGate账户获得了资产，例如完成一笔资产划入，或收到一笔转账，DeGate节点才会处理权限设置的请求。
 
-The account registration procedure for a user involves:
+用户开通账户流程如下：
 
-1. Registering an account and submitting an off-chain request;
-2. Completing a fund addition, or receiving a transfer;
-3. Setting permissions at the same time as the fund addition (or transfer) is completed.&#x20;
+1. 开通账户，提交链下请求
+2. 完成资产划入，或收到转账
+3. 完成资产划入（或转账）同时，完成权限设置
 
-### Account Registration Criteria
+### 账户开通条件
 
-Account registration on DeGate requires no KYC, and DeGate supports External Owned Account(EOA) and contract account (CA). The only requirement is that the EVM account must have at least one transfer-in or transfer-out record. Therefore, a new address cannot register a DeGate account. The DeGate block synchronization service will regularly scan and updates the list of addresses that are eligible to create accounts.
+DeGate账户开通无需身份认证（KYC），支持EVM的外部账户（EOA）与合约账户（CA）。唯一要求是EVM账户需要有任意转入或转出的交易记录，因此一个全新的地址无法开通DeGate账户。DeGate区块同步服务会定时扫描和更新可开通账户的地址名单。

@@ -1,36 +1,35 @@
-# Account Management
+# 管理账户
 
-Managing an account means to manage its Asset Private Key, which is explained in greater detail in[secret-key-and-signatures.md](../concepts/secret-key-and-signatures.md "mention") .The Asset Private Key is initially generated during the account registration process and is tied to the Ethereum address from which it was derived.
+账户管理即管理资产私钥。资产私钥详细原理请见：[signature-and-secret-key.md](../concepts/signature-and-secret-key.md "mention")。开通账户时首次生成资产私钥，并绑定到派生该私钥的以太坊地址。
 
-### Unlocking and Locking An Account
+### 解锁和锁定账户
 
-The Asset Private Key is temporarily stored in the local SessionStorage of the browser used to accesses degate.com. Once the browser or all degate.com tabs are closed, all the data associated with the Asset Private Key is automatically deleted. Therefore, users must first unlock their account by completing the ECDSA signature with their Wallet Private Key whenever they reopen the browser to access the DeGate exchange, This signature shares the same content with the one used during account registration, and the same Asset Private Key is derived again.
+资产私钥临时存储在用户访问degate.com的浏览器本地SessionStorage。每次关闭浏览器或关闭浏览器中所有degate.com的网页，就会自动删除资产私钥的数据。所以每当重新打开浏览器访问DeGate交易所时，首先要解锁账户，即用钱包私钥完成ECDSA签名，签名内容与开通账户的签名内容一致，再次派生出相同的资产私钥。
 
 {% code overflow="wrap" %}
 ```
-Sign this message to access DeGate Exchange: 
-0xdac304791B7f53593C701980aa52087Ed7EC6649 with key nonce: 1
+Sign this message to access DeGate Exchange: 0xdac304791B7f53593C701980aa52087Ed7EC6649 with key nonce: 1
 ```
 {% endcode %}
 
-Users can also choose to lock their account, which deletes all the information about the Asset Private Key from SessionStorage. However, they stay on the exchange’s website. Users can not access their DeGate account information, including information about assets, orders and historical records until the account is unlocked.
+用户也可选择锁定账户，这会直接删除SessionStorage中的资产私钥信息，但不会离开交易所网站。账户解锁后，用户才可以访问自己的DeGate账户信息，包括资产、订单和历史记录。
 
-### Resetting the Asset Private Key
+### 重置资产私钥
 
-While generally safe, the Asset Private Key stored in SessionStorage is not completely immune to the risk of leakage. For example, if a user provides their signature to a phishing website to generate the Asset Private Key, they may unintentionally disclose it.  **Users are strongly advised to reset their Asset Private Key immediately if they suspect a leakage.** The reset process is similar to that of account registration. Users must complete two ECDSA signatures with their Wallet Private Key. They must first carry out the KeyNonce+1 signature to generate a new Asset Private Key, and then submit a request to update their Asset Private Key to the DeGate node.
+通常来说存放在SessionStorage的资产私钥是相对安全的，但也存在泄露的风险，例如在钓鱼网站内签名生成资产私钥。如果已经泄漏了资产私钥，**你需要立即重置资产私钥**。重置过程与首次开通账户类似，用钱包私钥完成两次ECDSA签名，第一次用KeyNonce+1签名生成新的私钥，第二次则提交更新资产私钥的请求到DeGate节点。
 
-When the DeGate protocol is in the midst of processing reset requests, some functions may be temporarily affected.&#x20;
+DeGate协议处理重置请求时，部分功能将暂时受到影响
 
-1. All open orders will be cancelled.
-2. Users will not be allowed to initiate any other operations, such as trading, withdrawals, transfers and so on.
-3. Users can initiate another reset request, using the KeyNonce of the previous reset request incremented by 1.&#x20;
+1. 当前全部的进行中订单会被取消
+2. 不允许发起其他操作，比如交易、提现、转账等
+3. 可以再发起一起重置请求，使用前一次重置请求的KeyNonce并加1
 
-Once the zkBlock containing this reset request is submitted on-chain and the transaction is confirmed by the L1 network, the Asset Private Key is reset.
+直到包含这个重置请求的zkBlock被提交上链，网络上该笔交易得到确认后，资产私钥完成重置。
 
 {% hint style="info" %}
-Please withdraw all assets from DeGate immediately if you have disclosed your Wallet Private Key as attackers can control your DeGate account with a Wallet Private Key.
+如果泄漏了钱包私钥，那请立即提出在DeGate的所有资产。攻击者可以用钱包私钥完全控制相应的DeGate账户。
 {% endhint %}
 
-### Checking Asset Private Key
+### 查看资产私钥
 
-Checking the Asset Private Key is only applicable to users who need to use the DeGate SDK. Users can open their browser console to view their Asset Private Key. However, they can only access their DeGate account information, including assets, orders, and history after their account is unlocked.  The function of checking the Asset Private Key enables users to view it directly. Nonetheless, it is vital to take the necessary security precautions at all times.
+查看资产私钥只适合需要使用DeGate SDK的用户。你可以用浏览器控制台来查看资产私只有当账户解锁后，用户才可以访问自己的DeGate账户信息，包括资产、订单和历史记录。你也可以使用查看资产私钥功能来直接查看。无论如何，请做好必要的安全措施。

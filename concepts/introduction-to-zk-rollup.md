@@ -1,69 +1,69 @@
-# Introduction to ZK-Rollup
+# ZK-Rollup介绍
 
-The DeGate protocol is a trading protocol designed to achieve high throughput while minimizing gas costs. The protocol uses zkSNARKs technology to generate zero-knowledge proofs after processing requests off-chain, and submits the proofs on-chain for verification and data availability.
+DeGate协议技术目标为实现高吞吐量，低Gas成本的交易协议。基于zkSNARKs技术，DeGate链下处理请求后生成零知识证明，一并提交上链，最终通过链上验证的同时达到数据可用性之目的。
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-12-09 at 16.19.15.png" alt=""><figcaption><p>ZK-Rollup Overview</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2022-12-09 at 16.18.34.png" alt=""><figcaption><p>ZK-Rollup概览</p></figcaption></figure>
 
-## Operator
+### Operator
 
-A crucial component of the protocol, the Operator is mainly responsible for：
+Operator是协议的重要一环，主要负责
 
-1. Producing zkBlocks: The Operator processes each batch of ZK-Rollup events based on predetermined rules and generates zkBlocks.
-2. Generating zero-knowledge proofs: The Operator calls the circuit to generate proofs for zkBlocks.
-3. Submitting zkBlock data: The Operator calls Postman to submit zkBlocks data to the on-chain smart contract to confirm state changes.
+1. **创建zkBlock：**按规则处理每个批次(Batch)的ZK-Rollup事件，生成zkBlock
+2. **生成零知识证明：**调用电路生成zkBlock的证明
+3. **提交zkBlock数据：**调用Postman提交zkBlock数据到链上合约，确认状态变更
 
-## Off-Chain Transactions&#x20;
+### 链下交易
 
-Off-chain transactions that require zero-knowledge proof and verification in the DeGate protocol include the following:
+DeGate协议内需要经过零知识证明和验证的链下交易，包括以下：
 
-<table><thead><tr><th width="214">Event</th><th>Description</th></tr></thead><tbody><tr><td>No-op</td><td>Null transactions used to fill zkBlocks that are not fully filled with off-chain transactions</td></tr><tr><td>AccountUpdate</td><td>This allows users to create or update their account asset private key</td></tr><tr><td>AppKeyUpdate</td><td>This allows users to create, update, and configure the trading private key's permissions</td></tr><tr><td>SpotTrade <span data-gb-custom-inline data-tag="emoji" data-code="0031">1️</span></td><td>The off-chain matching of two orders</td></tr><tr><td>BatchSpotTrade</td><td>The aggregation of SpotTrade is performed by the operator to increase transaction throughput and lower the on-chain cost for users</td></tr><tr><td>OrderCancel <span data-gb-custom-inline data-tag="emoji" data-code="0032">2️</span></td><td>This allows users to perform an on-chain order cancellation operation which guarantees that the order can never be used by the operator for order matching</td></tr><tr><td>Add</td><td>This confirms the user's L1 fund addition which will credit the user's balance in L2</td></tr><tr><td>Send</td><td>Move the user's asset from L2 to L1</td></tr><tr><td>Transfer</td><td>Assets are moved between two L2 accounts</td></tr></tbody></table>
+<table><thead><tr><th width="191">事件</th><th>说明</th></tr></thead><tbody><tr><td>No-op</td><td>空交易，用于填充未全部塞满链下交易的zkBlock</td></tr><tr><td>AccountUpdate</td><td>允许用户添加、更新资产私钥</td></tr><tr><td>AppKeyUpdate</td><td>允许用户添加、更新交易私钥，配置交易私钥权限</td></tr><tr><td>SpotTrade<span data-gb-custom-inline data-tag="emoji" data-code="0031">1</span></td><td>两个订单的链下撮合</td></tr><tr><td>BatchSpotTrade</td><td>Operator对SpotTrade进行聚合，提高交易吞吐量，并降低用户上链开销</td></tr><tr><td>OrderCancel <span data-gb-custom-inline data-tag="emoji" data-code="0032">2</span> </td><td>允许用户上链取消订单，此操作后的订单无法再被operator用于撮合</td></tr><tr><td>Add</td><td>确认用户在L1的资产划入行为，然后记账到L2账户</td></tr><tr><td>Send</td><td>用户将资产从L2发送到L1</td></tr><tr><td>Transfer</td><td>两个L2账户之间的资产转移</td></tr></tbody></table>
 
-:digit\_one:: Orders are not directly submitted on-chain. This only happens when an order is filled.
+注:digit\_one:：订单不会直接上链，只有订单成交后才会上链。
 
-:digit\_two:: Cancelling an order or a grid strategy involves only informing the trading system of the cancellation with a user’s signature without any proofs submitted on-chain. Therefore, it is not a ZK-Rollup event. To prevent the DeGate node from “doing evil” with the signature a user provides when placing the order, DeGate provides a OrderCancel method, which allows the user to request the submission of a proof that the order has been cancelled.
+注:digit\_two:：取消订单和网格策略，也仅通过签名通知交易系统撤单，不会上链证明，就不属于ZK-Rollup事件。为了防止DeGate节点利用下单签名作恶，特提供OrderCancel方法，要求追加上链证明此订单已取消。
 
-## zkBlock
+### zkBlock
 
-zkBlocks can be regarded conceptually as DeGate’s “L2 block”. Depending on the number of events, one or more sequential zkBlocks are generated for each batch of events that the Operator processes. These zkBlocks are then passed to the circuit for zk-proof computation.
+zkBlock可视为DeGate L2的区块。Operator处理的每个批次，根据事件数量多少，会生成一到多个有顺序的zkBlock。然后zkBlock会传给电路来计算零知识证明。
 
-## Circuit
+### 电路
 
-This is not a physical circuit, but a zkSNARK circuit. The Circuit is responsible for describing events that require zero-knowledge proofs, such as order completions and deposits, and thus an important part of zero-knowledge proofs. The Circuit receives inputs, and the input signal generates an output through the path of the electric gate to produce zk-proofs for the corresponding zkBlocks.
+这不是物理上存在的电路，而是指zkSNARK电路。电路负责描述需要进行零知识证明的事件，例如订单成交和充值，是零知识证明的重要组成部分。电路接受输入，输入信号通过电气门的路径产生输出，得到zkBlock相应的零知识证明。
 
-## Merkle Tree
+### 默克尔树
 
-To improve computing and storage efficiencies, DeGate has implemented data selection and compression. As Merkle tree balances complexity, computing time, and user-friendliness, the protocol has created two Merkle trees: Entire Merkle Tree and Asset Merkle Tree.
+为提高计算和存储效率，DeGate对数据进行了筛选压缩，默克尔树能在复杂性、计算时间和用户友好性之间取得平衡。协议构建了两颗树：完整树(Entire Merkle Tree)和资产树(Asset Merkle Tree)。
 
-* The Entire Merkle Tree ensures the data security of DeGate protocol as it records all the information regarding accounts, assets, and transactions on DeGate.
-* The Asset Merkle Tree guarantees users’ self-custody of their assets. Even when the DeGate node operator cannot provide any services, users can still withdraw their assets safely. The Asset Merkle Tree records all DeGate accounts and assets information.
+* 完整树确保DeGate协议的数据安全性，记录了所有DeGate账户、资产、交易信息。
+* 资产树确保用户资产的去托管化，即使DeGate运营方无法提供任何服务，用户仍旧可以安全地提取自己的资产。资产树记录了所有DeGate账户和资产信息。
 
-## Submitting zkBlocks
+### 提交zkBlock
 
-Once the zk proof of a zkBlock is generated, the Operator calls the submitBlocks method of the DeGate smart contract through Postman to submit zkBlock-related data on-chain for confirmation of status change (multiple zkBlocks can be submitted simultaneously in strict accordance with the sequence of block generation ). These data mainly include:
+生成zkBlock的零知识证明后，Operator会通过Postman调用DeGate智能合约的`submitBlocks`方法，以提交zkBlock相关数据到链上进行状态变更的确认（可以同时提交多个zkBlock，但必须严格按照出块顺序来提交），这些数据主要包含：
 
-* The root hash of the Entire Merkle Tree
-* The root hash of the Asset Merkle Tree
-* Zero-knowledge proofs
-* Change of account permissions and asset balance
-* Additional data for deposit, withdrawal, and account update transactions
+* 完整树的默克尔树根哈希
+* 资产树的默克尔树根哈希
+* 零知识证明
+* 账户权限和资产余额的变更数据
+* 划入、发送、账户更新这三种交易类型的额外数据
 
-As the Node operator has to pay ETH as Gas to submit zkBlocks on-chain, users will be charged gas fees.
+节点运营方提交zkBlock的链上交易需要支付ETH作为gas，所以会向用户收取一定的矿工费。
 
-## Smart Contract
+### 智能合约
 
-The on-chain DeGate smart contract is responsible for storing user funds, verifying the zero-knowledge proofs submitted by the off-chain node and storing the latest Merkle tree roots. It consists of multiple contracts, the main contracts of which are:
+DeGate协议部署在链上的智能合约，负责存储用户资金，验证链下节点提交的零知识证明并存储最新的默克尔树根。其由多个合约构成，其中主要合约为：
 
-1. **Exchange:** interactions where the Operator submits zkBlock or users’ deposits or mandatory withdrawals.&#x20;
-2. **Deposit:** stewarding the assets deposited by users, and providing the providing the functions of deposit, withdrawal and transfer.
-3. **Loopring:** the Exchange contract parameters configuration.
-4. **BlockVerify:** registering verifying key and verifying zero-knowledge proofs.
+1. **Exchange：**Operator提交zkBlock、用户充值和强制提现的交互
+2. **Deposit：**托管用户存入的资产，提供充值、提现、转账的功能
+3. **Loopring：**Exchange合约参数配置
+4. **BlockVerify：**注册Verifying Key和验证零知识证明
 
-## Postman
+### Postman
 
-The Operator calls the DeGate smart contract through Postman, and submits zkBlocks' data on chain in strict accordance with the sequence of zkBlocks generation.
+Operator通过Postman来调用DeGate合约，严格按照zkBlock的出块顺序，依次提交上链。
 
-## Chain Sync
+### 区块同步
 
-Observing all on-chain transactions of the DeGate smart contract, such as fund additions, mandatory withdrawals, and Rollup transactions, and notifying the node after a transaction is confirmed.
+观察DeGate智能合约的所有链上交易，例如划入资产、强制提现、Rollup交易，确认交易后通知节点。
 
-The above is a brief description of the ZK-Rollup part of the DeGate protocol. For more information, please refer to the protocol design document.
+以上对DeGate协议的ZK-Rollup部分做了简单说明，想要了解更多，请查看协议设计文档

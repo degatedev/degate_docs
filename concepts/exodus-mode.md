@@ -1,43 +1,39 @@
-# Exodus Mode
+# 逃离模式
 
-The Operator of the DeGate off-chain node is responsible for producing zkBlocks and submitting proofs. If the Operator stops working, all off-chain transactions that have not been submitted on-chain will become invalid. To ensure the trustlessness of funds, the DeGate protocol provides an **Exodus Mode** that allows users to withdraw their assets even when the node stops working.&#x20;
+DeGate链下节点的Operator负责生成zkBlock和提交证明，如果Operator罢工了，所有未提交上链的链下交易就会失效。为了确保资金Trustless，DeGate协议提供了**逃离模式（Exodus Mode）**，当节点罢工时，用户仍然可以提出资产。
 
-Once the Exodus Mode is activated, the DeGate smart contract will reject any new zkBlock data, and its state will stay in the last block before the Exodus Mode. This means that all off-chain transactions in DeGate will be suspended, including transactions, withdrawals and transfers. The Exodus Mode is irreversible, and the only action users are allowed to take under Exodus Mode is to withdraw their assets.
+一旦进入逃离模式，DeGate智能合约将拒绝接收新的zkBlock数据，状态停留在逃离模式开启前的最新区块。这意味着DeGate所有链下交易都会停止，比如不能交易、提现和转账。逃离模式状态不可逆，用户唯一可做的就是取回其资产。
 
-## Activating the Exodus Mode
+### 启动逃离模式
 
-The steps to activate the Exodus Mode are as follows:&#x20;
+进入逃离模式的步骤如下：
 
-1. **Initiating a forced withdrawal**: Users can call the forceWithdraw method of the DeGate contract to initiate a forced withdrawal.
-2. **Forced withdrawal unprocessed**: This refers to any forced withdrawal request not processed by the DeGate node within a pre-specified timeframe, which is configured in the DeGate smart contract.&#x20;
-3. **Activating the Exodus Mode**: As long as a forced withdrawal request is not processed within the specified timeframe, any user can call the notifyForcedRequestTooOld method of the DeGate smart contract to throw the DeGate protocol into the Exodus Mode.&#x20;
+1. **发起强制提现：**用户可以调用DeGate合约的`forceWithdraw`方法，发起一次强制提现
+2. **强制提现未被处理：**有任意强制提现请求在规定时间内没有被DeGate节点处理。该时间配置在DeGate合约里
+3. **开启逃离模式：**只要有任意的强制提现未在规定时间内被处理，任何用户可调用DeGate合约的`notifyForcedRequestTooOld`方法，使DeGate协议进入逃离模式
 
-If the DeGate node is honest, it will not want to enter the Exodus Mode. The node will therefore conscientiously identify and process all forced withdrawal requests within the specified timeframe. Forced withdrawals will be treated as ordinary withdrawals, with the following differences:
+如果DeGate节点是正直的，便不希望进入逃离模式。节点会尽职尽责地在规定时间内发现并处理完每个强制提现请求。强制提现将被视为用户的一般提现来处理，但差别如下：
 
-* Users must specify the token for a forced withdrawal. They don’t need to specify the withdrawal amount, as they will withdraw as much as possible. The DeGate node will cancel all open orders of the token, and then process the withdrawal request.
-* When a user initiates a forced withdrawal, they must pay the fees from their wallet. However, for an ordinary withdrawal, gas fees are paid from users’ DeGate accounts.
-* After the forced withdrawal request is successfully processed, the user should call the withdrawFromApprovedWithdrawal method of the DeGate smart contract again to retrieve their assets.&#x20;
-
-
-
-## Forced Withdrawal Process Overview
-
-<figure><img src="../.gitbook/assets/Screen Shot 2022-12-09 at 16.25.13.png" alt=""><figcaption><p>A Force Withdrawal Request Processed In-Time</p></figcaption></figure>
-
-### Retrieving Assets In the Exodus Mode
-
-After the Exodus Mode is activated, users can retrieve their assets. There are three possible scenarios:
-
-1.  **DeGate account balance:** Users can call the `withdrawFromMerkleTree`&#x20;
-
-    method on-chain to withdraw the entire balance of a token, which is the account balance status stored in the last block before the Exodus Mode.
-2. **Unconfirmed advanced addition:** As the deposited assets are in the smart contract and have not been credited into the DeGate account balance, users can withdraw the assets using the withdrawFromDepositRequest method.&#x20;
-3.  **Unconfirmed standard addition:** As the deposited assets are in the smart contract and have not been credited into the DeGate account balance, users must contact the node operator to apply for a refund.
+* 强制提现需要指定币种，但不指定提现数量，而是能提尽提，所以节点会取消该币种的所有正在进行的订单，然后处理提现请求。
+* 用户发起强制提现时要用钱包支付费用，一般提现则用DeGate账户支付矿工费。
+* 强制提现请求被成功处理后，用户需要再次调用合约的`withdrawFromApprovedWithdrawal`方法取回资产。
 
 
+
+整个过程如图所示
+
+<figure><img src="../.gitbook/assets/Screen Shot 2022-11-28 at 12.33.51.png" alt=""><figcaption><p>节点及时处理的强制提现</p></figcaption></figure>
+
+### 逃离模式下取回资产
+
+逃离模式启动后，用户可以取回资产，分为三种情况
+
+1. **DeGate账户余额：**链上调用`withdrawFromMerkleTree`方法，每次提取一个币种的全部余额，为逃离模式前最新一个区块的账户余额状态
+2. **未得到确认的高级划入：**此时充值资产在合约内，未计入DeGate账户余额，可通过`withdrawFromDepositRequest`方法取回
+3. **未得到确认的标准划入：**此时充值资产在合约内，未计入DeGate账户余额，需要联系节点运营方申请退币。
 
 {% hint style="info" %}
-**How can ordinary users call the DeGate smart contract?**
+**普通用户应该如何调用合约？**
 
-Initiating a forced withdrawal and retrieving asset balance both require users to provide corresponding data, which can be obtained by parsing the Calldata of all submitBlock transactions in the DeGate smart contract. Users can refer to the design document for parsing methods. We expect to see third parties providing real-time DeGate calldata parsing services in the future, and users can engage these services to obtain information. Third parties may even provide products that allow users to initiate forced withdrawals, activate the Exodus Mode, and retrieve balances with one click. Users don't need to worry about the security of third-party services, because assets will only be retrieved to the account of the initiator. However, they should be careful not to lose their Wallet Private Key or Asset Private Key.
+发起强制提现与取回余额方法都需要用户提供相应数据，这些数据可以通过解析DeGate合约内所有submitBlock交易的Calldata得到。解析方法可查看设计文档。我们预期会有第三方提供实时的DeGate calldata解析服务，届时可通过这些服务来获得信息，甚至第三方可能会提供一键式发起强制提现、进入逃离模式、领取余额的产品。用户不必担心第三方服务的安全问题，因为资产只会提现到发起者的账户，只需注意不要泄漏钱包私钥和资产私钥。
 {% endhint %}
