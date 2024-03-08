@@ -1,70 +1,72 @@
-# 流动性挖矿
+# Liquidity Mining
 
-DeGate流动性挖矿旨在激励为订单簿提供有效流动性的用户。有效流动性指的是位于订单簿买1（最高买入价格）和卖1（最低卖出价格）附近范围的挂单，并且要求是网格策略的订单。
+DeGate’s liquidity mining program is designed to incentivize users who contribute effective liquidity to the order book. Effective liquidity refers to grid strategy orders placed in the vicinity of the highest buying price or the lowest selling price in the order book.
 
-### 矿池
+### Mining Pool
 
-流动性挖矿以交易对为单位。矿池是指一个正在挖矿，或即将开始挖矿的交易对。节点运营方负责设置矿池。用户能在挖矿活动页面查询到矿池信息。一个矿池的生命周期可能会分为多个阶段，阶段时长和奖励数量可以不同。
+Liquidity mining on DeGate is conducted based on trading pairs. A mining pool refers to a trading pair where mining is ongoing or about to begin. The node operator is responsible for setting up a mining pool. Users can query information about mining pools on the mining page. The life cycle of a mining pool may consist of multiple stages, and the duration of each stage and corresponding rewards may differ.
 
-### 如何挖矿
+### How To Start Mining
 
-为了参与挖矿，必须同时满足下列条件：
+To begin mining on DeGate, all of the following requirements must be met:
 
-1. **订单类型：**仅限于网格策略的订单参与挖矿，普通订单不能挖矿。
-2. **订单价值：**创建网格策略时进行判断每个网格订单是否满足挖矿的订单价值条件。用户可预览每个网格订单是否满足了本条件。
-3. **订单价格：**为了激励有效的流动性，DeGate协议每隔15秒进行一次判断，对于符合条件1和2的订单，如果订单价格处于奖励价格范围之内，则可以获得挖矿奖励。
+1. **Order type**: Only grid strategy orders are eligible for mining, and ordinary orders do not qualify.&#x20;
+2. **Order value**: Whether a grid order meets the order value conditions for mining is determined at the time of grid strategy creation. Users can preview whether each grid order meets this criterion.
+3. **Order price**: To incentivize users to contribute effective liquidity, the DeGate protocol makes a judgment every 15 seconds and allocates mining rewards to orders within the required price range and meeting the aforementioned conditions.&#x20;
 
-我们可以看到，条件1和2是静态的，创建网格策略时确定。条件3是动态的，并非所有网格订单都一定能获得挖矿奖励。同样的初始投入，价格区间和网格数不一样，可获得的挖矿奖励也不同。
+While the first two conditions are static and determined when a grid strategy is created, the third condition is dynamic, excluding some grid orders from receiving mining rewards. Grid strategies with the same initial allocation may receive different mining rewards if they have different price ranges and numbers of grids.
 
-**另外，如果网格策略创建时间早于矿池开始时间，等挖矿开始后，这些网格策略也能自动参与挖矿，用户不必取消和重新创建**。
+**In addition, if a grid strategy is created earlier than a mining pool starts, such strategy can automatically be involved in mining once it starts. Users do not need to cancel an existing grid strategy and create a new one.**
 
-### 奖励价格范围
+### Rewardable Price Range
 
-奖励价格范围随着订单簿挂单情况实时改变，取决于交易对类型，规则如下：
+The rewardable price range changes in real-time based on the status of the order book. Depending on the type of trading pair, the rules are as follows:
 
-1. **常规交易对：**订单簿最高买入价格 \* 0.99 ～ 订单簿最低卖出价格 \* 1.01
-2. **稳定类交易对：**订单簿最高买入价格 ～ 订单簿最低卖出价格
+1. Regular trading pairs: the highest buying price in the order book \* 0.99 \~ the lowest selling price in the order book \* 1.01
+2. Stable trading pairs: the highest buying price in the order book \~ the lowest selling price in the order book
 
-稳定类交易对，比如USDT/USDC，价格波动较小，所以奖励价格范围要求更加严格。
+Stable trading pairs, such as USDT/USDC, have less price fluctuations, and are thus subject to more demanding rewardable price range requirements.&#x20;
 
-### 奖励计算和分配
+### Rewards Calculation and Allocation
 
-每隔15秒计算一次，对同一个矿池内所有满足挖矿条件的订单，根据其待成交的订单价值，按占比来瓜分该15秒的奖励。奖励分配给用户后，还需要领取到账。
+Rewards are calculated every 15 seconds. All the qualified orders in the same mining pool share the rewards proportional to their value to be filled. Users need to claim their rewards after allocation.
 
-#### 奖励计算举例
+**Examples of Rewards Calculation**
 
-> 1. 你的ETH/USDC网格策略创建时符合了挖矿的资金要求
-> 2. 假设某时刻订单簿最高买入价格为1495，最低卖出价格为1502，所以奖励价格范围为1480.05至1517.02。你的一个网格订单为$1510待卖出1 ETH，正好位于范围之内，满足了挖矿的价格要求，可参与奖励分配
-> 3. 你的订单价值按照ETH[风险价格](../concepts/economic-security.md#feng-xian-jia-ge)计算得到1\*1495=$1495
-> 4. ETH/USDC此时刻符合挖矿要求的网格订单总价值为$42391
-> 5. 该时刻奖励为10 DG
-> 6. 最终你可以得到的奖励为 1495 / 42391 \* 10 = 0.35266919 DG
+> 1. Your ETH/USDC grid strategy has met the order value requirements at the time of creation;&#x20;
+> 2. Assuming that the highest buying price in the order book is 1495, and the lowest selling price is 1502 at a certain moment, the rewardable price range is 1480.05 to 1517.02. You have a grid order to sell 1 ETH at $1510, which falls within the rewardable price range.
+> 3. Based on the ETH[ risk price,](../concepts/economic-security.md#risk-price) your order value is 1\*1495=$1495;
+> 4. The total value of all the qualified ETH/USDC grid orders at that moment amounts to $42391;
+> 5. The total rewards at that moment are 10 DG
+> 6. Therefore, the yields you will receive are 1495 / 42391 \* 10 = 0.35266919 DG
 
-### 网格策略运行时长
+### Grid Strategy Duration
 
-为防止用户只为挖矿奖励而频繁创建和取消网格策略，特加入了网格策略运行时长的要求。策略运行时长未达到要求之前获得的奖励都处于「暂不可领」的状态，等满时长后才会变为「可领取」状态。如果用户取消了未满时长的策略，将会失去暂不可领的奖励，这些奖励回归矿池。
+To prevent users from frequently creating and canceling grid strategies solely for mining yields, a requirement for grid strategies’ duration has been added. All the allocated rewards are initially "temporarily unclaimable" and only become "claimable"  after the duration expires. If a user cancels a strategy before the duration expires, they will lose their temporarily unclaimable rewards, which will return to the mining pool.
 
-如果想参与正在进行的挖矿活动，用户所创建策略时间需要早于挖矿结束之前的某一个时间点。通常和策略运行时长要求有关。
+To participate in ongoing mining programs, users must create a grid strategy earlier than a specific time point before mining closes, which is typically related to the strategy duration requirement.
 
-> 例如结束时间为2022年10月30日22点整，运行时长要求为12小时。那么用户创建网格策略，不得晚于2022年10月30日10点整，才可以参加接下来的挖矿。
+> For instance, if a mining program closes at 2200hrs on October 30, 2022, and the strategy duration requirement is 12hrs, users must create a grid strategy no later than 1000hrs on October 30, 2022 to participating in mining.
 
-### 领取挖矿奖励
 
-用户能随时领取挖矿奖励中的「可领取」部分，每次领取需要支付矿工费，领取成功后，奖励会立即以转账方式发到用户的DeGate账户。
 
-### 挖矿统计
+### Claiming Mining Rewards
 
-用户还能看到个人挖矿的一些统计，包括投入资金的最新价值，最近收益，哪些网格策略在挖矿。点开网格策略，还可以看到更详细的挖矿数据，如挖矿收益率，奖励来源等。
+Users can retrieve the "claimable" mining rewards at any point in time. Each time they claim, they must pay the gas fees. After a claim is successfully processed, the rewards will be immediately transferred to the user's DeGate account.
+
+### Mining Statistics
+
+Users can also view their own mining statistics, including the latest value of their invested funds, latest earnings, and which grid strategies are currently being used for mining. They can click on a specific grid strategy for more detailed data, such as mining yields and sources of rewards, etc.
 
 {% hint style="info" %}
-**挖矿收益率和矿池收益率**
+Mining Yields and Mining Pool’s Yields
 
-* 挖矿收益率是用户个人累计收益的统计，每个网格策略独立计算，根据挖矿总收益、初始投入资金价值和挖矿时长计算得到。一般来说，由于挖矿时长的变化，挖矿收益率可能初期会比较大，随着挖矿时长增加，会逐渐降低。
-  * 如何计算挖矿时长：用户的网格策略开始结束时间与相应矿池的开始结束时间，两个时间段的重合部分，为该网格策略的挖矿时长。该参数未在产品中展示，需要用户自行计算。
-* 矿池收益率则根据当下的每日奖励价值和所有用户投入的矿池资金计算。矿池收益率是对未来收益的预估，仅供参考。
-  * 矿池资金只统计了符合「资金要求」的网格策略订单，并未考虑订单价格是否满足「价格要求」，因此矿池收益率一般会低于个人的挖矿收益率。
+* Mining yields calculate the total mining income of individual users. Each grid strategy is calculated independently based on a combination of the total mining yields, initial investment value and mining duration. Generally speaking, mining yields are relatively high at the beginning, and gradually decrease as the mining duration increases.
+* How to calculate mining duration: mining duration is defined as the overlapping portion between the duration of a user's grid strategy and that of the corresponding mining pool. This parameter is not displayed in the mining statistics and users need to do calculations themselves.&#x20;
+* A mining pool’s yields are calculated based on the value of daily rewards and the total funds invested by all the users into the mining pool. The mining pool’s yield represent an estimate of future earnings and is provided for reference only.
+* The mining pool funds only count in the grid strategy orders that meet the “order value requirements", without considering whether the orders meet the "price requirements", so mining pool's yields are generally lower than individual's mining return.&#x20;
 {% endhint %}
 
-### 项目合作
+### Project Collaboration
 
-DeGate流动性挖矿项目支持多个币种奖励分配，欢迎项目方合作共同定制矿池。
+The DeGate liquidity mining program supports the distribution of rewards in multiple tokens. We invite other projects to collaborate with us to customize mining pools.

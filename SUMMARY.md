@@ -1,50 +1,44 @@
 # Table of contents
 
-## LANGUAGE
+## Language
 
-* [English](https://app.gitbook.com/o/-Mhlg413NpjGSPMY2M-4/s/fbF0sooTWQRz4qPy6903/)
+* [中文版](https://app.gitbook.com/o/-Mhlg413NpjGSPMY2M-4/s/t11o0eEBD13zSut1XI83/)
 
 ***
 
-* [概览](README.md)
+* [Overview](README.md)
 
-## 概念 <a href="#concepts" id="concepts"></a>
+## Concepts
 
-* [ZK-Rollup介绍](concepts/introduction-to-zk-rollup.md)
-* [私钥和签名](concepts/signature-and-secret-key.md)
-* [账户体系](concepts/account-structure.md)
-* [逃离模式](concepts/exodus-mode.md)
-* [协议费用](concepts/protocol-fees.md)
-* [经济安全](concepts/economic-security.md)
-* [常见问题](concepts/faq.md)
+* [Introduction to ZK-Rollup](concepts/introduction-to-zk-rollup.md)
+* [Secret Key and Signatures](concepts/secret-key-and-signatures.md)
+* [Account Structure](concepts/account-structure.md)
+* [Exodus Mode](concepts/exodus-mode.md)
+* [Protocol Fees](concepts/protocol-fees.md)
+* [Economic Security](concepts/economic-security.md)
+* [Frequently -Asked -Questions (FAQ)](concepts/frequently-asked-questions-faq.md)
 
-## 主要功能 <a href="#main-features" id="main-features"></a>
+## Main Features
 
-* [连接钱包](main-features/wallet-connectivity.md)
-* [开通账户](main-features/account-registration.md)
-* [管理账户](main-features/account-management.md)
-* [划入](main-features/deposit.md)
-* [发送](main-features/withdrawal.md)
-* [转账](main-features/transfer.md)
-* [免审核上币](main-features/permissionless-listing.md)
-* [交易对](main-features/trading-pair.md)
-* [创建订单](main-features/place-order.md)
-* [网格策略](main-features/grid-strategy.md)
-* [流动性挖矿](main-features/liquidity-mining.md)
-* [历史数据](main-features/historical-data.md)
+* [Wallet Connectivity](main-features/wallet-connectivity.md)
+* [Account Registration](main-features/account-registration.md)
+* [Account Management](main-features/account-management.md)
+* [Add](main-features/deposit.md)
+* [Send](main-features/withdrawal.md)
+* [Transfer](main-features/transfer.md)
+* [Permissionless Listing](main-features/permissionless-listing.md)
+* [Trading Pairs](main-features/trading-pairs.md)
+* [Placing Orders](main-features/placing-orders.md)
+* [Grid Strategy](main-features/grid-strategy.md)
+* [Liquidity Mining](main-features/liquidity-mining.md)
+* [Historical Data](main-features/historical-data.md)
 
-## 进阶 <a href="#advanced" id="advanced"></a>
+## Technical Consideration
 
-* [去中心化网格策略](advanced/decentralized-grid-strategy.md)
+* [DeGate SDK](technical-consideration/degate-sdk.md)
 
-## 技术参考 <a href="#technical-reference" id="technical-reference"></a>
+## Product Tutorial
 
-* [DeGate SDK](technical-reference/degate-sdk.md)
-
-## 产品教程 <a href="#product-tutorial" id="product-tutorial"></a>
-
-* [在DeGate DEX自主上架代币](product-tutorial/listing-your-token-on-degate-dex.md)
-* [网格策略创建指南](product-tutorial/grid-strategy-creation-guide.md)
-* [网格策略指南（草稿）](product-tutorial/grid-strategy-guidebook-draft.md)
-* [网格策略指南（移动版）](product-tutorial/wang-ge-ce-lve-zhi-nan-yi-dong-ban.md)
-* [网格策略创建指南（移动端）](product-tutorial/grid-strategy-creation-guide-moblie.md)
+* [Listing your token on DeGate DEX](product-tutorial/listing-your-token-on-degate-dex.md)
+* [Grid Strategy Guidebook](product-tutorial/grid-strategy-guidebook.md)
+* [Grid Strategy Guidebook (Mobile)](product-tutorial/grid-strategy-guidebook-mobile.md)

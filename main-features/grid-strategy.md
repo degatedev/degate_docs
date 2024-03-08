@@ -1,52 +1,52 @@
-# 网格策略
+# Grid Strategy
 
-网格策略交易是用户先指定价格区间内的预设价格，自动挂单进行高抛低吸，赚取差价利润的交易方法。DeGate协议目前支持中性等差网格策略，即用户需准备交易对的两种代币，网格价差为等差数列分布。
+Grid strategy is a trading technique that allows users to set a price range for automatic order placement and make a profit by selling high and buying low. The DeGate protocol currently supports neutral arithmetic grid strategies which require users to prepare the two tokens of a trading pair. In this strategy, the grids’ price difference is distributed in an arithmetic sequence.
 
-### 交易原理
+### Trading Mechanism
 
-与订单簿下单一样，创建DeGate网格策略的资金同样为用户自托管，具体步骤如下
+Similar to order-book trading, the funds used to create a DeGate grid strategy are also under the custody of users. Grid strategies are created following the steps below:&#x20;
 
-1. 用户设置网格策略的参数，确认创建策略时，会自动以资产私钥签名生成一个网格策略，内容为用户设置的策略参数，这些参数定义了如何挂网格订单。一个网格策略至少包含两个网格订单。
-2. DeGate节点收到用户签名，验证通过后，按照签名内容完成初始网格订单的下单。需要注意的是，因为是中性策略，所以全部初始网格订单都必须为Maker订单，否则策略创建会失败。
-3. 每当一个网格订单被撮合成交，电路都会验证该笔撮合符合用户的签名授权。
-4. 当一个网格订单被完全成交后，DeGate节点会依照用户事先授权的签名来派生出一个新的网格订单。例如当买单完全成交后，会在更高的价格挂一个相同数量的卖单。当卖单完全成交后，会在更低的价格挂一个相同数量的买单。如此便实现了网格策略的自动交易。
-5. 网格订单反复成交和挂单之间的净资金差，属于策略的做市收益。做市收益直接计入可用余额，不会被锁定。
+1. A user sets the parameters of a grid strategy. Upon the user’s confirmation, a grid strategy containing the user-set parameters is automatically generated with the user’s signature with their Asset Private Key. These parameters define how to place grid orders. A grid strategy contains at least two grid orders.
+2. The DeGate node receives and verifies the user's signature. After verification, it places initial grid orders based on the content of the signature. It should be noted that in a neutral strategy, all initial grid orders must be Maker orders, otherwise the strategy will fail.
+3. Whenever a grid order is matched, the circuit verifies that the match complies with the user's signed authorization.
+4. When a grid order is completely filled, the DeGate node derives a new grid order based on the user's pre-authorized signature. For instance, when a buy order is filled, a sell order of the same quantity is placed at a higher price. When a sell order is entirely filled, a buy order of the same amount is placed at a lower price, thus achieving automatic trading.
+5. The net capital difference between the repeated transactions and order placements in a grid strategy is a type of market-making income, which is credited directly into the available balance and is not locked.
 
-### 策略参数
+### Grid Strategy Parameters
 
-网格策略所需设置参数如下：
+The following parameters are required for a grid strategy:
 
-1. **价格区间：**由最低价格和最高价格组成，是网格策略的运行区间，所有网格订单价格不会超出区间。
-2. **初始投入：**运行策略需要锁定的初始资金，买单需要计价币种，卖单需要交易币种。
-3. **网格数：**同时运行的网格订单数量，不区分买入还是卖出。最少2格，最多255格。
-4. **每格数量：**网格订单的买卖数量，所有网格订单都一样。
-5. **网格宽度：**是网格策略盈利能力的重要参数。网格宽度 = (卖出价格 - 买入价格) / 卖出价格。
-6. **有效期：**网格策略于有效期满后自动过期，网格订单会自动取消。默认180天，最多365天。
+1. Price range: It comprises the lowest and the highest prices, representing the operational range of the grid strategy. No grid orders will exceed the range.
+2. Initial allocation: This is the initial funds locked to run a strategy. Quote tokens are required for buy orders, while base tokens are required for sell orders.
+3. Number of grids: This is the number of grid orders running simultaneously, irrespective of buying or selling. The minimum number of grids is 2, and the maximum is 255.
+4. Quantity per grid: This is the quantity to be bought or sold per grid order, which is the same for all grid orders.
+5. Grid Width: It is an important parameter that determines a grid strategy's profitability. Grid Width = (Sell Price - Buy Price) / Sell Price.
+6. Expiration: The grid strategy automatically expires when the validity period elapses, and grid orders are automatically cancelled. The default validity period is 180 days, and the maximum is 365 days.
 
-### 创建方式
+### Creation Method
 
-DeGate网站提供了一键创建和手动创建两种模式。一键模式下会根据交易对近期交易、账户可用余额、最小订单价值等数据，自动填入网格策略参数，用户可以调整初始投入参数。手动模式下用户则可以调整任意参数。如果参数相同，两种模式创建出的策略也相同，没有差异。
+DeGate offers two modes for creating a grid strategy: auto and manual. In the auto mode, parameters are automatically filled based on such information as recent transactions of the trading pair, available account balance and minimum order value requirements. Users can only adjust initial allocation. In the manual mode, users can modify all parameters. If parameters are the same, the strategies created under the two modes are identical with no difference.
 
-### 预览网格策略
+### Previewing a Grid Strategy
 
-用户设置了参数，完成创建之前，可在界面K线区预览全部的网格订单分布情况。
+Users can preview the distribution of all grid orders in the chart after they have configured the parameters but before a strategy is created.
 
-### 网格策略详情
+### Grid Strategy Details
 
-策略创建后，可查看详细数据，包括策略参数、运行中的网格订单、已成交的订单。也可以对策略做进一步操作，如取消策略、复制策略、图形化查看。
+After a strategy is created, users can view details such as strategy parameters, open grid orders, and completed orders. Users can also adjust the strategy, such as canceling the strategy, copying the strategy, or having a graphical display of the strategy.
 
-### 取消网格策略
+### Cancelling a Grid Strategy&#x20;
 
-用户能随时取消运行中的网格策略，这将取消其下所有进行中的网格订单，已锁定资金也立即变成可用状态。用户还可以在已取消的策略内，继续进行链上取消策略的操作。该操作需支付矿工费，而且网格订单越多，费用越高。
+Users can cancel a running grid strategy at any time, which will lead to the cancellations of all open grid orders and unfreeze the locked funds immediately. Users can also proceed to cancel the strategy on-chain after doing so off-chain. This operation incurs Gas fees which increase proportionally to the number of grid orders.
 
-### 复制网格策略
+### Copying a Grid Strategy
 
-用户可复制已经结束的策略，会把该策略的参数复制出来，以快速创建一个新的策略。
+Users can copy a closed strategy by replicating all its parameters to quickly create a new strategy.
 
-### 图形化查看
+### Graphical Display
 
-用户还能可视化地查看运行中的策略，在K线图上查看网格订单和近期成交。
+Users can also get a visual representation of a running strategy, and view grid orders and recent fills in the chart.
 
-### 流动性挖矿
+### Liquidity Mining
 
-DeGate流动性挖矿项目开始后，需以网格策略参与挖矿。详见：[liquidity-mining.md](liquidity-mining.md "mention")
+After the DeGate liquidity mining program starts, users participate in mining with a grid strategy. For more information, please refer to:[ liquidity mining](grid-strategy.md#liquidity-mining)

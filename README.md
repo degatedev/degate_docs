@@ -1,197 +1,203 @@
-# 概览
+# Overview
 
-## 序言 <a href="#preface" id="preface"></a>
+## Introduction <a href="#preface" id="preface"></a>
 
-本文档详细阐述了DeGate协议的设计理念、核心概念和主要功能。DeGate是基于ZK-Rollup技术的去中心化订单簿交易所，特点是资金自托管、速度快、矿工费成本低。本协议设计时始终坚持了以下原则：
+This document provides a detailed overview of the DeGate protocol, covering its design philosophy, key concepts, and main functions. DeGate is a decentralized order book exchange that leverages ZK-Rollup technology to offer self-custody of funds, fast transaction speeds, and low gas fees. The following principles have been followed during the protocol's design:
 
-### 无需信任 <a href="#trustless" id="trustless"></a>
+## Trustless
 
-存在DeGate协议的资金都是非托管式的，最高权限由用户掌握，其他角色无法触及用户的资产，主要体现在：
+Funds in the DeGate protocol are non-custodial, with users having complete control over their assets. No other roles can access a user’s funds. Specifically:
 
-* 交易未被确认超过规定时长后，用户可自主取回充值。
-* 用户可发起强制提现，进入逃离模式后自主取回存放在协议内的资产。
-* 所有涉及DeGate账户资产变化的操作，都需要用户签名才能完成，即在协议上确保资产的变化一定是经过用户授权才会发生。
-* 无需信任的订单取消，用户可以在区块链上追加确认，实现100%的无需信任。
-* DeGate协议需要至少45天延迟才可以完成升级，在此期间代码逻辑无法变更。
+* Users can unilaterally withdraw their deposits if a transaction is not confirmed before a preset deadline
+* Users can initiate a forced withdrawal to enter the exodus mode and withdraw their assets.
+* All operations involving asset changes in a user’s DeGate account require the user's signature, ensuring at the protocol layer that asset changes can only happen with users’ authorization.
+* Trustless order cancellation is possible, with users able to add confirmation on the blockchain for 100% trust-free cancellation.
+* The DeGate protocol requires a minimum timelock of 45 days to complete an upgrade, during which the code logic cannot be changed.
 
-### 免审核上币 <a href="#permissionless-listing" id="permissionless-listing"></a>
+## Permissionless Listing of Tokens
 
-只要有区块链钱包，无需身份审查，就能访问和使用DeGate。任何人都能在DeGate协议内上架任意符合标准ERC20规格的币种并进行交易。维持上币的开放性对DeGate来说意义重大。
+DeGate can be accessed and used with a blockchain wallet without KYC, and anyone can list and trade standard ERC20 tokens on top of the protocol. The ability to list any qualified token in a permissionless manner is a key feature of DeGate.
 
-### 经济安全 <a href="#economical-security" id="economical-security"></a>
+## Economic Security
 
-开放协议中实现免审核使用、免审核上币和免审核交易要同时考虑功能和经济方面的安全。DeGate是目前市面上唯一的实现了无审核上币的订单簿去中心化交易协议。DeGate协议经济安全的措施包括如下：
+For an open protocol, functional and economical security are equally, if not more, important than direct access, listing and trading. DeGate is the only order book DEX that allows for direct listing of tokens, and it adopts several measures to guarantee economic security, including:
 
-* 充值入账的免费额度
-* 币种分类属性
-* 特定的计价币种
-* 设置订单的最小价值要求
-* 设置风险价格和风险订单
-* 交易风险提示
-* 自动排除不符合标准ERC20规格币种的币种黑名单系统
+• Free gas fee quota for deposits
 
-详细介绍见：[economic-security.md](concepts/economic-security.md "mention")
+ • Token parameter configuration 
 
+• Specific quote tokens
 
+ • Minimum order size requirements
 
-DeGate在准入门槛、交易开放性、资金安全等多个方面都站在中心化的对立面，同时又能提供和中心化交易所类似的下单交易体验。
+ • Risk price and order 
 
-## 核心概念 <a href="#core-concepts" id="core-concepts"></a>
+• Trading risk warnings 
 
-DeGate协议的核心是ZK-Rollup技术，由链上和链下两部分构成，所有账户和资产变化通过链下处理后Rollup至链上智能合约。
+• A blacklist that automatically blocks the listing of non-standard ERC 20 tokens  
 
-* **链上部分：**部署于EVM网络的智能合约，存放资产、验证零知识证明、提供充值和提现方法
-* **链下部分：**DeGate链下节点，主要包括
-  * 前端网站：可通过浏览器访问的站点
-  * 交易系统：处理用户的下单，根据订单簿完成撮合；处理账户和资产变化的事件
-  * Operator：定期处理账户和资产的链下交易，生成zkBlock、调用电路、提交证明
-  * 电路：描述需要进行零知识证明的事件，被用于生成零知识证明
-  * 默克尔树：以树型结构存储了DeGate协议内的账户、资产和订单的数据
-  * 区块同步：观察和确认DeGate智能合约上发生的所有交易
-  * Postman：在EVM网络调用DeGate合约方法，提交zkBlock数据到合约
+For more details on these measures, please refer to [economic-security.md](concepts/economic-security.md "mention")
 
-<figure><img src=".gitbook/assets/Screen Shot 2022-10-14 at 10.37.50.png" alt=""><figcaption><p>DeGate协议框架</p></figcaption></figure>
+DeGate is designed to be the antithesis of centralization in areas such as barriers of entry, trading openness, and fund security, all while providing a similar trading experience as centralized exchanges.
 
-### EVM兼容 <a href="#evm-compatible" id="evm-compatible"></a>
+## Core Concepts
 
-DeGate协议支持EVM网络。测试网版本已经部署在Goerli，首个主网版本将会部署至以太坊主网。
+Zero Knowledge Rollup technology (ZK-Rollup) is at the heart of the DeGate protocol, consisting of on-chain and off-chain operations that enable off-chain processing of all account and asset changes followed by a rollup to the on-chain smart contract.
 
-### 用户请求和链下交易 <a href="#off-chain-request" id="off-chain-request"></a>
+**On-chain components:** the smart contract deployed on the EVM network, responsible for storing assets, verifying zero-knowledge proofs and providing deposit and withdrawal methods.
 
-DeGate协议中用户发起任何操作请求，都需要经过用户的私钥签名授权。涉及资产和账户变化的操作会作为链下交易进行处理。
+**Off-chain component:** the off-chain DeGate node, primarily comprised of
 
-### ZK-Rollup
+* A front-end website: a site accessible from a browser
+* The trading system: processing users’ orders and matching orders based on the order book; processing events of asset or account changes
+* Operator: processing off-chain account and asset transactions regularly, generating zkBlock, calling circuits, and submitting proofs
+* Circuit: describing events that require zero-knowledge proofs, used to generate zk proofs
+* Merkle tree: storing the data of accounts, assets and orders in the DeGate protocol in a tree structure
+* Chain Sync: observing and confirming all transactions that occur on the DeGate smart contract
+* Postman: Calling the DeGate smart contract method on the EVM network and submitting zkBlock data to the smart contract
 
-DeGate协议的ZK-Rollup过程可概括为下列三步：
+<figure><img src=".gitbook/assets/Screen Shot 2022-12-09 at 17.02.14.png" alt=""><figcaption><p>The DeGate protocol framework</p></figcaption></figure>
 
-1. 用户签名发起请求。
-2. 节点验证和处理用户请求，将链下交易打包出块，调用电路计算零知识证明。
-3. 节点将证明结果发到链上合约进行验证，完成ZK-Rollup，提供了资产的数据可用性。
+## EVM Compatibility
 
-了解更多：[introduction-to-zk-rollup.md](concepts/introduction-to-zk-rollup.md "mention")
+The DeGate protocol supports the EVM network. A DeGate testnet has been deployed on Goerli and the first DeGate mainnet will be deployed to the Ethereum mainnet.
 
-<figure><img src=".gitbook/assets/Screen Shot 2022-10-13 at 11.36.49.png" alt=""><figcaption><p>Zk-Rollup过程</p></figcaption></figure>
+## User Requests and Off-Chain Transactions
 
-### 签名 <a href="#sign-message" id="sign-message"></a>
+In the DeGate protocol, any user-initiated operation requests must be authorized with the user's private key signature. Operations involving changes to assets or accounts are processed as off-chain transactions.
 
-在DeGate内发起链下请求时需要签名，支持两种签名方式：ECDSA和EdDSA。钱包私钥完成ECDSA签名来解锁账户，生成一把EdDSA私钥，该私钥称为「资产私钥」。DeGate协议采用资产私钥对用户的链下请求做签名，因为EdDSA对零知识证明更加友好，能降低证明的计算成本。不同链下请求所需签名方式不同，例如下单时用EdDSA签名，无须用户在钱包内确认，而提现和转账请求仍需通过钱包确认ECDSA签名，兼顾了安全和便利。
+## ZK-Rollup
 
-了解更多：[signature-and-secret-key.md](concepts/signature-and-secret-key.md "mention")
+The ZK-Rollup process of the DeGate protocol can be summarized into three steps:
 
-### 账户 <a href="#account" id="account"></a>
+1. Users initiate a request with their signature.
+2. The DeGate node verifies and processes users’ requests, packages off-chain transactions into a block, and calls the circuit to compute a zero-knowledge proof.
+3. The node sends the proof to the on-chain smart contract for verification to complete ZK-Rollup, providing data availability for assets.
 
-DeGate协议的默克尔树记录了所有账户的权限和资产信息。用户首次使用时需以免审核的方式开通一个DeGate去中心化账户，即在默克尔树上的账户节点写入钱包地址、资产公钥等绑定关系。用户存入DeGate协议的链上资产，将被记账到相应的账户节点，用于交易挂单等操作。
+Fore more, please refer to [introduction-to-zk-rollup.md](concepts/introduction-to-zk-rollup.md "mention")
 
-了解更多：[account-structure.md](concepts/account-structure.md "mention")
+<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption><p>ZK-Rollup Process</p></figcaption></figure>
 
-### 划入 <a href="#deposit" id="deposit"></a>
+## Signature
 
-在DeGate开始交易前，需要先往DeGate账户划入资产。DeGate节点确认完用户的链上充值交易后，所转账数量就会计入DeGate账户的可用余额，该余额**立即可用于挂单等操作**；同时，Operator会发起一个确认资产划入的链下交易，并最终rollup到链上合约，以保证链上和链下数据的一致性。
+A signature is required when an off-chain request is initiated in DeGate, and two signature methods are supported: ECDSA and EdDSA. Users can use their "wallet private key” to complete the ECDSA signature and unlock their account, which will generate an EdDSA private key, called the "asset private key". The asset private key is used to sign users' off-chain requests as EdDSA is more zk-friendly while reducing the computational cost of proofs. Different off-chain requests require different signature methods. For example, an EdDSA signature is used for placing an order, without the need for users’ in-wallet confirmation. However, an ECDSA signature from the wallet is still required for withdrawal and transfer requests. This balances both security and convenience.
 
-了解更多：[deposit.md](main-features/deposit.md "mention")
+For more, please refer to [secret-key-and-signatures.md](concepts/secret-key-and-signatures.md "mention")
 
-### 发送 <a href="#withdraw" id="withdraw"></a>
+## Account
 
-用户发起发送的链下请求后，Operator会自动立即处理。这里需要强调，**DeGate中的发送不存在人工审核**。当包含了提现链下交易的zkBlock提交到链上区块后，用户就会收到发送的资产。为了实现100%资产自托管的属性，DeGate协议提供了强制提现方法，强制提现实现了用户以**不受任何阻拦**的方式自主取回其存放在DeGate协议中资产的功能。用户可在链上发起强制提现，强迫Operator处理；如果Operator没有在预先规定的时间内处理，则整个DeGate协议的运行关停，DeGate协议进入逃离模式**。**
+The Merkle tree in the DeGate protocol records all the accounts’ permissions and asset information. New users are required to create a decentralized DeGate account in a permissionless way to write their wallet address and assets’ public key into the account node on the Merkle tree for binding. The on-chain assets that users deposit into the DeGate protocol will be credited to a corresponding account node on the Merkle tree for future operations such as trading and placing orders.
 
-了解更多：[withdrawal.md](main-features/withdrawal.md "mention")
+Fore more, please refer to [account-structure.md](concepts/account-structure.md "mention")
 
-### 逃离模式
+## Add
 
-一旦进入逃离模式，用户可调用DeGate的智能合约，直接取回DeGate协议内的资产**。**DeGate智能合约会拒绝任何新的Rollup，所有链下请求将无法得到处理，所有DeGate账户和资产状态会停留在进入逃离模式前最后一次Rollup的状态**，**DeGate智能合约将以这个最后的状态来处置资产。为了取回资产，用户需解析DeGate合约所有Calldata数据来构建默克尔树，得到最新账户和资产状态，通过这些数据直接向DeGate智能合约取回资产。当然，解析最新账户和资产的状态，这件事可以委托第三方完成。
+Before starting trading on DeGate, users must first fund additions into their DeGate account. Following confirmation by the DeGate node of a user’s on-chain deposit transaction, the deposited amount will be credited to the user’s DeGate account balance, enabling an **immediate use for operations such as placing orders**. Simultaneously, the Operator will initiate an off-chain transaction for confirming the fund addition, and ultimately roll it up to the on-chain smart contract to guarantee the consistency of on-chain and off-chain data.
 
-了解更多：[exodus-mode.md](concepts/exodus-mode.md "mention")
+Fore more, please refer to [deposit.md](main-features/deposit.md "mention")
 
-### 协议费用 <a href="#protocol-fees" id="protocol-fees"></a>
+## Send
 
-DeGate协议费用有**矿工费**和**手续费**两类。ZK-Rollup会产生成本，包括交易上链的矿工费和零知识证明计算成本。为了协议经济安全，用户需要承担链下交易的矿工费。协议收入来自订单成交时的手续费，订单Taker承担矿工费和交易手续费。所有产生费用都进入DeGate HomeDAO金库。
+Once a user initiates an off-chain request for send, the Operator will automatically and immediately process the request. It is important to note that **all sends on DeGate are conducted without manual review**. Upon submission of the zkBlock containing the off-chain send transaction to the on-chain block, users will receive their sends. In order to achieve 100% self-custody of assets, the DeGate protocol provides a forced withdrawal method, which allows users to retrieve their assets stored in the DeGate protocol **without any impediments**. Specifically, users can initiate a mandatory on-chain withdrawal request and force the Operator to process the request. If the Operator fails to process the request before a preset deadline, the entire DeGate protocol will cease operation, and enter the exodus mode.
 
-了解更多：[protocol-fees.md](concepts/protocol-fees.md "mention")
+Fore more, please refer to [withdrawal.md](main-features/withdrawal.md "mention")
 
-### 交易系统 <a href="#trading-system" id="trading-system"></a>
+## Exodus Mode
 
-交易系统是订单簿交易的核心模块，主要包含了交易对、订单簿、撮合逻辑、订单记录等。全部链下请求先通过交易系统的校验，再交给Operator处理。订单撮合逻辑和中心化交易所一样，按照时间优先，然后价格优先顺序依次匹配。
+Once in the exodus mode, users can call the DeGate smart contract to retrieve their assets from the DeGate protocol. The DeGate smart contract will reject any new rollup of transactions, and all off-chain requests will not be processed. All DeGate accounts and assets will remain in the state of the most recent rollup prior to entering the exodus mode, and the DeGate smart contract will handle assets accordingly. To retrieve assets, users must parse all the Calldata data of the DeGate smart contract to create a Merkle tree, obtain the latest account and asset status, and retrieve assets from the DeGate smart contract with these data. Users may engage a third party to perform the parsing of the latest account and asset status.
 
-### 币种和交易对 <a href="#token-and-pair" id="token-and-pair"></a>
+Fore more, please refer to [exodus-mode.md](concepts/exodus-mode.md "mention")
 
-**添加新资产和交易对无需人工审核**，任何人都可以在DeGate协议上架符合标准ERC20规范的资产。具体来说，发起者先向DeGate合约注册币种，然后在DeGate节点添加该币种的交易对，就能开启新的交易对。
+## Protocol Fee
 
-目前协议开放的交易对计价币种包括ETH、USDC、USDT，即每个币种都可以添加3个不同交易对。
+There are two types of DeGate protocol fees- **Gas Fees** and **Trading Fees**. The ZK-Rollup incurs costs, including Gas fees for rolling up the transactions on-chain and computational costs for generating ZK proofs. To ensure the economic security of the protocol, users are required to pay the gas fees for off-chain transactions. The protocol generates income from the trading fees that are charged when an order is filled. The order’s taker pays both the gas fees and transaction handling fees. All the fees collected are deposited into the DeGate HomeDAO vault.
 
-对于部分非标准的ERC20资产，比如转账燃烧和自动更新数量的币种，DeGate节点做相应的额外处理后也能支持上币和开通交易，但需要根据情况逐一评估和调整。
+Fore more, please refer to [protocol-fees.md](concepts/protocol-fees.md "mention")
 
-了解更多：[permissionless-listing.md](main-features/permissionless-listing.md "mention") [trading-pair.md](main-features/trading-pair.md "mention")
+## Trading System
 
-### 安全审计 <a href="#security-audit" id="security-audit"></a>
+The trading system is the core module of order book trading, which mainly comprises trading pairs, the order book, the matching logic and order records. All off-chain requests must be verified by the trading system first before being handed over to the Operator for processing. The matching logic used in the trading system is identical to that of a centralized exchange, which means orders are matched sequentially first by time priority and then price priority.
 
-目前为止DeGate协议的电路逻辑和智能合约正在进行或已完成了至少两家专业安全团队的审计。查看[审计报告](https://github.com/degatedev/protocols/tree/degate\_mainnet/packages/loopring\_v3/security\_audit)。
+## Tokens and Trading Pairs
 
-### 可信配置(Trusted Setup) <a href="#trusted-setup" id="trusted-setup"></a>
+**Adding new assets and trading pairs does not require manual review**, and anyone can list standard ERC20 assets on the DeGate protocol. Specifically, the initiator first registers a token with the DeGate smart contract, and then adds trading pairs for the token in the DeGate node.
 
-DeGate协议部署到以太坊主网的时候，需要对电路与合约进行初始化设置，此过程因为会引入随机熵而被称作Trusted Setup。DeGate协议的Trusted Setup分为两个阶段
+Currently, the protocol supports ETH, USDC, and USDT as quote token, which means each token can add up to 3 different trading pairs.
 
-1. 引用[powers-of-tau](https://github.com/weijiekoh/perpetualpowersoftau/)的配置作为初始值。
-2. 基于初始值，引入一个未来的比特币区块哈希，然后找5名社区成员各自输入随机熵，接着再引入另一个未来的比特币区块哈希，最终计算出Proving Key和Verifying Key，分别放入电路与合约。
+For some non-standard ERC20 assets, such as tokens with a transfer-to-burn mechanism or automatic supply updates, the DeGate node can support their listing and trading as well after additional processing on a case-by-case basis.
 
-参考资料：[Vitalik - How do trusted setups work?](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
+For more, please refer to [permissionless-listing.md](main-features/permissionless-listing.md "mention") and [trading-pairs.md](main-features/trading-pairs.md "mention")
 
-### DeGate节点 <a href="#degate-node" id="degate-node"></a>
+## Security Auditing
 
-目前DeGate协议的链下部分为单节点运行模式，由节点运营方负责。单节点可能出现故障或作恶的情况和应对方式如下：
+The circuit logic and smart contract of the DeGate protocol are undergoing or have completed audits by at least two professional security teams. View [audit reports](https://github.com/degatedev/protocols/tree/degate\_mainnet/packages/loopring\_v3/security\_audit).
 
-1. **节点不处理链下请求。**为应对这种情况，用户可以发起强制提现取回资产，如果DeGate对于强制提现的链上请求都不处理，那么在预先规定的时间后，任何人都可以让DeGate协议进入逃离模式，之后用户可直接向DeGate智能合约提取属于自己的资产。
-2. **订单簿成交抢跑(Frontrun)。**市价单保护价功能可将用户可能受到的抢跑损失限定较小的范围。
-3. **代码安全风险：**开源与钱包和资产交互的代码并独立部署，供前端网站调用，确保资产操作过程不被恶意代码伪造。
-4. **接口通信安全：**前端和后端之间调用接口时，通过约定的私钥签名验签来确保所通信数据没有被篡改。
+## Trusted Setup
 
-### 更多特点 <a href="#more-features" id="more-features"></a>
+When the DeGate protocol is deployed to the Ethereum mainnet, it is necessary to initialize both the circuit and the smart contract. This process, known as the Trusted Setup, entails the introduction of random entropies. The Trusted Setup for the DeGate protocol comprises two phases:
 
-为了使DeGate协议更加Trustless，降低用户成本和方便专业用户使用，还加入了以下功能：
+1. Referencing the configuration of [powers-of-tau](https://github.com/weijiekoh/perpetualpowersoftau/) as the initial value.
+2. Based on the initial value, introducing a future Bitcoin block hash. 5 community members are then asked to input a random entropy respectively, followed by the introduction of another future Bitcoin block hash. Finally, the Proving Key and Verifying Key are calculated, which are subsequently put in the circuit and smart contract respectively.
 
-* 链上追加取消订单
-* 去中心化网格策略
-* 聚合交易
-* 转账方式划入（标准划入）
-* 高级账户与交易私钥
-* SDK工具和文档
-* Shutdown模式
+For more, please refer to [Vitalik - How do trusted setups work?](https://vitalik.ca/general/2022/03/14/trustedsetup.html)
 
-## 主要功能 <a href="#features" id="features"></a>
+## DeGate Node
 
-### 1. 兼容性 <a href="#compatible" id="compatible"></a>
+Currently, the off-chain components of the DeGate protocol operates on a single node, with a node operator in charge. The situations where the node may fail or do evil and corresponding countermeasures are listed as follows:
 
-DeGate网站可通过Web浏览器和移动浏览器访问，Web端支持Metamask插件钱包、WalletConnect协议和Ledger硬件钱包，Mobile端支持主流手机钱包和WalletConnect协议。
+1. **The nodes fails to process off-chain requests.** To deal with this situation, users can initiate a mandatory withdrawal to retrieve their assets. If DeGate fails to process this on-chain request for mandatory withdrawal before a preset deadline, then anyone can force the DeGate protocol into the exodus mode. Users then can retrieve their assets directly from the DeGate smart contract.
+2. **Order book Frontrun:** The market order slippage protection feature limits the possible scope of front-running losses that a user may suffer.
+3. **Code security risk:** the code that interacts with wallets and assets is open-sourced and deployed separately for calls by front-end websites to ensure that the asset operation process is not forged by malicious code.
+4. **End point security:** When APIs are called between the front end and the back end, a pre-agreed private key signature will be verified to ensure that the communicated data has not been tampered with.
 
-### 2. 账户管理 <a href="#manage-account" id="manage-account"></a>
+## More Features
 
-管理DeGate账户就是管理资产私钥，包括新账户开通，每次登录时的解锁账户，重置和查看资产私钥。
+To make the DeGate protocol more trustless and reduce costs for users while facilitating professional users’ experience, the following functions have been added:
 
-### 3. 资产管理 <a href="#manage-asset" id="manage-asset"></a>
+* The ability to cancel orders on-chain
+* Decentralized grid trading strategy
+* Aggregate transactions
+* Add by transfer (standard additions)
+* Advanced accounts and trading private key
+* SDK tooling and documentation
+* Shutdown mode
 
-除了划入和发送资产，还可以进行DeGate账户间的内部转账。内部转账是一种链下请求，需要Rollup上链，但只要发起签名，就能立即完成向目标账户的转账，并且所需矿工费相比链上转账低得多。
+## Main Functions
 
-### 4. 订单簿交易 <a href="#orderbook-trade" id="orderbook-trade"></a>
+### 1. Compatibility
 
-提供限价单和市价单两种下单模式。限价单适用于按指定价格成交的场景， 还具备Post-Only功能，可以只下Maker订单。市价单适合希望以订单簿目前最优价格快速成交的用户，DeGate具有价格滑点保护功能，避免订单簿深度不佳时的市价单扩大损失。
+The DeGate website can be accessed through web and mobile browsers, including the web-based Metamask plug-in wallet, WalletConnect protocol and Ledger hardware wallet, as well as mainstream mobile wallets and mobile-based WalletConnect protocol.
 
-### 5. 免审核上币 <a href="#permissionless-listing-token" id="permissionless-listing-token"></a>
+### 2. Account Management
 
-输入币种合约地址，发起链上合约调用，便可添加新资产。
+To manage a DeGate account is to manage its asset private key. Account management involves creating a new account, unlocking the account during login, resetting and viewing the asset private key.
 
-### 6. 免审核添加交易对 <a href="#permissionless-add-pair" id="permissionless-add-pair"></a>
+### 3. Asset Management
 
-选择一个交易币种（Base Token）和一个计价币种（Quote Token），即可组成交易对，立即完成交易对添加并开始交易。
+In addition to fund additions and sends, internal transfers between DeGate accounts are also supported. Internal transfer is an off-chain request that will be rolled up on-chain. However, as long as a signature is initiated, the transfer to the target account can be completed immediately, and the gas fee is much lower than that of on-chain transfers.
 
-### 7. 网格策略 <a href="#grid-strategy" id="grid-strategy"></a>
+### 4. Order Book Trading
 
-DeGate协议以资产自托管的方式提供了网格策略的交易能力。与订单簿下单类似，用户会用资产私钥签名一个网格策略，DeGate节点验证后，订单簿会挂上初始网格订单。某一个网格订单被撮合成交后，电路验证该笔撮合符合用户的签名授权；当一个网格订单被完全成交后，DeGate节点会依照用户事先授权的签名来派生出一个新的网格订单，以此往复循环，实现完整的网格策略交易。网格策略的订单和普通交易使用同一个订单簿。
+DeGate offers two order types: limit and market orders. Limit order applies to the scenario where users set a desired execution price. It also has a Post-Only function, enabling users to place Maker orders only. Market orders are suitable for users who want to get a quick execution at the current best price in the order book. DeGate has a price slippage protection function to avoid magnified losses for orders when the depth is poor.
 
-此外DeGate还提供了网格下单预览、图形化展示订单和近期成交、网格数据统计和历史明细等功能，便于用户了解自己的网格策略。
+### 5. Permissionless Token Listing
 
-### 8. 流动性挖矿 <a href="#yield-farming" id="yield-farming"></a>
+Users can directly add new assets by entering the token's contract address and initiating a on-chain smart contract call.
 
-流动性挖矿是DeGate完成冷启动的重要途径，以保证交易对有足够的流动性来满足交易需求。以交易对为单位，用户创建同时符合资金条件和价格条件的网格策略，便能参与挖矿。挖矿奖励每隔15秒进行一次计算和分配。值得注意的是，该挖矿奖励独立于网格策略的做市收益，为用户额外得到的收益。
+### 6. Permissionless Addition of Trading Pairs
 
-### 9. 历史记录 <a href="#history" id="history"></a>
+Users can select a Base Token and a Quote Token to form a trading pair and immediately add the trading pair to start trading.
 
-DeGate协议还提供了账户的详细历史记录，包括划入、发送、转账历史，订单和成交历史，网格策略记录，账户活动等。
+### 7. Grid Strategy
+
+The DeGate protocol allows users to trade with a grid strategy while maintaining self custody of their assets. Similar to placing an order in the order book, users can sign a grid strategy with their asset private key. After verification by the DeGate node, the initial grid orders will be added to the order book. After a grid order is matched and completed, the circuit verifies that the match aligns with the user's signed authorization. When a grid order is completely filled, the DeGate node will derive a new grid order according to the user's pre-authorized signature. This process keeps cycling for complete grid strategy trading. Grid strategy orders and ordinary orders share the same order book.
+
+In addition, DeGate provides other functions, including grid order preview, graphical display of orders and recently closed orders, grid data statistics and historical details, etc., so that users understand their grid strategies.
+
+### 8. Liquidity Mining
+
+Liquidity mining is an element for DeGate’s cold start as it helps ensure sufficient liquidity for trading pairs. Users can participate in liquidity mining by creating a grid strategy that meets both the value and price conditions for a specific trading pair. Mining rewards are calculated and distributed every 15 seconds, providing an additional source of income for users that is independent of the market-making income from their grid strategy.
+
+### 9. Historical Records
+
+The DeGate protocol also provides detailed historical records of an account, including fund additions, send, transfer history, order and transactions history, grid strategy records, account activities, and etc.

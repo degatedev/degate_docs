@@ -1,23 +1,23 @@
-# 划入
+# Add
 
-往DeGate账户划入资产后，资产可用来挂单交易。如图所示，用户链上发起一笔资产充值交易，交易入块并通过12个区块确认后，DeGate节点会把充值数量计入账户可用余额，用户就能立即使用这笔资产。同时，Operator会发起一笔确认充值的链下交易，经过打包、出块、生成证明流程、更新默克尔树资产一系列操作后，最终rollup到链上，完成资产划入。
+Once assets are added into a user’s DeGate account, they become available for placing orders and transactions. As illustrated in the figure below, the user initiates a depposit transaction on-chain. After the transaction is included in a block and confirmed after 12 blocks, the DeGate node will credit the deposited amount into the user’s DeGate account balance, so that the user can immediately use these assets. Meanwhile, the Operator will initiate an off-chain transaction to confirm the deposit. The transaction goes through several phases, including block inclusion, block production, proof generation, and updating assets in the Merkle tree, before being rolled up on chain, thereby completing the fund addition.
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-10-07 at 13.09.58.png" alt=""><figcaption><p>充值过程</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screen Shot 2022-12-09 at 16.47.00.png" alt=""><figcaption><p>Deposit Process</p></figcaption></figure>
 
-### 高级划入和标准划入
+### Advanced and Standard Additions
 
-通过调用DeGate智能合约方法完成划入的过程，在degate网站中称为「高级划入」。所有资产都可用这种方式完成资产划入，并且对划入数量没有特殊限制。
+Advanced add refers to the add process achieved by calling the DeGate smart contract method. All assets can be added in this way, with no special limit on the added amount.
 
-为了降低用户的划入成本，DeGate提还供了标准划入，用户直接转账到DeGate合约地址便可完成资产划入。但标准划入方法无法实现资产完全trustless，用户需要信任DeGate节点会如实入账。所以节点运营方也限制了标准划入的资金量和支持的币种范围，来减少可能的用户损失。
+To reduce costs for users, DeGate also offers a standard add option where users can directly transfer their assets to the DeGate contract address to complete the fund addition. However, the standard add method does not guarantee complete trustlessness and users must trust that the DeGate node will accurately credit their assets into their account balance. Therefore, the node operator imposes limits on the amount of funds that can be added and supported tokens using the standard add method to reduce potential losses suffered by users.
 
-<table><thead><tr><th width="195">对比</th><th width="277">高级划入</th><th>标准划入</th></tr></thead><tbody><tr><td>用户发起的资产划入交易Gas使用量<span data-gb-custom-inline data-tag="emoji" data-code="0031">1</span></td><td>ETH：~110141<br>ERC20：~132605</td><td>ETH：~21055<br>ERC20：~60000</td></tr><tr><td>入账时间</td><td>资产划入交易12个区块确认</td><td>资产划入交易12个区块确认</td></tr><tr><td>适用资产</td><td>全部</td><td>部分，节点运营方配置</td></tr><tr><td>Trustless</td><td>DeGate合约会校验划入目标地址和资产数量。如果划入未得到处理，一段时间后可调用合约方法取回。</td><td>DeGate合约只能校验资产数量，无法校验划入目标地址。<strong>DeGate节点有能力修改目标地址</strong>。如果划入未得到处理，用户无法自行取回，需要联系节点运营方退币。</td></tr><tr><td>限制</td><td>无限制</td><td>单笔划入有金额限制；<br>所有待确认的标准划入资产有金额总量限制</td></tr></tbody></table>
+<table><thead><tr><th width="254">Comparison</th><th width="241">Advanced Additions</th><th width="250">Standard Additions</th></tr></thead><tbody><tr><td>Gas usage of user initated add transaction <span data-gb-custom-inline data-tag="emoji" data-code="0031">1️</span></td><td>ETH: ~110141<br>ERC20: ~132605</td><td>ETH: ~21055<br>ERC20: ~60000</td></tr><tr><td>Credit Duration</td><td>After the add transaction received 12 block confirmations</td><td>After the add transaction received 12 block confirmations</td></tr><tr><td>Applicable Asset</td><td>All</td><td>Selected assets based on the configuration of node operator.</td></tr><tr><td>Trustless</td><td>DeGate smart contract will verify the add address and asset amount. If the fund addition is not processed after a period of time, users can call a smart contract function to retrieve their asset</td><td>DeGate smart contract can only verify the asset amount and is unable to verify the add address. Technically, it is possible for the DeGate node to amend the add address. If the fund addition is not processed, users cannot retrieve it on their own and they will have to contact the node operator to return the tokens.</td></tr><tr><td>Restrictions</td><td>None</td><td>There is an add amount limit per fund addition and there is also a limit on the amount for all pending fund additions.</td></tr></tbody></table>
 
-注:digit\_one:：Gas消耗为测试结果平均值。划入ERC20币种的Gas消耗与其合约方法实现相关，可能实际会更多。
+Note:digit\_one:: The gas consumption here represents the average value obtained from our testing results. The actual gas consumption for adding ERC20 tokens is related to the contract implementation method, and could exceed the reference value in the table.
 
-### 付费入账
+### Paid Fund Additions
 
-通常情况下，节点补贴了确认划入请求的L1矿工费成本，用户只需要承担发资产划入交易的费用。为防止机制被利用，引入了免费补贴次数，设定了上限，被使用后会随时间线性恢复。高级划入和标准划入的参数各不同。免费次数用完后，用户的划入需要付费才能确认入账。
+Typically, the DeGate node subsidizes the L1 Gas fees for confirming fund addition requests, and users only need to bear the cost of initiating the add transaction. However, to prevent exploitation of the mechanism, a cap is placed on the number of free fund additions. With each fund addition, the number of free fund additions will decrease. However, this number will recover linearly over time. The parameters for advanced and standard additions differ. Once the number of free fund additions is exhausted, users must pay to have their fund additions credited to their account.
 
-高级划入的付费入账逻辑由DeGate合约控制。调用合约之时如果免费次数正好用完，则用户需要在交易中额外支付0.01 ETH（该参数由节点运营方设置），否则资产划入交易会失败。
+The paid fund addition logic for advanced Addition is controlled by the DeGate smart contract. If the number of free fund additions has been exhausted when a user calls the contract, they will need to add an extra 0.01 ETH to the transaction (this parameter is set by the node operator). Otherwise the add transaction will fail.
 
-标准划入的付费入账逻辑由DeGate节点控制。不同的是，当DeGate节点确认资产划入交易时才判断免费次数。这时如果免费次数刚好用完，用户需要另外支付一笔ETH费用（该参数由节点运营方设置）来完成入账。用户可以在「资产记录」中找到这笔划入记录，点击「付费入账」完成操作。
+The paid fund addition logic for standard addition is controlled by the DeGate node. The difference is that the the DeGate node will only check the number of free fund additions when confirming the add transaction. If the number of free fund additions has been exhausted, users must pay a certain amount of ETH fees (this parameter is set by the node operator) to complete the fund addition. Users can locate the add record in the "Assets Record” section and click “Paid Add" to complete the operation.
