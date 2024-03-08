@@ -14,6 +14,10 @@ To begin mining on DeGate, all of the following requirements must be met:
 2. **Order value**: Whether a grid order meets the order value conditions for mining is determined at the time of grid strategy creation. Users can preview whether each grid order meets this criterion.
 3. **Order price**: To incentivize users to contribute effective liquidity, the DeGate protocol makes a judgment every 15 seconds and allocates mining rewards to orders within the required price range and meeting the aforementioned conditions.&#x20;
 
+{% hint style="info" %}
+_Note: The minimum mining order amount per grid is $120_
+{% endhint %}
+
 While the first two conditions are static and determined when a grid strategy is created, the third condition is dynamic, excluding some grid orders from receiving mining rewards. Grid strategies with the same initial allocation may receive different mining rewards if they have different price ranges and numbers of grids.
 
 **In addition, if a grid strategy is created earlier than a mining pool starts, such strategy can automatically be involved in mining once it starts. Users do not need to cancel an existing grid strategy and create a new one.**
