@@ -48,7 +48,7 @@ The whole system is an [open protocol](what-is-degate/permissionless-listing.md)
 
 ## Roadmap
 
-DeGate is working towards a fully decentralized limit order trading protocol built on a DAO-centric model. All liquidity comes from the community, and all income belongs to the DAO. It is a grand and challenging project that will be implemented in multiple milestones, but even in the first version, the protocol still guarantees a [trustless](broken-reference/) system where all assets are owned by the user.
+DeGate is working towards a fully decentralized limit order trading protocol built on a DAO-centric model. All liquidity comes from the community, and all income belongs to the DAO. It is a grand and challenging project that will be implemented in multiple milestones, but even in the first version, the protocol still guarantees a [trustless](what-is-degate/trustless-and-decentralized.md) system where all assets are owned by the user.
 
 ### Phase 1 - Testnet Launch
 
