@@ -6,7 +6,7 @@ description: >-
 
 # A ZK Rollup DEX Protocol
 
-DeGate is a Decentralized Exchange (DEX) protocol built on Zero Knowledge (ZK) technology. As a ZK Rollup, DeGate fills a key gap in the market by providing spot order book trading and grid trading within the Ethereum ecosystem, offering an experience similar to centralized exchanges (CEX). DeGate is a [DAO-centric](broken-reference/) protocol, with a DAO fully controlling its treasury. DeGate is a protocol of the community, by the community, and for the community.
+DeGate is a Decentralized Exchange (DEX) protocol built on Zero Knowledge (ZK) technology. As a ZK Rollup, DeGate fills a key gap in the market by providing spot order book trading and grid trading within the Ethereum ecosystem, offering an experience similar to centralized exchanges (CEX). DeGate is a [DAO-centric](what-is-degate/degate-dao.md) protocol, with a DAO fully controlling its treasury. DeGate is a protocol of the community, by the community, and for the community.
 
 The protocol enables several functions, including Spot Trading and Grid Trading, with more features to be added to enable a coherent trading experience.
 
@@ -40,11 +40,11 @@ In the long term, the goal of DeGate protocol is to implement a standalone open-
 
 **Trustless**
 
-DeGate was designed such that the user always has the highest authority, and no malicious or centralized authority has access to the user's assets. In this sense, malicious actors "can't do evil" because of DeGate's non-custodial. Additionally, smart contracts can be upgraded only after a substantial timelock of 45 days. See details [here](broken-reference/).
+DeGate was designed such that the user always has the highest authority, and no malicious or centralized authority has access to the user's assets. In this sense, malicious actors "can't do evil" because of DeGate's non-custodial. Additionally, smart contracts can be upgraded only after a substantial timelock of 45 days. See details [here](what-is-degate/trustless-and-decentralized.md).
 
 **Permissionless**
 
-The whole system is an [open protocol](broken-reference/). Any token can be listed on DeGate by anyone. And anyone who has a blockchain wallet can directly use DeGate.
+The whole system is an [open protocol](what-is-degate/permissionless-listing.md). Any token can be listed on DeGate by anyone. And anyone who has a blockchain wallet can directly use DeGate.
 
 ## Roadmap
 
