@@ -46,4 +46,5 @@
 
 * [网格策略创建指南](product-tutorial/wang-ge-ce-lve-chuang-jian-zhi-nan.md)
 * [在DeGate DEX自主上架代币](product-tutorial/zai-degate-dex-zi-zhu-shang-jia-dai-bi.md)
+* [网格策略创建指南（移动端）](product-tutorial/wang-ge-ce-lve-chuang-jian-zhi-nan-yi-dong-duan.md)
 * [网格策略创建指南](product-tutorial/create-a-grid-strategy.md)
