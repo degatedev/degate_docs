@@ -47,4 +47,3 @@
 * [网格策略创建指南](product-tutorial/grid-strategy-creation-guide.md)
 * [网格策略指南](product-tutorial/grid-strategy-guidebook-draft.md)
 * [网格策略指南（移动版）](product-tutorial/wang-ge-ce-lve-zhi-nan-yi-dong-ban.md)
-* [网格策略创建指南（移动端）](product-tutorial/grid-strategy-creation-guide-moblie.md)
