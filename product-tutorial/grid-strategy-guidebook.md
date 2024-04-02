@@ -1,62 +1,62 @@
-# Grid Strategy Guidebook
+# 网格策略指南（草稿）
 
-Grid Strategy or grid trading is a powerful trading tool that automates buying and selling within a defined range. A grid strategy automatically places _buy_ orders when prices drop and _sell_ orders when they rise, allowing you to capitalize on market fluctuations and generate profits. &#x20;
+网格策略或网格交易是一种强大的交易工具，可以在设定的区间内进行自动化买卖。网格策略在下跌时自动下达_买入_订单，在上涨时自动下达_卖出_订单，让您能够利用市场波动获得收益。
 
-### How to set up Grid Strategy on DeGate?&#x20;
+#### 如何在DeGate上设置网格策略？&#x20;
 
-Let's use the guided example below, using ETH/USDC pair.
+以 ETH/USDC 交易对为例
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 4.06.19 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.23.22.png" alt=""><figcaption></figcaption></figure>
 
-#### **Select Grid Strategy mode**
+**选择网格策略模式**&#x20;
 
-There are 2 Grid Strategy modes to choose from.
+有2种网格策略模式可供选择。
 
-**Auto:** Set up Grid Strategy using auto-generated parameters recommended by the system.
+**一键创建**：使用系统推荐的自动生成的参数设置网格策略&#x20;
 
-**Manual:** Customize Grid Strategy parameters to match your preferences.
+**手动创建**：自定义网格策略参数以匹配您的偏好&#x20;
 
 {% hint style="info" %}
-For newcomers to Grid Strategy, it is recommended to start with \[Auto] mode.
+对于网格策略的新手来说，建议从\[一键创建]模式开始。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 4.29.57 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.26.47.png" alt=""><figcaption></figcaption></figure>
 
-#### **Set up Grid Strategy \[AUTO]**
+**设置网格策略\[一键创建]**&#x20;
 
-1. Click the \[Auto] tab
-2. Enter the amount to allocate for Grid Strategy \[ETH/USDC].  Input either ETH or USDC amount and the system will calculate the corresponding amount for the Grid Strategy.&#x20;
+1. 点击\[一键创建]
+2. 输入用于网格策略 \[ETH/USDC] 的初始投入金额。输入 ETH 或 USDC金额，系统将自动计算出另一种代币对应所需的数量。
+
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.54.23.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Do ensure you have sufficient ETH and USDC in your DeGate balance.&#x20;
+请确保您在DeGate余额中有足够的ETH和USDC。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 4.40.02 PM (2).png" alt=""><figcaption></figcaption></figure>
+3. 将显示推荐的网格参数。&#x20;
+4. 点击“创建网格策略”完成设置并开始等待价格波动产生盈利。
 
-3. The recommended parameters will be displayed.&#x20;
-4. Click "Create Grid Strategy" to complete setup and start earning.&#x20;
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.55.17.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 4.40.32 PM (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.55.57.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 6.17.49 PM.png" alt=""><figcaption></figcaption></figure>
+**设置网格策略\[手动创建]**&#x20;
 
-#### **Set up Grid Strategy \[MANUAL]**
-
-1. Click on \[Manual] tab. You can modify the parameters for your customized Grid Strategy.
-2. Price Range: The upper and lower limit prices define the price range in which the Grid Strategy will run.&#x20;
-3. Initial Allocation: The amount of funds to allocate for Grid Strategy. Input either ETH or USDC amount and the system will calculate the corresponding amount.
-4. Number of Grids: The number of buy and sell orders the Grid Strategy will place within the Price Range.
-5. Quantity per Grid(>$100): The amount of ETH allocated for each grid order.
-6. Click "Create Grid Strategy" to complete setup and start earning.&#x20;
+1. 点击\[手动创建]。您可以修改自定义网格策略参数。&#x20;
+2. 价格区间：上限和下限价格定义了网格策略将运行的价格范围。&#x20;
+3. 初始投入：用于网格策略的资金（ETH和USDC）的金额。输入ETH或USDC数量，系统将自动计算另一代币所需的数量。&#x20;
+4. 网格数：网格策略将在价格范围内下达的买卖订单数量。&#x20;
+5. 每格数量(≥$100)：为每个网格订单分配的ETH数量。&#x20;
+6. 点击“创建网格策略”完成设置并开始等待价格波动产生盈利。
 
 {% hint style="info" %}
-There is a minimum order size requirement of $100 for each grid order.
+每个网格订单有最低$100的金额要求
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 10.44.41 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.25 (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 11.27.24 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.39.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-For optimal profitability, it is recommended to set up the Grid Strategy such that the current market price falls within the price range.
+为了使网格策略获得最佳盈利，建议在当前市场价格上下设定网格策略的价格区间
 {% endhint %}
