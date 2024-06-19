@@ -27,7 +27,7 @@ function notifyForcedRequestTooOld(
 )
 ```
 
-After Exodus Mode enable, users can call `withdrawFromMerkleTree` to to withdraw their assets.
+After Exodus Mode enable, users can call `withdrawFromMerkleTree` to withdraw their assets.
 
 ```
 function withdrawFromMerkleTree(
