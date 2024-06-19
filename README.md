@@ -50,9 +50,23 @@ The whole system is an [open protocol](what-is-degate/permissionless-listing.md)
 
 DeGate is working towards a fully decentralized limit order trading protocol built on a DAO-centric model. All liquidity comes from the community, and all income belongs to the DAO. It is a grand and challenging project that will be implemented in multiple milestones, but even in the first version, the protocol still guarantees a [trustless](what-is-degate/trustless-and-decentralized.md) system where all assets are owned by the user.
 
-### Phase 1 - Testnet Launch
+### Phase 1 - Project Launch
 
-**Expected time to launch: 1st Quarter, 2022**
+**Expected time to launch: 2021**
+
+The whitepaper for DeGate 1.0 will be released ([Update here](https://medium.com/degate/degate-is-coming-eab53e115f62)). In line with our commitment to a fair launch, two major community events will enable participation in DeGate's development DeGate.\
+1\) Liquidity Bootstrapping Pool on Balancer
+
+This event allows the community to actively participate in DeGate's growth. The Balancer LBP was chosen for its effectiveness in preventing frontrunning, unnecessary speculation, and other undesirable activities. It ensures initial token distribution and liquidity within a stable price range at launch.
+
+\
+2\) Social Network-based Token Offer
+
+This is an early opportunity for active social media users to buy DG tokens at a preferential rate in a unique initial Social Network Offering.
+
+### Phase 2 - Testnet, Security Testing
+
+**Expected time to launch: 2022**
 
 DeGate trading deployed on Ethereum testnet. All major features will be launched at this stage and delivered to all users for use on the testnet. This will demonstrate the product features to the community and allow for rapid feedback and iteration.
 
@@ -73,9 +87,9 @@ In this phase, concrete actions to be completed include:
 3. Performance and throughput testing, tuning
 4. Improvement and optimization of the gas fee billing system
 
-### Phase 2 - Mainnet Beta
+### Phase 3 - Mainnet Beta, Product
 
-**Expected launch: 1st Quarter, 2023**
+**Expected launch: 2023**
 
 DeGate spot component deployed on Ethereum mainnet with a whitelist. Real Ethereum ERC20 assets will be supported for trading in this version. Early community contributors, partners, market makers, and developers will be given priority on the whitelist to test and use DeGate.
 
@@ -90,21 +104,21 @@ In this phase, concrete actions to be implemented include:
 2. Preparation for partial governance by DAO of token economy and parameter settings
 3. Construction of developer community and market maker ecosystem
 
-### Phase 3 - Mainnet Launch (DeGate 1.0)
+### Phase 4 - Mainnet Launch, Marketing Camapigns Launch (DeGate 1.0)
 
-**Expected launch: 3rd/4th Quarter 2023**
+**Expected launch: 2024**
 
-In this phase, the restrictions on whitelist registration will be removed. The protocol will be open to anyone to use.
+In this phase, the restrictions on whitelist registration will be removed, opening the protocol to everyone. To attract an initial user base, liquidity mining incentives will be offered. Token distributions from our unique social media round and other allocations will also begin.
 
-To attract an initial user base, liquidity mining incentives will be provided. In addition, the distributions of tokens awarded in our unique social media round, as well as other distributions will also commence at this time.
+The primary focus will be on continual product enhancements to achieve a strong Product Market Fit (PMF) for DeGate. Marketing campaigns, small-scale PR efforts, and Key Opinion Leader (KOL) partnerships will be implemented to gather valuable feedback from the community.
 
-In this phase, DeGate will continue to develop the DAO-centric model of governance, giving increased voting power and incentives to token holders.
+DeGate will further develop the DAO-centric governance model, enhancing voting power and incentives to token holders.
 
-At this stage, it is important to note that the protocol will be served by a single match node, with full decentralization addressed in Phase 4.
+At this stage, it is important to note that the protocol will be served by a single match node, with full decentralization addressed in Phase 5.
 
-### Phase 4 - Hyper Scalability (DeGate 2.0)
+### Phase 5 - Hyper Scalability (DeGate 2.0)
 
-**Expected launch: 2024 and beyond**
+**Expected launch: 2025 and beyond**
 
 [EIP-4844 ](https://eips.ethereum.org/EIPS/eip-4844)introduces a new kind of transaction type to Ethereum. EIP 4844 will enable "blobs" of data to persist in the beacon node for a short period of time. To be compatible with Ethereum's scaling roadmap and EIP-4844, DeGate will launch a new version to take advantage of the blobs data scheme that EIP-4844 brings about. This will significantly boost DeGate's throughput as well as decrease gas fees for DeGate users. At that time, user experience of DeGate will be greatly improved without compromising security.
 
