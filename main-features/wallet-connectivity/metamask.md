@@ -8,11 +8,11 @@ description: How to connect MetaMask to DeGate?
 
 1\.  Go to the Trade page: [https://app.degate.com/](https://app.degate.com/)
 
-2\.  Press the "Connect Wallet" button.
+2\.  Select "Connect Wallet".
 
 <figure><img src="../../.gitbook/assets/metamask_2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3\.  Opt for MetaMask from the wallet choices.
+3\.  Select MetaMask from the list of wallet choices.
 
 <figure><img src="../../.gitbook/assets/metamask_3.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -20,23 +20,24 @@ description: How to connect MetaMask to DeGate?
 
 <figure><img src="../../.gitbook/assets/metamask_4.png" alt="" width="180"><figcaption></figcaption></figure>
 
-5\.  Give DeGate permission to see address, account balance, activity, and suggest transactions to approve.
+5\.  Provide permission to DeGate to see address, account balance, activity, and to suggest transactions to approve.
 
 <figure><img src="../../.gitbook/assets/metamask_5.png" alt="" width="180"><figcaption></figcaption></figure>
 
-6\.  In the top right corner of the page, locate the abbreviation of your address. Click on it to open a dropdown menu, then select and click the "initialize" button to proceed.
+6\.  In the top right corner of the page, locate your abbreviated address. Click to open the dropdown menu, then select and click the "Initialize" button to proceed.
 
 <figure><img src="../../.gitbook/assets/metamask_6.png" alt="" width="563"><figcaption></figcaption></figure>
 
-7\.  From the pop-up window, click the "Next" button to continue.
+7\.  In the pop-up window, select "Next" to continue.
 
 <figure><img src="../../.gitbook/assets/metamask_7.png" alt="" width="563"><figcaption></figcaption></figure>
 
-8\.  In the "Initialization" pop-up window, click the "Sign" button to sign the first signature request.
+8\.  In the "Initialization" pop-up window, select "Sign" to sign the first signature request.
 
 <figure><img src="../../.gitbook/assets/metamask_8.png" alt="" width="563"><figcaption></figcaption></figure>
 
-9\.  Sign the authorization message. Note: this signature does not initiate any transaction nor does it incur a gas fee.
+9\.  Sign the authorization message. \
+_Note: This signature does not initiate any transaction nor does it incur a gas fee._
 
 <figure><img src="../../.gitbook/assets/metamask_9.png" alt="" width="180"><figcaption></figcaption></figure>
 
@@ -44,7 +45,8 @@ description: How to connect MetaMask to DeGate?
 
 <figure><img src="../../.gitbook/assets/metamask_10.png" alt="" width="563"><figcaption></figcaption></figure>
 
-11\.  Sign the authorization message. Note: this signature does not initiate any transaction nor does it incur a gas fee.
+11\.  Sign the authorization message. \
+_Note: This signature does not initiate any transaction nor does it incur a gas fee._
 
 <div>
 
