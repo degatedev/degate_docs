@@ -40,7 +40,7 @@ Note: Only USDC/USDT/ETH are being supported as Quote Token. For more details, p
 
 <figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Approve wallet signatures to complete trading pair process</p></figcaption></figure>
 
-1.3 Other requests (such as adding a logo to a token pair or activating [standard deposit function](https://docs.degate.com/v/product\_en/main-features/deposit))
+1.3 Other requests (such as adding a logo to a token pair or activating ["standard add funds" function](https://docs.degate.com/v/product\_en/main-features/deposit))
 
 Please open a Discord ticket at [https://discord.gg/degate](https://discord.gg/degate) to submit your request. The team will respond within 24 hours.
 

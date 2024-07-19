@@ -20,7 +20,9 @@
 
 ## Main Features
 
-* [Wallet Connectivity](main-features/wallet-connectivity.md)
+* [Wallet Connectivity](main-features/wallet-connectivity/README.md)
+  * [Metamask](main-features/wallet-connectivity/metamask.md)
+  * [SafePal](main-features/wallet-connectivity/safepal.md)
 * [Account Registration](main-features/account-registration.md)
 * [Account Management](main-features/account-management.md)
 * [Add](main-features/deposit.md)
