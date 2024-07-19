@@ -1,8 +1,8 @@
 ---
-description: How to connect Metamask to DeGate?
+description: How to connect MetaMask to DeGate?
 ---
 
-# Metamask
+# MetaMask
 
 Connecting MetaMask to DeGate – Text Instructions
 
