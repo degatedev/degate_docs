@@ -4,7 +4,7 @@ description: How to connect SafePal to DeGate?
 
 # SafePal
 
-Connecting SafePal to DeGate – Text Instructions
+## Connecting SafePal to DeGate
 
 1\.  Go to the Trade page: [https://app.degate.com/](https://app.degate.com/)
 
