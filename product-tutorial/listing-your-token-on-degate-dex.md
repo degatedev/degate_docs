@@ -46,6 +46,14 @@
 
 <figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p>批准钱包签名以完成交易对流程</p></figcaption></figure>
 
+1.6 其他请求（例如添加交易对图标或代币的激活[标准划入](https://docs.degate.com/v/product\_zh/main-features/deposit)）
+
+请在 [https://discord.gg/delegate](https://discord.gg/delegate) 为你的需求开工单。团队将在24小时内响应。
+
+{% hint style="info" %}
+对于添加图标需求，请确保您的图标文件是以透明背景的PNG格式。
+{% endhint %}
+
 ## 第二阶段 - 为你的代币交易对提供流动性
 
 2.1 当交易对创建完毕后，你需要将相应的代币充值到DeGate DEX中
