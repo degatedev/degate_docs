@@ -2,11 +2,11 @@
 
 DCA, Dollar-Cost Averaging means buying or selling an asset for a fixed amount at a certain frequency. For example, you buy $100 worth of ETH once per week. Over time, this allows you to build a position with a favorable average buy or sell price. DCA smooths out volatility over time and has historically proven to be a winning investment strategy in the long term.
 
-DeGate offers a decentralized automatic DCA Plan with Zero Fee Mode. Here is a tutorial on how to set up a DCA Plan.
+[DeGate](https://degate.com/) offers a decentralized automatic DCA Plan with Zero Fee Mode. Here is a tutorial on how to set up a DCA Plan.
 
 Let's use setting up a DCA Buy plan for ETH as an example.
 
-1. On app.degate.com, go to the DCA page.
+1. On [app.degate.com](https://app.degate.com/), go to the [DCA](https://app.degate.com/dca/USDC/ETH) page.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-07-29 at 10.10.59.png" alt=""><figcaption></figcaption></figure>
 
@@ -92,4 +92,4 @@ Whenever you want to end the DCA Plan, just click End, and then Confirm.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-07-29 at 11.58.08.png" alt=""><figcaption></figcaption></figure>
 
-You can open DCA Plans for any tokens available on DeGate DEX.&#x20;
+You can open DCA Plans for any tokens available on [DeGate DEX](https://app.degate.com/).&#x20;
