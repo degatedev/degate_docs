@@ -6,7 +6,7 @@ description: >-
 
 # A ZK Rollup DEX Protocol
 
-DeGate is a Decentralized Exchange (DEX) protocol built on Zero Knowledge (ZK) technology. As a ZK Rollup, DeGate fills a key gap in the market by providing spot order book trading and grid trading within the Ethereum ecosystem, offering an experience similar to centralized exchanges (CEX). DeGate is a [DAO-centric](what-is-degate/degate-dao.md) protocol, with a DAO fully controlling its treasury. DeGate is a protocol of the community, by the community, and for the community.
+DeGate is an Orderbook Decentralized Exchange (DEX) protocol built on Zero Knowledge (ZK) technology. As a ZK Rollup, DeGate fills a key gap in the market by providing spot order book trading and grid trading within the Ethereum ecosystem, offering an experience similar to centralized exchanges (CEX). DeGate is a [DAO-centric](what-is-degate/degate-dao.md) protocol, with a DAO fully controlling its treasury. DeGate is a protocol of the community, by the community, and for the community.
 
 The protocol enables several functions, including Spot Trading and Grid Trading, with more features to be added to enable a coherent trading experience.
 
