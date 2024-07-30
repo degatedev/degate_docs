@@ -2,7 +2,7 @@
 
 ## What is DeGate
 
-* [A ZK Rollup DEX Protocol](README.md)
+* [A ZK Rollup Orderbook DEX Protocol](README.md)
 * [Trustless and Decentralized](what-is-degate/trustless-and-decentralized.md)
 * [Permissionless Listing](what-is-degate/permissionless-listing.md)
 * [DeGate DAO](what-is-degate/degate-dao.md)
