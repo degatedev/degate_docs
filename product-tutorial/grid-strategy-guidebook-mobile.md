@@ -2,11 +2,11 @@
 
 Grid Strategy or grid trading is a powerful trading tool that automates buying and selling within a defined range. A grid strategy automatically places _buy_ orders when prices drop and _sell_ orders when they rise, allowing you to capitalize on market fluctuations and generate profits. &#x20;
 
-### How to set up Grid Strategy on DeGate?&#x20;
+## How to set up Grid Strategy on DeGate?&#x20;
 
 Select "Advanced" at the bottom of the navigation panel -> Select "Create Grid Strategy" after. We will be using ETH/USDC pair in the guided example below.
 
-#### **Select Grid Strategy mode**
+### **Select Grid Strategy mode**
 
 There are 2 Grid Strategy modes to choose from.
 
