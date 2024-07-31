@@ -8,9 +8,7 @@
 
 为钱包地址分配AccountID，就可以用数字来表示很长的地址，这样能减少零知识证明的成本。**对用户来说，无需了解AccountID**，只要以相应的钱包访问DeGate就能使用了。无论提现还是转账，用户输入钱包地址完成操作。
 
-
-
-### 账户Nonce和KeyNonce
+## 账户Nonce和KeyNonce
 
 默克尔树Account节点内也有Nonce，称为「账户Nonce」。目前为止，我们已经了解到两个Nonce概念：账户Nonce和[KeyNonce](signature-and-secret-key.md#sheng-cheng-he-geng-xin-zi-chan-si-yao)，两者比较如下
 
@@ -24,7 +22,7 @@
 
 
 
-### 账户资产
+## 账户资产
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-11-28 at 12.14.02.png" alt=""><figcaption><p>账户节点下的资产节点</p></figcaption></figure>
 
