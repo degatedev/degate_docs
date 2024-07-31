@@ -5,7 +5,7 @@ DeGate协议需要用到两种签名方式
 * ECDSA（椭圆曲线数字签名算法）是DSA（数字签名算法）的椭圆曲线实现。椭圆曲线密码术能够以较小的密钥提供与RSA相对相同的安全级别。[了解更多>](https://en.wikipedia.org/wiki/Elliptic\_Curve\_Digital\_Signature\_Algorithm)
 * EdDSA（爱德华兹曲线数字签名算法）是一种使用基于扭曲爱德华兹曲线的Schnorr签名变体的数字签名方案。签名创建在EdDSA中是确定性的，其安全性是基于某些离散对数问题的难处理性，因此它比DSA和ECDSA更安全，后者要求每个签名都具有高质量的随机性。[了解更多>](https://en.wikipedia.org/wiki/EdDSA)
 
-### 资产私钥
+## 资产私钥
 
 资产私钥是用户通过以太坊钱包私钥签名生成的EdDSA私钥，用于发起DeGate内各种操作请求。用户登录DeGate账户时需要先解锁账户，即派生出资产私钥，临时存放在本地浏览器的session中。
 
@@ -15,7 +15,7 @@ ECDSA签名需要用户在钱包确认，例如下图MetaMask网页插件。
 
 ![](<../.gitbook/assets/Screen Shot 2022-08-18 at 12.51.47 PM.png>)
 
-### ECDSA签名类型
+## ECDSA签名类型
 
 DeGate协议支持3种ECDSA的签名和验签方式
 
