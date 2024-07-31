@@ -28,7 +28,7 @@ For newcomers to Grid Strategy, it is recommended to start with \[Auto] mode.
 
 </div>
 
-#### **Set up Grid Strategy \[AUTO]**
+### **Set up Grid Strategy \[AUTO]**
 
 1. Click the \[Auto] tab
 2. Enter the amount to allocate for Grid Strategy \[ETH/USDC].  Input either ETH or USDC amount and the system will calculate the corresponding amount for the Grid Strategy.&#x20;
@@ -53,7 +53,7 @@ Do ensure you have sufficient ETH and USDC in your DeGate balance. You can previ
 
 </div>
 
-#### **Set up Grid Strategy \[MANUAL]**
+### **Set up Grid Strategy \[MANUAL]**
 
 1. Click on \[Manual] tab. You can modify the parameters for your customized Grid Strategy.
 2. Price Range: The upper and lower limit prices define the price range in which the Grid Strategy will run.&#x20;
