@@ -1,14 +1,14 @@
-# Grid Strategy Guidebook \[Draft]
+# Grid Strategy Guidebook
 
 Grid Strategy or grid trading is a powerful trading tool that automates buying and selling within a defined range. A grid strategy automatically places _buy_ orders when prices drop and _sell_ orders when they rise, allowing you to capitalize on market fluctuations and generate profits. &#x20;
 
-### How to set up Grid Strategy on DeGate?&#x20;
+## How to set up Grid Strategy on DeGate?&#x20;
 
 Let's use the guided example below, using ETH/USDC pair.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 4.06.19 PM.png" alt=""><figcaption></figcaption></figure>
 
-#### **Select Grid Strategy mode**
+### **Select Grid Strategy mode**
 
 There are 2 Grid Strategy modes to choose from.
 
@@ -22,7 +22,7 @@ For newcomers to Grid Strategy, it is recommended to start with \[Auto] mode.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 4.29.57 PM.png" alt=""><figcaption></figcaption></figure>
 
-#### **Set up Grid Strategy \[AUTO]**
+### **Set up Grid Strategy \[AUTO]**
 
 1. Click the \[Auto] tab
 2. Enter the amount to allocate for Grid Strategy \[ETH/USDC].  Input either ETH or USDC amount and the system will calculate the corresponding amount for the Grid Strategy.&#x20;
@@ -40,7 +40,7 @@ Do ensure you have sufficient ETH and USDC in your DeGate balance.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 6.17.49 PM.png" alt=""><figcaption></figcaption></figure>
 
-#### **Set up Grid Strategy \[MANUAL]**
+### **Set up Grid Strategy \[MANUAL]**
 
 1. Click on \[Manual] tab. You can modify the parameters for your customized Grid Strategy.
 2. Price Range: The upper and lower limit prices define the price range in which the Grid Strategy will run.&#x20;
