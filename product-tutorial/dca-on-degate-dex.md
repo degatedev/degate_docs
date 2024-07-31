@@ -2,7 +2,7 @@
 
 DCA, Dollar-Cost Averaging means buying or selling an asset for a fixed amount at a certain frequency. For example, you buy $100 worth of ETH once per week. Over time, this allows you to build a position with a favorable average buy or sell price. DCA smooths out volatility over time and has historically proven to be a winning investment strategy in the long term.
 
-[DeGate](https://app.degate.com/?utm\_source=dcaguidebook) offers a decentralized automatic DCA Plan with Zero Fee Mode. Here is a tutorial on how to set up a DCA Plan.
+[DeGate](https://app.degate.com/?utm\_source=dcaguidebook) DEX offers a decentralized automatic DCA Plan with Zero Fee Mode. Here is a tutorial on how to set up a DCA Plan.
 
 Let's use setting up a DCA Buy plan for ETH as an example.
 
@@ -86,3 +86,42 @@ Whenever you want to end the DCA Plan, just click End, and then Confirm.&#x20;
 <figure><img src="../.gitbook/assets/Screenshot 2024-07-29 at 11.58.08.png" alt=""><figcaption></figcaption></figure>
 
 You can open DCA Plans for any tokens available on [DeGate DEX](https://app.degate.com/?utm\_source=dcaguidebook)[.](https://app.degate.com/?utm\_source=dcaguidebook)&#x20;
+
+### Quick links to major tokens' DCA page on DeGate DEX:
+
+[DCA ETH](https://app.degate.com/dca/USDC/ETH/?utm\_source=dcaguidebook)&#x20;
+
+[DCA wBTC](https://app.degate.com/dca/USDC/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599/??utm\_source=dcaguidebook)
+
+[DCA LINK](https://app.degate.com/dca/USDC/0x514910771af9ca656af840dff83e8264ecf986ca/?utm\_source=dcaguidebook)
+
+[DCA GRT](https://app.degate.com/dca/USDC/0xc944e90c64b2c07662a292be6244bdf05cda44a7/?utm\_source=dcaguidebook)
+
+[DCA SOL](https://app.degate.com/dca/USDC/0xd31a59c85ae9d8edefec411d448f90841571b89c/?utm\_source=dcaguidebook)
+
+[DCA NEAR](https://app.degate.com/dca/USDC/0x1c88d38d04acd3edd9051ec587c67abff04bf30d/?utm\_source=dcaguidebook)
+
+[DCA ENS](https://app.degate.com/dca/USDC/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72/?utm\_source=dcaguidebook)
+
+[DCA UNI](https://app.degate.com/dca/USDC/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984/?utm\_source=dcaguidebook)
+
+[DCA LDO](https://app.degate.com/dca/USDC/0x5a98fcbea516cf06857215779fd812ca3bef1b32/?utm\_source=dcaguidebook)
+
+[DCA WLD](https://app.degate.com/dca/USDC/0x163f8c2467924be0ae7b5347228cabf260318753/?utm\_source=dcaguidebook)
+
+[DCA CRV](https://app.degate.com/dca/USDC/0xd533a949740bb3306d119cc777fa900ba034cd52/?utm\_source=dcaguidebook)
+
+[DCA ARB](https://app.degate.com/dca/USDC/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1/?utm\_source=dcaguidebook)
+
+[DCA SHIB](https://app.degate.com/dca/USDC/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce/?utm\_source=dcaguidebook)
+
+[DCA PENDLE](https://app.degate.com/dca/USDC/0x808507121b80c02388fad14726482e061b8da827/?utm\_source=dcaguidebook)
+
+[DCA PEPE](https://app.degate.com/dca/USDC/0x6982508145454ce325ddbe47a25d4ec3d2311933/?utm\_source=dcaguidebook)
+
+[DCA MKR](https://app.degate.com/dca/USDC/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2/?utm\_source=dcaguidebook)
+
+
+
+
+
