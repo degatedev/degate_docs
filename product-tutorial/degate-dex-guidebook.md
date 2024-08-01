@@ -6,6 +6,6 @@ Learn how to use [DeGate](https://app.degate.com/) Order Book DEX here:
 
 ### [Grid Strategy (Mobile)](grid-strategy-guidebook-mobile.md)
 
-### [DCA](dca-on-degate-dex.md)
+### [DCA](dca-trading-bot-on-degate-dex.md)
 
 ### [Token Listing](listing-your-token-on-degate-dex.md)

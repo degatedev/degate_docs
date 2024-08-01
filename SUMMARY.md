@@ -44,5 +44,5 @@
 * [DeGate DEX Guidebook](product-tutorial/degate-dex-guidebook.md)
 * [Grid Strategy Guidebook](product-tutorial/grid-strategy-guidebook.md)
 * [Grid Strategy Guidebook (Mobile)](product-tutorial/grid-strategy-guidebook-mobile.md)
-* [DCA on DeGate DEX](product-tutorial/dca-on-degate-dex.md)
+* [DCA Trading Bot on DeGate DEX](product-tutorial/dca-trading-bot-on-degate-dex.md)
 * [Listing your token on DeGate DEX](product-tutorial/listing-your-token-on-degate-dex.md)
