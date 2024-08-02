@@ -46,11 +46,11 @@ Do ensure you have sufficient ETH and USDC in your DeGate balance.&#x20;
 2. Price Range: The upper and lower limit prices define the price range in which the Grid Strategy will run.&#x20;
 3. Initial Allocation: The amount of funds to allocate for Grid Strategy. Input either ETH or USDC amount and the system will calculate the corresponding amount.
 4. Number of Grids: The number of buy and sell orders the Grid Strategy will place within the Price Range.
-5. Quantity per Grid(>$100): The amount of ETH allocated for each grid order.
+5. Quantity per Grid(≥$50): The amount of ETH allocated for each grid order.
 6. Click "Create Grid Strategy" to complete setup and start earning.&#x20;
 
 {% hint style="info" %}
-There is a minimum order size requirement of $100 for each grid order.
+There is a minimum order size requirement of $50 for each grid order.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 10.44.41 PM (1).png" alt=""><figcaption></figcaption></figure>
