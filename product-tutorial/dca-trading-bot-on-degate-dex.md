@@ -1,8 +1,8 @@
-# DCA on DeGate DEX
+# DCA Trading Bot on DeGate DEX
 
-DCA, Dollar-Cost Averaging means buying or selling an asset for a fixed amount at a certain frequency. For example, you buy $100 worth of ETH once per week. Over time, this allows you to build a position with a favorable average buy or sell price. DCA smooths out volatility over time and has historically proven to be a winning investment strategy in the long term.
+[DeGate](https://app.degate.com/?utm\_source=dcaguidebook) DEX offers an automatic decentralized DCA Plan with Zero Fee Mode. DCA, Dollar-Cost Averaging means buying or selling an asset for a fixed amount at a certain frequency. For example, you buy $100 worth of ETH once per week. Over time, this allows you to build a position with a favorable average buy or sell price. DCA smooths out volatility over time and has historically proven to be a winning investment strategy in the long term.
 
-[DeGate](https://app.degate.com/?utm\_source=dcaguidebook) DEX offers a decentralized automatic DCA Plan with Zero Fee Mode. Here is a tutorial on how to set up a DCA Plan.
+Here is a tutorial on how to set up a DCA Plan.
 
 Let's use setting up a DCA Buy plan for ETH as an example.
 
