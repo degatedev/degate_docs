@@ -41,7 +41,7 @@ USDT = GasUsage * GasPrice / ETHPrice
 
 | Operation                               | Gas Usage Amount |
 | --------------------------------------- | ---------------- |
-| Trade                                   | 800              |
+| Trade                                   | 400              |
 | Add                                     | -                |
 | Send                                    | 58393            |
 | Transfer                                | 2225             |
