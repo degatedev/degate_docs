@@ -6,7 +6,7 @@ Grid Strategy or grid trading is a powerful trading tool that automates buying a
 
 Let's use the guided example below, using ETH/USDC pair.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 4.06.19 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-08-08 13.43.26.png" alt=""><figcaption></figcaption></figure>
 
 ### **Select Grid Strategy mode**
 
@@ -21,6 +21,8 @@ For newcomers to Grid Strategy, it is recommended to start with \[Auto] mode.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 4.29.57 PM.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/截屏2024-08-08 14.59.31.png" alt=""><figcaption></figcaption></figure>
 
 ### **Set up Grid Strategy \[AUTO]**
 
@@ -53,9 +55,7 @@ Do ensure you have sufficient ETH and USDC in your DeGate balance.&#x20;
 There is a minimum order size requirement of $50 for each grid order.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 10.44.41 PM (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-02 at 11.27.24 PM (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-08-08 15.34.32.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 For optimal profitability, it is recommended to set up the Grid Strategy such that the current market price falls within the price range.
