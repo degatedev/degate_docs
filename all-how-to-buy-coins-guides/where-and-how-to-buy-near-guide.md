@@ -12,15 +12,15 @@ layout:
     visible: true
 ---
 
-# Where & How to Buy NEAR(NEAR) Guide
+# Where & How to Buy NEAR Guide
 
-<figure><img src="../.gitbook/assets/near_0x1c88d38d04acd3edd9051ec587c67abff04bf30d1714705356096.jpg" alt="NEAR" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/near_0x1c88d38d04acd3edd9051ec587c67abff04bf30d1714705356096.jpg" alt="" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase NEAR and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x1c88d38d04acd3edd9051ec587c67abff04bf30d?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [NEAR/USDC](https://app.degate.com/trade/USDC/0x1c88d38d04acd3edd9051ec587c67abff04bf30d?utm_source=howtobuy)
+* [NEAR/USDC](https://app.degate.com/trade/USDC/NEAR?utm_source=howtobuy)
 
 ***
 
@@ -42,10 +42,10 @@ For detailed steps to take if you are using Metamask, see [here](https://docs.de
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [NEAR/USDC](https://app.degate.com/trade/USDC/0x1c88d38d04acd3edd9051ec587c67abff04bf30d?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [NEAR/USDC](https://app.degate.com/trade/USDC/NEAR?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 
-DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions.  Learn more in [degate.com](https://degate.com/?utm_source=NEAR_howtobuy).
+DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions. Learn more in [degate.com](https://degate.com/?utm_source=NEAR_howtobuy).
 
 To stay updated with the latest news and developments, follow DeGate on [Twitter](https://twitter.com/degatedex).

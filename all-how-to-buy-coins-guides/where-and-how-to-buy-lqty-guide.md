@@ -12,15 +12,15 @@ layout:
     visible: true
 ---
 
-# Where & How to Buy (MKR) Guide
+# Where & How to Buy LQTY Guide
 
-<figure><img src="../.gitbook/assets/mkr_0x9f8f72aa9304c8b593d555f12ef6589cc3a579a21702028621925.jpg" alt="MKR" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/lqty_0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d1716284883692.jpg" alt="" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase MKR and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase LQTY and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [MKR/USDC](https://app.degate.com/trade/USDC/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2?utm_source=howtobuy)
+* [LQTY/USDC](https://app.degate.com/trade/USDC/LQTY?utm_source=howtobuy)
 
 ***
 
@@ -36,16 +36,16 @@ Now you can transfer crypto assets like USDC or ETH into this wallet address thr
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=MKR_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://app.degate.com/?utm_source=LQTY_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
 For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [MKR/USDC](https://app.degate.com/trade/USDC/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [LQTY/USDC](https://app.degate.com/trade/USDC/LQTY?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 
-DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions.  Learn more in [degate.com](https://degate.com/?utm_source=MKR_howtobuy).
+DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions. Learn more in [degate.com](https://degate.com/?utm_source=LQTY_howtobuy).
 
 To stay updated with the latest news and developments, follow DeGate on [Twitter](https://twitter.com/degatedex).

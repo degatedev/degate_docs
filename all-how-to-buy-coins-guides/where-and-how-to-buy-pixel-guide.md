@@ -12,15 +12,15 @@ layout:
     visible: true
 ---
 
-# Where & How to Buy PORTAL(PORTAL) Guide
+# Where & How to Buy PIXEL Guide
 
-<figure><img src="../.gitbook/assets/portal_0x1bbe973bef3a977fc51cbed703e8ffdefe001fed1716284390034.jpg" alt="PORTAL" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pixel_0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae311716284485491.jpg" alt="" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase PORTAL and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x1bbe973bef3a977fc51cbed703e8ffdefe001fed?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase PIXEL and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [PORTAL/USDC](https://app.degate.com/trade/USDC/0x1bbe973bef3a977fc51cbed703e8ffdefe001fed?utm_source=howtobuy)
+* [PIXEL/USDC](https://app.degate.com/trade/USDC/PIXEL?utm_source=howtobuy)
 
 ***
 
@@ -36,16 +36,16 @@ Now you can transfer crypto assets like USDC or ETH into this wallet address thr
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=PORTAL_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://app.degate.com/?utm_source=PIXEL_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
 For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [PORTAL/USDC](https://app.degate.com/trade/USDC/0x1bbe973bef3a977fc51cbed703e8ffdefe001fed?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [PIXEL/USDC](https://app.degate.com/trade/USDC/PIXEL?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 
-DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions.  Learn more in [degate.com](https://degate.com/?utm_source=PORTAL_howtobuy).
+DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions. Learn more in [degate.com](https://degate.com/?utm_source=PIXEL_howtobuy).
 
 To stay updated with the latest news and developments, follow DeGate on [Twitter](https://twitter.com/degatedex).

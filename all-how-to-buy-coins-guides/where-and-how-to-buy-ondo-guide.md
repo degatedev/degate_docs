@@ -12,15 +12,15 @@ layout:
     visible: true
 ---
 
-# Where & How to Buy API3(API3) Guide
+# Where & How to Buy ONDO Guide
 
-<figure><img src="../.gitbook/assets/api3_0x0b38210ea11411557c13457d4da7dc6ea731b88a1716284187064.jpg" alt="API3" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ondo_0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be31717575516053.jpg" alt="" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase API3 and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x0b38210ea11411557c13457d4da7dc6ea731b88a?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ONDO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [API3/USDC](https://app.degate.com/trade/USDC/0x0b38210ea11411557c13457d4da7dc6ea731b88a?utm_source=howtobuy)
+* [ONDO/USDC](https://app.degate.com/trade/USDC/ONDO?utm_source=howtobuy)
 
 ***
 
@@ -36,16 +36,16 @@ Now you can transfer crypto assets like USDC or ETH into this wallet address thr
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=API3_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://app.degate.com/?utm_source=ONDO_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
 For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [API3/USDC](https://app.degate.com/trade/USDC/0x0b38210ea11411557c13457d4da7dc6ea731b88a?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [ONDO/USDC](https://app.degate.com/trade/USDC/ONDO?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 
-DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions.  Learn more in [degate.com](https://degate.com/?utm_source=API3_howtobuy).
+DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions. Learn more in [degate.com](https://degate.com/?utm_source=ONDO_howtobuy).
 
 To stay updated with the latest news and developments, follow DeGate on [Twitter](https://twitter.com/degatedex).

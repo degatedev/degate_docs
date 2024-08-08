@@ -12,15 +12,15 @@ layout:
     visible: true
 ---
 
-# Where & How to Buy Pendle(PENDLE) Guide
+# Where & How to Buy ENA Guide
 
-<figure><img src="../.gitbook/assets/pendle_0x808507121b80c02388fad14726482e061b8da8271712376343821.jpg" alt="PENDLE" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ena_0x57e114b691db790c35207b2e685d4a43181e60611716284170957.jpg" alt="" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase PENDLE and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x808507121b80c02388fad14726482e061b8da827?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ENA and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x57e114b691db790c35207b2e685d4a43181e6061?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [PENDLE/USDC](https://app.degate.com/trade/USDC/0x808507121b80c02388fad14726482e061b8da827?utm_source=howtobuy)
+* [ENA/USDC](https://app.degate.com/trade/USDC/ENA?utm_source=howtobuy)
 
 ***
 
@@ -36,16 +36,16 @@ Now you can transfer crypto assets like USDC or ETH into this wallet address thr
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=PENDLE_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://app.degate.com/?utm_source=ENA_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
 For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [PENDLE/USDC](https://app.degate.com/trade/USDC/0x808507121b80c02388fad14726482e061b8da827?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [ENA/USDC](https://app.degate.com/trade/USDC/ENA?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 
-DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions.  Learn more in [degate.com](https://degate.com/?utm_source=PENDLE_howtobuy).
+DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions. Learn more in [degate.com](https://degate.com/?utm_source=ENA_howtobuy).
 
 To stay updated with the latest news and developments, follow DeGate on [Twitter](https://twitter.com/degatedex).

@@ -12,15 +12,15 @@ layout:
     visible: true
 ---
 
-# Where & How to Buy Beam(BEAM) Guide
+# Where & How to Buy ALGO Guide
 
-<figure><img src="../.gitbook/assets/beam_0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce1711940308181.jpg" alt="BEAM" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/algo_0xe31cfcd36fed044ae4cf9405b577fe875762194f1716284109840.jpg" alt="" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase BEAM and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ALGO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xe31cfcd36fed044ae4cf9405b577fe875762194f?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [BEAM/USDC](https://app.degate.com/trade/USDC/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce?utm_source=howtobuy)
+* [ALGO/USDC](https://app.degate.com/trade/USDC/ALGO?utm_source=howtobuy)
 
 ***
 
@@ -36,16 +36,16 @@ Now you can transfer crypto assets like USDC or ETH into this wallet address thr
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=BEAM_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://app.degate.com/?utm_source=ALGO_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
 For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [BEAM/USDC](https://app.degate.com/trade/USDC/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [ALGO/USDC](https://app.degate.com/trade/USDC/ALGO?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 
-DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions.  Learn more in [degate.com](https://degate.com/?utm_source=BEAM_howtobuy).
+DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions. Learn more in [degate.com](https://degate.com/?utm_source=ALGO_howtobuy).
 
 To stay updated with the latest news and developments, follow DeGate on [Twitter](https://twitter.com/degatedex).
