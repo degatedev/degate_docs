@@ -10,9 +10,9 @@
 
 你可以根据你的偏好自定义网格策略参数，包括价格区间、初始投入、网格数、每格数量和有效期。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-08-08 13.42.22.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-08-08 13.58.28.png" alt=""><figcaption></figcaption></figure>
 
 当然，你也可以选择“一键创建”，通过系统提供的价格区间和参数直接创建一个网格策略。
 
@@ -30,7 +30,7 @@
 
 * 设置网格密度：网格数设置为200，系统将自动计算出每格数量
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-08-08 14.09.37.png" alt="" width="563"><figcaption></figcaption></figure>
 
 创建网格策略创建成功之后，DeGate系统将在价格区间内设置多个买卖限价订单
 
