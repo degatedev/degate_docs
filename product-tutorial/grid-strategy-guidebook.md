@@ -6,7 +6,7 @@
 
 以 ETH/USDC 交易对为例
 
-<figure><img src="../.gitbook/assets/截屏2024-02-17 17.23.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-08-08 13.42.22.png" alt=""><figcaption></figcaption></figure>
 
 ### **选择网格策略模式**&#x20;
 
@@ -53,9 +53,9 @@
 每个网格订单有最低$50的金额要求
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.25 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-08-08 14.23.35.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/截屏2024-02-17 17.56.39.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-08-08 14.33.21.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 为了使网格策略获得最佳盈利，建议在当前市场价格上下设定网格策略的价格区间
