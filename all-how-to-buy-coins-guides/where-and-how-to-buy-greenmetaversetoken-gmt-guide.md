@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy GreenMetaverseToken(GMT) Guide
 
-<figure><img src="../images/gmt_0xe3c408bd53c31c085a1746af401a4042954ff7401711367474675.jpg" alt="GMT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/gmt_0xe3c408bd53c31c085a1746af401a4042954ff7401711367474675.jpg" alt="GMT" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase GMT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xe3c408bd53c31c085a1746af401a4042954ff740?utm_source=howtobuy).&#x20;
 

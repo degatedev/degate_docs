@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy dogwifhat($WIF) Guide
 
-<figure><img src="../images/$wif_0x2ed58b1fa208e9a08fdaac2a839b8539abe558e81714705499857.jpg" alt="$WIF" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/$wif_0x2ed58b1fa208e9a08fdaac2a839b8539abe558e81714705499857.jpg" alt="$WIF" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase $WIF and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x2ed58b1fa208e9a08fdaac2a839b8539abe558e8?utm_source=howtobuy).&#x20;
 

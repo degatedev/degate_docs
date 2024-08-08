@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Synthetix Network(SNX) Guide
 
-<figure><img src="../images/snx_0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f1716284965692.jpg" alt="SNX" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/snx_0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f1716284965692.jpg" alt="SNX" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase SNX and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f?utm_source=howtobuy).&#x20;
 

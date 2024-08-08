@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Wrapped Klay(WKLAY) Guide
 
-<figure><img src="../images/wklay_0x9aea32b459e96c8ef5010f69130bf95fd129ac051716307341257.jpg" alt="WKLAY" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/wklay_0x9aea32b459e96c8ef5010f69130bf95fd129ac051716307341257.jpg" alt="WKLAY" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase WKLAY and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x9aea32b459e96c8ef5010f69130bf95fd129ac05?utm_source=howtobuy).&#x20;
 

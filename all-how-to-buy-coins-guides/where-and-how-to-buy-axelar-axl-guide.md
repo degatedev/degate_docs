@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Axelar(AXL) Guide
 
-<figure><img src="../images/axl_0x467719ad09025fcc6cf6f8311755809d45a5e5f31711366964504.jpg" alt="AXL" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/axl_0x467719ad09025fcc6cf6f8311755809d45a5e5f31711366964504.jpg" alt="AXL" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase AXL and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x467719ad09025fcc6cf6f8311755809d45a5e5f3?utm_source=howtobuy).&#x20;
 

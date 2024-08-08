@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Aevo(AEVO) Guide
 
-<figure><img src="../images/aevo_0xb528edbef013aff855ac3c50b381f253af13b9971718262345265.jpg" alt="AEVO" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/aevo_0xb528edbef013aff855ac3c50b381f253af13b9971718262345265.jpg" alt="AEVO" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase AEVO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xb528edbef013aff855ac3c50b381f253af13b997?utm_source=howtobuy).&#x20;
 

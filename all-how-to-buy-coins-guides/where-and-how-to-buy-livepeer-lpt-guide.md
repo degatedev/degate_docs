@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Livepeer(LPT) Guide
 
-<figure><img src="../images/lpt_0x58b6a8a3302369daec383334672404ee733ab239.png" alt="LPT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/lpt_0x58b6a8a3302369daec383334672404ee733ab239.png" alt="LPT" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase LPT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x58b6a8a3302369daec383334672404ee733ab239?utm_source=howtobuy).&#x20;
 

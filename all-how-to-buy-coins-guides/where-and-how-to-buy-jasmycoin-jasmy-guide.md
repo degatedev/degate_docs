@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy JasmyCoin(JASMY) Guide
 
-<figure><img src="../images/jasmy_0x7420b4b9a0110cdc71fb720908340c03f9bc03ec.png" alt="JASMY" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/jasmy_0x7420b4b9a0110cdc71fb720908340c03f9bc03ec.png" alt="JASMY" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase JASMY and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x7420b4b9a0110cdc71fb720908340c03f9bc03ec?utm_source=howtobuy).&#x20;
 

@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy SAND(SAND) Guide
 
-<figure><img src="../images/sand_0x3845badade8e6dff049820680d1f14bd3903a5d01695771018187.png" alt="SAND" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sand_0x3845badade8e6dff049820680d1f14bd3903a5d01695771018187.png" alt="SAND" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase SAND and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3845badade8e6dff049820680d1f14bd3903a5d0?utm_source=howtobuy).&#x20;
 

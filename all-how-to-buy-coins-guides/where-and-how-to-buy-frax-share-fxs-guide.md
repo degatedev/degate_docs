@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Frax Share(FXS) Guide
 
-<figure><img src="../images/fxs_0x3432b6a60d23ca0dfca7761b7ab56459d9c964d01716284682631.jpg" alt="FXS" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fxs_0x3432b6a60d23ca0dfca7761b7ab56459d9c964d01716284682631.jpg" alt="FXS" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase FXS and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0?utm_source=howtobuy).&#x20;
 

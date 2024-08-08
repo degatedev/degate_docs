@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Basic Attention(BAT) Guide
 
-<figure><img src="../images/bat_0x0d8775f648430679a709e98d2b0cb6250d2887ef1716284663694.jpg" alt="BAT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/bat_0x0d8775f648430679a709e98d2b0cb6250d2887ef1716284663694.jpg" alt="BAT" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase BAT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x0d8775f648430679a709e98d2b0cb6250d2887ef?utm_source=howtobuy).&#x20;
 

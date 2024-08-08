@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Maverick Token(MAV) Guide
 
-<figure><img src="../images/mav_0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd1711367647361.jpg" alt="MAV" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mav_0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd1711367647361.jpg" alt="MAV" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase MAV and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd?utm_source=howtobuy).&#x20;
 

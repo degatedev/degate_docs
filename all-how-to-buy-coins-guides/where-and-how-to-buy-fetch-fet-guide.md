@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Fetch(FET) Guide
 
-<figure><img src="../images/fet_0xaea46a60368a7bd060eec7df8cba43b7ef41ad851716284302610.jpg" alt="FET" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/fet_0xaea46a60368a7bd060eec7df8cba43b7ef41ad851716284302610.jpg" alt="FET" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase FET and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85?utm_source=howtobuy).&#x20;
 

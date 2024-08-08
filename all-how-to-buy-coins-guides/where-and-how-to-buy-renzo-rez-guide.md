@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Renzo(REZ) Guide
 
-<figure><img src="../images/rez_0x3b50805453023a91a8bf641e279401a0b23fa6f91718262226911.jpg" alt="REZ" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/rez_0x3b50805453023a91a8bf641e279401a0b23fa6f91718262226911.jpg" alt="REZ" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase REZ and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3b50805453023a91a8bf641e279401a0b23fa6f9?utm_source=howtobuy).&#x20;
 

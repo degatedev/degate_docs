@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy 0x(ZRX) Guide
 
-<figure><img src="../images/zrx_0xe41d2489571d322189246dafa5ebde1f4699f4981716284410292.jpg" alt="ZRX" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/zrx_0xe41d2489571d322189246dafa5ebde1f4699f4981716284410292.jpg" alt="ZRX" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ZRX and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xe41d2489571d322189246dafa5ebde1f4699f498?utm_source=howtobuy).&#x20;
 

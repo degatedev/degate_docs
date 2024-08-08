@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy ConstitutionDAO(PEOPLE) Guide
 
-<figure><img src="../images/people_0x7a58c0be72be218b41c608b7fe7c5bb630736c71.png" alt="PEOPLE" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/people_0x7a58c0be72be218b41c608b7fe7c5bb630736c71.png" alt="PEOPLE" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase PEOPLE and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x7a58c0be72be218b41c608b7fe7c5bb630736c71?utm_source=howtobuy).&#x20;
 

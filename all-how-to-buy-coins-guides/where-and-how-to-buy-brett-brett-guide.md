@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Brett(BRETT) Guide
 
-<figure><img src="../images/brett_0x3f1ee2f15da3eaf3539006b651144ec87755876d1718172183292.jpg" alt="BRETT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/brett_0x3f1ee2f15da3eaf3539006b651144ec87755876d1718172183292.jpg" alt="BRETT" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase BRETT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3f1ee2f15da3eaf3539006b651144ec87755876d?utm_source=howtobuy).&#x20;
 

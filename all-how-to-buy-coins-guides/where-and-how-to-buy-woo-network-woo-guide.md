@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy WOO Network(WOO) Guide
 
-<figure><img src="../images/woo_0x4691937a7508860f876c9c0a2a617e7d9e945d4b1716284955849.jpg" alt="WOO" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/woo_0x4691937a7508860f876c9c0a2a617e7d9e945d4b1716284955849.jpg" alt="WOO" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase WOO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x4691937a7508860f876c9c0a2a617e7d9e945d4b?utm_source=howtobuy).&#x20;
 

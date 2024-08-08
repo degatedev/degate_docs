@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Lido DAO Token(LDO) Guide
 
-<figure><img src="../images/ldo_0x5a98fcbea516cf06857215779fd812ca3bef1b321695770946406.jpg" alt="LDO" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ldo_0x5a98fcbea516cf06857215779fd812ca3bef1b321695770946406.jpg" alt="LDO" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase LDO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x5a98fcbea516cf06857215779fd812ca3bef1b32?utm_source=howtobuy).&#x20;
 

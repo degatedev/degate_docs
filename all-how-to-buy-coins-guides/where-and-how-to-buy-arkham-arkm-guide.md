@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy arkham(ARKM) Guide
 
-<figure><img src="../images/arkm_0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b0501716284198953.jpg" alt="ARKM" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/arkm_0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b0501716284198953.jpg" alt="ARKM" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ARKM and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x6e2a43be0b1d33b726f0ca3b8de60b3482b8b050?utm_source=howtobuy).&#x20;
 

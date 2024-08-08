@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Sushi(SUSHI) Guide
 
-<figure><img src="../images/sushi_0x6b3595068778dd592e39a122f4f5a5cf09c90fe2.png" alt="SUSHI" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sushi_0x6b3595068778dd592e39a122f4f5a5cf09c90fe2.png" alt="SUSHI" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase SUSHI and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2?utm_source=howtobuy).&#x20;
 

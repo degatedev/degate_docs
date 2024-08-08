@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy SafePalToken(SFP) Guide
 
-<figure><img src="../images/sfp_0x12e2b8033420270db2f3b328e32370cb5b2ca1341718262296793.jpg" alt="SFP" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sfp_0x12e2b8033420270db2f3b328e32370cb5b2ca1341718262296793.jpg" alt="SFP" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase SFP and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x12e2b8033420270db2f3b328e32370cb5b2ca134?utm_source=howtobuy).&#x20;
 

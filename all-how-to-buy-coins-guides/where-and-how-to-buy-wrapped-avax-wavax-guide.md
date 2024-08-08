@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Wrapped AVAX(WAVAX) Guide
 
-<figure><img src="../images/wavax_0x85f138bfee4ef8e540890cfb48f620571d67eda31714705396143.jpg" alt="WAVAX" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/wavax_0x85f138bfee4ef8e540890cfb48f620571d67eda31714705396143.jpg" alt="WAVAX" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase WAVAX and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x85f138bfee4ef8e540890cfb48f620571d67eda3?utm_source=howtobuy).&#x20;
 

@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy ARPA Token(ARPA) Guide
 
-<figure><img src="../images/arpa_0xba50933c268f567bdc86e1ac131be072c6b0b71a1716284593402.jpg" alt="ARPA" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/arpa_0xba50933c268f567bdc86e1ac131be072c6b0b71a1716284593402.jpg" alt="ARPA" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ARPA and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xba50933c268f567bdc86e1ac131be072c6b0b71a?utm_source=howtobuy).&#x20;
 

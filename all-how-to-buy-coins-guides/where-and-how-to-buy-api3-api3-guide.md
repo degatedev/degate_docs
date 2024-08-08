@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy API3(API3) Guide
 
-<figure><img src="../images/api3_0x0b38210ea11411557c13457d4da7dc6ea731b88a1716284187064.jpg" alt="API3" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/api3_0x0b38210ea11411557c13457d4da7dc6ea731b88a1716284187064.jpg" alt="API3" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase API3 and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x0b38210ea11411557c13457d4da7dc6ea731b88a?utm_source=howtobuy).&#x20;
 

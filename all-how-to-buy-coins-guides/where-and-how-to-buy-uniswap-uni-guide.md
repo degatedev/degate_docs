@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Uniswap(UNI) Guide
 
-<figure><img src="../images/uni_0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png" alt="UNI" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/uni_0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png" alt="UNI" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase UNI and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984?utm_source=howtobuy).&#x20;
 

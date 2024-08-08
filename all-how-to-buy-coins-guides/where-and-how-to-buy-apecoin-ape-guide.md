@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy ApeCoin(APE) Guide
 
-<figure><img src="../images/ape_0x4d224452801aced8b2f0aebe155379bb5d5943811695770831154.png" alt="APE" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ape_0x4d224452801aced8b2f0aebe155379bb5d5943811695770831154.png" alt="APE" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase APE and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x4d224452801aced8b2f0aebe155379bb5d594381?utm_source=howtobuy).&#x20;
 

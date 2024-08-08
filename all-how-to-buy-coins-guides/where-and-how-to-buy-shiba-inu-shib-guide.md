@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy SHIBA INU(SHIB) Guide
 
-<figure><img src="../images/shib_0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce1695770768594.jpg" alt="SHIB" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/shib_0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce1695770768594.jpg" alt="SHIB" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase SHIB and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce?utm_source=howtobuy).&#x20;
 

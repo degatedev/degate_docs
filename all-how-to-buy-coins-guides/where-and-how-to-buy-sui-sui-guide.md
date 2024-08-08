@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Sui(SUI) Guide
 
-<figure><img src="../images/sui_0x84074ea631dec7a4edcd5303d164d5dea4c653d61715226580669.jpg" alt="SUI" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sui_0x84074ea631dec7a4edcd5303d164d5dea4c653d61715226580669.jpg" alt="SUI" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase SUI and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x84074ea631dec7a4edcd5303d164d5dea4c653d6?utm_source=howtobuy).&#x20;
 

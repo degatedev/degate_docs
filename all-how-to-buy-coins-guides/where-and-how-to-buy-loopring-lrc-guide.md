@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Loopring(LRC) Guide
 
-<figure><img src="../images/lrc_0xbbbbca6a901c926f240b89eacb641d8aec7aeafd1712729048397.jpg" alt="LRC" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/lrc_0xbbbbca6a901c926f240b89eacb641d8aec7aeafd1712729048397.jpg" alt="LRC" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase LRC and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xbbbbca6a901c926f240b89eacb641d8aec7aeafd?utm_source=howtobuy).&#x20;
 

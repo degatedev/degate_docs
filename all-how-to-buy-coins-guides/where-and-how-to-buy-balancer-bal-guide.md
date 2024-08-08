@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Balancer(BAL) Guide
 
-<figure><img src="../images/bal_0xba100000625a3754423978a60c9317c58a424e3d1712371803684.jpg" alt="BAL" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/bal_0xba100000625a3754423978a60c9317c58a424e3d1712371803684.jpg" alt="BAL" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase BAL and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xba100000625a3754423978a60c9317c58a424e3d?utm_source=howtobuy).&#x20;
 

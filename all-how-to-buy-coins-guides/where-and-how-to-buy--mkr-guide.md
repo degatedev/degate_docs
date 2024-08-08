@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy (MKR) Guide
 
-<figure><img src="../images/mkr_0x9f8f72aa9304c8b593d555f12ef6589cc3a579a21702028621925.jpg" alt="MKR" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mkr_0x9f8f72aa9304c8b593d555f12ef6589cc3a579a21702028621925.jpg" alt="MKR" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase MKR and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2?utm_source=howtobuy).&#x20;
 

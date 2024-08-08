@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Mountain Protocol USD(USDM) Guide
 
-<figure><img src="../images/usdm_0x59d9356e565ab3a36dd77763fc0d87feaf85508c1716285015301.jpg" alt="USDM" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/usdm_0x59d9356e565ab3a36dd77763fc0d87feaf85508c1716285015301.jpg" alt="USDM" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase USDM and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x59d9356e565ab3a36dd77763fc0d87feaf85508c?utm_source=howtobuy).&#x20;
 

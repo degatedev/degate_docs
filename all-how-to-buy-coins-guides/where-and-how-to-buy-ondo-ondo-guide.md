@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Ondo(ONDO) Guide
 
-<figure><img src="../images/ondo_0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be31717575516053.jpg" alt="ONDO" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ondo_0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be31717575516053.jpg" alt="ONDO" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ONDO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xfaba6f8e4a5e8ab82f62fe7c39859fa577269be3?utm_source=howtobuy).&#x20;
 

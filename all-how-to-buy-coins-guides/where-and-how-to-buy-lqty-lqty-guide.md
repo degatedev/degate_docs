@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy LQTY(LQTY) Guide
 
-<figure><img src="../images/lqty_0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d1716284883692.jpg" alt="LQTY" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/lqty_0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d1716284883692.jpg" alt="LQTY" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase LQTY and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d?utm_source=howtobuy).&#x20;
 

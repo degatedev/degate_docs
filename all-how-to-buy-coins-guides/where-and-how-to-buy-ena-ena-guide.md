@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy ENA(ENA) Guide
 
-<figure><img src="../images/ena_0x57e114b691db790c35207b2e685d4a43181e60611716284170957.jpg" alt="ENA" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ena_0x57e114b691db790c35207b2e685d4a43181e60611716284170957.jpg" alt="ENA" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ENA and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x57e114b691db790c35207b2e685d4a43181e6061?utm_source=howtobuy).&#x20;
 

@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Ethereum Name Service(ENS) Guide
 
-<figure><img src="../images/ens_0xc18360217d8f7ab5e7c516566761ea12ce7f9d721695771074138.png" alt="ENS" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ens_0xc18360217d8f7ab5e7c516566761ea12ce7f9d721695771074138.png" alt="ENS" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ENS and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xc18360217d8f7ab5e7c516566761ea12ce7f9d72?utm_source=howtobuy).&#x20;
 

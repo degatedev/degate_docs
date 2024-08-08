@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy PIXEL(PIXEL) Guide
 
-<figure><img src="../images/pixel_0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae311716284485491.jpg" alt="PIXEL" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pixel_0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae311716284485491.jpg" alt="PIXEL" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase PIXEL and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31?utm_source=howtobuy).&#x20;
 

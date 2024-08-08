@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Chiliz(CHZ) Guide
 
-<figure><img src="../images/chz_0x3506424f91fd33084466f402d5d97f05f8e3b4af.png" alt="CHZ" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/chz_0x3506424f91fd33084466f402d5d97f05f8e3b4af.png" alt="CHZ" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase CHZ and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3506424f91fd33084466f402d5d97f05f8e3b4af?utm_source=howtobuy).&#x20;
 

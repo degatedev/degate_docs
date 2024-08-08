@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Injective(INJ) Guide
 
-<figure><img src="../images/inj_0xe28b3b32b6c345a34ff64674606124dd5aceca30.png" alt="INJ" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/inj_0xe28b3b32b6c345a34ff64674606124dd5aceca30.png" alt="INJ" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase INJ and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xe28b3b32b6c345a34ff64674606124dd5aceca30?utm_source=howtobuy).&#x20;
 

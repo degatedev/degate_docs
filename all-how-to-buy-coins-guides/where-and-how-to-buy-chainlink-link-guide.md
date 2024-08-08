@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Chainlink(LINK) Guide
 
-<figure><img src="../images/link_0x514910771af9ca656af840dff83e8264ecf986ca1702028587834.jpg" alt="LINK" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/link_0x514910771af9ca656af840dff83e8264ecf986ca1702028587834.jpg" alt="LINK" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase LINK and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x514910771af9ca656af840dff83e8264ecf986ca?utm_source=howtobuy).&#x20;
 

@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy StarkNet Token(STRK) Guide
 
-<figure><img src="../images/strk_0xca14007eff0db1f8135f4c25b34de49ab0d427661716284847320.jpg" alt="STRK" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/strk_0xca14007eff0db1f8135f4c25b34de49ab0d427661716284847320.jpg" alt="STRK" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase STRK and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xca14007eff0db1f8135f4c25b34de49ab0d42766?utm_source=howtobuy).&#x20;
 

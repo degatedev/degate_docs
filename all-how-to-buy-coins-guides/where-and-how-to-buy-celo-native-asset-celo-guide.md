@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Celo native asset(CELO) Guide
 
-<figure><img src="../images/celo_0x3294395e62f4eb6af3f1fcf89f5602d90fb3ef691715159055024.jpg" alt="CELO" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/celo_0x3294395e62f4eb6af3f1fcf89f5602d90fb3ef691715159055024.jpg" alt="CELO" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase CELO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3294395e62f4eb6af3f1fcf89f5602d90fb3ef69?utm_source=howtobuy).&#x20;
 

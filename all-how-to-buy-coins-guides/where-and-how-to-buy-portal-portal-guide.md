@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy PORTAL(PORTAL) Guide
 
-<figure><img src="../images/portal_0x1bbe973bef3a977fc51cbed703e8ffdefe001fed1716284390034.jpg" alt="PORTAL" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/portal_0x1bbe973bef3a977fc51cbed703e8ffdefe001fed1716284390034.jpg" alt="PORTAL" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase PORTAL and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x1bbe973bef3a977fc51cbed703e8ffdefe001fed?utm_source=howtobuy).&#x20;
 

@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy SPACE ID(ID) Guide
 
-<figure><img src="../images/id_0x2dff88a56767223a5529ea5960da7a3f5f7664061711367544097.jpg" alt="ID" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/id_0x2dff88a56767223a5529ea5960da7a3f5f7664061711367544097.jpg" alt="ID" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ID and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x2dff88a56767223a5529ea5960da7a3f5f766406?utm_source=howtobuy).&#x20;
 

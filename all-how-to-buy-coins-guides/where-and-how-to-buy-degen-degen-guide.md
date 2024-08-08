@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Degen(DEGEN) Guide
 
-<figure><img src="../images/degen_0xf4feec8cf825cd5b23f8abb3075c01c22abd43521718172142811.jpg" alt="DEGEN" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/degen_0xf4feec8cf825cd5b23f8abb3075c01c22abd43521718172142811.jpg" alt="DEGEN" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase DEGEN and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xf4feec8cf825cd5b23f8abb3075c01c22abd4352?utm_source=howtobuy).&#x20;
 

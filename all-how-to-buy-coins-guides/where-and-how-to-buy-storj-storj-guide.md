@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Storj(STORJ) Guide
 
-<figure><img src="../images/storj_0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac1716275709727.jpg" alt="STORJ" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/storj_0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac1716275709727.jpg" alt="STORJ" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase STORJ and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac?utm_source=howtobuy).&#x20;
 

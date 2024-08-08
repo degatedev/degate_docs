@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy FLOKI(FLOKI) Guide
 
-<figure><img src="../images/floki_0xcf0c122c6b73ff809c693db761e7baebe62b6a2e1716284990201.jpg" alt="FLOKI" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/floki_0xcf0c122c6b73ff809c693db761e7baebe62b6a2e1716284990201.jpg" alt="FLOKI" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase FLOKI and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xcf0c122c6b73ff809c693db761e7baebe62b6a2e?utm_source=howtobuy).&#x20;
 

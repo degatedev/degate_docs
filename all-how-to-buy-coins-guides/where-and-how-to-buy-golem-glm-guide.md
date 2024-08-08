@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Golem(GLM) Guide
 
-<figure><img src="../images/glm_0x7dd9c5cba05e151c895fde1cf355c9a1d5da64291712371816276.jpg" alt="GLM" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/glm_0x7dd9c5cba05e151c895fde1cf355c9a1d5da64291712371816276.jpg" alt="GLM" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase GLM and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429?utm_source=howtobuy).&#x20;
 

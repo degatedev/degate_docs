@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Mask Network(MASK) Guide
 
-<figure><img src="../images/mask_0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png" alt="MASK" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/mask_0x69af81e73a73b40adf4f3d4223cd9b1ece623074.png" alt="MASK" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase MASK and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x69af81e73a73b40adf4f3d4223cd9b1ece623074?utm_source=howtobuy).&#x20;
 

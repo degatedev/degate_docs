@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy ALGO(ALGO) Guide
 
-<figure><img src="../images/algo_0xe31cfcd36fed044ae4cf9405b577fe875762194f1716284109840.jpg" alt="ALGO" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/algo_0xe31cfcd36fed044ae4cf9405b577fe875762194f1716284109840.jpg" alt="ALGO" width="64"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ALGO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xe31cfcd36fed044ae4cf9405b577fe875762194f?utm_source=howtobuy).&#x20;
 
