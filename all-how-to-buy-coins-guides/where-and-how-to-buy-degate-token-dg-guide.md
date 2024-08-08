@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy DeGate Token(DG) Guide
 
-<figure><img src="../.gitbook/assets/DG.png" alt="DG" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/DG.png" alt="DG" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase DG and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy).&#x20;
 

@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Axie Infinity(AXS) Guide
 
-<figure><img src="../.gitbook/assets/axs_0xbb0e17ef65f82ab018d8edd776e8dd940327b28b1716284538494.jpg" alt="AXS" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/axs_0xbb0e17ef65f82ab018d8edd776e8dd940327b28b1716284538494.jpg" alt="AXS" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase AXS and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b?utm_source=howtobuy).&#x20;
 

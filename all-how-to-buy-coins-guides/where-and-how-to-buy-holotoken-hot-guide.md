@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy HoloToken(HOT) Guide
 
-<figure><img src="../.gitbook/assets/hot_0x6c6ee5e31d828de241282b9606c8e98ea48526e21711367512549.jpg" alt="HOT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hot_0x6c6ee5e31d828de241282b9606c8e98ea48526e21711367512549.jpg" alt="HOT" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase HOT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x6c6ee5e31d828de241282b9606c8e98ea48526e2?utm_source=howtobuy).&#x20;
 

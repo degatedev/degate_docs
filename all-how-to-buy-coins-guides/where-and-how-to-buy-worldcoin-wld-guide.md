@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Worldcoin(WLD) Guide
 
-<figure><img src="../.gitbook/assets/wld_0x163f8c2467924be0ae7b5347228cabf2603187531704955257731.png" alt="WLD" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/wld_0x163f8c2467924be0ae7b5347228cabf2603187531704955257731.png" alt="WLD" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase WLD and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x163f8c2467924be0ae7b5347228cabf260318753?utm_source=howtobuy).&#x20;
 

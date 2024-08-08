@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Tether USD(USDT) Guide
 
-<figure><img src="../.gitbook/assets/USDT.png" alt="USDT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/USDT.png" alt="USDT" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase USDT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xdac17f958d2ee523a2206206994597c13d831ec7?utm_source=howtobuy).&#x20;
 

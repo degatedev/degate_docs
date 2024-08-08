@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy yearn.finance(YFI) Guide
 
-<figure><img src="../.gitbook/assets/yfi_0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e1695771191598.jpg" alt="YFI" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/yfi_0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e1695771191598.jpg" alt="YFI" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase YFI and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e?utm_source=howtobuy).&#x20;
 

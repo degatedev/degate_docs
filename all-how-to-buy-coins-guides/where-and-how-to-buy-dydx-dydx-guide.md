@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy dYdX(DYDX) Guide
 
-<figure><img src="../.gitbook/assets/dydx_0x92d6c1e31e14520e676a687f0a93788b716beff51716284224477.jpg" alt="DYDX" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dydx_0x92d6c1e31e14520e676a687f0a93788b716beff51716284224477.jpg" alt="DYDX" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase DYDX and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x92d6c1e31e14520e676a687f0a93788b716beff5?utm_source=howtobuy).&#x20;
 

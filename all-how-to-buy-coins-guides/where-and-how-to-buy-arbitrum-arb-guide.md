@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Arbitrum(ARB) Guide
 
-<figure><img src="../.gitbook/assets/arb_0xb50721bcf8d664c30412cfbc6cf7a15145234ad11711366455833.jpg" alt="ARB" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/arb_0xb50721bcf8d664c30412cfbc6cf7a15145234ad11711366455833.jpg" alt="ARB" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ARB and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xb50721bcf8d664c30412cfbc6cf7a15145234ad1?utm_source=howtobuy).&#x20;
 

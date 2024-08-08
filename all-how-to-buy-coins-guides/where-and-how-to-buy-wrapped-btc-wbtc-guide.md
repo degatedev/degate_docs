@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Wrapped BTC(WBTC) Guide
 
-<figure><img src="../.gitbook/assets/wbtc_0x2260fac5e5542a773aa44fbcfedf7c193bc2c5991714705318687.jpg" alt="WBTC" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/wbtc_0x2260fac5e5542a773aa44fbcfedf7c193bc2c5991714705318687.jpg" alt="WBTC" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase WBTC and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599?utm_source=howtobuy).&#x20;
 

@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Illuvium(ILV) Guide
 
-<figure><img src="../.gitbook/assets/ilv_0x767fe9edc9e0df98e07454847909b5e959d7ca0e1712728994923.jpg" alt="ILV" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ilv_0x767fe9edc9e0df98e07454847909b5e959d7ca0e1712728994923.jpg" alt="ILV" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ILV and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x767fe9edc9e0df98e07454847909b5e959d7ca0e?utm_source=howtobuy).&#x20;
 

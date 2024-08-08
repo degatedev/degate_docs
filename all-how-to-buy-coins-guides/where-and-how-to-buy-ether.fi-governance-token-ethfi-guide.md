@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy ether.fi governance token(ETHFI) Guide
 
-<figure><img src="../.gitbook/assets/ethfi_0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb1718262202785.jpg" alt="ETHFI" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ethfi_0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb1718262202785.jpg" alt="ETHFI" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ETHFI and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb?utm_source=howtobuy).&#x20;
 

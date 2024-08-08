@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Bounce(AUCTION) Guide
 
-<figure><img src="../.gitbook/assets/auction_0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096.png" alt="AUCTION" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/auction_0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096.png" alt="AUCTION" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase AUCTION and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xa9b1eb5908cfc3cdf91f9b8b3a74108598009096?utm_source=howtobuy).&#x20;
 

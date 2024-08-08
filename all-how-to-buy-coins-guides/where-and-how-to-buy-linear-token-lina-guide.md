@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Linear Token(LINA) Guide
 
-<figure><img src="../.gitbook/assets/lina_0x3e9bc21c9b189c09df3ef1b824798658d50119371716284629195.jpg" alt="LINA" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/lina_0x3e9bc21c9b189c09df3ef1b824798658d50119371716284629195.jpg" alt="LINA" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase LINA and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x3e9bc21c9b189c09df3ef1b824798658d5011937?utm_source=howtobuy).&#x20;
 

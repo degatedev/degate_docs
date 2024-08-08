@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy PowerLedger(POWR) Guide
 
-<figure><img src="../.gitbook/assets/powr_0x595832f8fc6bf59c85c527fec3740a1b7a3612691716285086398.jpg" alt="POWR" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/powr_0x595832f8fc6bf59c85c527fec3740a1b7a3612691716285086398.jpg" alt="POWR" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase POWR and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x595832f8fc6bf59c85c527fec3740a1b7a361269?utm_source=howtobuy).&#x20;
 

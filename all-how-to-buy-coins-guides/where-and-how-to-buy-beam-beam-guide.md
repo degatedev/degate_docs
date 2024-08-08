@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Beam(BEAM) Guide
 
-<figure><img src="../.gitbook/assets/beam_0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce1711940308181.jpg" alt="BEAM" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/beam_0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce1711940308181.jpg" alt="BEAM" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase BEAM and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce?utm_source=howtobuy).&#x20;
 

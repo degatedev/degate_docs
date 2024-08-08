@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy DUSK Network(DUSK) Guide
 
-<figure><img src="../.gitbook/assets/dusk_0x940a2db1b7008b6c776d4faaca729d6d4a4aa551.png" alt="DUSK" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/dusk_0x940a2db1b7008b6c776d4faaca729d6d4a4aa551.png" alt="DUSK" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase DUSK and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x940a2db1b7008b6c776d4faaca729d6d4a4aa551?utm_source=howtobuy).&#x20;
 

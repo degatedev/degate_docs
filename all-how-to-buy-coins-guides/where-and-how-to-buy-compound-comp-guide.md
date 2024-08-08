@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Compound(COMP) Guide
 
-<figure><img src="../.gitbook/assets/comp_0xc00e94cb662c3520282e6f5717214004a7f268881716285111347.jpg" alt="COMP" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/comp_0xc00e94cb662c3520282e6f5717214004a7f268881716285111347.jpg" alt="COMP" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase COMP and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xc00e94cb662c3520282e6f5717214004a7f26888?utm_source=howtobuy).&#x20;
 

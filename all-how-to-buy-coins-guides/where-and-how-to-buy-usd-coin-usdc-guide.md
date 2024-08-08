@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy USD Coin(USDC) Guide
 
-<figure><img src="../.gitbook/assets/USDC.png" alt="USDC" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/USDC.png" alt="USDC" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase USDC and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48?utm_source=howtobuy).&#x20;
 

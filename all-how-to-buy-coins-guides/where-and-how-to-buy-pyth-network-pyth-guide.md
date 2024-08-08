@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Pyth Network(PYTH) Guide
 
-<figure><img src="../.gitbook/assets/pyth_0xefc0ced4b3d536103e76a1c4c74f0385c8f4bdd31715158902311.jpg" alt="PYTH" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pyth_0xefc0ced4b3d536103e76a1c4c74f0385c8f4bdd31715158902311.jpg" alt="PYTH" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase PYTH and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xefc0ced4b3d536103e76a1c4c74f0385c8f4bdd3?utm_source=howtobuy).&#x20;
 

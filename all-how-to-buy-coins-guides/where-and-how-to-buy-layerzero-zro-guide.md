@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy LayerZero(ZRO) Guide
 
-<figure><img src="../.gitbook/assets/zro_0x6985884c4392d348587b19cb9eaaf157f13271cd1718894899757.jpg" alt="ZRO" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/zro_0x6985884c4392d348587b19cb9eaaf157f13271cd1718894899757.jpg" alt="ZRO" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase ZRO and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x6985884c4392d348587b19cb9eaaf157f13271cd?utm_source=howtobuy).&#x20;
 

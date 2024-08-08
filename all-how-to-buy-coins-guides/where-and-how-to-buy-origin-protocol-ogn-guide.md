@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Origin Protocol(OGN) Guide
 
-<figure><img src="../.gitbook/assets/ogn_0x8207c1ffc5b6804f6024322ccf34f29c3541ae26.png" alt="OGN" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ogn_0x8207c1ffc5b6804f6024322ccf34f29c3541ae26.png" alt="OGN" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase OGN and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x8207c1ffc5b6804f6024322ccf34f29c3541ae26?utm_source=howtobuy).&#x20;
 

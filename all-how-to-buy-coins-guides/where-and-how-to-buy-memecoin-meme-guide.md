@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Memecoin(MEME) Guide
 
-<figure><img src="../.gitbook/assets/meme_0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd741716284778154.jpg" alt="MEME" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/meme_0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd741716284778154.jpg" alt="MEME" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase MEME and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74?utm_source=howtobuy).&#x20;
 

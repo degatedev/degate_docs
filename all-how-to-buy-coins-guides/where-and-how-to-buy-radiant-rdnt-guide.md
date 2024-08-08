@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Radiant(RDNT) Guide
 
-<figure><img src="../.gitbook/assets/rdnt_0x137ddb47ee24eaa998a535ab00378d6bfa84f8931711367718351.jpg" alt="RDNT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/rdnt_0x137ddb47ee24eaa998a535ab00378d6bfa84f8931711367718351.jpg" alt="RDNT" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase RDNT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x137ddb47ee24eaa998a535ab00378d6bfa84f893?utm_source=howtobuy).&#x20;
 

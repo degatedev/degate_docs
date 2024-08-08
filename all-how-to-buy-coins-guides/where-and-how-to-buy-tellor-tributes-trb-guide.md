@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Tellor Tributes(TRB) Guide
 
-<figure><img src="../.gitbook/assets/trb_0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a01716284925128.jpg" alt="TRB" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/trb_0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a01716284925128.jpg" alt="TRB" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase TRB and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x88df592f8eb5d7bd38bfef7deb0fbc02cf3778a0?utm_source=howtobuy).&#x20;
 

@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Jupiter(JUP) Guide
 
-<figure><img src="../.gitbook/assets/jup_0x8687a10bca6f139b25eb31020fcabb57822147641716284872185.jpg" alt="JUP" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/jup_0x8687a10bca6f139b25eb31020fcabb57822147641716284872185.jpg" alt="JUP" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase JUP and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x8687a10bca6f139b25eb31020fcabb5782214764?utm_source=howtobuy).&#x20;
 

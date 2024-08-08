@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Curve DAO(CRV) Guide
 
-<figure><img src="../.gitbook/assets/crv_0xd533a949740bb3306d119cc777fa900ba034cd521716284214802.jpg" alt="CRV" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/crv_0xd533a949740bb3306d119cc777fa900ba034cd521716284214802.jpg" alt="CRV" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase CRV and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xd533a949740bb3306d119cc777fa900ba034cd52?utm_source=howtobuy).&#x20;
 

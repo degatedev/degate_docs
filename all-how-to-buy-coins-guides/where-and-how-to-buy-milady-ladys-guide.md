@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Milady(LADYS) Guide
 
-<figure><img src="../.gitbook/assets/ladys_0x12970e6868f88f6557b76120662c1b3e50a646bf1717819139154.jpg" alt="LADYS" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ladys_0x12970e6868f88f6557b76120662c1b3e50a646bf1717819139154.jpg" alt="LADYS" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase LADYS and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x12970e6868f88f6557b76120662c1b3e50a646bf?utm_source=howtobuy).&#x20;
 

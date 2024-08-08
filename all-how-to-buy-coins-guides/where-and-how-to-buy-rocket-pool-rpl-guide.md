@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Rocket Pool(RPL) Guide
 
-<figure><img src="../.gitbook/assets/rpl_0xd33526068d116ce69f19a9ee46f0bd304f21a51f.png" alt="RPL" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/rpl_0xd33526068d116ce69f19a9ee46f0bd304f21a51f.png" alt="RPL" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase RPL and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xd33526068d116ce69f19a9ee46f0bd304f21a51f?utm_source=howtobuy).&#x20;
 

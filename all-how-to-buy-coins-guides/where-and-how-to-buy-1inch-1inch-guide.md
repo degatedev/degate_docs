@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy 1inch(1INCH) Guide
 
-<figure><img src="../.gitbook/assets/1inch_0x111111111117dc0aa78b770fa6a738034120c302.png" alt="1INCH" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1inch_0x111111111117dc0aa78b770fa6a738034120c302.png" alt="1INCH" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase 1INCH and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x111111111117dc0aa78b770fa6a738034120c302?utm_source=howtobuy).&#x20;
 

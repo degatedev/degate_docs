@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy SuperFarm(SUPER) Guide
 
-<figure><img src="../.gitbook/assets/super_0xe53ec727dbdeb9e2d5456c3be40cff031ab40a551716285168846.jpg" alt="SUPER" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/super_0xe53ec727dbdeb9e2d5456c3be40cff031ab40a551716285168846.jpg" alt="SUPER" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase SUPER and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55?utm_source=howtobuy).&#x20;
 

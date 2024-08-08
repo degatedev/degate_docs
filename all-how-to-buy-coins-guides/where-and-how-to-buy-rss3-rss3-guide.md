@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy RSS3(RSS3) Guide
 
-<figure><img src="../.gitbook/assets/rss3_0xc98d64da73a6616c42117b582e832812e7b8d57f.png" alt="RSS3" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/rss3_0xc98d64da73a6616c42117b582e832812e7b8d57f.png" alt="RSS3" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase RSS3 and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xc98d64da73a6616c42117b582e832812e7b8d57f?utm_source=howtobuy).&#x20;
 

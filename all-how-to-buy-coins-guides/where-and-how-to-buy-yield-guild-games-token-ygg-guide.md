@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Yield Guild Games Token(YGG) Guide
 
-<figure><img src="../.gitbook/assets/ygg_0x25f8087ead173b73d6e8b84329989a8eea16cf731716307297574.jpg" alt="YGG" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ygg_0x25f8087ead173b73d6e8b84329989a8eea16cf731716307297574.jpg" alt="YGG" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase YGG and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x25f8087ead173b73d6e8b84329989a8eea16cf73?utm_source=howtobuy).&#x20;
 

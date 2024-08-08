@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy NEAR(NEAR) Guide
 
-<figure><img src="../.gitbook/assets/near_0x1c88d38d04acd3edd9051ec587c67abff04bf30d1714705356096.jpg" alt="NEAR" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/near_0x1c88d38d04acd3edd9051ec587c67abff04bf30d1714705356096.jpg" alt="NEAR" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase NEAR and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x1c88d38d04acd3edd9051ec587c67abff04bf30d?utm_source=howtobuy).&#x20;
 

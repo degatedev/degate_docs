@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Aptos Coin(APT) Guide
 
-<figure><img src="../.gitbook/assets/apt_0x8cdf7af57e4c8b930e1b23c477c22f076530585e1716307325277.jpg" alt="APT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/apt_0x8cdf7af57e4c8b930e1b23c477c22f076530585e1716307325277.jpg" alt="APT" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase APT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x8cdf7af57e4c8b930e1b23c477c22f076530585e?utm_source=howtobuy).&#x20;
 

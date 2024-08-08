@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Wrapped SOL(SOL) Guide
 
-<figure><img src="../.gitbook/assets/sol_0xd31a59c85ae9d8edefec411d448f90841571b89c1716307309782.jpg" alt="SOL" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/sol_0xd31a59c85ae9d8edefec411d448f90841571b89c1716307309782.jpg" alt="SOL" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase SOL and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xd31a59c85ae9d8edefec411d448f90841571b89c?utm_source=howtobuy).&#x20;
 

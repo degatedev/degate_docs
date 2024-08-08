@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Wormhole Token(W) Guide
 
-<figure><img src="../.gitbook/assets/w_0xb0ffa8000886e57f86dd5264b9582b2ad87b2b911718692212009.png" alt="W" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/w_0xb0ffa8000886e57f86dd5264b9582b2ad87b2b911718692212009.png" alt="W" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase W and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xb0ffa8000886e57f86dd5264b9582b2ad87b2b91?utm_source=howtobuy).&#x20;
 

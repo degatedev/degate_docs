@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Graph Token(GRT) Guide
 
-<figure><img src="../.gitbook/assets/grt_0xc944e90c64b2c07662a292be6244bdf05cda44a7.png" alt="GRT" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/grt_0xc944e90c64b2c07662a292be6244bdf05cda44a7.png" alt="GRT" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase GRT and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xc944e90c64b2c07662a292be6244bdf05cda44a7?utm_source=howtobuy).&#x20;
 

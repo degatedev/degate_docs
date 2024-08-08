@@ -14,7 +14,7 @@ layout:
 
 # Where & How to Buy Fantom(FTM) Guide
 
-<figure><img src="../.gitbook/assets/ftm_0x4e15361fd6b4bb609fa63c81a2be19d873717870.png" alt="FTM" width="64"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ftm_0x4e15361fd6b4bb609fa63c81a2be19d873717870.png" alt="FTM" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
 DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase FTM and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x4e15361fd6b4bb609fa63c81a2be19d873717870?utm_source=howtobuy).&#x20;
 
