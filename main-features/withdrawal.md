@@ -26,7 +26,9 @@ DeGate now offers two modes for sending funds: **Economy** and **Fast**.
 
 • **Economy Mode**: Perfect for those users who have time and want to save on gas fees.
 
+{% hint style="info" %}
 The great thing is, whenever someone initiates a Fast Send, Economy Send requests get processed immediately. It’s like taking a free ride.
+{% endhint %}
 
 ### Send Failure
 
