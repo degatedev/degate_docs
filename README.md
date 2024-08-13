@@ -4,7 +4,7 @@ description: >-
   Ethereum. DeGate is Limit Orders, Decentralized
 ---
 
-# A ZK Rollup DEX Protocol
+# A ZK Rollup Orderbook Decentralized Exchange
 
 DeGate is an Orderbook Decentralized Exchange (DEX) protocol built on Zero Knowledge (ZK) technology. As a ZK Rollup, DeGate fills a key gap in the market by providing spot order book trading and grid trading within the Ethereum ecosystem, offering an experience similar to centralized exchanges (CEX). DeGate is a [DAO-centric](what-is-degate/degate-dao.md) protocol, with a DAO fully controlling its treasury. DeGate is a protocol of the community, by the community, and for the community.
 
@@ -12,7 +12,7 @@ The protocol enables several functions, including Spot Trading and Grid Trading,
 
 **Spot Trading**
 
-Gas fees are a major concern on the Ethereum mainnet. Conventional AMM DEXes incur high gas fees on Ethereum and provide only market orders, where traders have to accept the current market price for a trading pair. DeGate is a new type of protocol based on a ZK rollup that allows for spot trading through limit orders, similar in experience to a centralized exchange. The ZK technology powers a “match node” matching orders between traders, periodically recording the transactions on a mainnet. This ensures a faster, cheaper trading experience that is still secured by Ethereum. Crucially, the protocol is designed such that fees are low for taker orders, and free for maker orders.
+Gas fees are a major concern on the Ethereum mainnet. Conventional AMM DEXes incur high gas fees on Ethereum and provide only market orders, where traders have to accept the current market price for a trading pair. DeGate is a new type of protocol based on a ZK rollup that allows for spot trading through limit orders(CLOB), similar in experience to a centralized exchange. The ZK technology powers a “match node” matching orders between traders, periodically recording the transactions on a mainnet. This ensures a faster, cheaper trading experience that is still secured by Ethereum. Crucially, the protocol is designed such that fees are low for taker orders, and free for maker orders.
 
 Essentially, DeGate is limit orders, decentralized.
 
