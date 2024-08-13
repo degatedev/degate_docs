@@ -43,7 +43,7 @@ USDT = GasUsage * GasPrice / ETHPrice
 | --------------------------------------- | ---------------- |
 | Trade                                   | 400              |
 | Add                                     | -                |
-| Send                                    | 58393            |
+| Economy Send                            | 58393            |
 | Transfer                                | 2225             |
 | Transfer to New Account                 | 22422            |
 | Register Account                        | -                |
