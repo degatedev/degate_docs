@@ -1,20 +1,21 @@
 ---
 description: >-
-  A fairly launched, Dao-centric, Zero Knowledge based trading protocol built on
-  Ethereum. DeGate is Limit Orders, Decentralized
+  A fairly launched, Dao-centric, Zero Knowledge based self-custody trading
+  protocol built on Ethereum. DeGate is Limit Orders, Decentralized and
+  Self-Custody.
 ---
 
 # A ZK Rollup Orderbook Decentralized Exchange
 
-DeGate is an Orderbook Decentralized Exchange (DEX) protocol built on Zero Knowledge (ZK) technology. As a ZK Rollup, DeGate fills a key gap in the market by providing spot order book trading and grid trading within the Ethereum ecosystem, offering an experience similar to centralized exchanges (CEX). DeGate is a [DAO-centric](what-is-degate/degate-dao.md) protocol, with a DAO fully controlling its treasury. DeGate is a protocol of the community, by the community, and for the community.
+DeGate is an Orderbook Decentralized Exchange (DEX) protocol built on Zero Knowledge (ZK) technology. As a ZK Rollup, DeGate fills a key gap in the market by providing spot order book trading in self-custody manner, and grid trading within the Ethereum ecosystem, offering an experience similar to centralized exchanges (CEX). DeGate is a [DAO-centric](what-is-degate/degate-dao.md), self-custody exchange, with a DAO fully controlling its treasury. DeGate is a protocol of the community, by the community, and for the community.
 
-The protocol enables several functions, including Spot Trading and Grid Trading, with more features to be added to enable a coherent trading experience.
+The protocol enables several functions, including Spot Trading and Grid Trading, with more features to be added to enable a coherent, self-custody trading experience on a self-custody exchange.
 
 **Spot Trading**
 
-Gas fees are a major concern on the Ethereum mainnet. Conventional AMM DEXes incur high gas fees on Ethereum and provide only market orders, where traders have to accept the current market price for a trading pair. DeGate is a new type of protocol based on a ZK rollup that allows for spot trading through limit orders(CLOB), similar in experience to a centralized exchange. The ZK technology powers a “match node” matching orders between traders, periodically recording the transactions on a mainnet. This ensures a faster, cheaper trading experience that is still secured by Ethereum. Crucially, the protocol is designed such that fees are low for taker orders, and free for maker orders.
+Gas fees are a major concern on the Ethereum mainnet. Conventional AMM DEXes incur high gas fees on Ethereum and provide only market orders, where traders have to accept the current market price for a trading pair. DeGate is a new type of self-custody exchange protocol based on a ZK rollup that allows for spot trading through limit orders(CLOB), similar in experience to a centralized exchange. The ZK technology powers a “match node” matching orders between traders, periodically recording the transactions on a mainnet. This ensures a faster, cheaper, self-custody trading experience that is still secured by Ethereum. Crucially, the protocol is designed such that fees are low for taker orders, and free for maker orders.
 
-Essentially, DeGate is limit orders, decentralized.
+Essentially, DeGate is limit orders, decentralized and self-custody.
 
 To further reduce gas fees for users, the protocol has pioneered gas-saving features including:
 
@@ -26,9 +27,9 @@ While DeGate derives its security from Ethereum and is designed to be trustless 
 
 **Grid Trading**
 
-The grid trading function is another innovation of the DeGate protocol. This replicates the grid trading on a CEX, which enables users to implement a trading strategy based on the ups and downs in a trading pair.
+The grid trading function is another innovation of the DeGate protocol. This feature replicates the grid trading on a CEX, enabling users to implement a trading strategy based on the ups and downs in a trading pair while maintaining full self-custody of their assets.
 
-Combined with the advantages of DeGate's free maker orders, this feature can help users earn long-term and stable returns safely in the highly volatile cryptocurrency market without the assets being custodized by a centralized entity. Data availability for all grid strategies on DeGate is secured by Ethereum through zero-knowledge technology.
+Combined with the advantages of DeGate's free maker orders, this feature can help users earn long-term and stable returns safely in the highly volatile cryptocurrency market without the assets being custodized by a centralized entity. Data availability for all grid strategies on DeGate is secured by Ethereum through zero-knowledge technology, ensuring a transparent and secure self-custody trading experience.
 
 ## Design Principles
 
@@ -48,7 +49,7 @@ The whole system is an [open protocol](what-is-degate/permissionless-listing.md)
 
 ## Roadmap
 
-DeGate is working towards a fully decentralized limit order trading protocol built on a DAO-centric model. All liquidity comes from the community, and all income belongs to the DAO. It is a grand and challenging project that will be implemented in multiple milestones, but even in the first version, the protocol still guarantees a [trustless](what-is-degate/trustless-and-decentralized.md) system where all assets are owned by the user.
+DeGate is working towards a fully decentralized, self-custody, limit order trading protocol built on a DAO-centric model. All liquidity comes from the community, and all income belongs to the DAO. It is a grand and challenging project that will be implemented in multiple milestones, but even in the first version, the protocol still guarantees a [trustless](what-is-degate/trustless-and-decentralized.md) system where all assets are owned by the user.
 
 ### Phase 1 - Project Launch
 
