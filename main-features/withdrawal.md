@@ -8,16 +8,6 @@ Users can initiate off-chain send requests at any time to retrieve assets from t
 
 When initiating a send request, users are required to pay gas fees, which currently can be paid with ETH, USDC, and USDT, but not the sent token.
 
-### **Send Fund Options**
-
-DeGate now offers two modes for sending funds: **Economy** and **Fast**.
-
-• **Fast Mode**: This option has a slightly higher gas fee but guarantees arrival within 10 minutes.
-
-• **Economy Mode**: Perfect for those users who have time and want to save on gas fees.
-
-The great thing is, whenever someone initiates a Fast Send, Economy Send requests get processed immediately. It’s like taking a free ride.
-
 ### **Send Fund Options** <a href="#send-fund-options" id="send-fund-options"></a>
 
 DeGate now offers two modes for sending funds: **Economy** and **Fast**.
