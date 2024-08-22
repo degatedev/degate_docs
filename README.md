@@ -60,12 +60,20 @@
 [where-and-how-to-buy-balancer-bal-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-balancer-bal-guide.md)
 {% endcontent-ref %}
 
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-band-protocol-band-guide.md" %}
+[where-and-how-to-buy-band-protocol-band-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-band-protocol-band-guide.md)
+{% endcontent-ref %}
+
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-basic-attention-bat-guide.md" %}
 [where-and-how-to-buy-basic-attention-bat-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-basic-attention-bat-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-beam-guide.md" %}
 [where-and-how-to-buy-beam-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-beam-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-biconomy-bico-guide.md" %}
+[where-and-how-to-buy-biconomy-bico-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-biconomy-bico-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-blur-guide.md" %}
@@ -80,12 +88,20 @@
 [where-and-how-to-buy-celo-native-asset-celo-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-celo-native-asset-celo-guide.md)
 {% endcontent-ref %}
 
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-chromia-chr-guide.md" %}
+[where-and-how-to-buy-chromia-chr-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-chromia-chr-guide.md)
+{% endcontent-ref %}
+
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-chiliz-chz-guide.md" %}
 [where-and-how-to-buy-chiliz-chz-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-chiliz-chz-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-compound-comp-guide.md" %}
 [where-and-how-to-buy-compound-comp-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-compound-comp-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-coti-guide.md" %}
+[where-and-how-to-buy-coti-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-coti-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-curve-dao-crv-guide.md" %}
@@ -156,6 +172,10 @@
 [where-and-how-to-buy-greenmetaversetoken-gmt-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-greenmetaversetoken-gmt-guide.md)
 {% endcontent-ref %}
 
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-gnosis-gno-guide.md" %}
+[where-and-how-to-buy-gnosis-gno-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-gnosis-gno-guide.md)
+{% endcontent-ref %}
+
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-graph-token-grt-guide.md" %}
 [where-and-how-to-buy-graph-token-grt-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-graph-token-grt-guide.md)
 {% endcontent-ref %}
@@ -196,6 +216,14 @@
 [where-and-how-to-buy-jupiter-jup-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-jupiter-jup-guide.md)
 {% endcontent-ref %}
 
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-kyber-network-crystal-knc-guide.md" %}
+[where-and-how-to-buy-kyber-network-crystal-knc-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-kyber-network-crystal-knc-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-layer3-l3-guide.md" %}
+[where-and-how-to-buy-layer3-l3-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-layer3-l3-guide.md)
+{% endcontent-ref %}
+
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-milady-ladys-guide.md" %}
 [where-and-how-to-buy-milady-ladys-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-milady-ladys-guide.md)
 {% endcontent-ref %}
@@ -210,6 +238,10 @@
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-chainlink-link-guide.md" %}
 [where-and-how-to-buy-chainlink-link-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-chainlink-link-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-looksrare-looks-guide.md" %}
+[where-and-how-to-buy-looksrare-looks-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-looksrare-looks-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-livepeer-lpt-guide.md" %}
@@ -238,6 +270,10 @@
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-memecoin-meme-guide.md" %}
 [where-and-how-to-buy-memecoin-meme-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-memecoin-meme-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-metis-guide.md" %}
+[where-and-how-to-buy-metis-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-metis-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-mkr-guide.md" %}
@@ -304,12 +340,20 @@
 [where-and-how-to-buy-radiant-rdnt-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-radiant-rdnt-guide.md)
 {% endcontent-ref %}
 
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-request-req-guide.md" %}
+[where-and-how-to-buy-request-req-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-request-req-guide.md)
+{% endcontent-ref %}
+
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-renzo-rez-guide.md" %}
 [where-and-how-to-buy-renzo-rez-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-renzo-rez-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-rocket-pool-rpl-guide.md" %}
 [where-and-how-to-buy-rocket-pool-rpl-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-rocket-pool-rpl-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-reserve-rights-rsr-guide.md" %}
+[where-and-how-to-buy-reserve-rights-rsr-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-reserve-rights-rsr-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-rss3-guide.md" %}
@@ -334,6 +378,10 @@
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-skale-skl-guide.md" %}
 [where-and-how-to-buy-skale-skl-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-skale-skl-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-status-snt-guide.md" %}
+[where-and-how-to-buy-status-snt-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-status-snt-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-synthetix-network-snx-guide.md" %}
@@ -434,6 +482,10 @@
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-yield-guild-games-token-ygg-guide.md" %}
 [where-and-how-to-buy-yield-guild-games-token-ygg-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-yield-guild-games-token-ygg-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-polyhedra-network-zkj-guide.md" %}
+[where-and-how-to-buy-polyhedra-network-zkj-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-polyhedra-network-zkj-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-layerzero-zro-guide.md" %}
