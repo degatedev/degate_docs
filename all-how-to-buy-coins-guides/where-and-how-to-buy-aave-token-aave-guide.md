@@ -14,13 +14,13 @@ layout:
 
 # Where & How to Buy Aave Token(AAVE) Guide
 
-<figure><img src="../.gitbook/assets/aave_0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae91695770988853.jpg" alt="AAVE" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/aave_0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae91695770988853.jpg" alt="AAVE" width="64"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase AAVE and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase AAVE and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9?utm\_source=howtobuy).
 
 Key trading pairs:
 
-* [AAVE/USDC](https://app.degate.com/trade/USDC/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9?utm_source=howtobuy)
+* [AAVE/USDC](https://app.degate.com/trade/USDC/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9?utm\_source=howtobuy)
 
 ***
 
@@ -30,22 +30,22 @@ There are several crypto wallets to choose from within the Ethereum network and 
 
 ## 2. Set up your wallet and transfer USDC or ETH to wallet
 
-Register and set up the crypto wallet via the wallet’s Google Chrome extension or via the mobile app you downloaded in Step 1. You may refer to the wallet’s support page for reference. Make sure to keep your seed phrase safe, and take note of your wallet address.&#x20;
+Register and set up the crypto wallet via the wallet’s Google Chrome extension or via the mobile app you downloaded in Step 1. You may refer to the wallet’s support page for reference. Make sure to keep your seed phrase safe, and take note of your wallet address.
 
 Now you can transfer crypto assets like USDC or ETH into this wallet address through any other exchanges or wallets.
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=AAVE_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://app.degate.com/?utm\_source=AAVE\_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
-For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
+For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product\_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [AAVE/USDC](https://app.degate.com/trade/USDC/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [AAVE/USDC](https://app.degate.com/trade/USDC/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9?utm\_source=howtobuy) trading pairs.
 
 ## About DeGate
 
-DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions. Learn more in [degate.com](https://degate.com/?utm_source=AAVE_howtobuy).
+DeGate is a spot order book DEX on Ethereum built with Zero-Knowledge technology. In addition, DeGate offers a decentralized grid trading and DCA functions. Learn more in [degate.com](https://degate.com/?utm\_source=AAVE\_howtobuy).
 
 To stay updated with the latest news and developments, follow DeGate on [Twitter](https://twitter.com/degatedex).
