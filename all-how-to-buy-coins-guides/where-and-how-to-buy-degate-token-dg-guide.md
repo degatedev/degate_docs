@@ -1,15 +1,5 @@
 ---
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+layout: editorial
 ---
 
 # Where & How to Buy DeGate Token(DG) Guide
@@ -22,7 +12,6 @@ Key trading pairs:
 
 * [DG/USDC](https://app.degate.com/trade/USDC/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy)
 * [DG/USDT](https://app.degate.com/trade/USDT/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy)
-* [DG/ETH](https://app.degate.com/trade/ETH/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy)
 
 ***
 
@@ -44,7 +33,7 @@ For detailed steps to take if you are using Metamask, see [here](https://docs.de
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [DG/USDC](https://app.degate.com/trade/USDC/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy), [DG/USDT](https://app.degate.com/trade/USDT/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy), [DG/ETH](https://app.degate.com/trade/ETH/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [DG/USDC](https://app.degate.com/trade/USDC/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy), [DG/USDT](https://app.degate.com/trade/USDT/0x53c8395465a84955c95159814461466053dedede?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 
