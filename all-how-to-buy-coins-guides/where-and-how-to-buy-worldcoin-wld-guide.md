@@ -16,11 +16,11 @@ Key trading pairs:
 
 ## 1. Download a wallet supporting the Ethereum network
 
-There are several crypto wallets to choose from within the Ethereum network and Metamask is currently the most integrated. If you are using a desktop computer, you can download Google Chrome and the Metamask wallet Chrome extension. If you prefer using your mobile phone, you can download the wallet via Google Play or the iOS App Store if it’s available. Just make sure that you are downloading the official Chrome extension and mobile app by visiting [Metamask’s](https://metamask.io/) website.
+There are several crypto wallets to choose from within the Ethereum network and Metamask is currently the most integrated. If you are using a desktop computer, you can download Google Chrome and the Metamask wallet Chrome extension. If you prefer using your mobile phone, you can download the wallet via Google Play or the iOS App Store if it's available. Just make sure that you are downloading the official Chrome extension and mobile app by visiting [Metamask's](https://metamask.io/) website.
 
 ## 2. Set up your wallet and transfer USDC or ETH to wallet
 
-Register and set up the crypto wallet via the wallet’s Google Chrome extension or via the mobile app you downloaded in Step 1. You may refer to the wallet’s support page for reference. Make sure to keep your seed phrase safe, and take note of your wallet address.&#x20;
+Register and set up the crypto wallet via the wallet's Google Chrome extension or via the mobile app you downloaded in Step 1. You may refer to the wallet's support page for reference. Make sure to keep your seed phrase safe, and take note of your wallet address.&#x20;
 
 Now you can transfer crypto assets like USDC or ETH into this wallet address through any other exchanges or wallets.
 
