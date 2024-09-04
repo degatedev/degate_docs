@@ -1,4 +1,4 @@
-# All How to Buy Coins Guides.
+# All How to Buy Coins Guides
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-1inch-guide.md" %}
 [where-and-how-to-buy-1inch-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-1inch-guide.md)
@@ -306,6 +306,10 @@
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-nkn-guide.md" %}
 [where-and-how-to-buy-nkn-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-nkn-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-nostra-nstr-guide.md" %}
+[where-and-how-to-buy-nostra-nstr-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-nostra-nstr-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-origin-protocol-ogn-guide.md" %}

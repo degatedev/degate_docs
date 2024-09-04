@@ -78,6 +78,7 @@
 * [Where & How to Buy NEAR Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-near-guide.md)
 * [Where & How to Buy NEIRO Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-neiro-guide.md)
 * [Where & How to Buy NKN Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-nkn-guide.md)
+* [Where & How to Buy Nostra(NSTR) Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-nostra-nstr-guide.md)
 * [Where & How to Buy Origin Protocol(OGN) Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-origin-protocol-ogn-guide.md)
 * [Where & How to Buy OMG Network(OMG) Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-omg-network-omg-guide.md)
 * [Where & How to Buy Omni Network(OMNI) Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-omni-network-omni-guide.md)
