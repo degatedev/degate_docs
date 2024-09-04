@@ -1,4 +1,4 @@
-# All How to Buy Coins Guides
+# All How to Buy Coins Guides.
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-1inch-guide.md" %}
 [where-and-how-to-buy-1inch-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-1inch-guide.md)
