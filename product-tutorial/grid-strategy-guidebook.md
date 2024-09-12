@@ -6,7 +6,7 @@
 
 以 ETH/USDC 交易对为例
 
-<figure><img src="../.gitbook/assets/截屏2024-08-08 13.42.22.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-09-12 12.05.48.png" alt=""><figcaption></figcaption></figure>
 
 ### **选择网格策略模式**&#x20;
 
@@ -53,7 +53,7 @@
 每个网格订单有最低$25的金额要求
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/截屏2024-08-08 14.23.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/截屏2024-09-12 12.33.39 (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/截屏2024-08-08 14.33.21.png" alt=""><figcaption></figcaption></figure>
 
