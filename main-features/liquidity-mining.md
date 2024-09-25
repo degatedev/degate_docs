@@ -15,7 +15,7 @@ To begin mining on DeGate, all of the following requirements must be met:
 3. **Order price**: To incentivize users to contribute effective liquidity, the DeGate protocol makes a judgment every 15 seconds and allocates mining rewards to orders within the required price range and meeting the aforementioned conditions.&#x20;
 
 {% hint style="info" %}
-_Note: The minimum mining order amount per grid is $120_
+_Note: The minimum mining order amount per grid is $25_
 {% endhint %}
 
 While the first two conditions are static and determined when a grid strategy is created, the third condition is dynamic, excluding some grid orders from receiving mining rewards. Grid strategies with the same initial allocation may receive different mining rewards if they have different price ranges and numbers of grids.
