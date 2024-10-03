@@ -136,6 +136,10 @@
 [where-and-how-to-buy-dydx-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-dydx-guide.md)
 {% endcontent-ref %}
 
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-eigen-guide.md" %}
+[where-and-how-to-buy-eigen-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-eigen-guide.md)
+{% endcontent-ref %}
+
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-ena-guide.md" %}
 [where-and-how-to-buy-ena-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-ena-guide.md)
 {% endcontent-ref %}
@@ -344,8 +348,16 @@
 [where-and-how-to-buy-pepe-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-pepe-guide.md)
 {% endcontent-ref %}
 
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-phala-network-pha-guide.md" %}
+[where-and-how-to-buy-phala-network-pha-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-phala-network-pha-guide.md)
+{% endcontent-ref %}
+
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-pixel-guide.md" %}
 [where-and-how-to-buy-pixel-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-pixel-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-polygon-ecosystem-token-pol-guide.md" %}
+[where-and-how-to-buy-polygon-ecosystem-token-pol-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-polygon-ecosystem-token-pol-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-portal-guide.md" %}
@@ -426,6 +438,10 @@
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-stargatetoken-stg-guide.md" %}
 [where-and-how-to-buy-stargatetoken-stg-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-stargatetoken-stg-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-stormx-stmx-guide.md" %}
+[where-and-how-to-buy-stormx-stmx-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-stormx-stmx-guide.md)
 {% endcontent-ref %}
 
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-storj-guide.md" %}
