@@ -33,6 +33,7 @@
 * [Where & How to Buy DEGEN Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-degen-guide.md)
 * [Where & How to Buy DeGate Token(DG) Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-degate-token-dg-guide.md)
 * [Where & How to Buy DODO Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-dodo-guide.md)
+* [Where & How to Buy Dork Lord(DORKY) Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-dork-lord-dorky-guide.md)
 * [Where & How to Buy DUSK Network(DUSK) Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-dusk-network-dusk-guide.md)
 * [Where & How to Buy DYDX Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-dydx-guide.md)
 * [Where & How to Buy EIGEN Guide](all-how-to-buy-coins-guides/where-and-how-to-buy-eigen-guide.md)

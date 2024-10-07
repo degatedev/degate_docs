@@ -128,6 +128,10 @@
 [where-and-how-to-buy-dodo-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-dodo-guide.md)
 {% endcontent-ref %}
 
+{% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-dork-lord-dorky-guide.md" %}
+[where-and-how-to-buy-dork-lord-dorky-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-dork-lord-dorky-guide.md)
+{% endcontent-ref %}
+
 {% content-ref url="all-how-to-buy-coins-guides/where-and-how-to-buy-dusk-network-dusk-guide.md" %}
 [where-and-how-to-buy-dusk-network-dusk-guide.md](all-how-to-buy-coins-guides/where-and-how-to-buy-dusk-network-dusk-guide.md)
 {% endcontent-ref %}
