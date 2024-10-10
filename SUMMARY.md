@@ -28,6 +28,7 @@
 * [Add](main-features/deposit.md)
 * [Send](main-features/withdrawal.md)
 * [Transfer](main-features/transfer.md)
+* [Cross-chain Add/Send Feature](main-features/cross-chain.md)
 * [Permissionless Listing](main-features/permissionless-listing.md)
 * [Trading Pairs](main-features/trading-pairs.md)
 * [Placing Orders](main-features/placing-orders.md)
