@@ -4,15 +4,11 @@ DeGate's cross-chain add and transfer function utilizes a cross-chain bridge man
 
 ### Supported Assets and Chains for Cross-Chain Functionality <a href="#id-kua-lian-hua-ru-fa-song-gong-neng-dui-wai-wen-dang-biao-shu-supportedassetsandchainsforcrosschain" id="id-kua-lian-hua-ru-fa-song-gong-neng-dui-wai-wen-dang-biao-shu-supportedassetsandchainsforcrosschain"></a>
 
-| Asset         | Supported Chains (Add Funds) | Supported Chains (Send) |
-| ------------- | ---------------------------- | ----------------------- |
-| ETH           | Arbitrum One, Optimism       | Arbitrum One            |
-| USDC (Native) | Arbitrum One, Optimism       | Arbitrum One            |
-| USDT          | Arbitrum One, Optimism       | Arbitrum One            |
+<table data-header-hidden><thead><tr><th width="181"></th><th></th><th></th></tr></thead><tbody><tr><td>Asset</td><td>Supported Chains (Add Funds)</td><td>Supported Chains (Send)</td></tr><tr><td>ETH</td><td>Arbitrum One, Optimism</td><td>Arbitrum One</td></tr><tr><td>USDC (Native)</td><td>Arbitrum One, Optimism</td><td>Arbitrum One</td></tr><tr><td>USDT</td><td>Arbitrum One, Optimism</td><td>Arbitrum One</td></tr></tbody></table>
 
 ### FAQ
 
-**Q: Are there limits on add funds and transfers?**\
+**Q: Are there limits on add funds and send funds?**\
 **A:** Yes, limits are based on the current capacity of the cross-chain bridge. The maximum limit is shown during the transaction.
 
 **Q: Are funds in my DeGate balance still trustless?**\
