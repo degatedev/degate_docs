@@ -31,7 +31,7 @@
 * [创建订单](main-features/place-order.md)
 * [网格策略](main-features/grid-strategy.md)
 * [流动性挖矿](main-features/liquidity-mining.md)
-* [历史数据](main-features/historical-data.md)
+* [跨链划入发送功能](main-features/historical-data.md)
 
 ## 进阶 <a href="#advanced" id="advanced"></a>
 
