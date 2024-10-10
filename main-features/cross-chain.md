@@ -10,7 +10,7 @@ DeGate's cross-chain add and transfer function utilizes a cross-chain bridge man
 | USDC (Native) | Arbitrum One, Optimism       | Arbitrum One            |
 | USDT          | Arbitrum One, Optimism       | Arbitrum One            |
 
-
+### FAQ
 
 **Q: Are there limits on add funds and transfers?**\
 **A:** Yes, limits are based on the current capacity of the cross-chain bridge. The maximum limit is shown during the transaction.
