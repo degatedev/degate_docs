@@ -15,6 +15,6 @@ DeGate's cross-chain add and transfer function utilizes a cross-chain bridge man
 **A:** Yes, funds in DeGate remain trustless, secured by zero-knowledge rollups on Ethereum mainnet. During cross-chain transactions, typically in seconds funds are temporarily custodied by the bridge service.
 
 **Q: Why hasn't my added funds arrived and why does it show a "failed" status?**\
-**A:** You can create a support ticket on Discord, and our team will assist you.
+**A:** You can create a support ticket on [Discord](https://discord.gg/degate), and our team will assist you.
 
 \
