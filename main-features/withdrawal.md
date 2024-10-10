@@ -26,3 +26,4 @@ DeGate 提供两种资金发送模式：经济模式和快速模式。
 
 ### 跨链发送
 
+了解更多信息，请参考 [cross-chain.md](cross-chain.md "mention")

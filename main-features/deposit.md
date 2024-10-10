@@ -24,3 +24,4 @@
 
 ### 跨链划入
 
+了解更多信息，请参考 [cross-chain.md](cross-chain.md "mention")
