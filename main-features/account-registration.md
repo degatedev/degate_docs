@@ -14,4 +14,4 @@ The account registration procedure for a user involves:
 
 ### Account Registration Criteria
 
-Account registration on DeGate requires no KYC, and DeGate supports External Owned Account(EOA) and contract account (CA). The only requirement is that the EVM account must have at least one transfer-in or transfer-out record. Therefore, a new address cannot register a DeGate account. The DeGate block synchronization service will regularly scan and updates the list of addresses that are eligible to create accounts.
+Account registration on DeGate requires no KYC, and DeGate supports External Owned Account(EOA) and contract account (CA).&#x20;
