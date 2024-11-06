@@ -9,3 +9,5 @@ Learn how to use [DeGate](https://app.degate.com/) Order Book DEX here:
 ### [DCA](dca-trading-bot-on-degate-dex.md)
 
 ### [Token Listing](listing-your-token-on-degate-dex.md)
+
+### [Start Using DeGate with Email](start-using-degate-with-email.md)
