@@ -113,9 +113,18 @@ In this phase, the restrictions on whitelist registration will be removed, openi
 
 The primary focus will be on continual product enhancements to achieve a strong Product Market Fit (PMF) for DeGate. Marketing campaigns, small-scale PR efforts, and Key Opinion Leader (KOL) partnerships will be implemented to gather valuable feedback from the community.
 
-DeGate will further develop the DAO-centric governance model, enhancing voting power and incentives to token holders.
+DeGate will further develop the DAO-centric governance model, enhancing voting power and incentives to token holders. At this stage, it is important to note that the protocol will be served by a single match node, with full decentralization addressed in Phase 5.
 
-At this stage, it is important to note that the protocol will be served by a single match node, with full decentralization addressed in Phase 5.
+**Q4 2024: Cross Chain Intent Trading**&#x20;
+
+**Trade on all leading Chains:** Whether using an existing Ethereum wallet or creating a new one with an email login, users can trade tokens across chains without setting up new wallets or gas tokens, or switching chains at all when buying tokens on a new chain.
+
+* Imagine a user with only a MetaMask wallet on Ethereum and no other on-chain wallets. With DeGate, they can now use their USDC to buy a token on Solana.&#x20;
+* This is done through the concept of **Solvers**. The solver performs the function of buying the token on Solana. Then, the token is securely delivered to a Solana address linked to the user's wallet and fully controlled by their private key. This token, along with other assets, can then be managed directly in their DeGate account.&#x20;
+* **Fast and Cost-Effective**: The estimated time is less than a minute for any transaction.
+* **High Certainty**: Our system ensures a reliable and smooth experience for every swap.
+
+Launching first with **Solana**, the Cross-Chain Intent Trading feature will expand to other leading chains, with more chains to be added as soon as they are ready. The end goal is for all leading chains to be available on DeGate, as part of DeGate’s mission to deliver a comprehensive and decentralized financial platform.
 
 ### Phase 5 - Hyper Scalability (DeGate 2.0)
 
