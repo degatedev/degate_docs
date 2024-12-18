@@ -9,7 +9,7 @@ When using the DeGate protocol, users may need to pay different fees based on di
 
 The node operator sets the trading fee rate for each trading pair, which is currently fixed as:
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th>Trading Pair Type</th><th>Taker Rate</th><th>Maker Rate</th><th>Example</th></tr></thead><tbody><tr><td>Stable pairs</td><td>0.01%</td><td><strong>Free</strong></td><td>USDT/USDC, DAI/USDC,<br>DAI/USDT, wstETH/ETH</td></tr><tr><td>Others</td><td>0.05%</td><td><strong>Free</strong></td><td>ETH/UDSC, DG/USDT</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th>Trading Pair Type</th><th>Taker Rate</th><th>Maker Rate</th><th>Example</th></tr></thead><tbody><tr><td>Stable pairs</td><td>0.01%</td><td><strong>Free</strong></td><td>USDT/USDC, DAI/USDC,<br>DAI/USDT, wstETH/ETH</td></tr><tr><td>Others</td><td><mark style="color:orange;">0.07%</mark> <del>0.1%</del></td><td><strong>Free</strong></td><td>ETH/UDSC, DG/USDT</td></tr></tbody></table>
 
 To prevent the node operator from arbitrarily modifying the fee rate, a parameter specifying the maximum fee rate is added to the DeGate smart contract. The actual fee rate can not exceed this parameter; otherwise the order will fail the smart contract verification when submitted on-chain. In addition, a 7-day grace period after the modification of the maximum fee rate gives users enough time to respond.
 
