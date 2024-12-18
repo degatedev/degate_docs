@@ -8,7 +8,7 @@ description: Decentralized grid strategy on DeGate DEX
 
 Grid Strategy or grid trading is a trading mechanism that automates buying and selling within a defined range. It enables you to place a series of buy and sell orders within a designated price range; when a buy order is executed, it instantly places another sell order at a higher grid level, and vice versa. Grid strategy performs best in sideways markets when prices fluctuate regularly within a defined range, enabling you to make profits on small price changes.
 
-On [DeGate DEX](https://app.degate.com/?utm\_source=gridguidebook), you can do no fee, decentralized [grid strategy](https://app.degate.com/en/grid/USDC/ETH/?utm\_source=gridguidebook) in self-custody manner.&#x20;
+On [DeGate DEX](https://app.degate.com/?utm_source=gridguidebook), you can do no fee, decentralized [grid strategy](https://app.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) in self-custody manner.&#x20;
 
 {% embed url="https://www.youtube.com/watch?v=uvkBgcWa6zc" %}
 Grid Strategy in action, buying low and selling high
@@ -113,4 +113,12 @@ The main benefit of the Sell Grid Strategy is this - the trader will get to take
 
 Grid trading is an automated trading strategy unaffected by human emotions and is entirely determined by code. This strategy is best executed in a sideways market, generating passive income for users without having to constantly screen-watch.&#x20;
 
-On top of that, by leveraging on [DeGate](https://app.degate.com/?utm\_source=gridguidebook)'s decentralized design to its grid strategy feature, users will now have full custody over their funds while enjoying the benefits of automated trading. With [DeGate ](https://degate.com/?utm\_source=gridguidebook)range of features such as limit orders and decentralized grid trading, users can finally sleep well no matter the market conditions.&#x20;
+On top of that, by leveraging on [DeGate](https://app.degate.com/?utm_source=gridguidebook)'s decentralized design to its grid strategy feature, users will now have full custody over their funds while enjoying the benefits of automated trading. With [DeGate ](https://degate.com/?utm_source=gridguidebook)range of features such as limit orders and decentralized grid trading, users can finally sleep well no matter the market conditions.&#x20;
+
+
+
+### Grid Strategy Video Tutorial Series
+
+
+
+{% embed url="https://www.youtube.com/playlist?list=PLrvM0ayD2qDDafc63cQkuOf5iwbcE0aWx" %}
