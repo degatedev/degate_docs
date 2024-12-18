@@ -2,14 +2,14 @@
 
 使用DeGate协议时，根据不同场景的操作，用户可能需要支付不同的费用
 
-* **手续费：**限价单和市价单成交时，作为Taker一方的用户需要支付交易手续费。手续费率取决于不同的交易对。手续费会从用户成交后得到币种中扣除。例如DG/USDC交易对，市价单买入1000个DG，假设手续费率为0.1%，则用户作为Taker得到的1000个DG中，有1000\*0.1%=1个DG作为手续费，最终收到999个DG。所有交易手续费都进入DeGate HomeDAO金库。
-* **矿工费：**所有通过零知识证明完成的操作，最终提交到以太坊主网时，会有一笔矿工费开销。经过测试，DeGate协议定义了每种操作的Gas使用量，并在用户发起相关操作前，根据当时网络的Gas价格和以太坊价格，计算出用户需要支付的矿工费。目前支持用ETH、USDC和USDT来支付矿工费。
+* **手续费：**&#x9650;价单和市价单成交时，作为Taker一方的用户需要支付交易手续费。手续费率取决于不同的交易对。手续费会从用户成交后得到币种中扣除。例如DG/USDC交易对，市价单买入1000个DG，假设手续费率为0.1%，则用户作为Taker得到的1000个DG中，有1000\*0.1%=1个DG作为手续费，最终收到999个DG。所有交易手续费都进入DeGate HomeDAO金库。
+* **矿工费：**&#x6240;有通过零知识证明完成的操作，最终提交到以太坊主网时，会有一笔矿工费开销。经过测试，DeGate协议定义了每种操作的Gas使用量，并在用户发起相关操作前，根据当时网络的Gas价格和以太坊价格，计算出用户需要支付的矿工费。目前支持用ETH、USDC和USDT来支付矿工费。
 
 ## 手续费率 <a href="#trading-fee-rate" id="trading-fee-rate"></a>
 
 每个交易对的手续费率由节点运营方设置，目前设置为：
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th>交易对类型</th><th>Taker费率</th><th>Maker费率</th><th>举例</th></tr></thead><tbody><tr><td>稳定类</td><td>0.01%</td><td><strong>免费</strong></td><td>USDT/USDC, DAI/USDC,<br>DAI/USDT，wstETH/ETH</td></tr><tr><td>其他</td><td>0.05%</td><td><strong>免费</strong></td><td>ETH/USDC, DG/USDT</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th>交易对类型</th><th>Taker费率</th><th>Maker费率</th><th>举例</th></tr></thead><tbody><tr><td>稳定类</td><td>0.01%</td><td><strong>免费</strong></td><td>USDT/USDC, DAI/USDC,<br>DAI/USDT，wstETH/ETH</td></tr><tr><td>其他</td><td><mark style="color:orange;">0.07%</mark> <del>0.1%</del></td><td><strong>免费</strong></td><td>ETH/USDC, DG/USDT</td></tr></tbody></table>
 
 为了防止节点运营方任意修改手续费率，在DeGate智能合约中加入了手续费率最大值的参数，实际收取的费率不得超过此参数，否则订单成交提交到合约无法通过验证。并且手续费率最大值修改后有7天的延迟生效期，留出足够时间供用户应对。
 
