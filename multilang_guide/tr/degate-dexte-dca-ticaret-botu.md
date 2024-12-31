@@ -9,7 +9,7 @@ Bir DCA Planının nasıl kurulacağına dair rehber:
 
 ### 1. [**http://app.degate.com**](http://app.degate.com/) **adresine gidin ve** [**DCA**](https://app.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook) **sayfasına girin.**
 
-<figure><img src="../.gitbook/assets/0.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/0 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **2. Parametreleri ayarlayın**
 
@@ -17,18 +17,18 @@ Bir DCA Planının nasıl kurulacağına dair rehber:
 
 **2) Bir Sıklık Seçin**
 
-![](../.gitbook/assets/1.png)
+![](<../.gitbook/assets/1 (1).png>)
 
 Özel seçeneğinde sıklığı her x saat veya dakikaya göre özelleştirebilirsiniz.
 
-<div align="left"><img src="../.gitbook/assets/2.png" alt="" width="293"></div>
+<div align="left"><img src="../.gitbook/assets/2 (1).png" alt="" width="293"></div>
 
 **3) Başlangıç ve Bitiş Zamanını Seçin**\
 Varsayılan olarak, Başlangıç Zamanı planın oluşturulduğu andır. Takvim simgesine tıklayarak Başlangıç Zamanını gelecekteki bir tarih ve saat olarak özelleştirebilirsiniz. Bitiş Zamanı ise DCA Planınızın sonlanacağı zamandır.
 
 **4) Emir Başına Miktarı Girin. Bu, DCA emri başına satın almak (veya satmak) için kullanacağınız miktardır.**
 
-![](../.gitbook/assets/3.png)
+![](<../.gitbook/assets/3 (1).png>)
 
 
 
@@ -36,7 +36,7 @@ Varsayılan olarak, Başlangıç Zamanı planın oluşturulduğu andır. Takvim 
 
 Sıfır Ücret Modu, her DCA emrini sadece limit emri (Maker) olarak işler, bu da herhangi bir ücret alınmadığı anlamına gelir. Ancak, emirlerinizin hemen doldurulamayabileceğini ya da hiç doldurulamayabileceğini unutmayın.
 
-<div align="left"><img src="../.gitbook/assets/4.png" alt="" width="338"></div>
+<div align="left"><img src="../.gitbook/assets/4 (1).png" alt="" width="338"></div>
 
 Sıfır Ücret Modunu etkinleştirip etkinleştirmemeyi seçebilirsiniz. Etkinleştirmek için sağdaki noktaya tıklayın; çubuk maviye döner, bu da etkinleştirildiğini gösterir.\
 Daha fazla bilgi için imleci yandaki "i" simgesinin üzerine getirin.

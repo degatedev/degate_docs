@@ -141,7 +141,7 @@ description: DeGate DEXにおける分散型グリッド戦略
 
 ETH/USDCペアを使用したガイド例を用いて説明します。
 
-![](<../.gitbook/assets/0 (1).png>)
+![](<../.gitbook/assets/0 (1) (1).png>)
 
 #### **グリッド戦略モードを選択する**
 

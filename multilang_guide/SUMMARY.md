@@ -4,6 +4,7 @@
 
 * [Strategia a Griglia su DeGate DEX](README.md)
 * [Bot di Trading DCA su DeGate DEX](it/bot-di-trading-dca-su-degate-dex.md)
+* [Aggiungere Fondi su DeGate DEX](it/aggiungere-fondi-su-degate-dex.md)
 
 ## español <a href="#es" id="es"></a>
 
