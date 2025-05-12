@@ -8,9 +8,7 @@ Security is a top priority for DeGate, and the system has been implemented with 
 
 ## Bug Bounty Program
 
-The DeGate bug bounty program is designed to incentivize security researchers to identify and report vulnerabilities in the platform. To participate in the bug bounty program, security researchers must submit their findings through the [Immunefi platform](https://immunefi.com/bounty/degate/)(temporary maintenance). The platform offers a range of tools and resources to help researchers identify and report vulnerabilities in the DeGate platform.
-
-The DeGate bug bounty program offers rewards ranging from $1,000 to $1,110,000, depending on the severity of the bug found. The program covers almost all aspects of the DeGate platform, including smart contracts, circuits and web application.
+A more updated bug bounty program will be announced in due course to reflect with DeGate's new product direction and features.
 
 
 
