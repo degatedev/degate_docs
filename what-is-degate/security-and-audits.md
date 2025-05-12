@@ -8,7 +8,9 @@ Security is a top priority for DeGate, and the system has been implemented with 
 
 ## Bug Bounty Program
 
-A more updated bug bounty program will be announced in due course to reflect with DeGate's new product direction and features.
+We’re refreshing our bug-bounty program to match DeGate’s upcoming features—details coming soon. Meanwhile, please report any bugs or vulnerabilities by opening a ticket in our Discord ([https://discord.gg/AcvnAZhw83](https://discord.gg/AcvnAZhw83)); our team will respond promptly.
+
+
 
 
 
