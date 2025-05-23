@@ -1,6 +1,6 @@
 # Table of contents
 
-## What is DeGate
+## What is DeGate Orderbook <a href="#what-is-degate" id="what-is-degate"></a>
 
 * [A ZK Rollup Orderbook Decentralized Exchange](README.md)
 * [Trustless and Decentralized](what-is-degate/trustless-and-decentralized.md)
