@@ -12,7 +12,7 @@ With the Email Login feature, anyone can start using DeGate, even those without 
 
 ### Step by Step Guide
 
-1. Visit [https://app.degate.com/](https://app.degate.com/)
+1. Visit [https://orderbook.degate.com/](https://orderbook.degate.com/)
 2. Click the '**Connect Wallet**' button in the top right corner.
 3. Scroll down through the options and select '**Email'**.
 

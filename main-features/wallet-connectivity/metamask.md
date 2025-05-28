@@ -6,7 +6,7 @@ description: How to connect MetaMask to DeGate?
 
 ## Connecting MetaMask to DeGate
 
-1\.  Go to the Trade page: [https://app.degate.com/](https://app.degate.com/)
+1\.  Go to the Trade page: [https://orderbook.degate.com/](https://orderbook.degate.com/)
 
 2\.  Select "Connect Wallet".
 

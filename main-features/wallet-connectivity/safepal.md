@@ -6,7 +6,7 @@ description: How to connect SafePal to DeGate?
 
 ## Connecting SafePal to DeGate
 
-1\.  Go to the Trade page: [https://app.degate.com/](https://app.degate.com/)
+1\.  Go to the Trade page: [https://orderbook.degate.com/](https://orderbook.degate.com/)
 
 2\.  Press the "Connect Wallet" button.
 

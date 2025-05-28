@@ -1,6 +1,6 @@
 # DeGate DEX Guidebook
 
-Learn how to use [DeGate](https://app.degate.com/) Order Book DEX here:
+Learn how to use [DeGate](https://orderbook.degate.com/) Order Book DEX here:
 
 ### [Grid Strategy ](grid-strategy-guidebook.md)
 
