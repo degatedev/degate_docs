@@ -6,11 +6,11 @@ layout: editorial
 
 <figure><img src="../.gitbook/assets/comp_0xc00e94cb662c3520282e6f5717214004a7f268881716285111347.jpg" alt="COMP" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase COMP and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0xc00e94cb662c3520282e6f5717214004a7f26888?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase COMP and other cryptocurrencies. Learn more and start trading [here](https://orderbook.degate.com/trade/USDC/0xc00e94cb662c3520282e6f5717214004a7f26888?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [COMP/USDC](https://app.degate.com/trade/USDC/0xc00e94cb662c3520282e6f5717214004a7f26888?utm_source=howtobuy)
+* [COMP/USDC](https://orderbook.degate.com/trade/USDC/0xc00e94cb662c3520282e6f5717214004a7f26888?utm_source=howtobuy)
 
 ***
 
@@ -26,13 +26,13 @@ Now you can transfer crypto assets like USDC or ETH into this wallet address thr
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=COMP_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://orderbook.degate.com/?utm_source=COMP_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
 For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [COMP/USDC](https://app.degate.com/trade/USDC/0xc00e94cb662c3520282e6f5717214004a7f26888?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [COMP/USDC](https://orderbook.degate.com/trade/USDC/0xc00e94cb662c3520282e6f5717214004a7f26888?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 

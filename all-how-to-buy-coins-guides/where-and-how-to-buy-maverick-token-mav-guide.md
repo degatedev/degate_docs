@@ -6,11 +6,11 @@ layout: editorial
 
 <figure><img src="../.gitbook/assets/mav_0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd1711367647361.jpg" alt="MAV" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase MAV and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase MAV and other cryptocurrencies. Learn more and start trading [here](https://orderbook.degate.com/trade/USDC/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [MAV/USDC](https://app.degate.com/trade/USDC/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd?utm_source=howtobuy)
+* [MAV/USDC](https://orderbook.degate.com/trade/USDC/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd?utm_source=howtobuy)
 
 ***
 
@@ -26,13 +26,13 @@ Now you can transfer crypto assets like USDC or ETH into this wallet address thr
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=MAV_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://orderbook.degate.com/?utm_source=MAV_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
 For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [MAV/USDC](https://app.degate.com/trade/USDC/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [MAV/USDC](https://orderbook.degate.com/trade/USDC/0x7448c7456a97769f6cd04f1e83a4a23ccdc46abd?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 

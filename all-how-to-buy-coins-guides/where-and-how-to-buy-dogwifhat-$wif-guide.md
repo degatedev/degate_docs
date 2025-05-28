@@ -6,11 +6,11 @@ layout: editorial
 
 <figure><img src="../.gitbook/assets/$wif_0x2ed58b1fa208e9a08fdaac2a839b8539abe558e81714705499857.jpg" alt="$WIF" width="64" style="border-radius: 50%;"><figcaption></figcaption></figure>
 
-DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase $WIF and other cryptocurrencies. Learn more and start trading [here](https://app.degate.com/trade/USDC/0x2ed58b1fa208e9a08fdaac2a839b8539abe558e8?utm_source=howtobuy).&#x20;
+DeGate is a decentralised trading platform which offers a secure and low-fee way to purchase $WIF and other cryptocurrencies. Learn more and start trading [here](https://orderbook.degate.com/trade/USDC/0x2ed58b1fa208e9a08fdaac2a839b8539abe558e8?utm_source=howtobuy).&#x20;
 
 Key trading pairs:
 
-* [$WIF/USDC](https://app.degate.com/trade/USDC/0x2ed58b1fa208e9a08fdaac2a839b8539abe558e8?utm_source=howtobuy)
+* [$WIF/USDC](https://orderbook.degate.com/trade/USDC/0x2ed58b1fa208e9a08fdaac2a839b8539abe558e8?utm_source=howtobuy)
 
 ***
 
@@ -26,13 +26,13 @@ Now you can transfer crypto assets like USDC or ETH into this wallet address thr
 
 ## 3. Initialize a DeGate account and add funds to DeGate balance
 
-Creating an account on [DeGate](https://app.degate.com/?utm_source=$WIF_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
+Creating an account on [DeGate](https://orderbook.degate.com/?utm_source=$WIF_howtobuy) using your wallet only takes around 10 seconds. Adding funds into your DeGate balance takes around 30 seconds. Your assets will always remain non-custodial within the DeGate protocol.
 
 For detailed steps to take if you are using Metamask, see [here](https://docs.degate.com/v/product_en/main-features/wallet-connectivity/metamask)
 
 ## 4. Experience seamless order book trading
 
-DeGate offers excellent liquidity for the [$WIF/USDC](https://app.degate.com/trade/USDC/0x2ed58b1fa208e9a08fdaac2a839b8539abe558e8?utm_source=howtobuy) trading pairs.&#x20;
+DeGate offers excellent liquidity for the [$WIF/USDC](https://orderbook.degate.com/trade/USDC/0x2ed58b1fa208e9a08fdaac2a839b8539abe558e8?utm_source=howtobuy) trading pairs.&#x20;
 
 ## About DeGate
 
