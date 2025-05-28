@@ -8,7 +8,7 @@ description: Dezentrale Grid-Strategie auf DeGate DEX
 
 Grid-Strategie oder Grid-Trading ist ein Handelsmechanismus, der Kaufen und Verkaufen innerhalb eines definierten Bereichs automatisiert. Sie können damit eine Reihe von Kauf- und Verkaufsaufträgen innerhalb eines festgelegten Preisbereichs platzieren. Wenn ein Kaufauftrag ausgeführt wird, platziert er sofort einen weiteren Verkaufsauftrag auf einer höheren Grid-Ebene und umgekehrt. Die Grid-Strategie funktioniert am besten in Seitwärtsmärkten, wenn die Preise regelmäßig innerhalb eines definierten Bereichs schwanken, sodass Sie auch bei kleinen Preisänderungen Gewinne erzielen können.
 
-Auf [DeGate DEX](https://app.degate.com/?utm_source=gridguidebook) können Sie eine gebührenfreie, dezentrale [Grid-Strategie](https://app.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) in Selbstverwahrung umsetzen.
+Auf [DeGate DEX](https://orderbook.degate.com/?utm_source=gridguidebook) können Sie eine gebührenfreie, dezentrale [Grid-Strategie](https://orderbook.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) in Selbstverwahrung umsetzen.
 
 {% embed url="https://www.youtube.com/watch?v=uvkBgcWa6zc" %}
 
@@ -118,7 +118,7 @@ Der Hauptvorteil der Sell Grid-Strategie besteht darin, dass der Händler schrit
 
 Grid-Trading ist eine automatisierte Handelsstrategie, die nicht von menschlichen Emotionen beeinflusst wird und vollständig durch Code bestimmt wird. Diese Strategie lässt sich am besten in einem Seitwärtsmarkt umsetzen und generiert passives Einkommen für Benutzer, ohne ständig auf den Bildschirm schauen zu müssen.
 
-Darüber hinaus haben Benutzer durch die Nutzung des dezentralen Designs von [DeGate](https://app.degate.com/?utm_source=gridguidebook) für die Grid-Strategie-Funktion nun die volle Kontrolle über ihre Gelder und können gleichzeitig die Vorteile des automatisierten Handels genießen. Mit der Reihe von Funktionen von [DeGate](https://app.degate.com/?utm_source=gridguidebook) wie Limit-Orders und dezentralem Grid-Trading können Benutzer endlich ruhig schlafen, unabhängig von den Marktbedingungen.
+Darüber hinaus haben Benutzer durch die Nutzung des dezentralen Designs von [DeGate](https://orderbook.degate.com/?utm_source=gridguidebook) für die Grid-Strategie-Funktion nun die volle Kontrolle über ihre Gelder und können gleichzeitig die Vorteile des automatisierten Handels genießen. Mit der Reihe von Funktionen von [DeGate](https://orderbook.degate.com/?utm_source=gridguidebook) wie Limit-Orders und dezentralem Grid-Trading können Benutzer endlich ruhig schlafen, unabhängig von den Marktbedingungen.
 
 
 

@@ -9,7 +9,7 @@ description: DeGate DEX'te Merkeziyetsiz Grid Stratejisi
 \
 Grid Stratejisi veya grid trading, belirlenen bir aralıkta alım ve satımı otomatikleştiren bir al-sat mekanizmasıdır. Belirlenen bir fiyat aralığında bir dizi alım ve satım emri vermenizi sağlar; bir alım emri gerçekleştiğinde, anında daha yüksek bir grid seviyesinde bir satış emri verir ve bir satış emri gerçekleştiğinde daha düşük bir grid seviyesinde alım emri oluşturur. Grid stratejisi, fiyatların belli bir aralıkta dalgalandığı yatay piyasalarda en iyi performansı gösterir ve küçük fiyat hareketlerinden kâr elde edilmesini sağlar.
 
-[DeGate DEX'te](https://app.degate.com/?utm_source=gridguidebook), herhangi bir ücret ödemeden, merkeziyetsiz ve kendi cüzdanınızın kontrolünde [grid stratejisi](https://app.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) uygulayabilirsiniz.
+[DeGate DEX'te](https://orderbook.degate.com/?utm_source=gridguidebook), herhangi bir ücret ödemeden, merkeziyetsiz ve kendi cüzdanınızın kontrolünde [grid stratejisi](https://orderbook.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) uygulayabilirsiniz.
 
 {% embed url="https://www.youtube.com/watch?v=uvkBgcWa6zc" %}
 Grid Stratejisinin Çalışma Şekli: Ucuza Al, Yükseğe Sat
@@ -121,7 +121,7 @@ Satım Grid Stratejisinin en büyük avantajı şudur: Yatırımcı, token fiyat
 
 Grid trading, insan duygularından etkilenmeyen ve tamamen kodla belirlenen otomatik bir yatırım stratejisidir. Bu strateji, özellikle yatay piyasalarda en iyi şekilde uygulanır ve kullanıcılara pasif kazanç sağlar.
 
-Ayrıca, [DeGate’in](https://app.degate.com/?utm_source=gridguidebook) merkeziyetsiz tasarımına grid stratejisi özelliğine entegre ederek, kullanıcılar artık fonlarının tam kontrolüne sahip olurken otomatik ticaretin avantajlarından faydalanabilirler. [DeGate’in](https://degate.com/?utm_source=gridguidebook) limit emirleri ve merkeziyetsiz grid ticareti gibi özellikleriyle, kullanıcılar piyasa koşulları ne olursa olsun rahatça uyuyabilirler.
+Ayrıca, [DeGate’in](https://orderbook.degate.com/?utm_source=gridguidebook) merkeziyetsiz tasarımına grid stratejisi özelliğine entegre ederek, kullanıcılar artık fonlarının tam kontrolüne sahip olurken otomatik ticaretin avantajlarından faydalanabilirler. [DeGate’in](https://degate.com/?utm_source=gridguidebook) limit emirleri ve merkeziyetsiz grid ticareti gibi özellikleriyle, kullanıcılar piyasa koşulları ne olursa olsun rahatça uyuyabilirler.
 
 
 

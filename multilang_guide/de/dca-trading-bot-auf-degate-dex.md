@@ -1,12 +1,12 @@
 # DCA Trading Bot auf DeGate DEX
 
-[DeGate DEX](https://app.degate.com/?utm_source=dcaguidebook) bietet einen automatischen dezentralen DCA-Plan mit Null-Gebühren-Modus. DCA, Dollar-Cost Averaging, bedeutet, einen Vermögenswert für einen festen Betrag in einer bestimmten Häufigkeit zu kaufen oder zu verkaufen. Sie kaufen beispielsweise einmal pro Woche ETH im Wert von 100 USD. Im Laufe der Zeit können Sie so eine Position mit einem günstigen durchschnittlichen Kauf- oder Verkaufspreis aufbauen. DCA gleicht die Volatilität im Laufe der Zeit aus und hat sich in der Vergangenheit als gewinnbringende Anlagestrategie auf lange Sicht erwiesen.
+[DeGate DEX](https://orderbook.degate.com/?utm_source=dcaguidebook) bietet einen automatischen dezentralen DCA-Plan mit Null-Gebühren-Modus. DCA, Dollar-Cost Averaging, bedeutet, einen Vermögenswert für einen festen Betrag in einer bestimmten Häufigkeit zu kaufen oder zu verkaufen. Sie kaufen beispielsweise einmal pro Woche ETH im Wert von 100 USD. Im Laufe der Zeit können Sie so eine Position mit einem günstigen durchschnittlichen Kauf- oder Verkaufspreis aufbauen. DCA gleicht die Volatilität im Laufe der Zeit aus und hat sich in der Vergangenheit als gewinnbringende Anlagestrategie auf lange Sicht erwiesen.
 
 Hier finden Sie eine Anleitung zum Einrichten eines DCA-Plans.
 
 Als Beispiel verwenden wir die Einrichtung eines DCA-Kaufplans für ETH.
 
-### 1. Gehen Sie auf [app.degate.com](https://degate.com/?utm_source=dcaguidebook) zur [DCA](https://app.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook)-Seite. <a href="#id-5zor0u89gjib" id="id-5zor0u89gjib"></a>
+### 1. Gehen Sie auf [orderbook.degate.com](https://degate.com/?utm_source=dcaguidebook) zur [DCA](https://orderbook.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook)-Seite. <a href="#id-5zor0u89gjib" id="id-5zor0u89gjib"></a>
 
 <figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 

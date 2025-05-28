@@ -8,7 +8,7 @@ description: DeGate Dex상의 탈중앙화 그리드 트레이딩
 
 그리드 전략 또는 그리드 트레이딩은 정해진 가격 범위 내에서 자동으로 매수와 매도를 실행하는 거래 메커니즘입니다. 이 전략은 지정된 가격 범위 내에서 매수 및 매도 주문을 연속적으로 배치합니다. 매수 주문이 실행되면 즉시 더 높은 그리드 레벨에서 매도 주문을 배치하고, 그 반대로 매도 주문이 실행되면 더 낮은 그리드 레벨에서 매수 주문을 배치합니다. 그리드 전략은 가격이 일정 범위 내에서 변동할 때 특히 효과적이며, 작은 가격 변동으로부터 이익을 얻을 수 있게 해줍니다.
 
-[DeGate DEX](https://app.degate.com/?utm_source=gridguidebook) 에서 수수료 없이, 탈중앙화된 방식으로 자산을 안전하게 관리하며 그리드 트레이딩 전략을 실행하세요.
+[DeGate DEX](https://orderbook.degate.com/?utm_source=gridguidebook) 에서 수수료 없이, 탈중앙화된 방식으로 자산을 안전하게 관리하며 그리드 트레이딩 전략을 실행하세요.
 
 {% embed url="https://www.youtube.com/watch?v=uvkBgcWa6zc" %}
 

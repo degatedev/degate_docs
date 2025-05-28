@@ -10,7 +10,7 @@ Aquí tienes un tutorial sobre cómo configurar un Plan DCA.
 
 Utilizaremos como ejemplo la configuración de un plan de compra DCA para ETH.
 
-### 1. En [app.degate.com](https://app.degate.com/?utm_source=dcaguidebook), ve a la página de [DCA](https://app.degate.com/?utm_source=dcaguidebook).
+### 1. En [orderbook.degate.com](https://orderbook.degate.com/?utm_source=dcaguidebook), ve a la página de [DCA](https://orderbook.degate.com/?utm_source=dcaguidebook).
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -85,5 +85,5 @@ Siempre que desees finalizar el Plan DCA, simplemente haz clic en Finalizar y lu
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-Puedes abrir Planes DCA para cualquier token disponible en [DeGate DEX](https://app.degate.com/?utm_source=dcaguidebook).
+Puedes abrir Planes DCA para cualquier token disponible en [DeGate DEX](https://orderbook.degate.com/?utm_source=dcaguidebook).
 

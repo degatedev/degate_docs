@@ -6,7 +6,7 @@ description: Come aggiungere fondi su DeGate DEX
 
 
 
-Su [DeGate DEX](https://app.degate.com/?utm_source=depositguidebook), ci sono 3 reti disponibili per l’aggiunta di fondi:
+Su [DeGate DEX](https://orderbook.degate.com/?utm_source=depositguidebook), ci sono 3 reti disponibili per l’aggiunta di fondi:
 
 **Ethereum, Arbitrum, Optimism**
 
@@ -37,7 +37,7 @@ Se stai aggiungendo un token **diverso da** ETH, USDC o USDT, vedrai solo “Eth
 5. Inserisci l’importo del token che desideri trasferire e clicca su “Aggiungi”.
 6. Riceverai una notifica per firmare la transazione nel tuo wallet. Firma e attendi il completamento della transazione.
 
-Dopo questi passaggi, potrai monitorare l’accreditamento su DeGate DEX e, in breve tempo, i fondi saranno visibili nel tuo saldo [DeGate](https://app.degate.com/?utm_source=depositguidebook).
+Dopo questi passaggi, potrai monitorare l’accreditamento su DeGate DEX e, in breve tempo, i fondi saranno visibili nel tuo saldo [DeGate](https://orderbook.degate.com/?utm_source=depositguidebook).
 
 ### **2. Aggiungere Fondi su Arbitrum o Optimism**
 
@@ -86,4 +86,4 @@ Se utilizzi il tuo wallet privato per inviare i token, assicurati prima di aver 
 
 
 
-Dopo aver effettuato la transazione, potrai monitorare il processo di accreditamento su DeGate DEX. In breve tempo, i fondi saranno visibili nel tuo saldo [DeGate](https://app.degate.com/?utm_source=depositguidebook).
+Dopo aver effettuato la transazione, potrai monitorare il processo di accreditamento su DeGate DEX. In breve tempo, i fondi saranno visibili nel tuo saldo [DeGate](https://orderbook.degate.com/?utm_source=depositguidebook).

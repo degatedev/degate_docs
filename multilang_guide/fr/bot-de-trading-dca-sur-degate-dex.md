@@ -12,7 +12,7 @@ Prenons l'exemple de la mise en place d'un plan d'achat DCA pour ETH.
 
 
 
-### **1. Sur** [**app.degate.com**](https://app.degate.com/?utm_source=dcaguidebook)**, allez sur la page** [**DCA**](https://app.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook)**.** <a href="#hp0cf7fjthsf" id="hp0cf7fjthsf"></a>
+### **1. Sur** [**orderbook.degate.com**](https://orderbook.degate.com/?utm_source=dcaguidebook)**, allez sur la page** [**DCA**](https://orderbook.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook)**.** <a href="#hp0cf7fjthsf" id="hp0cf7fjthsf"></a>
 
 ![](<../.gitbook/assets/0 (6).png>)
 

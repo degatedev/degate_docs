@@ -8,7 +8,7 @@ description: DeGate DEXにおける分散型グリッド戦略
 
 グリッド戦略またはグリッドトレーディングは、指定されたレンジ内での自動売買を行うトレーディングメカニズムです。指定された価格範囲内で一連の買い注文および売り注文を配置し、買い注文が実行されると、即座により高いグリッドレベルで別の売り注文が配置され、その逆も行われます。グリッド戦略は、価格が定期的に変動する横ばい市場で最も効果的に機能し、小さな価格の変化で利益を得ることができます。
 
-[DeGate DEX](https://app.degate.com/?utm_source=gridguidebook)では、手数料なしで、自己管理方式による分散型[グリッド戦略を実行できます](https://app.degate.com/?utm_source=gridguidebook)。
+[DeGate DEX](https://orderbook.degate.com/?utm_source=gridguidebook)では、手数料なしで、自己管理方式による分散型[グリッド戦略を実行できます](https://orderbook.degate.com/?utm_source=gridguidebook)。
 
 {% embed url="https://youtu.be/uvkBgcWa6zc" %}
 

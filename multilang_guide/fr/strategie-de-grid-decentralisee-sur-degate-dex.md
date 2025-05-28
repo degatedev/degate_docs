@@ -8,7 +8,7 @@ description: Stratégie de Grid Décentralisée sur DEX
 
 La Stratégie de Grid Trading est une méthode qui automatise les ordres d'achat et de vente dans une plage de prix prédéfinie. Elle place une série d'ordres limités, où chaque exécution déclenche automatiquement un ordre opposé à un niveau supérieur ou inférieur. Cette stratégie est idéale pour les marchés latéraux avec des fluctuations régulières, permettant de capter des profits sur des variations de prix limitées..
 
-Sur [DeGate DEX](https://app.degate.com/?utm_source=gridguidebook), la stratégie de [Grid Trading](https://app.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) est sans frais, de manière décentralisée et en gardant le contrôle total sur vos clés de cryptomonnaie, c'est-à-dire en mode self-custody.
+Sur [DeGate DEX](https://orderbook.degate.com/?utm_source=gridguidebook), la stratégie de [Grid Trading](https://orderbook.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) est sans frais, de manière décentralisée et en gardant le contrôle total sur vos clés de cryptomonnaie, c'est-à-dire en mode self-custody.
 
 {% embed url="https://www.youtube.com/watch?v=uvkBgcWa6zc&t=3s" %}
 

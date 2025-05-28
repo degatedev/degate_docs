@@ -8,7 +8,7 @@ description: Grid Strategy su DeGate DEX
 
 La Strategia a Griglia, o grid trading, è un meccanismo di trading che automatizza l'acquisto e la vendita entro un intervallo di prezzo definito. Consente di posizionare una serie di ordini di acquisto e vendita all'interno di un intervallo di prezzo stabilito; quando un ordine di acquisto viene eseguito, viene immediatamente posizionato un altro ordine di vendita a un livello di griglia superiore, e viceversa. Questa strategia funziona meglio in mercati laterali, dove i prezzi fluttuano regolarmente, permettendo di trarre profitto da piccoli cambiamenti di prezzo.
 
-Su [DeGate DEX](https://app.degate.com/?utm_source=gridguidebook), puoi fare una strategia a [griglia](https://app.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) decentralizzata senza commissioni in modalità self-custody.
+Su [DeGate DEX](https://orderbook.degate.com/?utm_source=gridguidebook), puoi fare una strategia a [griglia](https://orderbook.degate.com/en/grid/USDC/ETH/?utm_source=gridguidebook) decentralizzata senza commissioni in modalità self-custody.
 
 {% embed url="https://youtu.be/uvkBgcWa6zc" %}
 

@@ -10,11 +10,11 @@ description: DeGate DEX의 DCA 거래 Bot
 
 DCA는 시간이 지남에 따라 변동성을 완화하며 역사적으로 장기적으로 성공적인 투자 전략으로 입증되었습니다.
 
-다음은 [DCA](https://app.degate.com/dca/?utm_source=pengu_dca) 플랜을 설정하는 방법에 대한 튜토리얼입니다.
+다음은 [DCA](https://orderbook.degate.com/dca/?utm_source=pengu_dca) 플랜을 설정하는 방법에 대한 튜토리얼입니다.
 
 이더리움에 대한 DCA 매수 플랜 설정을 예로 들어보겠습니다.
 
-### 1. 우선 [**app.degate.com**](https://app.degate.com/?utm_source=dcaguidebook) 에 접속하여 [DCA](https://app.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook) 페이지로 이동하세요
+### 1. 우선 [**orderbook.degate.com**](https://orderbook.degate.com/?utm_source=dcaguidebook) 에 접속하여 [DCA](https://orderbook.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook) 페이지로 이동하세요
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 

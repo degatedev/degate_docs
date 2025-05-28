@@ -4,13 +4,13 @@ description: Bot di Trading DCA decentralizzato su DEX
 
 # Bot di Trading DCA su DeGate DEX
 
-[DeGate DEX](https://app.degate.com/?utm_source=dcaguidebook) offre un Piano DCA automatico e decentralizzato con modalità Zero Fee. DCA (Dollar-Cost Averaging), in italiano Piano di Accumulo, significa acquistare o vendere un asset per un importo fisso a una certa frequenza. Ad esempio, acquisti $100 di ETH una volta a settimana. Nel tempo, questo ti permette di costruire una posizione con un prezzo medio di acquisto o vendita favorevole. Il DCA attenua la volatilità nel tempo e si è storicamente dimostrato una strategia di investimento vincente nel lungo termine.
+[DeGate DEX](https://orderbook.degate.com/?utm_source=dcaguidebook) offre un Piano DCA automatico e decentralizzato con modalità Zero Fee. DCA (Dollar-Cost Averaging), in italiano Piano di Accumulo, significa acquistare o vendere un asset per un importo fisso a una certa frequenza. Ad esempio, acquisti $100 di ETH una volta a settimana. Nel tempo, questo ti permette di costruire una posizione con un prezzo medio di acquisto o vendita favorevole. Il DCA attenua la volatilità nel tempo e si è storicamente dimostrato una strategia di investimento vincente nel lungo termine.
 
 Ecco un tutorial su come impostare un Piano DCA.
 
 Utilizzeremo come esempio l'impostazione di un piano di acquisto DCA per ETH.
 
-### 1. Su [app.degate.com](https://app.degate.com/?utm_source=dcaguidebook), vai alla pagina [DCA](https://app.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook).
+### 1. Su [orderbook.degate.com](https://orderbook.degate.com/?utm_source=dcaguidebook), vai alla pagina [DCA](https://orderbook.degate.com/dca/USDC/ETH/?utm_source=dcaguidebook).
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
