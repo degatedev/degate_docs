@@ -6,4 +6,9 @@ DeGate's swap gives you a one-click interface to trade tokens across any chainsâ
 
 See the table for the current swap-fee tiers; any token not listed defaults to 0.99 %.
 
-<table><thead><tr><th width="158.05859375">Fee Rate</th><th>Solana</th><th>BSC</th><th>Base</th></tr></thead><tbody><tr><td><strong>0.10 %</strong></td><td>SOL, USDT</td><td>BNB, USDT, WBNB</td><td>ETH, USDT</td></tr><tr><td><strong>0.25 %</strong></td><td>JTO, JUP, ORCA, HNT, PTYH</td><td>CAKE, BTCB</td><td>cbBTC, cbETH, AERO, DEGEN</td></tr><tr><td><strong>0.99 % (default)</strong></td><td><em>all other Solana tokens</em></td><td><em>all other BSC tokens</em></td><td><em>all other Base tokens</em></td></tr></tbody></table>
+{% hint style="info" %}
+All xStocks tokens on Solana chain incur ZERO FEES.&#x20;
+{% endhint %}
+
+<table><thead><tr><th width="158.05859375">Fee Rate</th><th width="192.80078125">0.01%</th><th>0.1%</th><th>0.25%</th></tr></thead><tbody><tr><td>Ethereum</td><td>USDC, USDT and most stablecoins</td><td>ETH </td><td>Most CEX-listed tokens</td></tr><tr><td>Solana</td><td>USDC, USDT and most stablecoins</td><td>SOL </td><td>Most CEX-listed tokens</td></tr><tr><td>BSC</td><td>USDC, USDT and most stablecoins</td><td>BNB </td><td>Most CEX-listed tokens</td></tr><tr><td>Base</td><td>USDC, USDT and most stablecoins</td><td>ETH </td><td>Most CEX-listed tokens</td></tr><tr><td>Arbitrum</td><td>USDC, USDT and most stablecoins</td><td>ETH </td><td>Most CEX-listed tokens</td></tr><tr><td>Optimism</td><td>USDC, USDT and most stablecoins</td><td>ETH </td><td>Most CEX-listed tokens</td></tr><tr><td>Avalanche</td><td>USDC, USDT and most stablecoins</td><td>AVAX </td><td>Most CEX-listed tokens</td></tr><tr><td>Aptos</td><td>USDC, USDT and most stablecoins</td><td>APT </td><td>Most CEX-listed tokens</td></tr><tr><td>Polygon</td><td>USDC, USDT and most stablecoins</td><td>POL </td><td>Most CEX-listed tokens</td></tr></tbody></table>
+
