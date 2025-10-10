@@ -5,6 +5,7 @@
 * [What is DeGate](README.md)
 * [Swap](about-degate/swap.md)
 * [Earn](about-degate/earn.md)
+* [Multi-chain USDC Earn](about-degate/multi-chain-usdc-earn.md)
 
 ## Onboarding
 
