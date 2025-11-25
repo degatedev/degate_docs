@@ -9,3 +9,7 @@ Your wallet addresses' keys offer the same level of security as asset keys.
 3. DeGate has implemented a front-end security isolation strategy by splitting the front-end into "wallet codes" and "trade codes". The wallet and trade codes are isolated: wallet code handles the signature mechanism within an iframe, while trade code executes in a sandboxed environment, ensuring the keys and signatures are secure and inaccessible from the trade side. In the future, the core front-end code will be deployed on decentralized platforms to make it immutable, further enhancing private key security. \
    \
    For more info on secret keys and signatures, do visit [https://docs.degate.com/product\_en/concepts/secret-key-and-signatures](https://docs.degate.com/product_en/concepts/secret-key-and-signatures)&#x20;
+
+{% hint style="info" %}
+For submission of bug bounty reports, please contact us at [bounty@degate.com](mailto:bounty@degate.com)&#x20;
+{% endhint %}
