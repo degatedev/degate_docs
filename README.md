@@ -2,8 +2,7 @@
 
 DeGate is a multichain platform to seamlessly buy, sell and earn on all leading blockchains. It is 100% non-custodial and lets you buy any token on any chain—no gas tokens needed, no bridging required.
 
-With DeGate, you can trade, send, and receive assets using a unified balance across all chains. That means no more worrying about where your assets are or what chain your target token lives on—just decide which token you want to trade, and DeGate handles everything seamlessly in the background.\
-
+With DeGate, you can trade, send, and receive assets using a unified balance across all chains. That means no more worrying about where your assets are or what chain your target token lives on—just decide which token you want to trade, and DeGate handles everything seamlessly in the background.<br>
 
 ## **Key Benefits**&#x20;
 
@@ -34,7 +33,7 @@ With DeGate, you can trade, send, and receive assets using a unified balance acr
 * Enjoy best-in-class trading features
 * Purchase tokens via debit/credit card, Apple Pay and other methods (TBC)
 
-\
+<br>
 
 
 
@@ -44,5 +43,4 @@ With DeGate, you can trade, send, and receive assets using a unified balance acr
 
 
 
-
-\
+<br>

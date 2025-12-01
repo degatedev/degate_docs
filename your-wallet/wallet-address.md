@@ -28,4 +28,4 @@ Your wallet addresses are derived from a user's wallet key in a deterministic fa
 
 Each wallet address belongs exclusively to the user. If the user requests to swap USDC for SOL, the wallet address on Solana receives the tokens. Since only the user’s private key can authorize transactions from that address, DeGate (or any other external party) remains incapable of unilaterally moving the user’s funds.
 
-\
+<br>
