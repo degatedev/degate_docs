@@ -8,7 +8,7 @@
 
 ## Onboarding
 
-* [Onboarding](onboarding/onboarding.md)
+* [Create Wallet](onboarding/create-wallet.md)
 
 ## Your Wallet
 
