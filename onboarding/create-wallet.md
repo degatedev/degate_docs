@@ -20,10 +20,10 @@ You will be prompted to set a password to access your wallet.
 
 
 
-It is recommended to use the “Create Wallet” and “Import Wallet” methods to manage large-value assets.
+It is recommended to use the **“Create Wallet”** and **“Import Wallet”** methods to manage high-value assets.
 
 ## 2️⃣ Create a Wallet via web app&#x20;
 
-Visit [app.degate.com](https://app.degate.com) and click '**Connect Wallet**', choose your preferred method to get started.
+Visit [app.degate.com](https://app.degate.com) and click “**Connect Wallet”**, choose your preferred method to get started.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
