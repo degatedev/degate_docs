@@ -1,13 +1,12 @@
-# Onboarding
+# Create Wallet
 
 **Creating your DeGate account**
 
 There are a couple of ways to create your DeGate account
 
-* Download DeGate APP and set up your wallet\
-  -> iOS: [https://apps.apple.com/app/apple-store/id6742168343?pt=127643354\&ct=gitbook\&mt=8](https://apps.apple.com/app/apple-store/id6742168343?pt=127643354\&ct=alphahub\&mt=8)\
-  -> Android: [https://play.google.com/store/apps/details?id=com.app.degate\&referrer=utm\_source%3Dgitbook](https://play.google.com/store/apps/details?id=com.app.degate\&referrer=utm_source%3Dgitbook)\
-  -> APK file: [https://download.degate.com/apps/degate-android.apk?\_gl=1\*ql3apo\*\_ga\*MTU3NTYyNjA5LjE3MzUzMDA4Njg.\*\_ga\_TDDZD9QJGM\*czE3NjQ1NzczMjIkbzUyJGcxJHQxNzY0NTc3MzM0JGo0OCRsMCRoMA..](https://download.degate.com/apps/degate-android.apk?_gl=1*ql3apo*_ga*MTU3NTYyNjA5LjE3MzUzMDA4Njg.*_ga_TDDZD9QJGM*czE3NjQ1NzczMjIkbzUyJGcxJHQxNzY0NTc3MzM0JGo0OCRsMCRoMA..)
+*   Download the DeGate App from App Store or Google Play, or download the APK file from the website.
+
+    [![download\_app\_store.png](https://hub.degate.com/common/wallet-setup-img-en/Download_AppStore.png)](https://apps.apple.com/app/apple-store/id6742168343?pt=127643354\&ct=alphahub\&mt=8) [![download\_google\_play.png](https://hub.degate.com/common/wallet-setup-img-en/Download_GooglePlay.png)](https://play.google.com/store/apps/details?id=com.app.degate\&referrer=utm_source%3Dalphahub%26utm_medium%3Dtutorial) [![download\_apk.png](https://hub.degate.com/common/wallet-setup-img-en/Download_Android.png)](https://download.degate.com/apps/degate-android.apk)
 * Sign up via email address\
   → Email login is powered by privy
 
