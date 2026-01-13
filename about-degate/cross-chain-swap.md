@@ -1,6 +1,10 @@
-# Swap
+# Cross-chain Swap
 
-DeGate's swap gives you a one-click interface to trade tokens across any chains—no gas fee worries, no need for bridging, just seamless buys and sells.
+Cross-chain Token Swap provides a one-stop solution for swapping into any assets on any major blockchain networks without the need for bridging or multi-step approvals. Essentially, you can buy any token on any chain.&#x20;
+
+* **One-Click Swap:** Our optimized flow allows you to swap tokens across different chains in a single click.
+* **Optimal Path Discovery:** The system integrates cross-chain protocols, automatically identifying the most cost-effective and fastest route for your trade.
+* **Full Self-Custody:** Maintain total control over your assets. Your assets are 100% in your own custody.&#x20;
 
 ## Swap Fees
 
