@@ -35,7 +35,7 @@ The Solana LP Handler supports:
 
 The complete audit report including all findings, proof-of-concept exploits, code snippets, and developer responses is publicly available:
 
-📄 [**Download Full Audit Report (PDF)**](https://link-to-your-report.pdf)
+{% file src="../.gitbook/assets/DeGate_audit_report_full.pdf" %}
 
 ***
 
