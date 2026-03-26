@@ -16,3 +16,4 @@
 
 * [Wallet Address](your-wallet/wallet-address.md)
 * [Security](your-wallet/security.md)
+* [Audit Report](your-wallet/audit-report.md)
