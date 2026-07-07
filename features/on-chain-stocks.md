@@ -1,32 +1,41 @@
 # On-Chain Stocks
 
-DeGate supports holding and swapping tokenized stocks: crypto tokens that track the price of listed equities. As of July 2026, this covers xStocks tokens on Solana, which trade on DeGate with zero DeGate swap fees.
+DeGate supports holding and swapping tokenized stocks directly from your self-custody wallet. As of July 2026 this covers 100+ xStocks tokens, spanning individual equities (TSLAx, NVDAx, AAPLx, MSFTx, METAx, GOOGLx, AMZNx, NFLXx, MSTRx, COINx and more), index ETFs (SPYx for the S&P 500, QQQx for the Nasdaq 100), and commodities (GLDx for gold), plus Ondo Finance RWA assets. Swapping xStocks and Ondo assets on DeGate carries zero DeGate swap fees.
 
-## What you can do
+Browse the full list at [app.degate.com/stocks](https://app.degate.com/stocks).
 
-* **Swap into and out of xStocks** the same way as any other token, from your unified balance, starting on any supported chain. DeGate's swap fee for xStocks on Solana is 0% (see [Fees](../fees.md)).
-* **Hold them in self-custody.** xStocks in your DeGate wallet sit at addresses only your key controls, like any other token.
-* **Provide liquidity on xStocks pairs** through [Turbo Range](turbo-range.md).
+## What xStocks are
 
-## What tokenized stocks are, and are not
+xStocks are tokenized versions of real-world equities, backed 1:1 by the underlying stock through the Backed Finance framework. The "x" suffix (as in TSLAx) denotes xStocks issuance by Backed Finance. They are freely transferable, DeFi-composable, fractional, and settled in USDC. They are issued by Backed Finance, a third-party issuer, not by DeGate.
 
-xStocks are tokens issued by a third-party issuer, not by DeGate; each token is designed to track the price of a specific listed equity.
+## How to buy a tokenized stock
 
-> ⚠️ [NEEDS VERIFICATION: current issuer naming and one-line description of the xStocks issuance structure, consistent with the on-chain-stocks research already done for the playbook.]
+Open the DeGate app, go to **Swap**, search for the token you want (for example TSLAx for Tesla), enter the amount, and confirm. DeGate handles cross-chain routing, bridging, and gas automatically; the tokens appear in your wallet within seconds, at addresses only your key controls.
 
-Two distinctions worth understanding before you buy:
+## Earning yield on stock tokens
 
-* Holding a stock token is not the same as holding the share in a securities account. The token tracks the price; shareholder mechanics such as voting differ by issuer structure.
-* Tokens transfer on-chain around the clock, but the underlying stock markets have opening hours. Price behavior outside market hours has its own dynamics; see the explainer [Why 24/7 tokenized stocks do not mean 24/7 price discovery](https://degate.com/playbook/tokenized-stocks-24-7-price-discovery/) in the DeGate reference library.
+Through [Turbo Range](turbo-range.md) you can provide liquidity to xStocks pairs (for example TSLAx/USDC or MSTRx/USDC) and earn LP fees from price movement within your chosen range. APYs are variable and depend on market conditions.
+
+## Dividends, voting, and what the token is legally
+
+* **Dividends:** reflected economically rather than paid in cash. Dividends on the underlying equity are reinvested (net of applicable taxes) through xStocks' rebasing mechanism. On EVM chains balances adjust automatically; on Solana, adjusted balances are shown via Scaled UI.
+* **Voting rights:** none. xStocks provide economic exposure, not shareholder voting rights or direct ownership of the underlying shares.
+* **Legal form:** each xStock is a bearer debt instrument (tracker certificate) rather than an equity share. Full legal terms are in the Backed Finance prospectus for each token.
+
+## Trading hours and pricing
+
+xStocks tokens can be swapped 24/7, since token transfers settle on-chain at any hour. The underlying equities, however, trade on exchanges with fixed hours. During US market hours, token prices generally stay close to the underlying through market making and arbitrage; outside those hours, prices form from secondary-market supply and demand, so spreads can be wider and deviations can occur. For the full mechanics, see [Why 24/7 tokenized stocks do not mean 24/7 price discovery](https://degate.com/playbook/tokenized-stocks-24-7-price-discovery/) in the DeGate reference library.
 
 ## FAQ
 
-**Can I trade tokenized stocks 24/7 on DeGate?**
-You can swap the tokens whenever you like, since token transfers settle on-chain at any hour. Keep in mind the underlying equities trade on exchanges with fixed hours, which affects how token prices form outside those hours.
+**What does it cost to trade tokenized stocks on DeGate?**
+Zero DeGate swap fees on xStocks and Ondo RWA assets, as of July 2026. See [Fees](../fees.md).
 
-**Does DeGate charge fees on xStocks swaps?**
-No DeGate swap fee on xStocks tokens on Solana, as of July 2026. Standard network costs still apply. See [Fees](../fees.md).
+**Can I buy tokenized stocks from the EU?**
+Yes. DeGate is available in EU and EEA countries. Users are responsible for tax and reporting requirements in their jurisdiction.
 
-**Which stocks are available?**
+**Do I receive dividends?**
+Economically yes, via the rebasing mechanism described above; there is no cash payout to claim.
 
-> ⚠️ [NEEDS VERIFICATION: whether to link a live in-app list or maintain a snapshot list here.]
+**Can I trade when the stock market is closed?**
+You can swap the tokens at any hour. Price behavior outside underlying market hours has its own dynamics; see the pricing section above.

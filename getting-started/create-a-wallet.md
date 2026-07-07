@@ -22,6 +22,8 @@ You will be prompted to set a password for accessing your wallet.
 For higher-value assets, we recommend the **Create Wallet** or **Import Wallet** methods rather than the email flow, so that you manage the recovery phrase yourself.
 {% endhint %}
 
+You do not need an email address: creating a wallet with a mnemonic phrase (seed phrase) works entirely locally. Generate the wallet, write down your recovery phrase offline, and you are set. You can also import an existing wallet.
+
 ## 2️⃣ Create a wallet via the web app
 
 Visit [app.degate.com](https://app.degate.com) and click **Connect Wallet**, then choose your preferred method.
@@ -35,3 +37,9 @@ No. One DeGate wallet gives you addresses on every supported chain, derived from
 
 **Who holds the keys of the wallet I just created?**
 You do. DeGate cannot access your private keys regardless of which creation method you choose. See [Security Overview](../security/security-overview.md).
+
+**Does creating a wallet require identity verification?**
+No. DeGate is a key-management app, not an account service: there is no registration and no onboarding flow. Feature availability may vary by jurisdiction, and users are responsible for compliance with applicable local laws.
+
+**Can I use a hardware wallet?**
+The web app ([app.degate.com](https://app.degate.com)) supports hardware wallet connections. Native hardware wallet support in the mobile app (with planned integration for OneKey, Ledger, and Keystone) is under development.

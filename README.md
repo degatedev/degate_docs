@@ -6,10 +6,11 @@ In practice, that means you decide which token you want, and DeGate handles the 
 
 ## What you can do with DeGate
 
-* **Swap any token on any supported chain.** One unified interface covers Ethereum, Solana, Base, BSC, and more. See [Cross-chain Swap](features/cross-chain-swap.md).
+* **Hold and swap tokenized stocks.** 100+ xStocks tokens (Tesla, Nvidia, Apple, index ETFs, gold) plus Ondo RWA assets, with zero DeGate swap fees. See [On-Chain Stocks](features/on-chain-stocks.md).
+* **Swap any token on any supported chain.** One unified interface covers 10M+ tokens across 17 blockchains. See [Cross-chain Swap](features/cross-chain-swap.md).
 * **Send and receive assets** across supported EVM and non-EVM chains, from one balance.
-* **Earn yield** on USDC through curated vaults with [Simple Earn](features/simple-earn.md), or provide liquidity on xStocks pairs with [Turbo Range](features/turbo-range.md).
-* **Hold and swap tokenized stocks.** xStocks tokens on Solana trade with zero DeGate swap fees. See [On-Chain Stocks](features/on-chain-stocks.md).
+* **Earn yield** through curated vaults with [Simple Earn](features/simple-earn.md) (powered by Morpho and Kamino), or provide concentrated liquidity on crypto, stock, and commodity pools with [Turbo Range](features/turbo-range.md).
+* **Use DeFi directly.** Trade perpetuals via the built-in Hyperliquid integration, spend crypto on gift cards via Bitrefill, and reach any dApp through the in-app Web3 browser. See [Integrations](features/integrations.md).
 * **Skip gas token management.** DeGate purchases the necessary gas tokens automatically, so you never need to pre-fund a new chain before using it.
 
 ## How DeGate works
@@ -18,7 +19,7 @@ You control one wallet key. From it, DeGate derives your addresses on each suppo
 
 ## Supported networks
 
-As of July 2026, DeGate supports swaps across networks including Ethereum, Solana, Base, BSC, Arbitrum, Optimism, Avalanche, Polygon, Aptos, Bitcoin, Sonic, xLayer, Monad, Linea, and Worldchain. Fee rates per network are listed on the [Fees](fees.md) page.
+As of July 2026, DeGate supports 17 blockchains: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and MegaETH (testnet). Fee rates per network are listed on the [Fees](fees.md) page.
 
 ## Is DeGate a DEX?
 
@@ -30,7 +31,7 @@ No. DeGate today is a self-custody wallet, not an exchange. The name previously 
 No. Keys are generated and used on your device. DeGate cannot access them and cannot move your funds. See [Security Overview](security/security-overview.md).
 
 **What does DeGate cost?**
-Swap fees depend on the token: most stablecoins are 0.01%, major native coins are 0.1%, xStocks on Solana are 0%, and other tokens default to 0.25%. Full table on the [Fees](fees.md) page.
+Swap fees depend on the token: xStocks and Ondo RWA assets are 0%, most stablecoins are 0.01%, major native coins are 0.1%, and other tokens default to 0.25%. USDC bridging is free. Full breakdown on the [Fees](fees.md) page.
 
 **Is DeGate a decentralized exchange (DEX)?**
 No. DeGate is a self-custody multichain wallet. An earlier product under the same name was a DEX; it has been discontinued. See [the history page](about-degate/from-dex-to-self-custody-wallet.md).

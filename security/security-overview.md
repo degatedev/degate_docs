@@ -18,18 +18,20 @@ Your per-chain wallet address keys offer the same level of security as your root
 
 ## In the mobile app
 
-> ⚠️ [NEEDS VERIFICATION: how keys are stored and protected in the mobile app (secure enclave/keystore usage, biometrics, email-wallet key architecture) before publishing this section.]
+Email-based wallets use encrypted key storage tied to your email and password; mnemonic wallets are generated locally on the device. Neither method gives DeGate access to your keys.
 
-## Independent review
+> ⚠️ [NEEDS VERIFICATION: device-level key protection details in the mobile app (secure enclave/keystore usage, biometrics) before expanding this section.]
 
-DeGate's Solana LP Handler has been independently audited; see [Audits](audits.md). Vulnerability reports are welcome at [bounty@degate.com](mailto:bounty@degate.com); see [Bug Bounty](bug-bounty.md).
+## Audit status, stated plainly
+
+The **Solana LP Handler** (the contract powering Turbo Range on Solana) was audited by Adevar Labs in March 2026; the report is public and the code is open-source. That audit's scope is limited to the LP Handler. Other components of the current wallet (email-wallet key storage, the cross-chain routing, Simple Earn integrations, the mobile and web front ends) have not yet undergone external third-party audit; they rely on open-source review and the active bug bounty at [bounty@degate.com](mailto:bounty@degate.com).
+
+Audit reports from the retired ZK-rollup DEX era (Trail of Bits, Least Authority) remain published for transparency but do not cover the current wallet product. Details: [Audits](audits.md), [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
 
 ## FAQ
 
 **If DeGate's servers went down, could I still access my funds?**
-Your addresses and keys are derived via open standards (BIP39/BIP44) on your device. See the [Self-Custody FAQ](self-custody-faq.md) for what recovery looks like.
+Yes. Your assets are on-chain at addresses derived from your key via open standards (BIP39/BIP44). With your recovery phrase you could access them through any compatible wallet. See the [Self-Custody FAQ](self-custody-faq.md).
 
 **Can DeGate freeze my account?**
-There is no custodial account to freeze. Assets sit at addresses controlled by your key.
-
-> ⚠️ [NEEDS VERIFICATION: confirm there is no server-side gating of signing/routing that would nuance this answer, before publishing.]
+There is no custodial account to freeze. Assets sit at addresses controlled by your key, and only you can authorize transactions.

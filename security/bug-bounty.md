@@ -1,6 +1,6 @@
 # Bug Bounty
 
-DeGate accepts vulnerability reports at [bounty@degate.com](mailto:bounty@degate.com). If you believe you have found a security issue in DeGate's apps, front end, or on-chain programs, we want to hear from you before anyone else does.
+DeGate runs an active bug bounty: vulnerability reports go to [bounty@degate.com](mailto:bounty@degate.com). If you believe you have found a security issue in DeGate's apps, front end, or on-chain programs, we want to hear from you before anyone else does. DeGate's smart contracts are open-source on [GitHub](https://github.com/degatedev), and the bounty complements the audit coverage described in [Audits](audits.md).
 
 ## How to report
 

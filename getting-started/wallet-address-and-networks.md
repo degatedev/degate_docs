@@ -4,7 +4,9 @@ One DeGate wallet gives you an address on each supported chain. All of these add
 
 ## Your addresses across chains
 
-When you receive assets, use your DeGate address for the network the sender is on. Everything you receive, on any supported chain, shows up in your unified balance. Since only your private key can authorize transactions from these addresses, DeGate or any other external party cannot unilaterally move your funds.
+When you receive assets, use your DeGate address for the network the sender is on: tap **Receive** in the app, pick the chain, and copy the address or share the QR code. Your DeGate address is the same across all EVM chains (Ethereum, Base, Arbitrum, Optimism, Polygon, BNB and so on); Solana, Aptos, and Bitcoin use their own address formats. Incoming deposits are detected automatically, and everything you receive shows up in your unified balance.
+
+Since only your private key can authorize transactions from these addresses, DeGate or any other external party cannot unilaterally move your funds.
 
 ## How addresses are derived
 

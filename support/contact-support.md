@@ -1,11 +1,16 @@
 # Contact Support
 
-> ⚠️ [NEEDS VERIFICATION: official support channels (in-app support entry, support email, Discord/Telegram) and expected response times. Publish only channels the team actively staffs.]
+The fastest route is the **Feedback** feature inside the DeGate app: submit questions or report issues directly from your device, which also attaches the context support needs.
 
-## Support channels
+## Channels
 
-* **In-app:** [NEEDS VERIFICATION: where the support/feedback entry lives in the app]
-* **Community:** see [Official Links & Verified Contracts](../about-degate/official-links.md) for verified community channels
+* **In-app:** the Feedback feature in the DeGate app
+* **X (Twitter):** @DeGateWallet
+* **Telegram:** [t.me/degate\_public](https://t.me/degate_public)
+
+> ⚠️ [NEEDS VERIFICATION: canonical X handle. Both @DeGateWallet and @DeGateDex currently resolve; internal materials reference both. List only the official one here and in Official Links.]
+
+Verify any community link against [Official Links & Verified Contracts](../about-degate/official-links.md) before trusting it.
 
 ## Security issues
 

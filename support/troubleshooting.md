@@ -2,23 +2,17 @@
 
 Common issues and what to do about them. If your case is not covered, see [Contact Support](contact-support.md).
 
+## My swap is taking longer than expected
+
+Cross-chain swaps typically complete within 30 seconds to 2 minutes; the app shows an estimated completion time before you confirm. Check the transaction status in the **Activity** tab. Network congestion can occasionally cause delays. If a swap fails, your original tokens are returned automatically.
+
+## My balance shows zero after a deposit
+
+Deposits can take a few minutes depending on the blockchain's confirmation time. Pull down to refresh. If the balance is still missing after 10 minutes, check the transaction on a block explorer (Etherscan, Solscan) to confirm it was sent to the correct address on the correct network.
+
 ## I did not receive the email confirmation code
 
-Check your spam folder, and confirm the address you typed. Codes expire after a short window; request a new one if in doubt.
-
-> ⚠️ [NEEDS VERIFICATION: code validity window and rate limits.]
-
-## My swap is taking a long time
-
-Cross-chain swaps settle on more than one network and inherit those networks' confirmation times, so they take longer than same-chain swaps. Congestion on either network extends this further.
-
-> ⚠️ [NEEDS VERIFICATION: typical time ranges shown to users, and where in the app a user can see the swap's live status.]
-
-## My deposit has not appeared in my balance
-
-Confirm the transaction succeeded on the sending network first (check a block explorer with your address). Once confirmed on-chain, the unified balance updates after DeGate's confirmation threshold for that network.
-
-> ⚠️ [NEEDS VERIFICATION: confirmation thresholds per network, and what a user should do if a confirmed deposit still does not appear.]
+Check your spam folder, and confirm the address you typed. Request a new code if in doubt.
 
 ## I sent tokens on an unsupported network
 

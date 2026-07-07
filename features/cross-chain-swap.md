@@ -1,9 +1,9 @@
 # Cross-chain Swap
 
-Cross-chain Swap is a one-stop way to swap into assets on any major blockchain network without bridging or multi-step approvals. In short: you can buy any token on any supported chain, starting from whatever you already hold.
+Cross-chain Swap is a one-stop way to swap into assets on any major blockchain network without bridging or multi-step approvals. In short: you can buy any token on any supported chain, starting from whatever you already hold. Coverage spans 10M+ tokens across 17 blockchains, including major cryptocurrencies, stablecoins, memecoins, tokenized stocks (xStocks), and Ondo RWA assets.
 
 * **One-click swap.** The optimized flow lets you swap tokens across different chains in a single click.
-* **Optimal path discovery.** The system integrates cross-chain protocols and automatically identifies a cost-effective, fast route for your trade.
+* **Solver-based routing.** The system automatically identifies a cost-effective, fast route for your trade across integrated cross-chain protocols, and shows the expected output and price impact before you confirm.
 * **Full self-custody.** Your assets remain 100% in your own custody throughout the swap.
 * **Gas handled for you.** DeGate purchases the necessary gas tokens automatically on the chains involved, so you never need to pre-fund a destination chain.
 
@@ -13,7 +13,7 @@ Without a unified balance, moving into a token on another chain typically means 
 
 ## Fees
 
-Swap fees depend on the token tier: 0.01% for most stablecoins, 0.1% for major native coins, 0% for xStocks tokens on Solana, and 0.25% by default for other tokens, as of July 2026. The full per-network table is on the [Fees](../fees.md) page.
+Swap fees depend on the token tier: 0% for xStocks and Ondo RWA assets, 0.01% for most stablecoins, 0.1% for major native coins, and 0.25% by default for other tokens, as of July 2026. The full per-network table is on the [Fees](../fees.md) page.
 
 ## FAQ
 

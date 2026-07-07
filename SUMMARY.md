@@ -15,10 +15,10 @@
 
 ## Features
 
+* [On-Chain Stocks](features/on-chain-stocks.md)
 * [Cross-chain Swap](features/cross-chain-swap.md)
 * [Turbo Range](features/turbo-range.md)
 * [Simple Earn](features/simple-earn.md)
-* [On-Chain Stocks](features/on-chain-stocks.md)
 * [Built-in USDC](features/built-in-usdc.md)
 * [Integrations](features/integrations.md)
 

@@ -14,9 +14,9 @@ The fastest path is email: enter your address, confirm the code from your inbox,
 
 ## 3. Fund your wallet
 
-Deposit tokens from any supported chain to your DeGate address. Your deposits from different networks land in one unified balance, so it does not matter which chain you send from.
+Tap **Receive**, copy your address for the chain you are sending from (or scan the QR code), and send. Your DeGate address works across all EVM chains; Solana, Aptos, and Bitcoin have their own address formats. Incoming deposits are detected automatically, and deposits from different networks land in one unified balance.
 
-> ⚠️ [NEEDS VERIFICATION: exact in-app deposit flow naming (tab/button labels), and whether card purchases are live. Card/Apple Pay support was previously listed as TBC.]
+Buying crypto with a card inside the app is not yet available (a fiat on-ramp is under development; see [Integrations](../features/integrations.md)).
 
 ## 4. Make your first swap
 

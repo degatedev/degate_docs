@@ -1,9 +1,9 @@
 # Fees
 
-DeGate charges a swap fee that depends on the token you trade, not on which chains the route touches. As of July 2026: most stablecoins are 0.01%, major native coins are 0.1%, xStocks tokens on Solana are 0%, and any token not listed below defaults to 0.25%.
+DeGate charges a swap fee that depends on the token you trade, not on which chains the route touches. As of July 2026: xStocks and Ondo RWA assets are 0%, most stablecoins are 0.01%, major native coins are 0.1%, and any token not listed below defaults to 0.25%. There are no subscription fees and no hidden charges.
 
 {% hint style="info" %}
-**All xStocks tokens on the Solana chain incur zero DeGate swap fees.**
+**xStocks tokens and Ondo Finance RWA assets incur zero DeGate swap fees.**
 {% endhint %}
 
 ## Swap fees by network
@@ -28,22 +28,28 @@ DeGate charges a swap fee that depends on the token you trade, not on which chai
 
 Tokens not listed default to **0.25%**.
 
-## What else affects your total cost
+> ⚠️ [NEEDS VERIFICATION: fee-table rows for HyperEVM and MegaETH (testnet), which are supported networks but absent from this table.]
 
-* **Network (gas) costs.** DeGate purchases gas tokens automatically so you never manage them, but on-chain execution has real network costs.
+## Everything else
 
-> ⚠️ [NEEDS VERIFICATION: how gas/network costs are presented and charged to the user (included in quote, itemized, or absorbed), so this section states it precisely.]
+* **USDC bridging: free.** Moving USDC between supported chains is 1:1 with zero DeGate fees, across 10+ chains.
+* **Simple Earn: free.** No DeGate fees; all vault yield goes to the user.
+* **Turbo Range:** deposit and withdraw anytime; standard on-chain gas costs are handled automatically.
 
-* **Route pricing.** Cross-chain routes execute against underlying liquidity venues; the quote you confirm reflects the full route.
+> ⚠️ [NEEDS VERIFICATION: whether Turbo Range carries any DeGate fee on earned LP fees, given the audited integrator fee-routing controls.]
 
-> ⚠️ [NEEDS VERIFICATION: whether deposits, sends, and withdrawals carry any DeGate fee beyond network costs.]
+* **Gas:** handled automatically and deducted from your balance. You never need to hold native gas tokens.
+* **Sends:** cross-chain sends are routed automatically.
+
+> ⚠️ [NEEDS VERIFICATION: whether non-USDC sends and same-chain sends carry any DeGate fee beyond network costs.]
 
 ## FAQ
 
 **Are there hidden fees?**
-The DeGate swap fee for each token tier is listed above. Your confirmed quote is what you pay from your balance.
+No subscription fees, no hidden charges, and no monetization of user data. The swap fee tiers above plus network gas are the cost structure.
 
-> ⚠️ [NEEDS VERIFICATION: confirm this statement matches how quotes are constructed before publishing.]
+**Why are xStocks and Ondo assets free to swap?**
+DeGate currently applies a zero swap fee to xStocks tokens and Ondo RWA assets, as of the July 2026 snapshot. Fee tiers can change; this page is updated when they do.
 
-**Why are xStocks free to swap?**
-DeGate currently applies a zero swap fee to xStocks tokens on Solana, as of the July 2026 snapshot. Fee tiers can change; this page is updated when they do.
+**Who pays gas?**
+You do, but automatically: DeGate purchases the needed gas tokens and deducts the cost from your balance, so gas never blocks a transaction on a new chain.

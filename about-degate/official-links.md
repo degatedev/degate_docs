@@ -8,6 +8,7 @@ This page is the canonical list of DeGate's official domains, apps, accounts, an
 | --- | --- |
 | Main site | [degate.com](https://degate.com) |
 | Web app | [app.degate.com](https://app.degate.com) |
+| Stock token list | [app.degate.com/stocks](https://app.degate.com/stocks) |
 | Documentation | [docs.degate.com](https://docs.degate.com) |
 | App downloads | [download.degate.com](https://download.degate.com) |
 | Reference library | [degate.com/playbook](https://degate.com/playbook/) |
@@ -22,7 +23,12 @@ This page is the canonical list of DeGate's official domains, apps, accounts, an
 
 ## Social & community
 
-> ⚠️ [NEEDS VERIFICATION: current official X handle, Discord/Telegram invite links, and any other maintained community channels. Old DEX-era handles should be listed here only if they are still the official ones.]
+| Channel | Handle / link |
+| --- | --- |
+| X (Twitter) | @DeGateWallet |
+| Telegram | [t.me/degate\_public](https://t.me/degate_public) |
+
+> ⚠️ [NEEDS VERIFICATION: canonical X handle. Both @DeGateWallet and @DeGateDex currently resolve; confirm which is official (and whether the old handle redirects) before publishing.]
 
 ## Code & audits
 
