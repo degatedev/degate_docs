@@ -52,4 +52,4 @@ No subscription fees, no hidden charges, and no monetization of user data. The s
 DeGate currently applies a zero swap fee to xStocks tokens and Ondo RWA assets, as of the July 2026 snapshot. Fee tiers can change; this page is updated when they do.
 
 **Who pays gas?**
-You do, but automatically: DeGate purchases the needed gas tokens and deducts the cost from your balance, so gas never blocks a transaction on a new chain.
+You do, but automatically: DeGate purchases the needed gas tokens and deducts the cost from your balance, so you do not need to pre-fund gas on each chain you use. Your balance does need enough to cover the network fees of a transaction.
