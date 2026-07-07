@@ -1,14 +1,14 @@
 # On-Chain Stocks
 
-DeGate supports holding and swapping tokenized stocks and RWA tokens directly from your self-custody wallet, with zero DeGate swap fees. As of July 2026, coverage spans **Ondo Global Markets onchain stocks** and **100+ xStocks tokens**, covering individual equities (Tesla, Nvidia, Apple, Microsoft and more), index ETFs (S&P 500, Nasdaq 100), and commodities such as gold. All are settled in USDC, fractional, and swappable 24/7.
+DeGate supports holding and swapping tokenized stocks and ETFs directly from your self-custody wallet, with zero DeGate swap fees. Coverage spans hundreds of tokens across two issuer families: **Ondo onchain assets** (tickers ending in "on", like TSLAon) and **xStocks** (tickers ending in "x", like TSLAx), together covering individual US equities (Tesla, Nvidia, Apple, Microsoft and more) and index ETFs (S&P 500, Nasdaq 100). All are settled in USDC, fractional, and swappable 24/7.
 
 Browse the full list at [app.degate.com/stocks](https://app.degate.com/stocks).
 
-## Ondo onchain stocks
+> ⚠️ [NEEDS VERIFICATION: exact live asset counts before quoting numbers publicly.]
 
-Ondo Global Markets issues tokens that track listed US equities. The underlying shares are held through regulated intermediaries (Alpaca Securities for the shares, BitGo Bank & Trust for cash and stablecoins) in a bankruptcy-remote issuer structure. Dividends are reflected through total-return pricing: value accrues into the token's price via a multiplier rather than being paid out as cash.
+## Ondo onchain assets
 
-> ⚠️ [NEEDS VERIFICATION: the exact Ondo asset list and chains available on DeGate, before publishing.]
+Ondo Global Markets issues tokens that track listed US stocks and ETFs; on DeGate these carry the "on" ticker suffix (TSLAon for Tesla). The underlying shares are held through regulated intermediaries (Alpaca Securities for the shares, BitGo Bank & Trust for cash and stablecoins) in a bankruptcy-remote issuer structure. Dividends are reflected through total-return pricing: value accrues into the token's price via a multiplier rather than being paid out as cash.
 
 ## xStocks (Backed Finance)
 
@@ -16,7 +16,7 @@ xStocks are tokenized equities backed 1:1 by the underlying stock through the Ba
 
 ## What you can do
 
-* **Swap in and out with zero DeGate fees.** Both Ondo assets and xStocks trade like any other token, from your unified balance, starting on any supported chain. See [Fees](../fees.md).
+* **Swap in and out with zero DeGate fees.** Ondo assets and xStocks trade like any other token, paid in USDC. See [Fees](../fees.md).
 * **Hold them in self-custody.** Tokens sit at addresses only your key controls.
 * **Earn yield on stock tokens.** Provide liquidity to stock pairs (for example TSLAx/USDC or MSTRx/USDC) through [Turbo Range](turbo-range.md).
 
@@ -33,7 +33,7 @@ Tokens can be swapped 24/7, since transfers settle on-chain at any hour. The und
 ## FAQ
 
 **What does it cost to trade tokenized stocks on DeGate?**
-Zero DeGate swap fees on xStocks and Ondo RWA assets, as of July 2026.
+Zero DeGate swap fees on Ondo assets and xStocks, as of July 2026.
 
 **Do I receive dividends?**
 Economically yes, through each issuer's mechanism: xStocks rebase balances, while Ondo reflects dividends in the token price. Neither pays cash to your wallet. Details: [How tokenized stock dividends work](https://degate.com/playbook/tokenized-stock-dividends-mechanisms/).

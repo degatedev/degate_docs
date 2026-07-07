@@ -1,6 +1,6 @@
 # Turbo Range
 
-Turbo Range is DeGate's liquidity provision (LP) feature. It puts your funds into a concentrated-liquidity pool within a price range you set; when the market trades inside that range, you earn fees. It compresses a normally multi-step LP workflow into a one-click experience, and it is not limited to one asset class: pools cover crypto, tokenized stocks, and commodities.
+Turbo Range is DeGate's liquidity provision (LP) feature. It puts your funds into a concentrated-liquidity pool within a price range you set; when the market trades inside that range, you earn fees. It compresses a normally multi-step LP workflow into a one-click experience, and it is not limited to one asset class: pools cover crypto, tokenized stocks and ETFs, and gold.
 
 ## What you can provide liquidity for
 

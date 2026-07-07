@@ -2,7 +2,7 @@
 
 Simple Earn is a service for generating yield by depositing USDC or SOL into curated vaults powered by established DeFi protocols, without needing to understand complex farming strategies. DeGate charges no fees on Simple Earn: all yield goes to you.
 
-* **Established underlying protocols.** Vaults connect to Morpho (on Ethereum) and Kamino (on Solana), both established, audited DeFi lending and yield protocols. As of July 2026 there are 6 vault strategies across these two chains.
+* **Established underlying protocols.** Vaults connect to Morpho (on Ethereum) and Kamino (on Solana), both established, audited DeFi lending and yield protocols. The live vault list is in the app.
 * **Multi-chain deposits.** Deposit USDC from any supported chain instantly; the system manages balances across networks with no manual bridging. On Solana you can also deposit SOL (via the Kamino Jito Market).
 * **Simplified yield management.** From the initial deposit to claiming rewards, the dashboard lets you track and manage earnings at a glance.
 

@@ -6,10 +6,10 @@ In practice, that means you decide which token you want, and DeGate handles the 
 
 ## What you can do with DeGate
 
-* **Hold and swap tokenized stocks.** Ondo onchain stocks and 100+ xStocks tokens (Tesla, Nvidia, Apple, index ETFs, gold), with zero DeGate swap fees. See [On-Chain Stocks](features/on-chain-stocks.md).
+* **Hold and swap tokenized stocks and ETFs.** Hundreds of Ondo onchain assets and xStocks tokens (Tesla, Nvidia, Apple, S&P 500 and Nasdaq 100 ETFs), with zero DeGate swap fees. See [On-Chain Stocks](features/on-chain-stocks.md).
 * **Swap any token on any supported chain.** One unified interface covers 10M+ tokens across 17 blockchains. See [Cross-chain Swap](features/cross-chain-swap.md).
-* **Send and receive assets** across supported EVM and non-EVM chains, from one balance.
-* **Earn yield** through curated vaults with [Simple Earn](features/simple-earn.md) (powered by Morpho and Kamino), or provide concentrated liquidity on crypto, stock, and commodity pools with [Turbo Range](features/turbo-range.md).
+* **Send, receive, and manage assets** across supported EVM and non-EVM chains: one balance view, with token detail pages for following prices and your transaction history.
+* **Earn yield** through curated vaults with [Simple Earn](features/simple-earn.md) (powered by Morpho and Kamino), or provide concentrated liquidity on crypto, stock, ETF, and gold pools with [Turbo Range](features/turbo-range.md).
 * **Use DeFi directly.** Trade perpetuals via Hyperliquid, access prediction markets via Polymarket, spend crypto on gift cards via Bitrefill, buy crypto with a card via the built-in on-ramp, and reach any dApp through the in-app Web3 browser. See [Integrations](features/integrations.md).
 * **Skip gas token management.** DeGate purchases the necessary gas tokens automatically, so you never need to pre-fund a new chain before using it.
 

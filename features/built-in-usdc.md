@@ -12,4 +12,4 @@ DeGate features a unified multichain balance system, allowing you to manage and 
 Any of DeGate's supported networks; the list is in [What is DeGate](../README.md#supported-networks).
 
 **What does a cross-chain USDC transfer cost?**
-Stablecoin swap fees are 0.01% as of July 2026, plus network costs. See [Fees](../fees.md).
+USDC bridging between supported chains is free and 1:1, as of July 2026. See [Fees](../fees.md).

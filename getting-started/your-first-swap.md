@@ -4,13 +4,13 @@ A swap on DeGate works the same whether the token lives on the chain your funds 
 
 ## Before you start
 
-You need a funded wallet. Any supported token on any supported chain works as the starting point; there is no need to hold the destination chain's gas token. See [Quickstart](quickstart.md) if you have not set up yet.
+You need USDC in your wallet: swaps on DeGate are paid in USDC, and selling a token settles back into USDC. Deposit USDC from any supported chain (or buy it with a card via the on-ramp), and there is no need to hold the destination chain's gas token. See [Quickstart](quickstart.md) if you have not set up yet.
 
 ## Steps
 
 1. Open **Swap** in the app.
 2. Search for the token you want to receive. You can search across all supported chains at once.
-3. Choose what to pay with, or let DeGate use your unified balance.
+3. Pay with USDC from your balance.
 4. Review the quote. The app shows the expected output amount and price impact before you confirm, and the displayed amount reflects the DeGate swap fee for that token tier (see [Fees](../fees.md)).
 5. Confirm. Same-chain swaps complete in seconds; cross-chain swaps typically take 30 seconds to 2 minutes, and the app shows an estimated completion time before you confirm. You can follow progress in the **Activity** tab.
 
@@ -23,7 +23,7 @@ DeGate finds the route, executes any bridging, and pays gas on the chains involv
 ## FAQ
 
 **Why is my swap taking longer than expected?**
-Cross-chain routes settle on more than one network and inherit those networks' confirmation times; congestion can add delay. Check the Activity tab, and see [Troubleshooting](../support/troubleshooting.md) if a swap seems stuck.
+Cross-chain routes settle on more than one network and inherit those networks' confirmation times; congestion can add delay. Check the Activity tab, and see the [FAQ](../support/faq.md) if a swap seems stuck.
 
 **Is there a limit on how much I can swap?**
 There are no account-based limits. For very large swaps, price impact may be higher on assets with lower on-chain liquidity; the app displays price impact before confirmation.

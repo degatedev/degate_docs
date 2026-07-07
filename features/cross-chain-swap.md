@@ -1,6 +1,6 @@
 # Cross-chain Swap
 
-Cross-chain Swap is a one-stop way to swap into assets on any major blockchain network without bridging or multi-step approvals. In short: you can buy any token on any supported chain, starting from whatever you already hold. Coverage spans 10M+ tokens across 17 blockchains, including major cryptocurrencies, stablecoins, memecoins, tokenized stocks (xStocks), and Ondo RWA assets.
+Cross-chain Swap is a one-stop way to swap into assets on any major blockchain network without bridging or multi-step approvals. In short: you can buy any token on any supported chain with your USDC, and selling settles back into USDC. Coverage spans 10M+ tokens across 17 blockchains, including major cryptocurrencies, stablecoins, memecoins, and tokenized stocks and ETFs (Ondo onchain assets and xStocks).
 
 * **One-click swap.** The optimized flow lets you swap tokens across different chains in a single click.
 * **Solver-based routing.** The system automatically identifies a cost-effective, fast route for your trade across integrated cross-chain protocols, and shows the expected output and price impact before you confirm.

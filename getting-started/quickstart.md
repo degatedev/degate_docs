@@ -20,7 +20,7 @@ You can also buy crypto with cash or card: tap **Buy** on the Balance page to op
 
 ## 4. Make your first swap
 
-Pick the token you want. DeGate quotes a price, handles any cross-chain routing and gas in the background, and settles into your balance. Step-by-step guide: [Your First Swap](your-first-swap.md).
+Pick the token you want and pay with your USDC. DeGate quotes a price, handles any cross-chain routing and gas in the background, and settles into your balance. Step-by-step guide: [Your First Swap](your-first-swap.md).
 
 ## Where to go next
 

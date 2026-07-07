@@ -20,7 +20,6 @@
 * [Turbo Range](features/turbo-range.md)
 * [Simple Earn](features/simple-earn.md)
 * [Built-in USDC](features/built-in-usdc.md)
-* [Copy Trade](features/copy-trade.md)
 * [Integrations](features/integrations.md)
 
 ## Fees
@@ -37,5 +36,4 @@
 ## Support
 
 * [FAQ](support/faq.md)
-* [Troubleshooting](support/troubleshooting.md)
 * [Contact Support](support/contact-support.md)
