@@ -1,0 +1,39 @@
+# FAQ
+
+Quick answers to the most common questions, with links to the full pages.
+
+## Product
+
+**What is DeGate in one sentence?**
+A self-custody multichain crypto wallet: buy, sell, and earn across all leading blockchains from one unified balance, with gas and bridging handled for you. More: [What is DeGate](../README.md).
+
+**Is DeGate a DEX?**
+No. An earlier product under the same name was an order book DEX; it has been discontinued. More: [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
+
+**Which chains are supported?**
+Ethereum, Solana, Base, BSC, Arbitrum, Optimism, Avalanche, Polygon, Aptos, Bitcoin, Sonic, xLayer, Monad, Linea, and Worldchain, as of July 2026. More: [Supported networks](../README.md#supported-networks).
+
+**Is there a desktop or web version?**
+The mobile app is the primary product. The web app at [app.degate.com](https://app.degate.com) is available; app-first is the direction of travel.
+
+> ⚠️ [NEEDS VERIFICATION: how to phrase current web-app capabilities given planned changes; keep vague-but-true until the web scope is settled.]
+
+## Money
+
+**What are the fees?**
+Swap fees by token tier: 0.01% stablecoins, 0.1% major native coins, 0% xStocks on Solana, 0.25% default, as of July 2026. More: [Fees](../fees.md).
+
+**Can I buy crypto with a card?**
+
+> ⚠️ [NEEDS VERIFICATION: card / Apple Pay purchase availability. Previously listed as TBC.]
+
+## Trust
+
+**Who holds my keys?**
+You do. More: [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md).
+
+**Has DeGate been audited?**
+The Solana LP Handler was audited by Adevar Labs in March 2026. More: [Audits](../security/audits.md).
+
+**How do I verify I am on the real DeGate?**
+Check every link against [Official Links & Verified Contracts](../about-degate/official-links.md).
