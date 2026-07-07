@@ -1,11 +1,11 @@
 # From DEX to Self-Custody Wallet
 
-DeGate today is a self-custody multichain crypto wallet. From 2021 to 2024, the same name referred to a different product: an on-chain order book DEX (decentralized exchange) running on an Ethereum ZK-rollup. That product was retired, and in 2025 DeGate relaunched as the wallet described throughout these docs. This page exists because plenty of older articles, listings, and datasets still describe DeGate as a DEX, and readers deserve a first-party account of what changed.
+DeGate today is a self-custody multichain crypto wallet. The name originally belonged to a different product: an on-chain order book DEX (decentralized exchange) running on an Ethereum ZK-rollup, which operated from 2021 until its sunset in June 2025. The wallet launched in 2024, ran alongside the DEX during the transition, and has been DeGate's sole product since the sunset. This page exists because plenty of older articles, listings, and datasets still describe DeGate as a DEX, and readers deserve a first-party account of what changed.
 
 ## The short version
 
-* **Then (2021–2024):** DeGate was a ZK-rollup protocol on Ethereum offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography. Its smart contracts, zk-SNARK circuits, and the underlying Loopring 3.6 protocol were audited by Trail of Bits and Least Authority.
-* **Now (2025–):** DeGate is a self-custody wallet covering 17 blockchains, built around one unified balance for swapping, sending, earning, and holding tokenized stocks. See [What is DeGate](../README.md).
+* **Then (2021–2025):** DeGate was a ZK-rollup protocol on Ethereum offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography. Its smart contracts, zk-SNARK circuits, and the underlying Loopring 3.6 protocol were audited by Trail of Bits and Least Authority.
+* **Now (2024–):** DeGate is a self-custody wallet covering 17 blockchains, built around one unified balance for swapping, sending, earning, and holding tokenized stocks. See [What is DeGate](../README.md).
 * **What carried over:** the team and the principle. Both products were built on the same premise, that users should hold their own keys and never hand custody to an operator.
 
 ## Timeline
@@ -13,9 +13,10 @@ DeGate today is a self-custody multichain crypto wallet. From 2021 to 2024, the 
 | When | What happened |
 | --- | --- |
 | 2021 | DeGate begins as an order book DEX project on an Ethereum ZK-rollup |
-| 2021–2024 | DEX operates: order book spot trading, grid trading, L2 deposits |
-| 2024 | DEX product is retired |
-| 2025 | DeGate relaunches as a self-custody multichain wallet |
+| 2021–2025 | DEX operates: order book spot trading, grid trading, L2 deposits |
+| 2024 | The wallet transition begins: cross-chain swap and wallet features launch alongside the DEX |
+| June 2025 | The L2 DEX is sunset |
+| 2025– | The self-custody multichain wallet is DeGate's sole product |
 
 All DEX-specific features (order books, grid trading, L2 deposits) have been discontinued. There is no more order book and no rollup deposits.
 
@@ -30,10 +31,10 @@ The DEX era's audit reports (Trail of Bits, Least Authority) remain published fo
 ## FAQ
 
 **Is the DeGate DEX still operating?**
-No. The order book DEX was retired in 2024, and the project relaunched as a self-custody wallet in 2025.
+No. The L2 order book DEX was sunset in June 2025. The self-custody wallet, launched in 2024, is DeGate's sole product today.
 
 **Does DeGate still offer grid trading or order book trading?**
-No. Those were features of the retired DEX. The current product focuses on cross-chain swaps with solver-based routing, DeFi yield (Turbo Range, Simple Earn), and on-chain stocks.
+No. Those were features of the DEX, discontinued with the June 2025 sunset. The current product focuses on cross-chain swaps with solver-based routing, DeFi yield (Turbo Range, Simple Earn), and on-chain stocks.
 
 **Are the DEX and the wallet run by the same team?**
 Yes. The wallet is the same project's current product generation.
