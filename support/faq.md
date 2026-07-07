@@ -25,7 +25,7 @@ The mobile app is the primary product. The web app at [app.degate.com](https://a
 Swap fees by token tier: 0% for xStocks and Ondo RWA assets, 0.01% stablecoins, 0.1% major native coins, 0.25% default, as of July 2026. USDC bridging and Simple Earn are free of DeGate fees. More: [Fees](../fees.md).
 
 **Can I buy crypto with a card?**
-Not yet. A fiat on-ramp (cards, Apple Pay) is under development. Fund your wallet by depositing crypto from any supported chain in the meantime; see [Quickstart](../getting-started/quickstart.md).
+Yes. The app includes a fiat on-ramp for buying crypto with cards and other payment methods; provider fees and regional availability apply. You can also fund your wallet by depositing crypto from any supported chain; see [Quickstart](../getting-started/quickstart.md).
 
 **Does using DeGate require identity verification?**
 No. DeGate is a key-management app that does not operate user accounts, so there is no onboarding flow. Users are responsible for compliance with applicable local laws.

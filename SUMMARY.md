@@ -38,7 +38,3 @@
 * [FAQ](support/faq.md)
 * [Troubleshooting](support/troubleshooting.md)
 * [Contact Support](support/contact-support.md)
-
-## Updates
-
-* [Changelog](changelog.md)

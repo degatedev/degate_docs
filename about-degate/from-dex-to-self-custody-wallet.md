@@ -1,26 +1,27 @@
 # From DEX to Self-Custody Wallet
 
-DeGate today is a self-custody multichain crypto wallet. The name originally belonged to a different product: an on-chain order book DEX (decentralized exchange) running on an Ethereum ZK-rollup, which operated from 2021 until its sunset in June 2025. The wallet launched in 2024, ran alongside the DEX during the transition, and has been DeGate's sole product since the sunset. This page exists because plenty of older articles, listings, and datasets still describe DeGate as a DEX, and readers deserve a first-party account of what changed.
+DeGate today is a self-custody multichain crypto wallet. The name originally belonged to a different product: an on-chain order book DEX (decentralized exchange) running on an Ethereum ZK-rollup, sunset in June 2025. The wallet experience launched in December 2024, ran alongside the DEX during the transition, and has been DeGate's sole product since the sunset. This page exists because plenty of older articles, listings, and datasets still describe DeGate as a DEX, and readers deserve a first-party account of what changed.
 
 ## The short version
 
-* **Then (2021–2025):** DeGate was a ZK-rollup protocol on Ethereum offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography. Its smart contracts, zk-SNARK circuits, and the underlying Loopring 3.6 protocol were audited by Trail of Bits and Least Authority.
-* **Now (2024–):** DeGate is a self-custody wallet covering 17 blockchains, built around one unified balance for swapping, sending, earning, and holding tokenized stocks. See [What is DeGate](../README.md).
-* **What carried over:** the team and the principle. Both products were built on the same premise, that users should hold their own keys and never hand custody to an operator.
+* **Then:** DeGate was a ZK-rollup protocol on Ethereum offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography. Its smart contracts, zk-SNARK circuits, and the underlying Loopring 3.6 protocol were audited by Trail of Bits and Least Authority.
+* **Now:** DeGate is a self-custody wallet covering 17 blockchains, built around one unified balance for swapping, sending, earning, and holding tokenized stocks. See [What is DeGate](../README.md).
+* **What carried over:** the principle. Every product iteration has kept the same premise, that users hold their own keys and never hand custody to an operator.
 
 ## Timeline
 
 | When | What happened |
 | --- | --- |
-| 2021 | DeGate begins as an order book DEX project on an Ethereum ZK-rollup |
-| 2021–2025 | DEX operates: order book spot trading, grid trading, L2 deposits |
-| 2024 | The wallet transition begins: cross-chain swap and wallet features launch alongside the DEX |
-| June 2025 | The L2 DEX is sunset |
-| 2025– | The self-custody multichain wallet is DeGate's sole product |
+| February 2024 | DEX mainnet launch on Ethereum: transparent, self-custodial order book trading |
+| December 2024 | The wallet-based swap experience launches (initially supporting Solana); DEX and wallet operate in parallel |
+| June 2025 | The standalone DEX is sunset; DeGate commits fully to the self-custody wallet. Chain coverage expands and Simple Earn launches |
+| July 2025 | On-chain stocks launch: tokenized equities, swappable 24/7 and settled in USDC |
+| October 2025 | Turbo Range launches: one-click concentrated liquidity across crypto, stocks, indices, and gold |
+| March 2026 | Solana LP Handler passes third-party audit; supported networks reach 17 (16 mainnets + MegaETH testnet) |
 
 All DEX-specific features (order books, grid trading, L2 deposits) have been discontinued. There is no more order book and no rollup deposits.
 
-> ⚠️ [NEEDS VERIFICATION: operational status of the legacy interface still reachable at orderbook.degate.com, and whether to reference it here at all.]
+> ⚠️ [NEEDS VERIFICATION: how to describe the pre-2024 era. DEX-era audits (Trail of Bits, Least Authority) and public references date from 2021–2023, and the FAQ master doc says "2021–2024"; decide whether the timeline should carry a development/testnet-era line before the February 2024 mainnet milestone. Also confirm the status of the legacy interface still reachable at orderbook.degate.com.]
 
 ## What this means if you read older sources
 

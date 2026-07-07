@@ -42,4 +42,4 @@ You do. DeGate cannot access your private keys regardless of which creation meth
 No. DeGate is a key-management app, not an account service: there is no registration and no onboarding flow. Feature availability may vary by jurisdiction, and users are responsible for compliance with applicable local laws.
 
 **Can I use a hardware wallet?**
-The web app ([app.degate.com](https://app.degate.com)) supports hardware wallet connections. Native hardware wallet support in the mobile app (with planned integration for OneKey, Ledger, and Keystone) is under development.
+Yes, partially. OneKey is supported today; hardware-wallet connections currently cover Turbo Range, Send, and Receive, with broader feature coverage and additional devices (Ledger, Keystone) under development. The web app ([app.degate.com](https://app.degate.com)) also supports hardware wallet connections.

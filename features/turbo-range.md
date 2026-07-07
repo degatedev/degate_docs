@@ -4,7 +4,7 @@ Turbo Range is DeGate's liquidity provision (LP) feature. It puts your funds int
 
 ## What you can provide liquidity for
 
-As of July 2026, Turbo Range offers 14 products, including Gold, Bitcoin, Ethereum, Tesla, Nvidia, Google, Amazon, Apple, Meta, MicroStrategy, Circle, a Silver ETF, the S&P 500, and the Nasdaq 100. New pools are added regularly; the live list is in the app at [app.degate.com/turbo-range](https://app.degate.com/turbo-range).
+As of July 2026, Turbo Range offers 15 products, including Gold, Bitcoin, Ethereum, Tesla, Nvidia, Google, Amazon, Apple, Meta, MicroStrategy, Circle, SpaceX, a Silver ETF, the S&P 500, and the Nasdaq 100. New pools are added regularly; the live list is in the app at [app.degate.com/turbo-range](https://app.degate.com/turbo-range).
 
 ## Where it runs
 
