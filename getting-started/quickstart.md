@@ -16,7 +16,7 @@ The fastest path is email: enter your address, confirm the code from your inbox,
 
 Tap **Receive**, copy your address for the chain you are sending from (or scan the QR code), and send. Your DeGate address works across all EVM chains; Solana, Aptos, and Bitcoin have their own address formats. Incoming deposits are detected automatically, and deposits from different networks land in one unified balance.
 
-You can also buy crypto directly in the app with a card, via the integrated fiat on-ramp (see [Integrations](../features/integrations.md)).
+You can also buy crypto with cash or card: tap **Buy** on the Balance page to open the integrated on-ramp checkout (see [Integrations](../features/integrations.md)).
 
 ## 4. Make your first swap
 

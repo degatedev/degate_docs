@@ -8,7 +8,7 @@ Browse the full list at [app.degate.com/stocks](https://app.degate.com/stocks).
 
 Ondo Global Markets issues tokens that track listed US equities. The underlying shares are held through regulated intermediaries (Alpaca Securities for the shares, BitGo Bank & Trust for cash and stablecoins) in a bankruptcy-remote issuer structure. Dividends are reflected through total-return pricing: value accrues into the token's price via a multiplier rather than being paid out as cash.
 
-> ⚠️ [NEEDS VERIFICATION: the exact Ondo asset list and chains available on DeGate, and the live status of the Ondo RFQ pricing integration, before publishing.]
+> ⚠️ [NEEDS VERIFICATION: the exact Ondo asset list and chains available on DeGate, before publishing.]
 
 ## xStocks (Backed Finance)
 
@@ -40,6 +40,9 @@ Economically yes, through each issuer's mechanism: xStocks rebase balances, whil
 
 **Can I buy tokenized stocks from the EU?**
 Yes. DeGate is available in EU and EEA countries. Users are responsible for tax and reporting requirements in their jurisdiction.
+
+**Are tokenized stocks available everywhere?**
+No. xStocks follow the issuer's restrictions: users in regions on Backed's [restricted countries list](https://assets.backed.fi/legal-documentation/restricted-countries) (including the United States) cannot trade xStocks tokens on DeGate. This restriction applies to the Backed-issued tokens, not to your other assets.
 
 **Can I trade when the stock market is closed?**
 You can swap the tokens at any hour. Price behavior outside underlying market hours has its own dynamics; see the pricing section above.

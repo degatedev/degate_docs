@@ -22,7 +22,7 @@ You will be prompted to set a password for accessing your wallet.
 For higher-value assets, we recommend the **Create Wallet** or **Import Wallet** methods rather than the email flow, so that you manage the recovery phrase yourself.
 {% endhint %}
 
-You do not need an email address: creating a wallet with a mnemonic phrase (seed phrase) works entirely locally. Generate the wallet, write down your recovery phrase offline, and you are set. You can also import an existing wallet.
+You do not need an email address: creating a wallet with a mnemonic phrase (seed phrase) works entirely locally. Generate the wallet, write down your recovery phrase offline, and you are set. You can also import an existing wallet, or use **Sign in with Wallet** to log in with an external wallet you already have (via WalletConnect; up to 10 external wallet accounts).
 
 ## 2️⃣ Create a wallet via the web app
 
@@ -42,4 +42,4 @@ You do. DeGate cannot access your private keys regardless of which creation meth
 No. DeGate is a key-management app, not an account service: there is no registration and no onboarding flow. Feature availability may vary by jurisdiction, and users are responsible for compliance with applicable local laws.
 
 **Can I use a hardware wallet?**
-Yes, partially. OneKey is supported today; hardware-wallet connections currently cover Turbo Range, Send, and Receive, with broader feature coverage and additional devices (Ledger, Keystone) under development. The web app ([app.degate.com](https://app.degate.com)) also supports hardware wallet connections.
+Yes, partially. OneKey (via Bluetooth) is supported today; hardware-wallet accounts currently cover Receive, same-chain Send, and Turbo Range, and do not yet cover Bitcoin. Broader feature coverage and additional devices (Ledger, Keystone) are under development. The web app ([app.degate.com](https://app.degate.com)) also supports hardware wallet connections.

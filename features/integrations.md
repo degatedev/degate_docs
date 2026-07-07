@@ -1,30 +1,26 @@
 # Integrations
 
-DeGate integrates selected third-party services directly into the wallet, so you can use them from your unified balance without leaving the app.
+DeGate builds selected third-party services into the app, so you can reach them from your unified balance without hunting for URLs or re-connecting wallets.
 
 ## Hyperliquid: perpetual futures
 
-DeGate integrates Hyperliquid directly. You can trade crypto perpetuals without leaving your self-custody wallet.
+Trade crypto perpetuals on Hyperliquid without leaving your self-custody wallet, via the Home screen shortcut or the built-in browser.
 
 ## Polymarket: prediction markets
 
-DeGate integrates Polymarket directly, giving you access to prediction markets from your wallet.
-
-> ⚠️ [NEEDS VERIFICATION: one sentence on the exact form of the Polymarket integration (funding flow, which markets), matching how it appears in the app.]
+Polymarket is accessible from the Home screen's **Predict** button and the built-in browser.
 
 ## Bitrefill: spend crypto
 
-DeGate integrates Bitrefill, letting you purchase gift cards and eSIMs for thousands of brands using your crypto. This is also a practical way to use crypto for real-world spending without going through an exchange.
+Purchase gift cards and eSIMs for thousands of brands using your crypto, via the built-in Bitrefill integration. A practical way to spend crypto without going through an exchange.
 
-## Fiat on-ramp: buy crypto with a card
+## Fiat on-ramp: buy crypto with cash or card
 
-You can buy crypto inside the app with credit/debit cards and other payment methods, via the integrated on-ramp provider (Unlimit). Provider fees and availability vary by region and payment method.
-
-> ⚠️ [NEEDS VERIFICATION: supported payment methods and regions for the Unlimit on-ramp as displayed in the app.]
+Tap **Buy** on the Balance page to open the hosted checkout of the on-ramp provider (Unlimit). Cards and Apple Pay are supported, and a typical purchase completes in about a minute. The same **Buy with cash / card** option appears when getting a specific token in the browser and in the **Add Funds** flows of Simple Earn and Turbo Range. Provider fees and regional availability are set by the on-ramp provider.
 
 ## Web3 browser
 
-The app includes a built-in Web3 browser for accessing dApps directly, including Hyperliquid, Polymarket, AAVE, Kamino, and thousands more.
+The app includes a built-in Web3 browser for using any dApp with your wallet. Highlighted apps include Hyperliquid, Polymarket, AAVE, Kamino, Morpho, CoW Swap, Uniswap, Spark, Compound, Pump.fun, and Pendle, alongside your own history and favorites.
 
 ## FAQ
 
