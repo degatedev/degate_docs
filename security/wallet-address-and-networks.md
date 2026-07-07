@@ -40,4 +40,4 @@ The current list of supported networks appears in [What is DeGate](../README.md#
 Send tokens on their matching network to your address for that network. Everything on supported networks lands in your unified balance.
 
 **If DeGate disappeared, would I lose access to these addresses?**
-The addresses are derived from your key via open standards (BIP39/BIP44), not from anything only DeGate holds. See the [Self-Custody FAQ](../security/self-custody-faq.md) for the recovery discussion.
+The addresses are derived from your key via open standards (BIP39/BIP44), not from anything only DeGate holds. See the [Self-Custody FAQ](self-custody-faq.md) for the recovery discussion.

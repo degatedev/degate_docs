@@ -38,15 +38,6 @@ This page is the canonical list of DeGate's official domains, apps, accounts, an
 | Solana LP Handler (audited) | [github.com/degatedev/solana\_lp\_handler](https://github.com/degatedev/solana_lp_handler) |
 | Audit reports | [Audits](../security/audits.md) |
 
-## Contract & program addresses
-
-> ⚠️ [NEEDS VERIFICATION: list of deployed contract/program addresses per chain that users may need to verify (e.g. the Solana LP Handler program ID). Publish only addresses confirmed by the engineering team.]
-
 ## Security contact
 
 Vulnerability reports: [bounty@degate.com](mailto:bounty@degate.com). See [Bug Bounty](../security/bug-bounty.md).
-
-## Similar names
-
-* **Degate (chip reverse-engineering software):** an unrelated open-source project for VLSI chip analysis. It has no connection to DeGate the crypto wallet.
-* **DeGate DEX:** the discontinued previous product under the same brand. See [From DEX to Self-Custody Wallet](from-dex-to-self-custody-wallet.md).

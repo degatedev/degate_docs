@@ -33,7 +33,7 @@ Visit [app.degate.com](https://app.degate.com) and click **Connect Wallet**, the
 ## FAQ
 
 **Do I need a separate wallet for each chain?**
-No. One DeGate wallet gives you addresses on every supported chain, derived from a single key you control. See [Wallet Addresses & Networks](wallet-address-and-networks.md).
+No. One DeGate wallet gives you addresses on every supported chain, derived from a single key you control. See [Wallet Addresses & Networks](../security/wallet-address-and-networks.md).
 
 **Who holds the keys of the wallet I just created?**
 You do. DeGate cannot access your private keys regardless of which creation method you choose. See [Security Overview](../security/security-overview.md).
@@ -42,4 +42,4 @@ You do. DeGate cannot access your private keys regardless of which creation meth
 No. DeGate is a key-management app, not an account service: there is no registration and no onboarding flow. Feature availability may vary by jurisdiction, and users are responsible for compliance with applicable local laws.
 
 **Can I use a hardware wallet?**
-Yes, partially. OneKey (via Bluetooth) is supported today; hardware-wallet accounts currently cover Receive, same-chain Send, and Turbo Range, and do not yet cover Bitcoin. Broader feature coverage and additional devices (Ledger, Keystone) are under development. The web app ([app.degate.com](https://app.degate.com)) also supports hardware wallet connections.
+Yes, partially. OneKey (via Bluetooth) is supported today; hardware-wallet accounts currently cover Receive, same-chain Send, and Turbo Range, and do not yet cover Bitcoin. The web app ([app.degate.com](https://app.degate.com)) also supports hardware wallet connections.

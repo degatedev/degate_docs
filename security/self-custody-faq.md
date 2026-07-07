@@ -3,7 +3,7 @@
 Self-custody means your keys, and therefore your assets, are controlled by you rather than held in an account by a company. This page answers the questions people actually ask before trusting a self-custody wallet.
 
 **Who controls my keys?**
-You do. Keys are generated locally and remain under your sole control. The DeGate protocol and degate.com do not and cannot access users' wallet private keys. The derivation mechanism is documented in [Wallet Addresses & Networks](../getting-started/wallet-address-and-networks.md).
+You do. Keys are generated locally and remain under your sole control. The DeGate protocol and degate.com do not and cannot access users' wallet private keys. The derivation mechanism is documented in [Wallet Addresses & Networks](wallet-address-and-networks.md).
 
 **Can DeGate move, freeze, or seize my funds?**
 No. Your assets sit at blockchain addresses that only your key can sign for. There is no custodial account layer in between, so there is structurally nothing for DeGate to freeze or restrict.

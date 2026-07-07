@@ -4,7 +4,7 @@ A swap on DeGate works the same whether the token lives on the chain your funds 
 
 ## Before you start
 
-You need USDC in your wallet: swaps on DeGate are paid in USDC, and selling a token settles back into USDC. Deposit USDC from any supported chain (or buy it with a card via the on-ramp), and there is no need to hold the destination chain's gas token. See [Quickstart](quickstart.md) if you have not set up yet.
+Buys on DeGate are paid in USDC, and selling a token settles back into USDC. So you need USDC first, and there are three ways to get it: deposit USDC from any supported chain, buy it with a card via the on-ramp, or sell a token you already hold (for example, selling TSLAx gives you USDC to buy with). There is no need to hold the destination chain's gas token. See [Quickstart](quickstart.md) if you have not set up yet.
 
 ## Steps
 

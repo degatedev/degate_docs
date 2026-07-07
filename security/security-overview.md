@@ -14,7 +14,9 @@ Your per-chain wallet address keys offer the same level of security as your root
 
 1. The DeGate protocol and degate.com do not and cannot access users' wallet private keys.
 2. In the web app, wallet address keys are held temporarily in the browser's SessionStorage and automatically cleared when the tab closes. SessionStorage does not support cross-domain or cross-session access.
-3. DeGate implements a front-end isolation strategy that splits the front end into "wallet code" and "trade code". The wallet code handles the signature mechanism inside an iframe, while trade code executes in a sandboxed environment, keeping keys and signatures inaccessible from the trade side. In the future, the core front-end code will be deployed on decentralized platforms to make it immutable, further enhancing private key security.
+3. DeGate implements a front-end isolation strategy that splits the front end into "wallet code" and "trade code". The wallet code handles the signature mechanism inside an iframe, while trade code executes in a sandboxed environment, keeping keys and signatures inaccessible from the trade side.
+
+> ⚠️ [NEEDS VERIFICATION: points 2 and 3 are carried over from the current live docs and describe the web architecture. Confirm with engineering that they still describe today's product accurately (and how they map to the mobile app) before publishing. The old copy's forward-looking sentence about deploying the front end to decentralized platforms has been dropped; restore only if it is still the plan and worth stating publicly.]
 
 ## In the mobile app
 

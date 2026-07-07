@@ -11,7 +11,6 @@
 * [Quickstart](getting-started/quickstart.md)
 * [Create a Wallet](getting-started/create-a-wallet.md)
 * [Your First Swap](getting-started/your-first-swap.md)
-* [Wallet Addresses & Networks](getting-started/wallet-address-and-networks.md)
 
 ## Features
 
@@ -29,6 +28,7 @@
 ## Security & Self-Custody
 
 * [Security Overview](security/security-overview.md)
+* [Wallet Addresses & Networks](security/wallet-address-and-networks.md)
 * [Audits](security/audits.md)
 * [Bug Bounty](security/bug-bounty.md)
 * [Self-Custody FAQ](security/self-custody-faq.md)
