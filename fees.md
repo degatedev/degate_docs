@@ -33,7 +33,7 @@ Tokens not listed default to **0.25%**.
 ## Everything else
 
 * **USDC bridging: free.** Moving USDC between supported chains is 1:1 with zero DeGate fees, across 10+ chains.
-* **Simple Earn: free.** No DeGate fees; all vault yield goes to the user.
+* **Simple Earn: free.** No DeGate fees; all vault yield goes to the user. Deposit and withdraw anytime.
 * **Turbo Range:** deposit and withdraw anytime; standard on-chain gas costs are handled automatically.
 
 > ⚠️ [NEEDS VERIFICATION: whether Turbo Range carries any DeGate fee on earned LP fees, given the audited integrator fee-routing controls.]

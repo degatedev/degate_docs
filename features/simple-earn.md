@@ -23,8 +23,7 @@ From the underlying Morpho and Kamino vault strategies. The yield is generated b
 Nothing from DeGate: no deposit, withdrawal, or performance fees. All yield goes directly to the user.
 
 **Can I withdraw at any time?**
-
-> ⚠️ [NEEDS VERIFICATION: withdrawal terms, any lockups or cooldowns per vault, before publishing.]
+Yes. You can deposit and withdraw anytime; there is no lock-up period.
 
 **Do I give up custody when I deposit?**
 Deposits go into the selected vault's smart contracts, authorized by your key. DeGate does not take custody of your funds itself; the position carries the risk profile of the underlying protocol.
