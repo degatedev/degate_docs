@@ -1,9 +1,14 @@
 ---
 description: >-
-  A fairly launched, Dao-centric, Zero Knowledge based self-custody trading
-  protocol built on Ethereum. DeGate is Limit Orders, Decentralized and
-  Self-Custody.
+  Archived documentation of DeGate's sunset zkRollup orderbook DEX (historical).
+  DeGate is now a self-custodial multichain crypto wallet. See degate.com.
 ---
+
+> **⚠️ Historical documentation.** This branch contains the docs of DeGate's zkRollup
+> orderbook DEX, which was sunset in 2025, and is kept for archival reference only.
+> Current product docs: [docs.degate.com](https://docs.degate.com). DeGate is now a
+> self-custodial multichain crypto wallet: [degate.com](https://degate.com).
+
 
 # A ZK Rollup Orderbook Decentralized Exchange
 
