@@ -26,7 +26,7 @@ You do not need an email address: creating a wallet with a mnemonic phrase (seed
 
 ## 2️⃣ Create a wallet via the web app
 
-Visit [app.degate.com](https://app.degate.com) and click **Connect Wallet**, then choose your preferred method.
+Visit [app.degate.com](https://app.degate.com) and click **Connect Wallet**, then choose your preferred method. Email login works here too: the same email wallet can be used in the app and the web app.
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

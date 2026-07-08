@@ -18,9 +18,9 @@ Your per-chain wallet address keys offer the same level of security as your root
 
 > ⚠️ [NEEDS VERIFICATION: points 2 and 3 are carried over from the current live docs and describe the web architecture. Confirm with engineering that they still describe today's product accurately (and how they map to the mobile app) before publishing. The old copy's forward-looking sentence about deploying the front end to decentralized platforms has been dropped; restore only if it is still the plan and worth stating publicly.]
 
-## In the mobile app
+## Key storage by wallet type
 
-Email-based wallets use encrypted key storage tied to your email and password; mnemonic wallets are generated locally on the device. Neither method gives DeGate access to your keys.
+Email-based wallets (available in both the app and the web app) use encrypted key storage tied to your email and password; mnemonic wallets are generated locally on your device. Neither method gives DeGate access to your keys.
 
 > ⚠️ [NEEDS VERIFICATION: device-level key protection details in the mobile app (secure enclave/keystore usage, biometrics) before expanding this section.]
 

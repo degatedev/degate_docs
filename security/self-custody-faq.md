@@ -15,7 +15,7 @@ Your funds remain safe. Assets live on the blockchains themselves, not on DeGate
 It depends on how you created the wallet:
 
 * **Mnemonic (recovery phrase) wallet:** write down your 12 or 24 words and store them securely offline, never digitally. The phrase is the only way to recover this wallet type.
-* **Email wallet:** your encrypted keys are tied to your email and password. You can re-access your wallet on any device by signing in with the same email.
+* **Email wallet:** your encrypted keys are tied to your email and password. You can re-access your wallet on any device, in the app or the web app, by signing in with the same email.
 
 **What if I lose my phone?**
 Download DeGate on a new device and restore with your recovery phrase or email login. Your funds are on-chain, not on the device; the device only holds keys, and keys can be restored from your recovery method.
