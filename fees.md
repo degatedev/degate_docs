@@ -38,10 +38,8 @@ Tokens not listed default to **0.25%**.
 
 > ⚠️ [NEEDS VERIFICATION: whether Turbo Range carries any DeGate fee on earned LP fees, given the audited integrator fee-routing controls.]
 
+* **Sends: free.** DeGate charges no fee on sends, whether same-chain or cross-chain; cross-chain sends are routed automatically. Standard network (gas) costs still apply, handled as below.
 * **Gas:** handled automatically and deducted from your balance. You never need to hold native gas tokens.
-* **Sends:** cross-chain sends are routed automatically.
-
-> ⚠️ [NEEDS VERIFICATION: whether non-USDC sends and same-chain sends carry any DeGate fee beyond network costs.]
 
 ## FAQ
 
