@@ -15,7 +15,7 @@ In practice, that means you decide which token you want, and DeGate handles the 
 
 ## How DeGate works
 
-You control one wallet key. From it, DeGate derives your addresses on each supported chain in a deterministic, standards-based way (BIP39/BIP44), entirely on your device. Only your key can authorize transactions from those addresses, which is what makes DeGate self-custodial rather than an exchange account. The mechanism is documented in [Wallet Addresses & Networks](security/wallet-address-and-networks.md) and [Security Overview](security/security-overview.md).
+You control one wallet. From it, DeGate deterministically derives your addresses across supported chains, on your device, using the BIP39/BIP44 framework. Only your keys can authorize transactions from those addresses, which is what makes DeGate self-custodial rather than an exchange account. The mechanism is documented in [Wallet Addresses & Networks](security/wallet-address-and-networks.md) and [Security Overview](security/security-overview.md).
 
 ## Supported networks
 

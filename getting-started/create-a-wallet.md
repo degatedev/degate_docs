@@ -33,7 +33,7 @@ Visit [app.degate.com](https://app.degate.com) and click **Connect Wallet**, the
 ## FAQ
 
 **Do I need a separate wallet for each chain?**
-No. One DeGate wallet gives you addresses on every supported chain, derived from a single key you control. See [Wallet Addresses & Networks](../security/wallet-address-and-networks.md).
+No. One DeGate wallet gives you addresses across supported chains, generated as you enable each chain and controlled by your keys. See [Wallet Addresses & Networks](../security/wallet-address-and-networks.md).
 
 **Who holds the keys of the wallet I just created?**
 You do. DeGate cannot access your private keys regardless of which creation method you choose. See [Security Overview](../security/security-overview.md).

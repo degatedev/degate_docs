@@ -20,9 +20,9 @@ Your per-chain wallet address keys offer the same level of security as your root
 
 ## Key storage by wallet type
 
-Email-based wallets (available in both the app and the web app) use encrypted key storage tied to your email and password; mnemonic wallets are generated locally on your device. Neither method gives DeGate access to your keys.
+Email-based wallets (available in both the app and the web app) use an embedded key tied to your email and password; mnemonic wallets are generated locally on your device; hardware-wallet keys never leave the device. None of these methods gives DeGate access to your keys.
 
-> ⚠️ [NEEDS VERIFICATION: device-level key protection details in the mobile app (secure enclave/keystore usage, biometrics) before expanding this section.]
+> ⚠️ [NEEDS VERIFICATION: (1) device-level key protection details in the mobile app (secure enclave/keystore usage, biometrics); (2) how to disclose the email wallet's embedded-key infrastructure (it is provided via Privy) — naming the provider and phrasing the custody nuance needs a marketing/legal decision, since "keys only you control" reads differently when an embedded-wallet provider is involved.]
 
 ## Audit status, stated plainly
 

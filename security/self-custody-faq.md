@@ -9,13 +9,13 @@ You do. Keys are generated locally and remain under your sole control. The DeGat
 No. Your assets sit at blockchain addresses that only your key can sign for. There is no custodial account layer in between, so there is structurally nothing for DeGate to freeze or restrict.
 
 **What happens to my assets if DeGate shuts down?**
-Your funds remain safe. Assets live on the blockchains themselves, not on DeGate's servers, at addresses derived from your key via open standards (BIP39/BIP44). With your recovery phrase you could access all funds through any compatible wallet (MetaMask, Rabby, Trust Wallet, and others). LP positions on underlying protocols such as Raydium or Uniswap can be managed directly through those protocols.
+Your funds remain safe. Assets live on the blockchains themselves, not on DeGate's servers, at addresses only your keys control. With your recovery phrase (or, for email wallets, the derived recovery mnemonic) you could access all funds through any BIP39/BIP44-compatible wallet (MetaMask, Rabby, Trust Wallet, and others). LP positions on underlying protocols such as Raydium or Uniswap can be managed directly through those protocols. How each wallet type's keys derive is documented in [Wallet Addresses & Networks](wallet-address-and-networks.md).
 
 **What do I need to back up?**
 It depends on how you created the wallet:
 
-* **Mnemonic (recovery phrase) wallet:** write down your 12 or 24 words and store them securely offline, never digitally. The phrase is the only way to recover this wallet type.
-* **Email wallet:** your encrypted keys are tied to your email and password. You can re-access your wallet on any device, in the app or the web app, by signing in with the same email.
+* **Mnemonic (recovery phrase) wallet:** write down your recovery phrase and store it securely offline, never digitally. The phrase is the only way to recover this wallet type.
+* **Email wallet:** your keys are tied to your email and password. You can re-access your wallet on any device, in the app or the web app, by signing in with the same email.
 
 **What if I lose my phone?**
 Download DeGate on a new device and restore with your recovery phrase or email login. Your funds are on-chain, not on the device; the device only holds keys, and keys can be restored from your recovery method.
