@@ -34,10 +34,10 @@ Your private key never leaves the hardware device; DeGate reads your addresses o
 ## What this means for recovery
 
 * **Mnemonic wallet:** your 12-word phrase is the backup. It restores the wallet in DeGate or in any BIP39/BIP44-compatible wallet.
-* **Email wallet:** your email and password restore access in the app or the web app. Exporting the underlying keys is not currently offered, so an email wallet cannot currently be restored outside DeGate; for maximum independence, use a mnemonic wallet.
+* **Email wallet:** your email and password restore access in the app or the web app. The root key can additionally be exported via a standalone Privy-based export tool that works independently of the DeGate app.
 * **Sign in with Wallet / web-sync:** access follows your external wallet; sign in again with it on any device.
 
-> ⚠️ [NEEDS VERIFICATION: product decision pending on exposing key/mnemonic export for email wallets (technically feasible, not user-facing today) and on the 12-vs-24-word import limit. Until both land, docs must not claim external recovery for email/external/sync wallet types.]
+> ⚠️ [NEEDS VERIFICATION: the email-wallet export story end to end. The standalone tool (degatedev.github.io/privy_wallet_export) exports the L0 root key; recovering funds at DA addresses from that key additionally requires the DeGate derivation recipe, which is not yet published (wallet-key-deriver). Confirm the full path with engineering, decide whether to officially link the tool, and note the app's 12-word import limit still blocks re-importing a derived 24-word mnemonic into DeGate itself.]
 
 ## Supported networks
 

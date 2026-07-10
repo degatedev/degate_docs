@@ -38,7 +38,9 @@ DeGate's components are put through independent security review as they ship; th
 ## FAQ
 
 **If DeGate's servers went down, could I still access my funds?**
-It depends on your wallet type. Mnemonic wallets: yes, your recovery phrase restores funds in any BIP39/BIP44-compatible wallet. Hardware wallets: yes, your keys are on your device. Email wallets: key export is not currently offered in the product, so restoring an email wallet outside DeGate is not currently possible; for maximum independence, use a mnemonic wallet. See the [Self-Custody FAQ](self-custody-faq.md).
+It depends on your wallet type. Mnemonic wallets: yes, your recovery phrase restores funds in any BIP39/BIP44-compatible wallet. Hardware wallets: yes, your keys are on your device. Email wallets: your root key can be exported through a standalone export tool built on Privy that works independently of the DeGate app; for the simplest independence story, use a mnemonic wallet. See the [Self-Custody FAQ](self-custody-faq.md).
+
+> ⚠️ [NEEDS VERIFICATION before publishing the email-wallet answer: (1) engineering to confirm the end-to-end path from the exported root key to funds at DA addresses (the export yields the L0 key; deriving the DA mnemonic from it additionally needs the derivation recipe, which is not yet published); (2) whether to officially bless and link the export tool (degatedev.github.io/privy_wallet_export) in docs and Official Links — it asks users for email login, so it must be formally owned, maintained, and referenced only from official surfaces.]
 
 **Can DeGate freeze my account?**
 There is no custodial account to freeze. Assets sit at addresses controlled by your key, and only you can authorize transactions.
