@@ -9,7 +9,7 @@ You do. Keys are generated locally and remain under your sole control. The DeGat
 No. Your assets sit at blockchain addresses that only your key can sign for. There is no custodial account layer in between, so there is structurally nothing for DeGate to freeze or restrict.
 
 **What happens to my assets if DeGate shuts down?**
-Your funds remain safe. Assets live on the blockchains themselves, not on DeGate's servers, at addresses only your keys control. With your recovery phrase (or, for email wallets, the derived recovery mnemonic) you could access all funds through any BIP39/BIP44-compatible wallet (MetaMask, Rabby, Trust Wallet, and others). LP positions on underlying protocols such as Raydium or Uniswap can be managed directly through those protocols. How each wallet type's keys derive is documented in [Wallet Addresses & Networks](wallet-address-and-networks.md).
+Assets live on the blockchains themselves, not on DeGate's servers, at addresses only your keys control. What you can do next depends on wallet type. With a mnemonic wallet, your recovery phrase restores all funds through any BIP39/BIP44-compatible wallet (MetaMask, Rabby, Trust Wallet, and others), and LP positions on underlying protocols such as Raydium or Uniswap can be managed directly through those protocols. Email wallets do not currently offer key export, so they depend on the DeGate service for access; if independence from any single provider matters to you, hold meaningful balances in a mnemonic wallet. How each wallet type's keys derive is documented in [Wallet Addresses & Networks](wallet-address-and-networks.md).
 
 **What do I need to back up?**
 It depends on how you created the wallet:

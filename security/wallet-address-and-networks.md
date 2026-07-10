@@ -34,10 +34,10 @@ Your private key never leaves the hardware device; DeGate reads your addresses o
 ## What this means for recovery
 
 * **Mnemonic wallet:** your 12-word phrase is the backup. It restores the wallet in DeGate or in any BIP39/BIP44-compatible wallet.
-* **Email wallet:** your email and password restore access in the app or the web app.
-* **Email, external-wallet, and web-sync wallets** additionally have the derived 24-word mnemonic described above, which can restore your funds in standard BIP39/BIP44-compatible external wallets.
+* **Email wallet:** your email and password restore access in the app or the web app. Exporting the underlying keys is not currently offered, so an email wallet cannot currently be restored outside DeGate; for maximum independence, use a mnemonic wallet.
+* **Sign in with Wallet / web-sync:** access follows your external wallet; sign in again with it on any device.
 
-> ⚠️ [NEEDS VERIFICATION: (1) the in-app export flow for the derived 24-word mnemonic (feature name and location) so this section can point to it; (2) the import mismatch: the app currently accepts 12-word imports only, so an exported 24-word mnemonic restores funds in external wallets but cannot be re-imported into DeGate itself. Do not promise re-import until product resolves this.]
+> ⚠️ [NEEDS VERIFICATION: product decision pending on exposing key/mnemonic export for email wallets (technically feasible, not user-facing today) and on the 12-vs-24-word import limit. Until both land, docs must not claim external recovery for email/external/sync wallet types.]
 
 ## Supported networks
 
@@ -49,4 +49,4 @@ The current list of supported networks appears in [What is DeGate](../README.md#
 Send tokens on their matching network to your address for that network. Everything on supported networks lands in your unified balance.
 
 **If DeGate disappeared, would I lose access to these addresses?**
-No. Your funds are on-chain at addresses only your keys control. Depending on wallet type, you restore access with your 12-word recovery phrase or with the derived 24-word mnemonic, in any BIP39/BIP44-compatible wallet. See the [Self-Custody FAQ](self-custody-faq.md) for the full recovery discussion.
+Your funds are on-chain at addresses only your keys control, so the assets themselves are not on DeGate's servers. Whether you can restore access independently depends on wallet type: mnemonic wallets restore in any BIP39/BIP44-compatible wallet; email wallets do not currently offer key export. See the [Self-Custody FAQ](self-custody-faq.md) for the full recovery discussion.

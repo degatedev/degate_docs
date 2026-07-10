@@ -28,6 +28,12 @@ The Solana LP Handler supports:
 >
 > — Adevar Labs, March 2026
 
+### Scope, stated plainly
+
+This audit covers the Solana LP Handler only. Other components of the current wallet (email-wallet key storage, cross-chain routing, Simple Earn integrations, the mobile and web front ends) have not yet undergone external third-party audit; they rely on open-source review and the active [bug bounty](bug-bounty.md).
+
+Audit reports from the retired ZK-rollup DEX era (Trail of Bits, Least Authority) remain published for transparency; they cover the previous product, not the current wallet. See [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
+
 ### Full report
 
 The complete audit report including all findings, proof-of-concept exploits, code snippets, and developer responses is publicly available:

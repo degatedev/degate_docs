@@ -20,20 +20,25 @@ Your per-chain wallet address keys offer the same level of security as your root
 
 ## Key storage by wallet type
 
-Email-based wallets (available in both the app and the web app) use an embedded key tied to your email and password; mnemonic wallets are generated locally on your device; hardware-wallet keys never leave the device. None of these methods gives DeGate access to your keys.
+DeGate supports several ways of holding a wallet, and the key material lives in a different place for each:
 
-> ⚠️ [NEEDS VERIFICATION: (1) device-level key protection details in the mobile app (secure enclave/keystore usage, biometrics); (2) how to disclose the email wallet's embedded-key infrastructure (it is provided via Privy) — naming the provider and phrasing the custody nuance needs a marketing/legal decision, since "keys only you control" reads differently when an embedded-wallet provider is involved.]
+* **Created or imported mnemonic wallets:** the recovery phrase is generated (or entered) locally and keys stay on your device.
+* **Email wallets** (app and web app): an embedded key tied to your email and password.
+* **Sign in with Wallet / web-sync accounts:** the root key stays in your own external wallet; DeGate derives its operating keys from a signature you make, as described in [Wallet Addresses & Networks](wallet-address-and-networks.md).
+* **Hardware wallets:** the private key never leaves the device.
 
-## Audit status, stated plainly
+None of these methods gives DeGate access to your keys.
 
-The **Solana LP Handler** (the contract powering Turbo Range on Solana) was audited by Adevar Labs in March 2026; the report is public and the code is open-source. That audit's scope is limited to the LP Handler. Other components of the current wallet (email-wallet key storage, the cross-chain routing, Simple Earn integrations, the mobile and web front ends) have not yet undergone external third-party audit; they rely on open-source review and the active bug bounty at [bounty@degate.com](mailto:bounty@degate.com).
+> ⚠️ [NEEDS VERIFICATION: (1) device-level key protection details in the mobile app (secure enclave/keystore usage, biometrics) — engineering to supply, to be reviewed together with the web/mobile architecture description below; (2) how to disclose the email wallet's embedded-key infrastructure (it is provided via Privy) — naming the provider and phrasing the custody nuance needs a marketing/legal decision.]
 
-Audit reports from the retired ZK-rollup DEX era (Trail of Bits, Least Authority) remain published for transparency but do not cover the current wallet product. Details: [Audits](audits.md), [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
+## Independent review
+
+DeGate's components are put through independent security review as they ship; the most recent published audit covers the Solana LP Handler, the contract powering Turbo Range (Adevar Labs, March 2026). Reports, scope, and what is and is not covered are documented on the [Audits](audits.md) page. Vulnerability reports are welcome at [bounty@degate.com](mailto:bounty@degate.com); see [Bug Bounty](bug-bounty.md).
 
 ## FAQ
 
 **If DeGate's servers went down, could I still access my funds?**
-Yes. Your assets are on-chain at addresses derived from your key via open standards (BIP39/BIP44). With your recovery phrase you could access them through any compatible wallet. See the [Self-Custody FAQ](self-custody-faq.md).
+It depends on your wallet type. Mnemonic wallets: yes, your recovery phrase restores funds in any BIP39/BIP44-compatible wallet. Hardware wallets: yes, your keys are on your device. Email wallets: key export is not currently offered in the product, so restoring an email wallet outside DeGate is not currently possible; for maximum independence, use a mnemonic wallet. See the [Self-Custody FAQ](self-custody-faq.md).
 
 **Can DeGate freeze my account?**
 There is no custodial account to freeze. Assets sit at addresses controlled by your key, and only you can authorize transactions.
