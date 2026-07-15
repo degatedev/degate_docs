@@ -8,8 +8,6 @@ The fastest route is the **Feedback** feature inside the DeGate app: submit ques
 * **X (Twitter):** @DeGateWallet
 * **Telegram:** [t.me/degate\_public](https://t.me/degate_public)
 
-> ⚠️ [NEEDS VERIFICATION: canonical X handle. Both @DeGateWallet and @DeGateDex currently resolve; internal materials reference both. List only the official one here and in Official Links.]
-
 Verify any community link against [Official Links & Verified Contracts](../about-degate/official-links.md) before trusting it.
 
 ## Security issues

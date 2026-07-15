@@ -13,12 +13,6 @@ Email [bounty@degate.com](mailto:bounty@degate.com) with:
 
 Please practice responsible disclosure: give us reasonable time to investigate and fix before publishing details.
 
-## Scope and rewards
-
-> ⚠️ [NEEDS VERIFICATION: whether a formal program with defined scope, severity tiers, and reward amounts exists. If yes, publish the table here. If no formal program exists yet, keep this page as the reporting-contact page and remove this placeholder, or gate the page until the program is formalized.]
-
 ## Out of scope
 
 Reports based on social engineering of DeGate staff or users, denial of service against public endpoints, and issues in third-party services outside DeGate's control are generally not eligible.
-
-> ⚠️ [NEEDS VERIFICATION: confirm out-of-scope list with the security team.]

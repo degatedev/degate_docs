@@ -4,8 +4,6 @@ DeGate supports holding and swapping tokenized stocks and ETFs directly from you
 
 Browse the full list at [app.degate.com/stocks](https://app.degate.com/stocks).
 
-> ⚠️ [NEEDS VERIFICATION: exact live asset counts before quoting numbers publicly.]
-
 ## Ondo onchain assets
 
 Ondo Global Markets issues tokens that track listed US stocks and ETFs; on DeGate these carry the "on" ticker suffix (TSLAon for Tesla). The underlying shares are held through regulated intermediaries (Alpaca Securities for the shares, BitGo Bank & Trust for cash and stablecoins) in a bankruptcy-remote issuer structure. Dividends are reflected through total-return pricing: value accrues into the token's price via a multiplier rather than being paid out as cash.

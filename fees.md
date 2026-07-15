@@ -28,16 +28,11 @@ DeGate charges a swap fee that depends on the token you trade, not on which chai
 
 Tokens not listed default to **0.25%**.
 
-> ⚠️ [NEEDS VERIFICATION: fee-table rows for HyperEVM and MegaETH (testnet), which are supported networks but absent from this table.]
-
 ## Everything else
 
 * **USDC bridging: free.** Moving USDC between supported chains is 1:1 with zero DeGate fees, across 10+ chains.
 * **Simple Earn: free.** No DeGate fees; all vault yield goes to the user. Deposit and withdraw anytime.
 * **Turbo Range:** deposit and withdraw anytime; standard on-chain gas costs are handled automatically.
-
-> ⚠️ [NEEDS VERIFICATION: whether Turbo Range carries any DeGate fee on earned LP fees, given the audited integrator fee-routing controls.]
-
 * **Sends: free.** DeGate charges no fee on sends, whether same-chain or cross-chain; cross-chain sends are routed automatically. Standard network (gas) costs still apply, handled as below.
 * **Gas:** handled automatically and deducted from your balance. You never need to hold native gas tokens.
 

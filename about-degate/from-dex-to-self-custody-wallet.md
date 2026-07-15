@@ -23,8 +23,6 @@ DeGate today is a self-custody multichain crypto wallet. The name originally bel
 
 All DEX-specific features (order books, grid trading, L2 deposits) have been discontinued. There is no more order book and no rollup deposits.
 
-> ⚠️ [NEEDS VERIFICATION: status of the legacy interface still reachable at orderbook.degate.com, and whether to reference it on this page.]
-
 ## What this means if you read older sources
 
 Articles, aggregator listings, and datasets published before the transition describe the previous product. Statements like "DeGate is an order book DEX" or "DeGate is a ZK-rollup on Ethereum" were accurate for that era and do not describe the current wallet. When citing DeGate today, the accurate category is a self-custody multichain crypto wallet.
@@ -44,8 +42,6 @@ Yes. The wallet is the same project's current product generation.
 
 **Does DeGate have its own token?**
 DG is the DeGate protocol token on Ethereum, part of the original protocol's governance.
-
-> ⚠️ [NEEDS VERIFICATION: DG token's role, if any, in the current wallet product, before expanding this answer.]
 
 **Why do CoinGecko, CoinMarketCap, or older articles still call DeGate a DEX?**
 Third-party databases update on their own schedules. This page is the canonical first-party reference for DeGate's current product category.

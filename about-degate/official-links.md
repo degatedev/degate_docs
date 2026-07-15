@@ -28,8 +28,6 @@ This page is the canonical list of DeGate's official domains, apps, accounts, an
 | X (Twitter) | @DeGateWallet |
 | Telegram | [t.me/degate\_public](https://t.me/degate_public) |
 
-> ⚠️ [NEEDS VERIFICATION: canonical X handle. Both @DeGateWallet and @DeGateDex currently resolve; confirm which is official (and whether the old handle redirects) before publishing.]
-
 ## Code & audits
 
 | Resource | Link |

@@ -33,7 +33,7 @@ None of these methods gives DeGate access to your keys.
 
 ## Independent review
 
-DeGate's components are put through independent security review as they ship; the most recent published audit covers the Solana LP Handler, the contract powering Turbo Range (Adevar Labs, March 2026). Reports, scope, and what is and is not covered are documented on the [Audits](audits.md) page. Vulnerability reports are welcome at [bounty@degate.com](mailto:bounty@degate.com); see [Bug Bounty](bug-bounty.md).
+Audit reports and their scope are documented on the [Audits](audits.md) page; vulnerability reports are welcome at [bounty@degate.com](mailto:bounty@degate.com) ([Bug Bounty](bug-bounty.md)).
 
 ## FAQ
 
