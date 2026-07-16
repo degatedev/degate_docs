@@ -38,9 +38,6 @@ Tokens not listed default to **0.25%**.
 
 ## FAQ
 
-**Are there hidden fees?**
-No subscription fees, no hidden charges, and no monetization of user data. The swap fee tiers above plus network gas are the cost structure.
-
 **Why are xStocks and Ondo assets free to swap?**
 DeGate currently applies a zero swap fee to xStocks tokens and Ondo RWA assets, as of the July 2026 snapshot. Fee tiers can change; this page is updated when they do.
 

@@ -13,6 +13,3 @@ Email [bounty@degate.com](mailto:bounty@degate.com) with:
 
 Please practice responsible disclosure: give us reasonable time to investigate and fix before publishing details.
 
-## Out of scope
-
-Reports based on social engineering of DeGate staff or users, denial of service against public endpoints, and issues in third-party services outside DeGate's control are generally not eligible.
