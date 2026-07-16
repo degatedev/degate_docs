@@ -15,7 +15,7 @@ In practice, that means you decide which token you want, and DeGate handles the 
 
 ## How DeGate works
 
-You control one wallet. From it, DeGate deterministically derives your addresses across supported chains, on your device, using the BIP39/BIP44 framework. Only your keys can authorize transactions from those addresses, which is what makes DeGate self-custodial rather than an exchange account. The mechanism is documented in [Wallet Addresses & Networks](security/wallet-address-and-networks.md) and [Security Overview](security/security-overview.md).
+You control one wallet, and DeGate deterministically derives your addresses across supported chains from it. Only your keys can authorize transactions from those addresses, which is what makes DeGate self-custodial rather than an exchange account. How this works for each wallet type is documented in [Wallet Addresses & Networks](security/wallet-address-and-networks.md) and [Security Overview](security/security-overview.md).
 
 ## Supported networks
 
@@ -28,7 +28,7 @@ No. DeGate today is a self-custody wallet, not an exchange. The name previously 
 ## FAQ
 
 **Does DeGate hold my private keys?**
-No. Keys are generated and used on your device. DeGate cannot access them and cannot move your funds. See [Security Overview](security/security-overview.md).
+No. DeGate's servers do not hold your private keys and cannot access them, so DeGate cannot move your funds. See [Security Overview](security/security-overview.md).
 
 **What does DeGate cost?**
 Swap fees depend on the token: xStocks and Ondo RWA assets are 0%, most stablecoins are 0.01%, major native coins are 0.1%, and other tokens default to 0.25%. USDC bridging is free. Full breakdown on the [Fees](fees.md) page.

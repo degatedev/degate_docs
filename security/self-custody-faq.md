@@ -8,9 +8,6 @@ You do. DeGate's servers do not hold your private keys and cannot access them. W
 **Can DeGate move, freeze, or seize my funds?**
 No. Your assets sit at blockchain addresses that only your key can sign for. There is no custodial account layer in between, so there is structurally nothing for DeGate to freeze or restrict.
 
-**What happens to my assets if DeGate shuts down?**
-Assets live on the blockchains themselves, not on DeGate's servers, at addresses only your keys control. What you can do next depends on wallet type. With a mnemonic wallet, your recovery phrase restores all funds through any BIP39/BIP44-compatible wallet (MetaMask, Rabby, Trust Wallet, and others); with a hardware wallet, your device restores your primary balance the same way. LP positions on underlying protocols such as Raydium or Uniswap can be managed directly through those protocols. Email wallets and Sign in with Wallet / web-sync wallets currently rely on the DeGate app to restore access; independent recovery for these wallet types isn't supported yet. If independence from any single provider matters to you, hold meaningful balances in a mnemonic wallet or behind a hardware wallet. The per-type breakdown is in [Wallet Addresses & Networks](wallet-address-and-networks.md).
-
 **What do I need to back up?**
 It depends on how you created the wallet:
 

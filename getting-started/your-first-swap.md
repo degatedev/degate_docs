@@ -29,4 +29,4 @@ Cross-chain routes settle on more than one network and inherit those networks' c
 There are no account-based limits. For very large swaps, price impact may be higher on assets with lower on-chain liquidity; the app displays price impact before confirmation.
 
 **What fee did I pay?**
-Swap fees depend on the token tier: 0.01% for most stablecoins, 0.1% for major native coins, 0% for xStocks on Solana, and 0.25% by default for other tokens, as of July 2026. Details: [Fees](../fees.md).
+Swap fees depend on the token tier: 0% for xStocks and Ondo RWA assets, 0.01% for most stablecoins, 0.1% for major native coins, and 0.25% by default for other tokens, as of July 2026. Details: [Fees](../fees.md).

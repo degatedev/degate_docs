@@ -18,7 +18,7 @@ xStocks are tokenized equities backed 1:1 by the underlying stock through the Ba
 * **Hold them in self-custody.** Tokens sit at addresses only your key controls.
 * **Earn yield on stock tokens.** Provide liquidity to stock pairs (for example TSLAx/USDC or MSTRx/USDC) through [Turbo Range](turbo-range.md).
 
-**To buy:** open the DeGate app, go to **Swap**, search for the token (for example TSLAx for Tesla), enter the amount, and confirm. DeGate handles routing, bridging, and gas automatically.
+**To buy:** open the DeGate app, go to **Swap**, search for the token (for example TSLAon or TSLAx for Tesla), enter the amount, and confirm. DeGate handles routing, bridging, and gas automatically.
 
 ## What tokenized stocks are, and are not
 
