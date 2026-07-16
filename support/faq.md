@@ -8,7 +8,7 @@ Quick answers to the most common questions, with links to the full pages.
 A self-custody multichain crypto wallet: buy, sell, and earn across all leading blockchains from one unified balance, with gas and bridging handled for you. More: [What is DeGate](../README.md).
 
 **Is DeGate a DEX?**
-No. An earlier product under the same name was an order book DEX; it has been discontinued. More: [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
+No. An earlier product under the same name was an order book DEX on an Ethereum Layer 2; it was sunset in June 2025. More: [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
 
 **Which chains are supported?**
 17 blockchains as of July 2026: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and MegaETH (testnet). More: [Supported networks](../README.md#supported-networks).
@@ -41,7 +41,7 @@ Deposits can take a few minutes depending on the blockchain's confirmation time.
 ## Trust
 
 **Who holds my keys?**
-You do. More: [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md).
+You do; DeGate's servers do not hold them. More: [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md).
 
 **Has DeGate been audited?**
 The Solana LP Handler was audited by Adevar Labs in March 2026. More: [Audits](../security/audits.md).
