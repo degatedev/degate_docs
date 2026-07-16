@@ -1,35 +1,25 @@
 # Security Overview
 
-DeGate is self-custodial: your private keys are generated and used on your device, and the DeGate protocol and degate.com do not and cannot access them. This page explains what that means concretely, and how the front end is engineered to keep keys isolated.
+DeGate is self-custodial: your private keys are generated and used on your device (or, for hardware wallets, on your hardware device), and DeGate's servers do not hold them.
 
 ## What DeGate can and cannot do
 
 * DeGate **cannot** read your private keys or recovery phrase.
-* DeGate **cannot** move funds from your addresses; only signatures produced by your key can.
+* DeGate **cannot** move funds from your addresses; only signatures produced by your key can do that.
 * DeGate **can** construct transactions for you to sign, quote routes, and manage gas purchases, none of which requires custody of your assets.
-
-## Security of wallet address keys
-
-Your per-chain wallet address keys offer the same level of security as your root asset keys:
-
-1. The DeGate protocol and degate.com do not and cannot access users' wallet private keys.
-2. In the web app, wallet address keys are held temporarily in the browser's SessionStorage and automatically cleared when the tab closes. SessionStorage does not support cross-domain or cross-session access.
-3. DeGate implements a front-end isolation strategy that splits the front end into "wallet code" and "trade code". The wallet code handles the signature mechanism inside an iframe, while trade code executes in a sandboxed environment, keeping keys and signatures inaccessible from the trade side.
-
-> ⚠️ [NEEDS VERIFICATION: points 2 and 3 are carried over from the current live docs and describe the web architecture. Confirm with engineering that they still describe today's product accurately (and how they map to the mobile app) before publishing. The old copy's forward-looking sentence about deploying the front end to decentralized platforms has been dropped; restore only if it is still the plan and worth stating publicly.]
 
 ## Key storage by wallet type
 
-DeGate supports several ways of holding a wallet, and the key material lives in a different place for each:
+DeGate supports several ways of holding a wallet. Where the key material lives, and how independently you can recover it, differs by type:
 
-* **Created or imported mnemonic wallets:** the recovery phrase is generated (or entered) locally and keys stay on your device.
-* **Email wallets** (app and web app): an embedded key tied to your email and password.
-* **Sign in with Wallet / web-sync accounts:** the root key stays in your own external wallet; DeGate derives its operating keys from a signature you make, as described in [Wallet Addresses & Networks](wallet-address-and-networks.md).
-* **Hardware wallets:** the private key never leaves the device.
+* **Created or imported mnemonic wallets:** your recovery phrase is generated (or entered) locally and your keys stay on your device. This is the most independent option: your phrase alone restores your wallet in DeGate, or in any BIP39/BIP44-compatible wallet, with no dependency on DeGate at all.
+* **Hardware wallets:** your private key never leaves the hardware device. DeGate reads your addresses over standard derivation paths, so your primary balance is recoverable with your device and any compatible wallet software, independent of DeGate.
+* **Email wallets:** your signing key is an embedded wallet provided by our wallet infrastructure partner, tied to your email login, not generated or held by DeGate directly.
+* **Sign in with Wallet / web-sync accounts:** your root key stays in your own external wallet; DeGate derives an operating wallet from a signature you provide with that wallet.
 
-None of these methods gives DeGate access to your keys.
+None of these methods gives DeGate access to your raw private keys. However, they are **not equally independent of DeGate today**: see "What this means for recovery" in [Wallet Addresses & Networks](wallet-address-and-networks.md) for the practical difference between wallet types.
 
-> ⚠️ [NEEDS VERIFICATION: (1) device-level key protection details in the mobile app (secure enclave/keystore usage, biometrics) — engineering to supply, to be reviewed together with the web/mobile architecture description below; (2) how to disclose the email wallet's embedded-key infrastructure (it is provided via Privy) — naming the provider and phrasing the custody nuance needs a marketing/legal decision.]
+> ⚠️ [NEEDS VERIFICATION before publishing: (1) device-level key protection in the mobile app (secure enclave/keystore usage, biometrics); (2) whether and how to name our embedded-wallet infrastructure partner publicly — needs a legal/marketing decision; (3) whether the SessionStorage/iframe isolation architecture described in the previous version of this page still accurately describes the current web app, and how (or whether) it applies to the mobile app.]
 
 ## Independent review
 
@@ -38,9 +28,12 @@ Audit reports and their scope are documented on the [Audits](audits.md) page; vu
 ## FAQ
 
 **If DeGate's servers went down, could I still access my funds?**
-It depends on your wallet type. Mnemonic wallets: yes, your recovery phrase restores funds in any BIP39/BIP44-compatible wallet. Hardware wallets: yes, your keys are on your device. Email wallets: your root key can be exported through a standalone export tool built on Privy that works independently of the DeGate app; for the simplest independence story, use a mnemonic wallet. See the [Self-Custody FAQ](self-custody-faq.md).
+It depends on your wallet type:
 
-> ⚠️ [NEEDS VERIFICATION before publishing the email-wallet answer: (1) engineering to confirm the end-to-end path from the exported root key to funds at DA addresses (the export yields the L0 key; deriving the DA mnemonic from it additionally needs the derivation recipe, which is not yet published); (2) whether to officially bless and link the export tool (degatedev.github.io/privy_wallet_export) in docs and Official Links — it asks users for email login, so it must be formally owned, maintained, and referenced only from official surfaces.]
+* Mnemonic wallets and hardware wallets: yes. Your recovery phrase, or your hardware device and its primary balance, work with any compatible wallet software, independent of DeGate.
+* Email wallets, and Sign in with Wallet / web-sync wallets: **not currently**. Recovering these independently of the DeGate app isn't supported yet. If independent recoverability matters to you, we recommend using a mnemonic wallet, or linking a hardware wallet.
+
+See the [Self-Custody FAQ](self-custody-faq.md) for the full discussion.
 
 **Can DeGate freeze my account?**
-There is no custodial account to freeze. Assets sit at addresses controlled by your key, and only you can authorize transactions.
+There is no custodial account to freeze. Assets sit at addresses controlled by your key; only you can authorize transactions from them.
