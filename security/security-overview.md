@@ -19,8 +19,6 @@ DeGate supports several ways of holding a wallet. Where the key material lives, 
 
 None of these methods gives DeGate access to your raw private keys. However, they are **not equally independent of DeGate today**: see "What this means for recovery" in [Wallet Addresses & Networks](wallet-address-and-networks.md) for the practical difference between wallet types.
 
-> ⚠️ [NEEDS VERIFICATION before publishing: (1) device-level key protection in the mobile app (secure enclave/keystore usage, biometrics); (2) whether and how to name our embedded-wallet infrastructure partner publicly — needs a legal/marketing decision; (3) whether the SessionStorage/iframe isolation architecture described in the previous version of this page still accurately describes the current web app, and how (or whether) it applies to the mobile app.]
-
 ## Independent review
 
 Audit reports and their scope are documented on the [Audits](audits.md) page; vulnerability reports are welcome at [bounty@degate.com](mailto:bounty@degate.com) ([Bug Bounty](bug-bounty.md)).
