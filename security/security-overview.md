@@ -27,13 +27,8 @@ Audit reports and their scope are documented on the [Audits](audits.md) page; vu
 
 ## FAQ
 
-**If DeGate's servers went down, could I still access my funds?**
-It depends on your wallet type:
-
-* Mnemonic wallets and hardware wallets: yes. Your recovery phrase, or your hardware device and its primary balance, work with any compatible wallet software, independent of DeGate.
-* Email wallets, and Sign in with Wallet / web-sync wallets: **not currently**. Recovering these independently of the DeGate app isn't supported yet. If independent recoverability matters to you, we recommend using a mnemonic wallet, or linking a hardware wallet.
-
-See the [Self-Custody FAQ](self-custody-faq.md) for the full discussion.
+**How do I make sure I'm using the real DeGate?**
+Check every domain, app link, and community channel against [Official Links & Verified Contracts](../about-degate/official-links.md) before connecting a wallet or entering credentials. DeGate will never ask for your recovery phrase, private keys, or password; anyone who does is not DeGate.
 
 **Can DeGate freeze my account?**
 There is no custodial account to freeze. Assets sit at addresses controlled by your key; only you can authorize transactions from them.
