@@ -16,13 +16,13 @@ Choose your preferred method to create or import a wallet. The easiest way is em
 
 You will be prompted to set a password for accessing your wallet.
 
-![add wallet](https://hub.degate.com/common/wallet-setup-img-en/add_wallet_resized.jpeg) ![insert email](https://hub.degate.com/common/wallet-setup-img-en/insert_email_cropped.png)
+![Add Wallet options](<../.gitbook/assets/add-wallet.jpg>) ![Sign in with Email](<../.gitbook/assets/sign-in-with-email.jpg>)
 
 {% hint style="info" %}
 For higher-value assets, we recommend the **Create Wallet** or **Import Wallet** methods rather than the email flow, so that you manage the recovery phrase yourself.
 {% endhint %}
 
-You do not need an email address: creating a wallet with a mnemonic phrase (seed phrase) works entirely locally. Generate the wallet, write down your recovery phrase offline, and you are set. You can also import an existing wallet, or use **Sign in with Wallet** to log in with an external wallet you already have (via WalletConnect; up to 10 external wallet accounts).
+You do not need an email address: creating a wallet with a mnemonic phrase (seed phrase) works entirely locally. Generate the wallet, write down your recovery phrase offline, and you are set. You can also import an existing wallet, or use **Connect External Wallet** to log in with a wallet you already have (via WalletConnect; up to 10 external wallet accounts).
 
 ## 2️⃣ Create a wallet via the web app
 

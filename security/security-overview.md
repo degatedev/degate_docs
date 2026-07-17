@@ -15,7 +15,7 @@ DeGate supports several ways of holding a wallet. Where the key material lives, 
 * **Created or imported mnemonic wallets:** your recovery phrase is generated (or entered) locally and your keys stay on your device. This is the most independent option: your phrase alone restores your wallet in DeGate, or in any BIP39/BIP44-compatible wallet, with no dependency on DeGate at all.
 * **Hardware wallets:** your private key never leaves the hardware device. DeGate reads your addresses over standard derivation paths, so your primary balance is recoverable with your device and any compatible wallet software, independent of DeGate.
 * **Email wallets:** your signing key is an embedded wallet provided by our wallet infrastructure partner, tied to your email login, not generated or held by DeGate directly.
-* **Sign in with Wallet / web-sync accounts:** your root key stays in your own external wallet; DeGate derives an operating wallet from a signature you provide with that wallet.
+* **External-wallet and web-sync accounts** (Connect External Wallet / Sync from DeGate Web): your root key stays in your own external wallet; DeGate derives an operating wallet from a signature you provide with that wallet.
 
 None of these methods gives DeGate access to your raw private keys. However, they are **not equally independent of DeGate today**: see "What this means for recovery" in [Wallet Addresses & Networks](wallet-address-and-networks.md) for the practical difference between wallet types.
 

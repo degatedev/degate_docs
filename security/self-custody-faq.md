@@ -13,7 +13,7 @@ It depends on how you created the wallet:
 
 * **Mnemonic (recovery phrase) wallet:** write down your recovery phrase and store it securely offline, never digitally. The phrase is the only way to recover this wallet type.
 * **Email wallet:** your keys are tied to your email and password. You can re-access your wallet on any device, in the app or the web app, by signing in with the same email.
-* **Sign in with Wallet / web-sync:** your external wallet is the key; back it up according to that wallet's own recovery method, and signing in with it again restores your DeGate account.
+* **External-wallet / web-sync:** your external wallet is the key; back it up according to that wallet's own recovery method, and signing in with it again restores your DeGate account.
 * **Hardware wallet:** your device (and the recovery sheet you set up with its manufacturer) is the backup.
 
 **What if I lose my phone?**

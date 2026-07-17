@@ -6,8 +6,6 @@ Simple Earn is a service for generating yield by depositing USDC or SOL into cur
 * **Multi-chain deposits.** Deposit USDC from any supported chain instantly; the system manages balances across networks with no manual bridging. On Solana you can also deposit SOL (via the Kamino Jito Market).
 * **Simplified yield management.** From the initial deposit to claiming rewards, the dashboard lets you track and manage earnings at a glance.
 
-_Example: you can use USDC from any chain and open a Simple Earn position in a few clicks._
-
 ## What returns to expect
 
 APYs typically range from 3% to 8%, and can reach 10%+ during favorable market conditions. APYs are variable; past performance does not guarantee future returns.

@@ -33,9 +33,9 @@ The current list of supported networks appears in [What is DeGate](../README.md#
 * **Mnemonic wallet:** your 12-word phrase is the backup. It restores the wallet in DeGate, or in any BIP39/BIP44-compatible wallet, with no dependency on DeGate at all.
 * **Hardware wallet:** your device is the backup. Your primary balance is recoverable with your device and any compatible wallet software, independent of DeGate.
 * **Email wallet:** your email and password restore access in the app or web app.
-* **Sign in with Wallet / web-sync:** signing in again with the same external wallet restores access.
+* **External-wallet / web-sync:** signing in again with the same external wallet restores access.
 
-Recovering email and Sign in with Wallet / web-sync wallets outside the DeGate app isn't supported yet; if recovery that is fully independent of DeGate matters to you, use a mnemonic wallet or link a hardware wallet.
+Recovering email and external-wallet / web-sync wallets outside the DeGate app isn't supported yet; if recovery that is fully independent of DeGate matters to you, use a mnemonic wallet or link a hardware wallet.
 
 ## FAQ
 
