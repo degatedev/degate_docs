@@ -25,7 +25,7 @@ This page is the canonical list of DeGate's official domains, apps, accounts, an
 
 | Channel | Handle / link |
 | --- | --- |
-| X (Twitter) | @DeGateWallet |
+| X (Twitter) | [@DeGateWallet](https://x.com/DeGateWallet) |
 | Telegram | [t.me/degate\_public](https://t.me/degate_public) |
 
 ## Code & audits
