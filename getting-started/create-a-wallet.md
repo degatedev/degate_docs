@@ -12,7 +12,7 @@ The mobile app is the recommended path. Install it, then pick the way in that fi
 
 The **Add Wallet** screen offers six options:
 
-![Add Wallet options](<../.gitbook/assets/add-wallet.jpg>)
+<img src="../.gitbook/assets/add-wallet.jpg" alt="Add Wallet options" width="360">
 
 * **Connect External Wallet:** sign in with a wallet you already have, via WalletConnect (up to 10 external wallet accounts).
 * **Connect Hardware Wallet:** OneKey is supported via Bluetooth; hardware accounts currently cover Receive, same-chain Send, and Turbo Range. See the FAQ below.
