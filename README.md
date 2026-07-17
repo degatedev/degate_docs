@@ -37,4 +37,4 @@ Swap fees depend on the token: xStocks and Ondo RWA assets are 0%, most stableco
 No. DeGate is a self-custody multichain wallet. An earlier product under the same name was a DEX; it has been discontinued. See [the history page](about-degate/from-dex-to-self-custody-wallet.md).
 
 **How do I start?**
-Install the mobile app and create a wallet with your email in a few minutes. See the [Quickstart](getting-started/quickstart.md).
+Install the mobile app and add a wallet in a few minutes: connect one you already have, create a new one, or start with email. See the [Quickstart](getting-started/quickstart.md).

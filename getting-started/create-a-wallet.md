@@ -4,27 +4,29 @@ description: Creating your DeGate account
 
 # Create a Wallet
 
-There are two ways to create your DeGate wallet. The mobile app is the recommended path.
-
-## 1️⃣ Create a wallet in the DeGate mobile app (recommended)
+The mobile app is the recommended path. Install it, then pick the way in that fits you.
 
 [![Download on the App Store](https://hub.degate.com/common/wallet-setup-img-en/Download_AppStore.png)](https://apps.apple.com/app/apple-store/id6742168343?pt=127643354\&ct=docs\&mt=8) [![Get it on Google Play](https://hub.degate.com/common/wallet-setup-img-en/Download_GooglePlay.png)](https://play.google.com/store/apps/details?id=com.app.degate\&referrer=utm_source%3Ddocs%26utm_medium%3Ddocs) [![Download APK](https://hub.degate.com/common/wallet-setup-img-en/Download_Android.png)](https://download.degate.com/apps/degate-android.apk)
 
-Choose your preferred method to create or import a wallet. The easiest way is email:
+## Ways to add a wallet
 
-**Enter your email** → **check your inbox** → **enter the confirmation code** → **done**
+The **Add Wallet** screen offers five options:
 
-You will be prompted to set a password for accessing your wallet.
+![Add Wallet options](<../.gitbook/assets/add-wallet.jpg>)
 
-![Add Wallet options](<../.gitbook/assets/add-wallet.jpg>) ![Sign in with Email](<../.gitbook/assets/sign-in-with-email.jpg>)
+* **Connect External Wallet:** sign in with a wallet you already have, via WalletConnect (up to 10 external wallet accounts).
+* **Connect Hardware Wallet:** OneKey is supported via Bluetooth; hardware accounts currently cover Receive, same-chain Send, and Turbo Range. See the FAQ below.
+* **Create Wallet:** generate a new wallet with a 12-word recovery phrase, created locally on your device. Write the phrase down and store it offline.
+* **Import Wallet:** bring an existing 12-word recovery phrase.
+* **Continue with Email:** the fastest start if you are new to crypto. Enter your email, confirm the code from your inbox, and set a password:
+
+![Sign in with Email](<../.gitbook/assets/sign-in-with-email.jpg>)
 
 {% hint style="info" %}
-For higher-value assets, we recommend the **Create Wallet** or **Import Wallet** methods rather than the email flow, so that you manage the recovery phrase yourself.
+For higher-value assets, we recommend **Create Wallet** or **Import Wallet** (or connecting a hardware wallet), so that you hold the recovery phrase yourself.
 {% endhint %}
 
-You do not need an email address: creating a wallet with a mnemonic phrase (seed phrase) works entirely locally. Generate the wallet, write down your recovery phrase offline, and you are set. You can also import an existing wallet, or use **Connect External Wallet** to log in with a wallet you already have (via WalletConnect; up to 10 external wallet accounts).
-
-## 2️⃣ Create a wallet via the web app
+## Create a wallet via the web app
 
 Visit [app.degate.com](https://app.degate.com) and click **Connect Wallet**, then choose your preferred method. Email login works here too: the same email wallet can be used in the app and the web app.
 
