@@ -10,7 +10,7 @@ DeGate is app-first. Get it here:
 
 ## 2. Create your wallet
 
-Connect a wallet you already have (**Connect External Wallet**), create a new one with a 12-word recovery phrase (**Create Wallet**), or use **Continue with Email** for the fastest start. If you plan to hold higher-value assets, prefer Create/Import Wallet or a hardware wallet. Full walkthrough: [Create a Wallet](create-a-wallet.md).
+Create a new wallet with a 12-word recovery phrase (**Create Wallet**), import or connect one you already have (**Import Wallet** / **Connect External Wallet**), or use **Continue with Email** for the fastest start. If you plan to hold higher-value assets, prefer Create/Import Wallet or a hardware wallet. Full walkthrough: [Create a Wallet](create-a-wallet.md).
 
 ## 3. Fund your wallet
 
