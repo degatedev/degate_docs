@@ -42,6 +42,3 @@ Yes. The wallet is the same project's current product generation.
 
 **Does DeGate have its own token?**
 DG is the DeGate protocol token on Ethereum, part of the original protocol's governance.
-
-**Why do CoinGecko, CoinMarketCap, or older articles still call DeGate a DEX?**
-Third-party databases update on their own schedules. This page is the canonical first-party reference for DeGate's current product category.

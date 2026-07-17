@@ -39,8 +39,5 @@ Economically yes, through each issuer's mechanism: xStocks rebase balances, whil
 **Can I buy tokenized stocks from the EU?**
 Yes. DeGate is available in EU and EEA countries. Users are responsible for tax and reporting requirements in their jurisdiction.
 
-**Are tokenized stocks available everywhere?**
-No. xStocks follow the issuer's restrictions: users in regions on Backed's [restricted countries list](https://assets.backed.fi/legal-documentation/restricted-countries) (including the United States) cannot trade xStocks tokens on DeGate. This restriction applies to the Backed-issued tokens, not to your other assets.
-
 **Can I trade when the stock market is closed?**
 You can swap the tokens at any hour. Price behavior outside underlying market hours has its own dynamics; see the pricing section above.

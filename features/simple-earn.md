@@ -8,8 +8,6 @@ Simple Earn is a service for generating yield by depositing USDC or SOL into cur
 
 _Example: you can use USDC from any chain and open a Simple Earn position in a few clicks._
 
-![](<../.gitbook/assets/unknown (4).jpeg>)![](<../.gitbook/assets/unknown (5).jpeg>)
-
 ## What returns to expect
 
 APYs typically range from 3% to 8%, and can reach 10%+ during favorable market conditions. APYs are variable; past performance does not guarantee future returns.
