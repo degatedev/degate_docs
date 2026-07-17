@@ -10,17 +10,16 @@ The mobile app is the recommended path. Install it, then pick the way in that fi
 
 ## Ways to add a wallet
 
-The **Add Wallet** screen offers five options:
+The **Add Wallet** screen offers six options:
 
 ![Add Wallet options](<../.gitbook/assets/add-wallet.jpg>)
 
-* **Create Wallet:** generate a new wallet with a 12-word recovery phrase, created locally on your device. Write the phrase down and store it offline.
-* **Import Wallet:** bring an existing 12-word recovery phrase.
 * **Connect External Wallet:** sign in with a wallet you already have, via WalletConnect (up to 10 external wallet accounts).
 * **Connect Hardware Wallet:** OneKey is supported via Bluetooth; hardware accounts currently cover Receive, same-chain Send, and Turbo Range. See the FAQ below.
-* **Continue with Email:** the fastest start if you are new to crypto. Enter your email, confirm the code from your inbox, and set a password:
-
-![Sign in with Email](<../.gitbook/assets/sign-in-with-email.jpg>)
+* **Create Wallet:** generate a new wallet with a 12-word recovery phrase, created locally on your device. Write the phrase down and store it offline.
+* **Import Wallet:** bring an existing 12-word recovery phrase.
+* **Continue with Email:** the fastest start if you are new to crypto. Enter your email, confirm the code from your inbox, and set a password.
+* **Sync from DeGate Web:** bring an account you use on the DeGate web app into the app.
 
 {% hint style="info" %}
 For higher-value assets, we recommend **Create Wallet** or **Import Wallet** (or connecting a hardware wallet), so that you hold the recovery phrase yourself.
