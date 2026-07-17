@@ -12,9 +12,8 @@ redirects:
   about-degate/simple-earn: features/simple-earn.md
   about-degate/built-in-usdc: features/built-in-usdc.md
   onboarding/create-wallet: getting-started/create-a-wallet.md
-  probe-never-existed: getting-started/create-a-wallet.md
   your-wallet/wallet-address: security/wallet-address-and-networks.md
-  your-wallet/security: security/security-overview
+  your-wallet/security: security/security-overview.md
   your-wallet/audit-report: security/audits.md
   # Legacy DEX-era paths still present in search indexes (404 since the rebrand)
   product_en/concepts/protocol-fees: fees.md
