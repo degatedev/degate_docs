@@ -1,0 +1,25 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  # Current live pages that move in the v2 restructure
+  about-degate/what-is-degate: README.md
+  about-degate/cross-chain-swap: features/cross-chain-swap.md
+  about-degate/turbo-range: features/turbo-range.md
+  about-degate/simple-earn: features/simple-earn.md
+  about-degate/built-in-usdc: features/built-in-usdc.md
+  onboarding/create-wallet: getting-started/create-a-wallet.md
+  your-wallet/wallet-address: security/wallet-address-and-networks.md
+  your-wallet/security: security/security-overview.md
+  your-wallet/audit-report: security/audits.md
+  # Legacy DEX-era paths still present in search indexes (404 since the rebrand)
+  product_en/concepts/protocol-fees: fees.md
+  product_en/concepts/keys-and-signatures: security/wallet-address-and-networks.md
+  product_en/main-features/cross-chain: features/cross-chain-swap.md
+  product_en/main-features/withdrawal: about-degate/from-dex-to-self-custody-wallet.md
+  product_en/main-features/account-management: about-degate/from-dex-to-self-custody-wallet.md
+  product_en/product-tutorial/grid-strategy-guidebook: about-degate/from-dex-to-self-custody-wallet.md
+  testnet/degate-testnet-guidebook: about-degate/from-dex-to-self-custody-wallet.md

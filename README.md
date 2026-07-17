@@ -1,46 +1,40 @@
 # What is DeGate
 
-DeGate is a multichain platform to seamlessly buy, sell and earn on all leading blockchains. It is 100% non-custodial and lets you buy any token on any chain—no gas tokens needed, no bridging required.
+DeGate is a self-custody multichain crypto wallet for buying, selling, and earning across all leading blockchains. It is 100% non-custodial: you hold your own keys, and you operate from one unified balance, with no gas tokens to manage and no manual bridging between chains.
 
-With DeGate, you can trade, send, and receive assets using a unified balance across all chains. That means no more worrying about where your assets are or what chain your target token lives on—just decide which token you want to trade, and DeGate handles everything seamlessly in the background.<br>
+In practice, that means you decide which token you want, and DeGate handles the rest in the background: routing, bridging, and gas. Your assets stay under your control the entire time. The DeGate protocol and degate.com do not and cannot access your private keys.
 
-## **Key Benefits**&#x20;
+## What you can do with DeGate
 
-### **Buy Anything on Any Chain**
+* **Hold and swap tokenized stocks and ETFs.** Hundreds of Ondo onchain assets and xStocks tokens (Tesla, Nvidia, Apple, S&P 500 and Nasdaq 100 ETFs), with zero DeGate swap fees. See [On-Chain Stocks](features/on-chain-stocks.md).
+* **Swap any token on any supported chain.** One unified interface covers 10M+ tokens across 17 blockchains. See [Cross-chain Swap](features/cross-chain-swap.md).
+* **Send, receive, and manage assets** across supported EVM and non-EVM chains: one balance view, with token detail pages for following prices and your transaction history.
+* **Earn yield** through curated vaults with [Simple Earn](features/simple-earn.md) (powered by Morpho and Kamino), or provide concentrated liquidity on crypto, stock, ETF, and gold pools with [Turbo Range](features/turbo-range.md).
+* **Use DeFi directly.** Trade perpetuals via Hyperliquid, access prediction markets via Polymarket, spend crypto on gift cards via Bitrefill, and reach any dApp through the in-app Web3 browser. See [Integrations](features/integrations.md).
+* **Skip gas token management.** DeGate purchases the necessary gas tokens automatically, so you never need to pre-fund a new chain before using it.
 
-DeGate’s multichain platform allows you to seamlessly trade tokens across multiple leading blockchains using a single, unified interface. You can now swap assets across leading chains like Ethereum, Solana, Base, BSC and more.
+## How DeGate works
 
-### **No More Hassle with Gas Tokens**
+You control one wallet, and DeGate deterministically derives your addresses across supported chains from it. Only your keys can authorize transactions from those addresses, which is what makes DeGate self-custodial rather than an exchange account. How this works for each wallet type is documented in [Wallet Addresses & Networks](security/wallet-address-and-networks.md) and [Security Overview](security/security-overview.md).
 
-DeGate handles gas fees for you, purchasing the necessary tokens automatically so you can focus on your trades. This smart gas management eliminates the need to manually purchase gas tokens for each new chain you interact with.
+## Supported networks
 
-### **No Bridging Required**&#x20;
+As of July 2026, DeGate supports 17 blockchains: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and MegaETH (testnet). Fee rates per network are listed on the [Fees](fees.md) page.
 
-DeGate handles the bridging for you, with a unified balance across all chains. Simply decide which token you want to trade, and DeGate handles everything seamlessly in the background.
+## Is DeGate a DEX?
 
-### **Unified Key Management & Self-Custody**
+No. DeGate today is a self-custody wallet, not an exchange. The name previously belonged to an on-chain order book DEX built on an Ethereum ZK-rollup, which has since been discontinued. If you have read older articles describing DeGate as a DEX or a ZK-rollup protocol, see [From DEX to Self-Custody Wallet](about-degate/from-dex-to-self-custody-wallet.md) for the full history.
 
-DeGate prioritizes your security with unified key management across all chains, ensuring self-custody of your assets at one place.  Maintain full control over your funds with the peace of mind that comes from robust, Ethereum-level security, all while enjoying the convenience of managing your assets through one secure key. We empower you to manage multiple wallets (both EVM and non-EVM) under one unified interface, making it easy for you switch as needed
+## FAQ
 
-## **How can you use DeGate?**&#x20;
+**Does DeGate hold my private keys?**
+No. DeGate's servers do not hold your private keys and cannot access them, so DeGate cannot move your funds. See [Security Overview](security/security-overview.md).
 
-With DeGate, you can trade, send, and receive assets using a unified balance across all chains; for example
+**What does DeGate cost?**
+Swap fees depend on the token: xStocks and Ondo RWA assets are 0%, most stablecoins are 0.01%, major native coins are 0.1%, and other tokens default to 0.25%. USDC bridging is free. Full breakdown on the [Fees](fees.md) page.
 
-* Deposit, withdraw tokens from supported EVM and non-EVM chains
-* Trade any tokens on supported chains with a unified balance
-* 1-click to enjoy the best on-chain yields across a range of supported EVM/non-EVM chains
-* Get fast signals on the hot trending memecoins
-* Enjoy best-in-class trading features
-* Purchase tokens via debit/credit card, Apple Pay and other methods (TBC)
+**Is DeGate a decentralized exchange (DEX)?**
+No. DeGate is a self-custody multichain wallet. An earlier product under the same name was a DEX; it has been discontinued. See [the history page](about-degate/from-dex-to-self-custody-wallet.md).
 
-<br>
-
-
-
-
-
-
-
-
-
-<br>
+**How do I start?**
+Install the mobile app and add a wallet in a few minutes: create a new one, connect one you already have, or start with email. See the [Quickstart](getting-started/quickstart.md).
