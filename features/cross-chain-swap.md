@@ -13,7 +13,7 @@ Without a unified balance, moving into a token on another chain typically means 
 
 ## Fees
 
-Swap fees depend on the token tier: 0% for xStocks and Ondo RWA assets, 0.01% for most stablecoins, 0.1% for major native coins, and 0.25% by default for other tokens, as of July 2026. The full per-network table is on the [Fees](../fees.md) page.
+Swap fees have two tiers, set by the token traded against USDC: 0% for stablecoins, and 0.02% for all other tokens, as of August 2026. Details on the [Fees](../fees.md) page.
 
 ## FAQ
 
