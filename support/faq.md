@@ -22,7 +22,7 @@ The mobile app is the primary product. The web app at [app.degate.com](https://a
 ## Money
 
 **What are the fees?**
-Swap fees by token tier: 0% for xStocks and Ondo RWA assets, 0.01% stablecoins, 0.1% major native coins, 0.25% default, as of July 2026. USDC bridging and Simple Earn are free of DeGate fees. More: [Fees](../fees.md).
+Two tiers, set by the token traded against USDC: 0% for stablecoins, 0.02% for all other tokens, as of August 2026. USDC bridging and Simple Earn are free of DeGate fees. More: [Fees](../fees.md).
 
 **Can I buy crypto with a card?**
 Not currently. Fund your wallet by depositing crypto from any supported chain; see [Quickstart](../getting-started/quickstart.md).
