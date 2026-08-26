@@ -43,4 +43,4 @@ You do. DeGate cannot access your private keys regardless of which creation meth
 No. DeGate is a key-management app, not an account service: there is no registration and no onboarding flow. Feature availability may vary by jurisdiction, and users are responsible for compliance with applicable local laws.
 
 **Can I use a hardware wallet?**
-Yes, partially. OneKey (via Bluetooth) is supported today; hardware-wallet accounts currently cover Receive, same-chain Send, and Turbo Range, and do not yet cover Bitcoin. The web app ([app.degate.com](https://app.degate.com)) also supports hardware wallet connections.
+Yes, partially. OneKey (via Bluetooth) is supported today; hardware-wallet accounts currently cover Receive, same-chain Send, and Turbo Range, and do not yet cover Bitcoin. The web app ([app.degate.com](https://app.degate.com)) also supports hardware wallet connections. One difference from other account types: hardware wallet accounts pay network gas from their own address in the chain's native token — keep a small balance there (for example, ETH on Base) for sends and Turbo Range operations.

@@ -1,6 +1,6 @@
 # What is DeGate
 
-DeGate is a self-custody multichain crypto wallet for buying, selling, and earning across all leading blockchains. It is 100% non-custodial: you hold your own keys, and you operate from one unified balance, with no gas tokens to manage and no manual bridging between chains.
+DeGate is a self-custody multichain crypto wallet for buying, selling, and earning across all leading blockchains. It is 100% non-custodial: you hold your own keys, and you operate from one unified balance, with gas handled for you and no manual bridging between chains.
 
 In practice, that means you decide which token you want, and DeGate handles the rest in the background: routing, bridging, and gas. Your assets stay under your control the entire time. The DeGate protocol and degate.com do not and cannot access your private keys.
 
@@ -11,7 +11,7 @@ In practice, that means you decide which token you want, and DeGate handles the 
 * **Send, receive, and manage assets** across supported EVM and non-EVM chains: one balance view, with token detail pages for following prices and your transaction history.
 * **Earn yield** through curated vaults with [Simple Earn](features/simple-earn.md) (powered by Morpho and Kamino), or provide concentrated liquidity on crypto, stock, ETF, and gold pools with [Turbo Range](features/turbo-range.md).
 * **Use DeFi directly.** Trade perpetuals via Hyperliquid, access prediction markets via Polymarket, spend crypto on gift cards via Bitrefill, and reach any dApp through the in-app Web3 browser. See [Integrations](features/integrations.md).
-* **Skip gas token management.** DeGate purchases the necessary gas tokens automatically, so you never need to pre-fund a new chain before using it.
+* **Skip gas token management.** DeGate purchases the necessary gas tokens automatically for every account type except hardware wallets, so you do not need to pre-fund a new chain before using it. Hardware wallet accounts pay network gas from their own address; see [Fees](fees.md).
 
 ## How DeGate works
 

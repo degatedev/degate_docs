@@ -27,7 +27,7 @@ The exact fee for any token is shown in the swap quote before you confirm. If a 
 * **USDC bridging: free.** Moving USDC between supported chains is 1:1 with zero DeGate fees, across 10+ chains.
 * **Simple Earn: free.** No DeGate fees; all vault yield goes to the user. Deposit and withdraw anytime.
 * **Sends: free.** DeGate charges no fee on sends, whether same-chain or cross-chain; cross-chain sends are routed automatically. Standard network (gas) costs still apply, handled as below.
-* **Gas:** handled automatically and deducted from your balance. You never need to hold native gas tokens.
+* **Gas:** handled automatically for every account type except hardware wallets — deducted from your balance and funded from commonly held tokens such as USDC, so you do not need to hold native gas tokens. See the FAQ below for hardware wallet accounts.
 
 ## FAQ
 
@@ -41,4 +41,7 @@ The fee and the exchange rate are two different things. A 0% fee means DeGate ad
 0.02%, the same rate as every non-stablecoin token, as of August 2026. One boundary note: the tier follows DeGate's token classification, not the issuer — Ondo's USDY, a dollar-denominated yield token, sits in the stablecoin tier and swaps at 0%, while Ondo's onchain stocks and ETFs are 0.02%.
 
 **Who pays gas?**
-You do, but automatically: DeGate purchases the needed gas tokens and deducts the cost from your balance, so you do not need to pre-fund gas on each chain you use. Your balance does need enough to cover the network fees of a transaction.
+You do, but automatically: for every account type except hardware wallets, DeGate purchases the needed gas tokens and deducts the cost from your balance, so you do not need to pre-fund gas on each chain you use. Gas is funded from commonly held tokens in your balance, such as USDC, USDT, or major native coins (a few native tokens, like BTC, can't be used to cover gas on other chains — on their own chain they pay gas as usual). Your balance does need enough to cover the network fees of a transaction.
+
+**How does gas work on a hardware wallet account?**
+Hardware wallet accounts pay network gas from their own address in the chain's native token, not from your DeGate balance. Keep a small balance there (for example, ETH on Base or SOL on Solana) for sends and Turbo Range operations, including withdrawing and closing a position.
