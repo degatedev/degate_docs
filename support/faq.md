@@ -35,6 +35,9 @@ No. DeGate is a key-management app that does not operate user accounts, so there
 **My swap is taking longer than expected.**
 Cross-chain swaps typically complete within 30 seconds to 2 minutes; the app shows an estimated completion time before you confirm. Check the status in the **Activity** tab; network congestion can occasionally cause delays. If a swap fails, your original tokens are returned automatically.
 
+**My hardware wallet transaction failed for lack of gas.**
+Hardware wallet accounts pay network gas from their own address in the chain's native token, not from your DeGate balance. Add a small amount of that chain's native token (for example, ETH on Base) and retry. Details: [Fees](../fees.md).
+
 **My balance shows zero after a deposit.**
 Deposits can take a few minutes depending on the blockchain's confirmation time. Pull down to refresh. If the balance is still missing after 10 minutes, check the transaction on a block explorer (Etherscan, Solscan) to confirm it was sent to the correct address on the correct network, then contact support.
 
