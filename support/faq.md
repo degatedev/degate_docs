@@ -11,7 +11,7 @@ A self-custody multichain crypto wallet: buy, sell, and earn across all leading 
 No. An earlier product under the same name was an order book DEX on an Ethereum Layer 2; it was sunset in June 2025. More: [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
 
 **Which chains are supported?**
-17 blockchains as of July 2026: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and MegaETH (testnet). More: [Supported networks](../README.md#supported-networks).
+18 blockchains as of September 2026: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, Robinhood Chain, and MegaETH (testnet). More: [Supported networks](../README.md#supported-networks).
 
 **Is there a desktop or web version?**
 The mobile app is the primary product. The web app at [app.degate.com](https://app.degate.com) works in your browser: you can sign in with the same email wallet as in the app, and it supports hardware wallet connections.
