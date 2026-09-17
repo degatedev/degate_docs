@@ -5,7 +5,7 @@ DeGate today is a self-custody multichain crypto wallet. The name originally bel
 ## The short version
 
 * **Then:** DeGate was an Ethereum Layer 2 (ZK-rollup) protocol offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography. Its smart contracts, zk-SNARK circuits, and the underlying Loopring 3.6 protocol were audited by Trail of Bits and Least Authority.
-* **Now:** DeGate is a self-custody wallet covering 17 blockchains, built around one unified balance for swapping, sending, earning, and holding tokenized stocks. See [What is DeGate](../README.md).
+* **Now:** DeGate is a self-custody wallet covering 18 blockchains, built around one unified balance for swapping, sending, earning, and holding tokenized stocks. See [What is DeGate](../README.md).
 * **What carried over:** the principle. Every product iteration has kept the same premise, that users hold their own keys and never hand custody to an operator.
 
 ## Timeline
@@ -20,6 +20,7 @@ DeGate today is a self-custody multichain crypto wallet. The name originally bel
 | July 2025 | On-chain stocks launch: tokenized equities, swappable 24/7 and settled in USDC |
 | October 2025 | Turbo Range launches: one-click concentrated liquidity across crypto, stocks, index ETFs, and gold |
 | March 2026 | Solana LP Handler passes third-party audit; supported networks reach 17 (16 mainnets + MegaETH testnet) |
+| September 2026 | Robinhood Chain mainnet support expands network coverage to 18 blockchains (17 mainnets + MegaETH testnet) |
 
 All DEX-specific features (order books, grid trading, L2 deposits) have been discontinued. There is no more order book and no rollup deposits.
 

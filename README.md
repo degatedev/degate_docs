@@ -7,7 +7,7 @@ In practice, that means you decide which token you want, and DeGate handles the 
 ## What you can do with DeGate
 
 * **Hold and swap tokenized stocks and ETFs.** Hundreds of Ondo onchain assets and xStocks tokens (Tesla, Nvidia, Apple, S&P 500 and Nasdaq 100 ETFs), at a 0.02% swap fee. See [On-Chain Stocks](features/on-chain-stocks.md).
-* **Swap any token on any supported chain.** One unified interface covers 10M+ tokens across 17 blockchains. See [Cross-chain Swap](features/cross-chain-swap.md).
+* **Swap any token on any supported chain.** One unified interface covers 10M+ tokens across 18 blockchains. See [Cross-chain Swap](features/cross-chain-swap.md).
 * **Send, receive, and manage assets** across supported EVM and non-EVM chains: one balance view, with token detail pages for following prices and your transaction history.
 * **Earn yield** through curated vaults with [Simple Earn](features/simple-earn.md) (powered by Morpho and Kamino), or provide concentrated liquidity on crypto, stock, ETF, and gold pools with [Turbo Range](features/turbo-range.md).
 * **Use DeFi directly.** Trade perpetuals via Hyperliquid, access prediction markets via Polymarket, spend crypto on gift cards via Bitrefill, and reach any dApp through the in-app Web3 browser. See [Integrations](features/integrations.md).
@@ -19,7 +19,7 @@ You control one wallet, and DeGate deterministically derives your addresses acro
 
 ## Supported networks
 
-As of July 2026, DeGate supports 17 blockchains: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and MegaETH (testnet). Fee rates per network are listed on the [Fees](fees.md) page.
+As of September 2026, DeGate supports 18 blockchains: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, Robinhood Chain, and MegaETH (testnet). Fee rates per network are listed on the [Fees](fees.md) page.
 
 ## Is DeGate a DEX?
 
