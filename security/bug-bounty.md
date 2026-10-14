@@ -8,7 +8,6 @@ The bounty covers DeGate as users actually run it:
 
 * The web app ([app.degate.com](https://app.degate.com/))
 * The iOS and Android apps
-* The on-chain programs those apps interact with in production
 
 The most useful reports show an issue reproduced against the current production release, with a clear description of what a real user or DeGate could lose. Rewards are assessed on demonstrated impact in the live product.
 
