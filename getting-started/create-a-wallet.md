@@ -15,7 +15,7 @@ The **Add Wallet** screen offers six options:
 <img src="../.gitbook/assets/add-wallet.jpg" alt="Add Wallet options" width="360">
 
 * **Connect External Wallet:** sign in with a wallet you already have, via WalletConnect (up to 10 external wallet accounts).
-* **Connect Hardware Wallet:** OneKey is supported via Bluetooth; hardware accounts currently cover Receive, same-chain Send, and Turbo Range. See the FAQ below.
+* **Connect Hardware Wallet:** Bluetooth-capable OneKey and Ledger models are supported in the mobile app. Check the connection screen for supported models and networks. See the FAQ below.
 * **Create Wallet:** generate a new wallet with a 12-word recovery phrase, created locally on your device. Write the phrase down and store it offline.
 * **Import Wallet:** bring an existing 12-word recovery phrase.
 * **Continue with Email:** the fastest start if you are new to crypto. Enter your email, confirm the code from your inbox, and set a password.
@@ -25,11 +25,9 @@ The **Add Wallet** screen offers six options:
 For higher-value assets, we recommend **Create Wallet** or **Import Wallet** (or connecting a hardware wallet), so that you hold the recovery phrase yourself.
 {% endhint %}
 
-## Create a wallet via the web app
+## Web accounts and mobile transactions
 
-Visit [app.degate.com](https://app.degate.com) and click **Connect Wallet**, then choose your preferred method. Email login works here too: the same email wallet can be used in the app and the web app.
-
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+The web app does not support transactions. Use the iOS or Android mobile app for swaps, transfers, and Turbo Range position actions. If you already use a DeGate web account, choose **Sync from DeGate Web** in the mobile app to bring it into the app.
 
 ## FAQ
 
@@ -43,4 +41,6 @@ You do. DeGate cannot access your private keys regardless of which creation meth
 No. DeGate is a key-management app, not an account service: there is no registration and no onboarding flow. Feature availability may vary by jurisdiction, and users are responsible for compliance with applicable local laws.
 
 **Can I use a hardware wallet?**
-Yes, partially. OneKey (via Bluetooth) is supported today; hardware-wallet accounts currently cover Receive, same-chain Send, and Turbo Range, and do not yet cover Bitcoin. The web app ([app.degate.com](https://app.degate.com)) also supports hardware wallet connections. One difference from other account types: hardware wallet accounts pay network gas from their own address in the chain's native token — keep a small balance there (for example, ETH on Base) for sends and Turbo Range operations.
+Yes. The mobile app connects over Bluetooth to **Bluetooth-capable OneKey and Ledger models**. Check DeGate's connection screen for supported models and networks. Hardware-wallet accounts support receiving, sending, trading, cross-chain transfers, and Turbo Range. Confirm signatures on the hardware device; do not enter its recovery phrase into your phone.
+
+Hardware-wallet accounts pay network gas from their own address in the chain's native token. Keep enough native tokens there (for example, ETH on Base) for the action you intend to sign. Review network costs on the confirmation screen.

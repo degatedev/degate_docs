@@ -14,7 +14,9 @@ redirects:
   onboarding/create-wallet: getting-started/create-a-wallet.md
   your-wallet/wallet-address: security/wallet-address-and-networks.md
   your-wallet/security: security/security-overview.md
-  your-wallet/audit-report: security/audits.md
+  your-wallet/audit-report: security/security-overview.md
+  security-and-self-custody/audits: security/security-overview.md
+  security/audits: security/security-overview.md
   # Legacy DEX-era paths still present in search indexes (404 since the rebrand)
   product_en/concepts/protocol-fees: fees.md
   product_en/concepts/keys-and-signatures: security/wallet-address-and-networks.md

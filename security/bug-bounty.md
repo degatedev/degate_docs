@@ -1,6 +1,6 @@
 # Bug Bounty
 
-DeGate runs an active bug bounty: vulnerability reports go to [bounty@degate.com](mailto:bounty@degate.com). If you believe you have found a security issue in DeGate’s live products, we want to hear from you before anyone else does. The bounty complements the audit coverage described in [Audits](https://docs.degate.com/security-and-self-custody/audits).
+DeGate runs an active bug bounty: vulnerability reports go to [bounty@degate.com](mailto:bounty@degate.com). If you believe you have found a security issue in DeGate’s live products, we want to hear from you before anyone else does.
 
 ## What we look for
 

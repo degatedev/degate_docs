@@ -13,7 +13,7 @@ Without a unified balance, moving into a token on another chain typically means 
 
 ## Fees
 
-Swap fees have two tiers, set by the token traded against USDC: 0% for stablecoins, and 0.02% for all other tokens, as of August 2026. Details on the [Fees](../fees.md) page.
+Ordinary swap fees have two tiers, set by the token traded against USDC: 0% for stablecoins, and 0.02% for all other tokens, as of August 2026. Details on the [Fees](../fees.md) page.
 
 ## FAQ
 

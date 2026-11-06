@@ -4,7 +4,7 @@ Turbo Range is DeGate's liquidity provision (LP) feature. It puts your funds int
 
 ## What you can provide liquidity for
 
-As of July 2026, Turbo Range offers 15 products, including Gold, Bitcoin, Ethereum, Tesla, Nvidia, Google, Amazon, Apple, Meta, MicroStrategy, Circle, SpaceX, a Silver ETF, the S&P 500, and the Nasdaq 100. New pools are added regularly; the live list is in the app at [app.degate.com/turbo-range](https://app.degate.com/turbo-range).
+As of July 2026, Turbo Range offers 15 products, including Gold, Bitcoin, Ethereum, Tesla, Nvidia, Google, Amazon, Apple, Meta, MicroStrategy, Circle, SpaceX, a Silver ETF, the S&P 500, and the Nasdaq 100. New pools are added regularly; check the current pool list in **Turbo Range in the mobile app**. The web app does not support transactions.
 
 ## Where it runs
 
@@ -19,15 +19,17 @@ DeGate acts as a streamlined front-end terminal for these pools: you access thei
 * **Cross-chain deposits.** Fund a position with USDC from any supported chain; DeGate routes it, with no manual bridging.
 * **No lock-up.** You can close a position at any time; your tokens return to your wallet and earned fees are collected.
 
+## Swap fees
+
+As of 6 November 2026, automatic swaps within Turbo Range have a **0% DeGate platform swap fee**, including swaps that prepare the pool assets when opening or increasing a position. The ordinary 0.02% swap fee does not apply to these swaps. Network costs and pool trading fees may still apply. Review the swap result and network cost before signing.
+
+Buying tokens separately in Trade before opening, or selling returned tokens in Trade after closing, follows the [ordinary swap fees](../fees.md).
+
 ## Earnings and risks
 
 APYs vary with asset volatility and market conditions and can reach 100%+ on volatile pairs. Higher APYs generally mean higher volatility, which also means higher impermanent loss risk. Past performance does not guarantee future returns.
 
 Like all concentrated liquidity provision, Turbo Range positions are subject to impermanent loss. If the price moves outside your selected range, the position stops earning fees and shifts entirely into one token. Your funds remain yours: you can wait for the price to return, adjust the range, or close the position.
-
-## Security
-
-The Solana program powering Turbo Range's liquidity management (the Solana LP Handler, a wrapper around Raydium CLMM flows) was independently audited by Adevar Labs in March 2026. See [Audits](../security/audits.md).
 
 ## FAQ
 

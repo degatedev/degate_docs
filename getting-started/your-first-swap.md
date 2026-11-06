@@ -29,4 +29,4 @@ Cross-chain routes settle on more than one network and inherit those networks' c
 There are no account-based limits. For very large swaps, price impact may be higher on assets with lower on-chain liquidity; the app displays price impact before confirmation.
 
 **What fee did I pay?**
-Swap fees have two tiers, set by the token traded against USDC: 0% for stablecoins, and 0.02% for all other tokens, as of August 2026. Details: [Fees](../fees.md).
+Ordinary swap fees have two tiers, set by the token traded against USDC: 0% for stablecoins, and 0.02% for all other tokens, as of August 2026. Details: [Fees](../fees.md).

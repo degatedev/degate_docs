@@ -4,6 +4,8 @@ DeGate is a self-custody multichain crypto wallet for buying, selling, and earni
 
 In practice, that means you decide which token you want, and DeGate handles the rest in the background: routing, bridging, and gas. Your assets stay under your control the entire time. The DeGate protocol and degate.com do not and cannot access your private keys.
 
+Transactions take place in the **iOS or Android mobile app**. The web app does not support transactions, including swaps, transfers, or Turbo Range position actions.
+
 ## What you can do with DeGate
 
 * **Hold and swap tokenized stocks and ETFs.** Hundreds of Ondo onchain assets and xStocks tokens (Tesla, Nvidia, Apple, S&P 500 and Nasdaq 100 ETFs), at a 0.02% swap fee. See [On-Chain Stocks](features/on-chain-stocks.md).
@@ -19,7 +21,7 @@ You control one wallet, and DeGate deterministically derives your addresses acro
 
 ## Supported networks
 
-As of September 2026, DeGate supports 17 mainnet blockchains: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and Robinhood Chain. MegaETH testnet is also supported. Fee rates per network are listed on the [Fees](fees.md) page.
+As of 6 November 2026, DeGate supports 17 mainnet blockchains: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and Robinhood Chain. MegaETH testnet is no longer supported. Fee rates per network are listed on the [Fees](fees.md) page.
 
 ## Is DeGate a DEX?
 
@@ -31,7 +33,7 @@ No. DeGate today is a self-custody wallet, not an exchange. The name previously 
 No. DeGate's servers do not hold your private keys and cannot access them, so DeGate cannot move your funds. See [Security Overview](security/security-overview.md).
 
 **What does DeGate cost?**
-Swap fees have two tiers, set by the token traded against USDC: stablecoins are 0%, and all other tokens are 0.02%, as of August 2026. USDC bridging is free. Full breakdown on the [Fees](fees.md) page.
+Ordinary swap fees have two tiers, set by the token traded against USDC: stablecoins are 0%, and all other tokens are 0.02%, as of August 2026. USDC bridging is free. Automatic swaps within Turbo Range have a 0% DeGate platform swap fee; network costs and pool trading fees may still apply. Full breakdown on the [Fees](fees.md) page.
 
 **Is DeGate a decentralized exchange (DEX)?**
 No. DeGate is a self-custody multichain wallet. An earlier product under the same name was a DEX; it has been discontinued. See [the history page](about-degate/from-dex-to-self-custody-wallet.md).

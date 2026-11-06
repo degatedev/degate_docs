@@ -4,7 +4,7 @@
 
 * [What is DeGate](README.md)
 * [From DEX to Self-Custody Wallet](about-degate/from-dex-to-self-custody-wallet.md)
-* [Official Links & Verified Contracts](about-degate/official-links.md)
+* [Official Links](about-degate/official-links.md)
 
 ## Getting Started
 
@@ -29,7 +29,6 @@
 
 * [Security Overview](security/security-overview.md)
 * [Wallet Addresses & Networks](security/wallet-address-and-networks.md)
-* [Audits](security/audits.md)
 * [Bug Bounty](security/bug-bounty.md)
 * [Self-Custody FAQ](security/self-custody-faq.md)
 

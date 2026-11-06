@@ -1,13 +1,13 @@
-# Official Links & Verified Contracts
+# Official Links
 
-This page is the canonical list of DeGate's official domains, apps, accounts, and code repositories. If a website, app, or account claims to be DeGate and is not listed here, treat it as unofficial. Bookmark this page and verify links against it before connecting a wallet or entering credentials anywhere.
+This page is the canonical list of DeGate's official domains, apps, and accounts. If a website, app, or account claims to be DeGate and is not listed here, treat it as unofficial. Bookmark this page and verify links against it before connecting a wallet or entering credentials anywhere.
 
 ## Websites
 
 | Purpose | URL |
 | --- | --- |
 | Main site | [degate.com](https://degate.com) |
-| Web app | [app.degate.com](https://app.degate.com) |
+| Web app (transactions unavailable; use the mobile app) | [app.degate.com](https://app.degate.com) |
 | Stock token list | [app.degate.com/stocks](https://app.degate.com/stocks) |
 | Documentation | [docs.degate.com](https://docs.degate.com) |
 | App downloads | [download.degate.com](https://download.degate.com) |
@@ -27,14 +27,6 @@ This page is the canonical list of DeGate's official domains, apps, accounts, an
 | --- | --- |
 | X (Twitter) | [@DeGateWallet](https://x.com/DeGateWallet) |
 | Telegram | [t.me/degate\_public](https://t.me/degate_public) |
-
-## Code & audits
-
-| Resource | Link |
-| --- | --- |
-| GitHub organization | [github.com/degatedev](https://github.com/degatedev) |
-| Solana LP Handler (audited) | [github.com/degatedev/solana\_lp\_handler](https://github.com/degatedev/solana_lp_handler) |
-| Audit reports | [Audits](../security/audits.md) |
 
 ## Security contact
 

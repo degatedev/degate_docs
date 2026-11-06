@@ -1,6 +1,6 @@
 # On-Chain Stocks
 
-DeGate supports holding and swapping tokenized stocks and ETFs directly from your self-custody wallet, at a 0.02% swap fee. Coverage spans hundreds of tokens across two issuer families: **Ondo onchain assets** (tickers ending in "on", like TSLAon) and **xStocks** (tickers ending in "x", like TSLAx), together covering individual US equities (Tesla, Nvidia, Apple, Microsoft and more) and index ETFs (S&P 500, Nasdaq 100). All are settled in USDC, fractional, and swappable 24/7.
+DeGate supports holding and swapping tokenized stocks and ETFs directly from your self-custody wallet, at a 0.02% platform fee for ordinary swaps. Coverage spans hundreds of tokens across two issuer families: **Ondo onchain assets** (tickers ending in "on", like TSLAon) and **xStocks** (tickers ending in "x", like TSLAx), together covering individual US equities (Tesla, Nvidia, Apple, Microsoft and more) and index ETFs (S&P 500, Nasdaq 100). All are settled in USDC, fractional, and swappable 24/7.
 
 Browse the full list at [app.degate.com/stocks](https://app.degate.com/stocks).
 
@@ -14,7 +14,7 @@ xStocks are tokenized equities backed 1:1 by the underlying stock through the Ba
 
 ## What you can do
 
-* **Swap in and out at a 0.02% fee.** Ondo assets and xStocks trade like any other token, paid in USDC. See [Fees](../fees.md).
+* **Ordinary swaps have a 0.02% platform fee.** Ondo assets and xStocks trade like any other token, paid in USDC. See [Fees](../fees.md).
 * **Hold them in self-custody.** Tokens sit at addresses only your key controls.
 * **Earn yield on stock tokens.** Provide liquidity to stock pairs (for example TSLAx/USDC or MSTRx/USDC) through [Turbo Range](turbo-range.md).
 
@@ -31,7 +31,7 @@ Tokens can be swapped 24/7, since transfers settle on-chain at any hour. The und
 ## FAQ
 
 **What does it cost to trade tokenized stocks on DeGate?**
-A 0.02% DeGate swap fee on Ondo assets and xStocks, the same rate as every non-stablecoin token, as of August 2026.
+Ordinary swaps of Ondo stock tokens and xStocks have a 0.02% DeGate platform fee, as of August 2026. Automatic swaps within Turbo Range have a 0% DeGate platform swap fee as of 6 November 2026. Network costs and pool trading fees may still apply. See [Fees](../fees.md).
 
 **Do I receive dividends?**
 Economically yes, through each issuer's mechanism: xStocks rebase balances, while Ondo reflects dividends in the token price. Neither pays cash to your wallet. Details: [How tokenized stock dividends work](https://degate.com/playbook/tokenized-stock-dividends-mechanisms/).

@@ -19,14 +19,14 @@ DeGate supports several ways of holding a wallet. Where the key material lives, 
 
 None of these methods gives DeGate access to your raw private keys. However, they are **not equally independent of DeGate today**: see "What this means for recovery" in [Wallet Addresses & Networks](wallet-address-and-networks.md) for the practical difference between wallet types.
 
-## Independent review
+## Report a vulnerability
 
-Audit reports and their scope are documented on the [Audits](audits.md) page; vulnerability reports are welcome at [bounty@degate.com](mailto:bounty@degate.com) ([Bug Bounty](bug-bounty.md)).
+If you find a security issue, report it to [bounty@degate.com](mailto:bounty@degate.com). See [Bug Bounty](bug-bounty.md) for reporting instructions.
 
 ## FAQ
 
 **How do I make sure I'm using the real DeGate?**
-Check every domain, app link, and community channel against [Official Links & Verified Contracts](../about-degate/official-links.md) before connecting a wallet or entering credentials. DeGate will never ask for your recovery phrase, private keys, or password; anyone who does is not DeGate.
+Check every domain, app link, and community channel against [Official Links](../about-degate/official-links.md) before connecting a wallet or entering credentials. DeGate will never ask for your recovery phrase, private keys, or password; anyone who does is not DeGate.
 
 **Can DeGate freeze my account?**
 There is no custodial account to freeze. Assets sit at addresses controlled by your key; only you can authorize transactions from them.

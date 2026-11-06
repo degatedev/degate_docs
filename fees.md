@@ -1,6 +1,6 @@
 # Fees
 
-DeGate charges a swap fee that depends on the token you trade, not on which chains the route touches. Every swap has USDC on one side: you pay in USDC when you buy, and you receive USDC when you sell. USDC is the settlement currency, so it never determines the fee. The fee is always set by the other token in the swap, in either direction. As of August 2026 there are two tiers: 0% when that token is a stablecoin, and 0.02% when it is anything else.
+For ordinary swaps, DeGate charges a platform swap fee that depends on the token you trade, not on which chains the route touches. Ordinary swaps have USDC on one side: you pay in USDC when you buy, and you receive USDC when you sell. For these ordinary swaps, the fee tier follows the token traded against USDC, in either direction. As of August 2026 there are two tiers: 0% when that token is a stablecoin, and 0.02% when it is anything else.
 
 Two examples:
 
@@ -10,10 +10,12 @@ Two examples:
 There are no subscription fees and no hidden charges.
 
 {% hint style="info" %}
-**Swapping a stablecoin costs 0%; swapping any other token, including xStocks and Ondo RWA assets, costs 0.02%.**
+**Ordinary swaps: 0% DeGate platform fee for stablecoins; 0.02% for other tokens, including stock tokens. Automatic swaps within Turbo Range: 0% DeGate platform swap fee. Network costs and pool trading fees may still apply.**
 {% endhint %}
 
 ## Swap fees
+
+These tiers apply to ordinary swaps in Trade. For automatic swaps within Turbo Range, see [Turbo Range swaps](#turbo-range-swaps).
 
 | Tier | Fee | What it covers |
 | --- | --- | --- |
@@ -21,6 +23,12 @@ There are no subscription fees and no hidden charges.
 | All other tokens | 0.02% | Every token that is not a stablecoin, from native coins to tokenized stocks, RWA assets, and long-tail tokens |
 
 The exact fee for any token is shown in the swap quote before you confirm. If a token's quoted fee differs from the tier you expect, the quote is authoritative.
+
+## Turbo Range swaps
+
+As of 6 November 2026, automatic swaps within Turbo Range, including those that prepare the pool assets when opening or increasing a position, have a **0% DeGate platform swap fee**. The ordinary 0.02% rate does not apply to these swaps. Network costs and any pool trading fees are separate; review the expected output and network cost before signing.
+
+If you buy a token in Trade before opening a position, or sell returned tokens in Trade after closing, that is an ordinary swap and follows the rates above.
 
 ## Everything else
 
@@ -38,7 +46,7 @@ Fiat-pegged tokens that DeGate classifies as stablecoins: USDC, USDT, PYUSD, USD
 The fee and the exchange rate are two different things. A 0% fee means DeGate adds no charge on top of the trade; it does not set the rate. USDC and USDT are separate assets with their own market prices, so a swap between them executes at the current market rate on the route, which is typically close to, but not exactly, 1:1. The quote shows the exact amount you will receive before you confirm. Moving the same asset between chains is a different operation: USDC bridging is 1:1 with zero DeGate fees.
 
 **What do xStocks and Ondo assets cost to swap?**
-0.02%, the same rate as every non-stablecoin token, as of August 2026. One boundary note: the tier follows DeGate's token classification, not the issuer — Ondo's USDY, a dollar-denominated yield token, sits in the stablecoin tier and swaps at 0%, while Ondo's onchain stocks and ETFs are 0.02%.
+For ordinary swaps, 0.02%, as of August 2026. Automatic swaps within Turbo Range have a 0% DeGate platform swap fee as of 6 November 2026. One boundary note: the tier follows DeGate's token classification, not the issuer. Ondo's USDY, a dollar-denominated yield token, sits in the stablecoin tier and swaps at 0%, while ordinary swaps of Ondo's onchain stocks and ETFs have a 0.02% platform fee.
 
 **Who pays gas?**
 You do, but automatically: for every account type except hardware wallets, DeGate purchases the needed gas tokens and deducts the cost from your balance, so you do not need to pre-fund gas on each chain you use. Gas is funded from commonly held tokens in your balance, such as USDC, USDT, or major native coins (a few native tokens, like BTC, can't be used to cover gas on other chains — on their own chain they pay gas as usual). Your balance does need enough to cover the network fees of a transaction.

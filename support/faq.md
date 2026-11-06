@@ -11,18 +11,21 @@ A self-custody multichain crypto wallet: buy, sell, and earn across all leading 
 No. An earlier product under the same name was an order book DEX on an Ethereum Layer 2; it was sunset in June 2025. More: [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
 
 **Which chains are supported?**
-17 mainnet blockchains as of September 2026: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and Robinhood Chain. MegaETH testnet is also supported. More: [Supported networks](../README.md#supported-networks).
+17 mainnet blockchains as of 6 November 2026: Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and Robinhood Chain. MegaETH testnet is no longer supported. More: [Supported networks](../README.md#supported-networks).
 
 **Is there a desktop or web version?**
-The mobile app is the primary product. The web app at [app.degate.com](https://app.degate.com) works in your browser: you can sign in with the same email wallet as in the app, and it supports hardware wallet connections.
+The web app at [app.degate.com](https://app.degate.com) does not support transactions. Use the **iOS or Android mobile app** for swaps, transfers, and Turbo Range position actions.
 
 **What languages does the app support?**
 13 languages, including English, Deutsch, Français, Español, Italiano, 日本語, 한국어, and Chinese (simplified and traditional). The interface follows your device language settings.
 
+**Can I connect a hardware wallet?**
+Yes. The mobile app supports Bluetooth-capable OneKey and Ledger models. Check the connection screen for supported models and networks. More: [Create a Wallet](../getting-started/create-a-wallet.md#can-i-use-a-hardware-wallet).
+
 ## Money
 
 **What are the fees?**
-Two tiers, set by the token traded against USDC: 0% for stablecoins, 0.02% for all other tokens, as of August 2026. USDC bridging and Simple Earn are free of DeGate fees. More: [Fees](../fees.md).
+Ordinary swaps have two tiers, set by the token traded against USDC: 0% for stablecoins, 0.02% for all other tokens, as of August 2026. USDC bridging and Simple Earn are free of DeGate fees. Automatic swaps within Turbo Range have a 0% DeGate platform swap fee; network costs and pool trading fees may still apply. More: [Fees](../fees.md).
 
 **Can I buy crypto with a card?**
 Not currently. Fund your wallet by depositing crypto from any supported chain; see [Quickstart](../getting-started/quickstart.md).
@@ -46,8 +49,5 @@ Deposits can take a few minutes depending on the blockchain's confirmation time.
 **Who holds my keys?**
 You do; DeGate's servers do not hold them. More: [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md).
 
-**Has DeGate been audited?**
-The Solana LP Handler was audited by Adevar Labs in March 2026. More: [Audits](../security/audits.md).
-
 **How do I verify I am on the real DeGate?**
-Check every link against [Official Links & Verified Contracts](../about-degate/official-links.md).
+Check every link against [Official Links](../about-degate/official-links.md).

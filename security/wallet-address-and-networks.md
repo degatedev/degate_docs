@@ -16,7 +16,7 @@ Since only your private keys can authorize transactions from these addresses, De
 
 ### Hardware wallets
 
-Your private key never leaves the hardware device; DeGate reads your addresses over standard derivation paths. Hardware accounts currently cover Receive, same-chain Send, and Turbo Range. For other in-app operations, DeGate uses a secondary, app-managed operating wallet so you aren't prompted on your device for every action; your hardware key itself never leaves the device regardless.
+Your private key never leaves the hardware device; DeGate reads your addresses over standard derivation paths. The mobile app supports Bluetooth-capable OneKey and Ledger models for receiving, sending, trading, cross-chain transfers, and Turbo Range. Check the connection screen for supported models and networks, and confirm signatures on the hardware device.
 
 Hardware wallet accounts pay network gas from their own address in the chain's native token, not from your DeGate balance. Keep a small balance there (for example, ETH on Base or SOL on Solana) for sends and Turbo Range operations, including closing a position.
 
