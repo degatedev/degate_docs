@@ -1,6 +1,6 @@
 # Security Overview
 
-DeGate is self-custodial: your private keys are generated and used on your device (or, for hardware wallets, on your hardware device), and DeGate's servers do not hold them.
+DeGate is a self-custody wallet. Key handling and recovery depend on how you add a wallet: a recovery phrase wallet, a hardware wallet, an email wallet, or an external-wallet connection. Review the method for your wallet before relying on a backup.
 
 ## What DeGate can and cannot do
 
@@ -12,10 +12,10 @@ DeGate is self-custodial: your private keys are generated and used on your devic
 
 DeGate supports several ways of holding a wallet. Where the key material lives, and how independently you can recover it, differs by type:
 
-* **Created or imported mnemonic wallets:** your recovery phrase is generated (or entered) locally and your keys stay on your device. This is the most independent option: your phrase alone restores your wallet in DeGate, or in any BIP39/BIP44-compatible wallet, with no dependency on DeGate at all.
-* **Hardware wallets:** your private key never leaves the hardware device. DeGate reads your addresses over standard derivation paths, so your primary balance is recoverable with your device and any compatible wallet software, independent of DeGate.
-* **Email wallets:** your signing key is an embedded wallet provided by our wallet infrastructure partner, tied to your email login, not generated or held by DeGate directly.
-* **External-wallet and web-sync accounts** (Connect External Wallet / Sync from DeGate Web): your root key stays in your own external wallet; DeGate derives an operating wallet from a signature you provide with that wallet.
+* **Created or imported mnemonic wallets:** your recovery phrase is generated (or entered) locally and your keys stay on your device. You can restore it in DeGate, or in wallet software that supports the same recovery phrase, networks, derivation paths, and account settings. Verify that the restored addresses match before transferring assets.
+* **Hardware wallets:** your private key never leaves the hardware device. DeGate reads your addresses over standard derivation paths, so another wallet application can access assets at those same hardware addresses if it supports the device, networks, and derivation paths. Verify the address in that application; a pool position may require an interface that supports its protocol.
+* **Email wallets:** email wallets use an embedded wallet supplied by a wallet infrastructure partner. Use the original email address and DeGate password in the DeGate app to restore access; recovery outside the DeGate app is not currently supported.
+* **External-wallet and web-sync accounts** (Connect External Wallet / Sync from DeGate Web): your original key stays in your external wallet. DeGate derives a separate operating wallet through a signature-based process. Assets held at the derived DeGate addresses are not balances at your original external-wallet address. To restore those DeGate addresses, reconnect the same external wallet in the DeGate app; restoring the external wallet alone does not display those derived balances.
 
 None of these methods gives DeGate access to your raw private keys. However, they are **not equally independent of DeGate today**: see "What this means for recovery" in [Wallet Addresses & Networks](wallet-address-and-networks.md) for the practical difference between wallet types.
 

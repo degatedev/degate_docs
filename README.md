@@ -1,6 +1,6 @@
 # What is DeGate
 
-DeGate is a self-custody multichain crypto wallet for buying, selling, and earning across all leading blockchains. It is 100% non-custodial: you hold your own keys, and you operate from one unified balance, with gas handled for you and no manual bridging between chains.
+DeGate is a self-custody multichain crypto wallet for buying, selling, and earning across all leading blockchains. You authorize transactions from your wallet and manage supported assets through a unified balance view. Key handling and recovery depend on the wallet type; see [Security Overview](security/security-overview.md). Non-hardware accounts can pay supported network fees from eligible asset balances, while hardware accounts need native gas tokens.
 
 In practice, that means you decide which token you want, and DeGate handles the rest in the background: routing, bridging, and gas. Your assets stay under your control the entire time. The DeGate protocol and degate.com do not and cannot access your private keys.
 
@@ -17,7 +17,7 @@ Transactions take place in the **iOS or Android mobile app**. The web app does n
 
 ## How DeGate works
 
-You control one wallet, and DeGate deterministically derives your addresses across supported chains from it. Only your keys can authorize transactions from those addresses, which is what makes DeGate self-custodial rather than an exchange account. How this works for each wallet type is documented in [Wallet Addresses & Networks](security/wallet-address-and-networks.md) and [Security Overview](security/security-overview.md).
+DeGate supports recovery phrase wallets, hardware wallets, email wallets, and external-wallet connections. How addresses are created and restored differs by method. In particular, external-wallet connections use derived DeGate addresses, and restoring the original external wallet elsewhere does not by itself display assets at those derived addresses. Review [Wallet Addresses & Networks](security/wallet-address-and-networks.md) and [Security Overview](security/security-overview.md) before choosing a backup method.
 
 ## Supported networks
 

@@ -3,7 +3,7 @@
 Self-custody means your keys, and therefore your assets, are controlled by you rather than held in an account by a company. This page answers the questions people actually ask before trusting a self-custody wallet.
 
 **Who controls my keys?**
-You do. DeGate's servers do not hold your private keys and cannot access them. Where the key material lives differs by wallet type (on your device for mnemonic wallets, on your hardware device, in your own external wallet, or in an email-linked embedded wallet); the breakdown is in [Security Overview](security-overview.md) and [Wallet Addresses & Networks](wallet-address-and-networks.md).
+Key handling and recovery differ by wallet type. A recovery phrase wallet keeps its keys on your device, and a hardware wallet keeps them on the hardware device. Email wallets use an email-linked embedded wallet; external-wallet connections create a separate operating wallet through DeGate. The recovery dependencies are described in [Security Overview](security-overview.md) and [Wallet Addresses & Networks](wallet-address-and-networks.md).
 
 **Can DeGate move, freeze, or seize my funds?**
 No. Your assets sit at blockchain addresses that only your key can sign for. There is no custodial account layer in between, so there is structurally nothing for DeGate to freeze or restrict.
@@ -12,18 +12,18 @@ No. Your assets sit at blockchain addresses that only your key can sign for. The
 It depends on how you created the wallet:
 
 * **Mnemonic (recovery phrase) wallet:** write down your recovery phrase and store it securely offline, never digitally. The phrase is the only way to recover this wallet type.
-* **Email wallet:** your keys are tied to your email and password. You can re-access your wallet on any device, in the app or the web app, by signing in with the same email.
-* **External-wallet / web-sync:** your external wallet is the key; back it up according to that wallet's own recovery method, and signing in with it again restores your DeGate account.
+* **Email wallet:** use the original email address and DeGate password in the DeGate app. Keep access to that email and preserve your password securely; recovery outside the DeGate app is not currently supported. If you permanently lose access to the linked email, you may be unable to recover the wallet. We do not recommend keeping large balances in an email wallet.
+* **External-wallet / web-sync:** back up the original external wallet according to its recovery method, then reconnect it in the DeGate app. Assets at the derived DeGate addresses are separate from balances at your original external-wallet address. Restoring the external wallet alone in another application does not display those DeGate balances.
 * **Hardware wallet:** your device (and the recovery sheet you set up with its manufacturer) is the backup.
 
 **What if I lose my phone?**
-Download DeGate on a new device and restore with your recovery method: your mnemonic phrase, your email login, or signing in again with your external wallet. Your funds are on-chain, not on the device.
+Install the official DeGate app on a new phone. Import the original recovery phrase, reconnect your hardware wallet, sign in with the original email address and DeGate password, or reconnect the original external wallet, depending on the wallet type. Verify the restored addresses. Losing a phone does not erase assets recorded on-chain, but you still need the appropriate recovery method to access them.
 
 **Can I use DeGate on multiple devices?**
-Yes. Restore your wallet on any additional device using the same recovery method (mnemonic phrase, email login, or external-wallet sign-in). Balances are the same everywhere because all data is on-chain.
+Use the same recovery phrase, hardware-wallet connection, email address and DeGate password, or external-wallet connection in the DeGate app on the additional device. Check that the addresses match. The same address on the same network refers to the same on-chain assets; an application's display also depends on which tokens and positions it supports.
 
 **How is this different from keeping assets on an exchange?**
-With an exchange account, the exchange holds the assets and your balance is a claim on the operator; a hack, insolvency, or account restriction can affect your access. With a self-custody wallet, you hold the assets directly on-chain. The trade-off is responsibility: self-custody removes operator counterparty risk, and in exchange you carry the responsibility for your own backup.
+With an exchange account, the exchange holds the assets and your balance is a claim on the operator; a hack, insolvency, or account restriction can affect your access. With a self-custody wallet, you hold the assets directly on-chain. You are responsible for your backup and the transactions you authorize. Recovery dependencies vary by wallet type; email and external-wallet / web-sync recovery currently requires DeGate, as explained above.
 
 **"Non-custodial", "self-custodial", "unhosted": what's the difference?**
 They describe the same property: you control your own keys and funds. "Non-custodial" is the term EU regulations use, "self-custodial" is common in product descriptions, and "unhosted wallet" is the FATF / US FinCEN term. All three apply to DeGate.

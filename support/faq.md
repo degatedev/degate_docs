@@ -31,7 +31,7 @@ Ordinary swaps have two tiers, set by the token traded against USDC: 0% for stab
 Not currently. Fund your wallet by depositing crypto from any supported chain; see [Quickstart](../getting-started/quickstart.md).
 
 **Does using DeGate require identity verification?**
-No. DeGate is a key-management app that does not operate user accounts, so there is no onboarding flow. Users are responsible for compliance with applicable local laws.
+You can create a recovery phrase wallet without uploading identity documents or completing exchange-style identity verification. Email sign-in has its own setup, including email verification and a DeGate password. Third-party services may have separate identity and regional requirements; see [Create a Wallet](../getting-started/create-a-wallet.md).
 
 ## Troubleshooting
 
@@ -47,7 +47,7 @@ Deposits can take a few minutes depending on the blockchain's confirmation time.
 ## Trust
 
 **Who holds my keys?**
-You do; DeGate's servers do not hold them. More: [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md).
+Key handling and recovery depend on the wallet type. Recovery phrase and hardware wallets differ from email and external-wallet / web-sync accounts. See [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md) before choosing a backup method.
 
 **How do I verify I am on the real DeGate?**
 Check every link against [Official Links](../about-degate/official-links.md).

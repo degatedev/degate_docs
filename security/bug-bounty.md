@@ -17,7 +17,7 @@ Email [bounty@degate.com](mailto:bounty@degate.com) with:
 
 * A description of the issue and its impact
 * Steps to reproduce against the live product (proof of concept if possible)
-* The component affected (mobile app, web app, on-chain program) and, for on-chain programs, the program ID
+* The affected mobile or web app, its version, and the relevant screen or action
 * An address or contact for follow-up and any reward
 
 Please practice responsible disclosure: give us reasonable time to investigate and fix before publishing details. Please do not test against other users’ funds or accounts.<br>

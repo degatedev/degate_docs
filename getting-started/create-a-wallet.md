@@ -18,11 +18,11 @@ The **Add Wallet** screen offers six options:
 * **Connect Hardware Wallet:** Bluetooth-capable OneKey and Ledger models are supported in the mobile app. Check the connection screen for supported models and networks. See the FAQ below.
 * **Create Wallet:** generate a new wallet with a 12-word recovery phrase, created locally on your device. Write the phrase down and store it offline.
 * **Import Wallet:** bring an existing 12-word recovery phrase.
-* **Continue with Email:** the fastest start if you are new to crypto. Enter your email, confirm the code from your inbox, and set a password.
+* **Continue with Email:** the fastest start if you are new to crypto. Enter your email, confirm the code from your inbox, and set a DeGate password (separate from the password you use to sign in to your email provider).
 * **Sync from DeGate Web:** bring an account you use on the DeGate web app into the app.
 
 {% hint style="info" %}
-For higher-value assets, we recommend **Create Wallet** or **Import Wallet** (or connecting a hardware wallet), so that you hold the recovery phrase yourself.
+We do not recommend keeping large balances in an email wallet. If you permanently lose access to its linked email, you may be unable to recover it. For higher-value assets, we recommend **Create Wallet** or **Import Wallet** (or connecting a hardware wallet), so that you hold the recovery phrase yourself.
 {% endhint %}
 
 ## Web accounts and mobile transactions
@@ -35,10 +35,10 @@ The web app does not support transactions. Use the iOS or Android mobile app for
 No. One DeGate wallet gives you addresses across supported chains, generated as you enable each chain and controlled by your keys. See [Wallet Addresses & Networks](../security/wallet-address-and-networks.md).
 
 **Who holds the keys of the wallet I just created?**
-You do. DeGate cannot access your private keys regardless of which creation method you choose. See [Security Overview](../security/security-overview.md).
+It depends on the wallet type. Recovery phrase wallets keep keys on your device; hardware wallets keep them on the hardware device. Email wallets and external-wallet connections have different key handling and recovery dependencies. Read [Security Overview](../security/security-overview.md) and [Wallet Addresses & Networks](../security/wallet-address-and-networks.md) for your chosen method.
 
 **Does creating a wallet require identity verification?**
-No. DeGate is a key-management app, not an account service: there is no registration and no onboarding flow. Feature availability may vary by jurisdiction, and users are responsible for compliance with applicable local laws.
+You can create a recovery phrase wallet without uploading identity documents or completing exchange-style identity verification. **Continue with Email** has a separate sign-in setup, including email verification and a DeGate password. A third-party service you use may have its own identity and regional requirements; check those requirements before using it.
 
 **Can I use a hardware wallet?**
 Yes. The mobile app connects over Bluetooth to **Bluetooth-capable OneKey and Ledger models**. Check DeGate's connection screen for supported models and networks. Hardware-wallet accounts support receiving, sending, trading, cross-chain transfers, and Turbo Range. Confirm signatures on the hardware device; do not enter its recovery phrase into your phone.

@@ -19,7 +19,7 @@ DeGate today is a self-custody multichain crypto wallet. The name originally bel
 | June 2025 | The standalone DEX is sunset; DeGate commits fully to the self-custody wallet. Chain coverage expands and Simple Earn launches |
 | July 2025 | On-chain stocks launch: tokenized equities, swappable 24/7 and settled in USDC |
 | October 2025 | Turbo Range launches: one-click concentrated liquidity across crypto, stocks, index ETFs, and gold |
-| March 2026 | Supported networks reach 17 (16 mainnets + MegaETH testnet) |
+| March 2026 | Network coverage reaches 16 mainnets, plus the then-supported MegaETH testnet |
 | September 2026 | Robinhood Chain support expands mainnet coverage to 17 blockchains |
 
 All DEX-specific features (order books, grid trading, L2 deposits) have been discontinued. There is no more order book and no rollup deposits.
