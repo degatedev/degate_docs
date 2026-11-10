@@ -1,24 +1,24 @@
 # Cross-chain Swap
 
-Cross-chain Swap is a one-stop way to swap into assets on any major blockchain network without bridging or multi-step approvals. In short: you can buy any token on any supported chain with your USDC, and selling settles back into USDC. Coverage spans 10M+ tokens across 17 mainnet blockchains, including major cryptocurrencies, stablecoins, memecoins, and tokenized stocks and ETFs (Ondo onchain assets and xStocks).
+Use a cross-chain swap to trade supported assets on different networks without arranging a separate bridge transfer first. Buy tokens with USDC or sell supported tokens for USDC, then review the route and expected output before signing.
 
-* **One-click swap.** The optimized flow lets you swap tokens across different chains in a single click.
-* **Solver-based routing.** The system automatically identifies a cost-effective, fast route for your trade across integrated cross-chain protocols, and shows the expected output and price impact before you confirm.
-* **Full self-custody.** Your assets remain 100% in your own custody throughout the swap.
-* **Gas handled for you.** DeGate purchases the necessary gas tokens automatically on the chains involved, so you never need to pre-fund a destination chain.
+* **One swap flow.** Choose the token and amount in Trade. Review the route, expected output, price impact, and costs before confirming.
+* **Solver-based routing.** Available routes use integrated cross-chain protocols.
+* **Wallet authorization.** You review and authorize the transaction from your selected wallet. Key handling and recovery depend on your [wallet type](../security/security-overview.md).
+* **Network fees.** Non-hardware accounts can pay network costs for supported actions from eligible asset balances. Hardware accounts need native gas tokens at their hardware address. See [Fees](../fees.md).
 
 ## What it replaces
 
-Without a unified balance, moving into a token on another chain typically means five separate actions: acquiring the destination chain's gas token, bridging funds, waiting for the bridge, approving, then swapping. DeGate collapses this into one confirmation.
+You do not need to arrange a separate bridge transfer before a supported cross-chain swap in the app. Routing and bridging are included in the swap flow. Available routes and completion times depend on the networks and protocols involved.
 
 ## Fees
 
-Ordinary swap fees have two tiers, set by the token traded against USDC: 0% for stablecoins, and 0.02% for all other tokens, as of August 2026. Details on the [Fees](../fees.md) page.
+Ordinary swaps have a DeGate platform fee of 0% for stablecoins and 0.02% for other tokens traded against USDC, as of August 2026. Network fees and the execution price also affect the amount you receive. See [Fees](../fees.md).
 
 ## FAQ
 
 **Do I need to bridge before swapping?**
-No. Routing and bridging happen inside the swap. You choose the destination token; DeGate handles the path.
+No separate bridge step is needed for a supported cross-chain swap. Choose the destination token, then review the quoted route before signing.
 
 **Does DeGate take custody of my funds during the swap?**
-No. Transactions are authorized by your key, and settlement goes to addresses only you control. See [Security Overview](../security/security-overview.md).
+You authorize the transaction from your selected wallet after reviewing the route and quote. Execution uses the protocols shown in the route. Key handling and recovery differ by wallet type; see [Security Overview](../security/security-overview.md) before choosing how to add a wallet.

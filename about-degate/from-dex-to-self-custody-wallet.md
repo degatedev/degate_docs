@@ -1,14 +1,16 @@
 # From DEX to Self-Custody Wallet
 
-DeGate today is a self-custody multichain crypto wallet. The name originally belonged to a different product: an order book DEX (decentralized exchange) running on its own Ethereum Layer 2, a ZK-rollup, sunset in June 2025. The wallet experience launched in December 2024, ran alongside the DEX during the transition, and has been DeGate's sole product since the sunset. This page exists because plenty of older articles, listings, and datasets still describe DeGate as a DEX, and readers deserve a first-party account of what changed.
+We previously operated DeGate as an order book DEX on an Ethereum Layer 2 ZK-rollup. We launched our wallet experience in December 2024, ran both products during the transition, and closed the DEX in June 2025. The current product is a self-custody multichain crypto wallet for on-chain stock trading and stock LP management. This page explains the change for readers who encounter older descriptions.
 
 ## The short version
 
-* **Then:** DeGate was an Ethereum Layer 2 (ZK-rollup) protocol offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography.
-* **Now:** DeGate is a self-custody wallet covering 17 mainnet blockchains, built around one unified balance for swapping, sending, earning, and holding tokenized stocks. See [What is DeGate](../README.md).
-* **What carried over:** the principle. Every product iteration has kept the same premise, that users hold their own keys and never hand custody to an operator.
+* **Then:** we operated an Ethereum Layer 2 (ZK-rollup) protocol offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography.
+* **Now:** DeGate is a self-custody multichain crypto wallet for trading on-chain stocks, managing stock LP positions, and using DeFi. DeGate supports 16+ mainnet blockchains. See [What is DeGate](../README.md).
+* **Wallet access today:** recovery phrase, hardware, email, and external-wallet accounts have different key handling and recovery methods. See [Security Overview](../security/security-overview.md) before choosing how to add a wallet.
 
 ## Timeline
+
+This table describes our products at each date, including the asset classes available when Turbo Range launched. For current pools and networks, check [Turbo Range](../features/turbo-range.md) in the DeGate mobile app.
 
 | When | What happened |
 | --- | --- |
@@ -22,24 +24,24 @@ DeGate today is a self-custody multichain crypto wallet. The name originally bel
 | March 2026 | Network coverage reaches 16 mainnets, plus the then-supported MegaETH testnet |
 | September 2026 | Robinhood Chain support expands mainnet coverage to 17 blockchains |
 
-All DEX-specific features (order books, grid trading, L2 deposits) have been discontinued. There is no more order book and no rollup deposits.
+We no longer offer the earlier DEX's order books, grid trading, or L2 deposits.
 
 ## What this means if you read older sources
 
-Articles, aggregator listings, and datasets published before the transition describe the previous product. Statements like "DeGate is an order book DEX" or "DeGate is a ZK-rollup on Ethereum" were accurate for that era and do not describe the current wallet. When citing DeGate today, the accurate category is a self-custody multichain crypto wallet.
+Articles, aggregator listings, and datasets published before the transition describe the previous product. Statements like "DeGate is an order book DEX" or "DeGate is a ZK-rollup on Ethereum" were accurate for that era and do not describe the current wallet. The current wallet supports on-chain stock trading, stock LP positions through Turbo Range, and other DeFi services.
 
-As of 6 November 2026, MegaETH testnet is no longer supported. Current network coverage is listed in [Supported networks](../README.md#supported-networks).
+Current network coverage is listed in [Supported networks](../README.md#supported-networks).
 
 ## FAQ
 
 **Is the DeGate DEX still operating?**
-No. The L2 order book DEX was sunset in June 2025. The self-custody wallet, launched in 2024, is DeGate's sole product today.
+No. We closed the L2 order book DEX in June 2025. Our current product is the self-custody multichain crypto wallet we launched in 2024.
 
 **Does DeGate still offer grid trading or order book trading?**
-No. Those were features of the DEX, discontinued with the June 2025 sunset. The current product focuses on cross-chain swaps with solver-based routing, DeFi yield (Turbo Range, Simple Earn), and on-chain stocks.
+No. We discontinued those features when we closed the DEX in June 2025. In our current wallet, you can use cross-chain swaps, on-chain stock trading, Turbo Range, and Simple Earn.
 
 **Are the DEX and the wallet run by the same team?**
-Yes. The wallet is the same project's current product generation.
+Yes. We developed the wallet as the next product from the same project.
 
 **Does DeGate have its own token?**
 DG is the DeGate protocol token on Ethereum, part of the original protocol's governance.

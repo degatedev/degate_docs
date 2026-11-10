@@ -1,24 +1,24 @@
 # Your First Swap
 
-A swap on DeGate works the same whether the token lives on the chain your funds are on or a different one: you choose the token, DeGate handles routing, bridging, and gas behind the scenes, and the result lands in your unified balance.
+Use Trade in the DeGate mobile app to buy a supported token with USDC or sell a token for USDC. Cross-chain routes include any required bridging in the swap flow. Review the source and destination networks, expected output, and costs before signing.
 
 ## Before you start
 
-Buys on DeGate are paid in USDC, and selling a token settles back into USDC. So you need USDC first, and there are two ways to get it: deposit USDC from any supported chain, or sell a token you already hold (for example, selling TSLAx gives you USDC to buy with; note that a sell still needs network fees covered, so it may not go through if your wallet holds nothing besides that token). There is no need to hold the destination chain's gas token. See [Quickstart](quickstart.md) if you have not set up yet.
+Buys on DeGate are paid in USDC, and selling a token settles back into USDC. So you need USDC first, and there are two ways to get it: deposit USDC from any supported chain, or sell a token you already hold (for example, selling TSLAx gives you USDC to buy with; note that a sell still needs network fees covered, so it may not go through if your wallet holds nothing besides that token). Non-hardware accounts can pay network costs for supported actions from eligible asset balances. Hardware accounts need the relevant native token at their own address. See [Quickstart](quickstart.md) if you have not set up yet.
 
 ## Steps
 
-1. Open **Swap** in the app.
+1. Open **Trade** in the DeGate mobile app.
 2. Search for the token you want to receive. You can search across all supported chains at once.
 3. Pay with USDC from your balance.
-4. Review the quote. The app shows the expected output amount and price impact before you confirm, and the displayed amount reflects the DeGate swap fee for that token tier (see [Fees](../fees.md)).
+4. Review the quote. Check the expected output and price impact before confirming. The displayed amount reflects the DeGate platform swap fee for that token tier (see [Fees](../fees.md)).
 5. Confirm. Same-chain swaps complete in seconds; cross-chain swaps typically take 30 seconds to 2 minutes, and the app shows an estimated completion time before you confirm. You can follow progress in the **Activity** tab.
 
-If market conditions change significantly during execution, the transaction reverts and your original tokens are returned automatically.
+A quote can change or become unavailable before execution. If a swap fails or stays pending, check its status and transaction record before trying again. Use Feedback in the app if you need us to investigate.
 
 ## What happens in the background
 
-DeGate finds the route, executes any bridging, and pays gas on the chains involved by purchasing the necessary gas tokens automatically. You sign with your own key; at no point does DeGate take custody of your assets. The mechanics are described in [Cross-chain Swap](../features/cross-chain-swap.md).
+The quoted route includes any required bridging. For non-hardware accounts, eligible asset balances can fund the gas needed for supported actions. You pay that network cost; hardware accounts fund it from native tokens at their own address. You review and authorize the transaction from your selected wallet. The mechanics are described in [Cross-chain Swap](../features/cross-chain-swap.md).
 
 ## FAQ
 

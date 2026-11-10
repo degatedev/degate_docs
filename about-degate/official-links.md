@@ -1,6 +1,6 @@
 # Official Links
 
-This page is the canonical list of DeGate's official domains, apps, and accounts. If a website, app, or account claims to be DeGate and is not listed here, treat it as unofficial. Bookmark this page and verify links against it before connecting a wallet or entering credentials anywhere.
+Use the official websites, app downloads, and community accounts listed below. Check a link against this page before connecting a wallet or entering credentials. If you cannot verify an account or website, contact us through Feedback in the app before using it.
 
 ## Websites
 
@@ -30,4 +30,4 @@ This page is the canonical list of DeGate's official domains, apps, and accounts
 
 ## Security contact
 
-Vulnerability reports: [bounty@degate.com](mailto:bounty@degate.com). See [Bug Bounty](../security/bug-bounty.md).
+Send vulnerability reports to us at [bounty@degate.com](mailto:bounty@degate.com). See [Bug Bounty](../security/bug-bounty.md).

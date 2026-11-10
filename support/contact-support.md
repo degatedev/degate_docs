@@ -1,6 +1,6 @@
 # Contact Support
 
-The fastest route is the **Feedback** feature inside the DeGate app: submit questions or report issues directly from your device, which also attaches the context support needs.
+Contact us through **Feedback** in the app to ask a question or report an issue. Include the action you tried, the network and token, and the transaction hash if there is one. We can use those details to investigate.
 
 ## Channels
 
@@ -12,8 +12,8 @@ Verify any community link against [Official Links](../about-degate/official-link
 
 ## Security issues
 
-Vulnerability reports go to [bounty@degate.com](mailto:bounty@degate.com), not to public channels. See [Bug Bounty](../security/bug-bounty.md).
+Send vulnerability reports privately to [bounty@degate.com](mailto:bounty@degate.com), not to public channels. See [Bug Bounty](../security/bug-bounty.md).
 
 {% hint style="warning" %}
-DeGate support will never ask for your recovery phrase, private keys, or password. Anyone asking for these is not DeGate.
+We will never ask you to send us your recovery phrase, private keys, or password. Do not share them in Feedback, email, or community messages.
 {% endhint %}

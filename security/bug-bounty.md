@@ -1,15 +1,15 @@
 # Bug Bounty
 
-DeGate runs an active bug bounty: vulnerability reports go to [bounty@degate.com](mailto:bounty@degate.com). If you believe you have found a security issue in DeGate’s live products, we want to hear from you before anyone else does.
+Report security issues in the live web and mobile apps through the bug bounty program: vulnerability reports go to [bounty@degate.com](mailto:bounty@degate.com). If you find a security issue, report it to us privately so we can investigate before details are published.
 
 ## What we look for
 
-The bounty covers DeGate as users actually run it:
+The bounty covers these live applications:
 
 * The web app ([app.degate.com](https://app.degate.com/))
 * The iOS and Android apps
 
-The most useful reports show an issue reproduced against the current production release, with a clear description of what a real user or DeGate could lose. Rewards are assessed on demonstrated impact in the live product.
+The most useful reports show an issue reproduced against the current production release, with a clear description of what a real user or DeGate could lose. We assess rewards based on demonstrated impact in the live product.
 
 ## How to report
 

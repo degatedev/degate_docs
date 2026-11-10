@@ -1,12 +1,12 @@
 # Wallet Addresses & Networks
 
-One DeGate wallet gives you addresses across supported chains. How those addresses come to exist depends on which type of wallet you use; this page explains each type and what it means for recovery.
+Use the address for the network where you want to receive assets. How the addresses are created and restored depends on your wallet type. Check the method below before adding funds or replacing a device.
 
 ## Your addresses across chains
 
-When you receive assets, use your DeGate address for the network the sender is on: tap **Receive** in the app, pick the chain, and copy the address or share the QR code. Your DeGate address is the same across all EVM chains (Ethereum, Base, Arbitrum, Optimism, Polygon, BNB and so on): these chains share a single underlying key, rather than being independently generated per chain. Solana, Aptos, and Bitcoin use their own address formats. Incoming deposits are detected automatically, and everything you receive shows up in your unified balance.
+When you receive assets, use your DeGate address for the network the sender is on: tap **Receive** in the app, pick the chain, and copy the address or share the QR code. Your DeGate address is the same across all EVM chains (Ethereum, Base, Arbitrum, Optimism, Polygon, BNB and so on): these chains share a single underlying key, rather than being independently generated per chain. Solana, Aptos, and Bitcoin use their own address formats. Supported assets appear in your balance after the deposit is detected. Check the address, network, and token if an asset does not appear.
 
-Since only your private keys can authorize transactions from these addresses, DeGate cannot unilaterally move your funds.
+You authorize transactions from the wallet you selected. The key handling and recovery requirements for each wallet type are described below.
 
 ## How your wallet is created
 
@@ -16,19 +16,19 @@ Since only your private keys can authorize transactions from these addresses, De
 
 ### Hardware wallets
 
-Your private key never leaves the hardware device; DeGate reads your addresses over standard derivation paths. The mobile app supports Bluetooth-capable OneKey and Ledger models for receiving, sending, trading, cross-chain transfers, and Turbo Range. Check the connection screen for supported models and networks, and confirm signatures on the hardware device.
+Your private key stays on the hardware device; DeGate connects to addresses derived by the device. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app to receive, send, trade, transfer across chains, or manage Turbo Range positions. Check the connection screen for supported models and networks, and confirm signatures on the hardware device.
 
-Hardware wallet accounts pay network gas from their own address in the chain's native token, not from your DeGate balance. Keep a small balance there (for example, ETH on Base or SOL on Solana) for sends and Turbo Range operations, including closing a position.
+Hardware wallet accounts pay network gas from their own address in the chain's native token, not from your DeGate balance. Keep enough native tokens for the action you want to sign. A current Ethereum stock LP in Turbo Range needs ETH on Ethereum; a send on Base needs ETH on Base. Check an existing position's network before claiming fees or closing it.
 
 ### Email, external-wallet, and web-sync wallets
 
-These wallet types don't start from a phrase you write down. Instead, DeGate derives an operating wallet from your existing login (your email-linked embedded wallet, or the external wallet you signed in with), through a signature-based process managed entirely by the DeGate app.
+These wallet types don't start from a phrase you write down. Instead, DeGate derives an operating wallet from your existing login (your email-linked embedded wallet, or the external wallet you signed in with), through a signature-based process in the app.
 
 For an external-wallet or web-sync account, the derived DeGate addresses are separate from your original external-wallet address. Restoring that external wallet in another application does not by itself restore the derived DeGate balances. Reconnect the same external wallet in the DeGate app to restore the derived addresses. For an email wallet, use the original email address and DeGate password in the DeGate app.
 
 ## Supported networks
 
-The current list of supported networks appears in [What is DeGate](../README.md#supported-networks), with per-network fee tiers on the [Fees](../fees.md) page. Addresses for newly-supported chains are generated the first time you enable that chain, not automatically ahead of time. Hardware-wallet accounts cover a subset of networks; check the app for current coverage.
+The current list of supported networks appears in [What is DeGate](../README.md#supported-networks), with per-network fee tiers on the [Fees](../fees.md) page. An address for a newly supported chain is generated when you first enable it. Hardware-wallet accounts cover a subset of networks; check the app for current coverage.
 
 ## What this means for recovery
 
@@ -46,7 +46,7 @@ An email wallet depends on access to its linked email address. If you permanentl
 ## FAQ
 
 **Can I send any token to my DeGate address?**
-Send tokens on their matching network to your address for that network. Everything on supported networks lands in your unified balance.
+Send tokens on their matching network to your address for that network. Supported assets appear after the deposit is detected. Check that both the token and its network are supported before sending.
 
 **Why is my address the same on Ethereum and Base?**
 All EVM chains share a single underlying key in your DeGate wallet, so they share one address. That makes receiving simpler: any EVM network's deposit goes to the same address, and you pick the network when sharing it. Solana, Aptos, and Bitcoin use their own address formats.

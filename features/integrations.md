@@ -1,6 +1,6 @@
 # Integrations
 
-DeGate builds selected third-party services into the app, so you can reach them from your unified balance without hunting for URLs or re-connecting wallets.
+Open third-party services from the app shortcuts or in-app browser. Choose the wallet you want to use, review the service and its terms, then check each transaction request before signing.
 
 ## Hyperliquid: perpetual futures
 
@@ -16,7 +16,7 @@ Purchase gift cards and eSIMs for thousands of brands using your crypto, via the
 
 ## Web3 browser
 
-The app includes a built-in Web3 browser for using any dApp with your wallet. Highlighted apps include Hyperliquid, Polymarket, AAVE, Kamino, Morpho, CoW Swap, Uniswap, Spark, Compound, Pump.fun, and Pendle, alongside your own history and favorites.
+The app includes a Web3 browser for connecting your wallet to supported applications. Highlighted apps include Hyperliquid, Polymarket, AAVE, Kamino, Morpho, CoW Swap, Uniswap, Spark, Compound, Pump.fun, and Pendle, alongside your own history and favorites.
 
 ## FAQ
 
@@ -24,4 +24,4 @@ The app includes a built-in Web3 browser for using any dApp with your wallet. Hi
 You interact with these services from your own wallet. Each integration has its own mechanics; positions on third-party protocols (for example Hyperliquid or Polymarket) are governed by those protocols.
 
 **Do integrations cost extra?**
-DeGate's fee schedule is on the [Fees](../fees.md) page. Third-party services apply their own pricing.
+See [Fees](../fees.md) for DeGate platform charges. Third-party services apply their own pricing.

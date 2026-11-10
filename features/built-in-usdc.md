@@ -1,15 +1,15 @@
 # Built-in USDC
 
-DeGate makes USDC mobile across networks: hold it on any supported chain, move it between chains in one click at a 1:1 rate with zero fees, and use USDC on one chain to buy tokens on another.
+Use Built-in USDC to transfer USDC between supported networks within the app. You can also use USDC on one network to buy a token or fund an eligible DeFi position on another.
 
-* **Native in-app bridging.** Transfer USDC across chains directly within the app. There is no need for external browsers or third-party bridges, which keeps the flow faster and reduces exposure to phishing.
-* **Seamless USDC mobility.** The concept of "bridging" is made invisible. You can send USDC across any supported network in one click, use your USDC on one chain to buy a token on a different chain, and deposit USDC into [Turbo Range](turbo-range.md) or [Simple Earn](simple-earn.md) from any network.
-* **Security and efficiency.** Every transfer is processed within DeGate's protocol, reducing steps to save on gas and minimize transaction time.
+* **Transfer USDC across chains.** Choose an available USDC transfer route in the app. Routing is included, so you do not need to open a separate bridge interface.
+* **Fund a swap or position.** On supported routes, your USDC is sent to the network used by the swap, pool, or vault. Funding a position from one chain does not mean the pool is on that chain. New stock LP positions in [Turbo Range](turbo-range.md) currently use Ondo stock/USDC pools on Ethereum. Check the selected product and network before confirming.
+* **Review costs before sending.** Supported USDC cross-chain transfers have no DeGate platform fee. Network fees still apply; review the quote and expected receipt before signing.
 
 ## FAQ
 
 **Which networks can I move USDC between?**
-Any of DeGate's supported networks; the list is in [What is DeGate](../README.md#supported-networks).
+Check the USDC transfer screen for available source and destination networks. The [supported-network list](../README.md#supported-networks) covers the wallet as a whole; a USDC transfer route may cover fewer networks.
 
 **What does a cross-chain USDC transfer cost?**
-USDC bridging between supported chains is free and 1:1, as of July 2026. See [Fees](../fees.md).
+As of July 2026, supported same-asset USDC bridging is a 1:1 transfer with no DeGate platform fee. Network costs are separate. This does not set a 1:1 exchange rate between USDC and another asset. See [Fees](../fees.md).
