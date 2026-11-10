@@ -10,7 +10,7 @@ Use the iOS or Android app for transactions. Download it here:
 
 ## 2. Create your wallet
 
-Create a new wallet with a 12-word recovery phrase (**Create Wallet**), import or connect one you already have (**Import Wallet** / **Connect External Wallet**), or choose **Continue with Email**. We do not recommend keeping large balances in an email wallet. For higher-value assets, use a recovery phrase wallet or a supported hardware wallet and keep its backup securely. Full walkthrough: [Create a Wallet](create-a-wallet.md).
+Create a new wallet with a 12-word recovery phrase (**Create wallet**), import or connect one you already have (**Import wallet** / **Connect external wallet**), or choose **Continue with email**. We do not recommend keeping large balances in an email wallet. For higher-value assets, use a recovery phrase wallet or a supported hardware wallet and keep its backup securely. Full walkthrough: [Create a Wallet](create-a-wallet.md).
 
 ## 3. Fund your wallet
 

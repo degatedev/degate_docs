@@ -2,11 +2,13 @@
 
 Use Stocks or Trade in the DeGate mobile app to find and trade supported stock and ETF tokens. The token list includes two issuer families: **Ondo onchain assets** (tickers ending in "on", like TSLAon) and **xStocks** (tickers ending in "x", like TSLAx), together covering individual US equities (Tesla, Nvidia, Apple, Microsoft and more) and index ETFs (S&P 500, Nasdaq 100). **Trade** also provides quotes for **Coinbase Tokenized Stocks on Base** and **Robinhood Stock Tokens on Robinhood Chain**. Select the exact token and amount to request a quote. Execution depends on an available route and quote. Ordinary stock-token swaps have a 0.02% DeGate platform fee, as of August 2026.
 
-Browse the full list at [app.degate.com/stocks](https://app.degate.com/stocks).
+Browse the [stock token list](https://degate.com/en/stocks).
 
 ## Ondo onchain assets
 
 Ondo Global Markets issues tokens that track listed US stocks and ETFs; in the app these carry the "on" ticker suffix (TSLAon for Tesla). The underlying shares are held through regulated intermediaries (Alpaca Securities for the shares, BitGo Bank & Trust for cash and stablecoins) in a bankruptcy-remote issuer structure. Dividends are reflected through total-return pricing: value accrues into the token's price via a multiplier rather than being paid out as cash.
+
+For an eligible Ondo order, a solver partner integrated with DeGate can send a Request for Quote (RFQ) through **Ondo's official API** when that route is available. The quote refers to the price and available liquidity of the corresponding stock in the traditional US market, so the order does not have to rely solely on one on-chain pool. Quote availability and executable amounts depend on the asset, market session, and order size. See [How to check a tokenized-stock quote](https://degate.com/guides/stocks/how-to-check-a-tokenized-stock-quote-before-you-buy/) for the distinction between a display price and a trade quote.
 
 ## xStocks (Backed Finance)
 

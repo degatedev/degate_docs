@@ -12,7 +12,7 @@ You authorize transactions from the wallet you selected. The key handling and re
 
 ### Mnemonic wallets (created or imported)
 
-**Create Wallet** generates a random 12-word BIP39 recovery phrase locally on your device; **Import Wallet** accepts an existing 12-word phrase. Per-chain private keys are derived from the phrase using BIP44, the standard framework for hierarchical deterministic wallets. To restore the same addresses in another wallet application, it must support the recovery phrase, network, derivation path, and account settings used for that address. BIP39/BIP44 support alone does not guarantee that an application will display the same account. Check the restored address before receiving or sending assets.
+**Create wallet** generates a random 12-word BIP39 recovery phrase locally on your device; **Import wallet** accepts an existing 12-word phrase. Per-chain private keys are derived from the phrase using BIP44, the standard framework for hierarchical deterministic wallets. To restore the same addresses in another wallet application, it must support the recovery phrase, network, derivation path, and account settings used for that address. BIP39/BIP44 support alone does not guarantee that an application will display the same account. Check the restored address before receiving or sending assets.
 
 ### Hardware wallets
 

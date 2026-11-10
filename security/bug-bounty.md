@@ -6,7 +6,7 @@ Report security issues in the live web and mobile apps through the bug bounty pr
 
 The bounty covers these live applications:
 
-* The web app ([app.degate.com](https://app.degate.com/))
+* The web app
 * The iOS and Android apps
 
 The most useful reports show an issue reproduced against the current production release, with a clear description of what a real user or DeGate could lose. We assess rewards based on demonstrated impact in the live product.

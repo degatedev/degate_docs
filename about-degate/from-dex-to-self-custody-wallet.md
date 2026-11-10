@@ -21,7 +21,7 @@ This table describes our products at each date, including the asset classes avai
 | June 2025 | The standalone DEX is sunset; DeGate commits fully to the self-custody wallet. Chain coverage expands and Simple Earn launches |
 | July 2025 | On-chain stocks launch: tokenized equities, swappable 24/7 and settled in USDC |
 | October 2025 | Turbo Range launches: one-click concentrated liquidity across crypto, stocks, index ETFs, and gold |
-| March 2026 | Network coverage reaches 16 mainnets, plus the then-supported MegaETH testnet |
+| March 2026 | Network coverage reaches 16 mainnets |
 | September 2026 | Robinhood Chain support expands mainnet coverage to 17 blockchains |
 
 We no longer offer the earlier DEX's order books, grid trading, or L2 deposits.

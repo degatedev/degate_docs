@@ -7,9 +7,10 @@ Use the official websites, app downloads, and community accounts listed below. C
 | Purpose | URL |
 | --- | --- |
 | Main site | [degate.com](https://degate.com) |
-| Web app (transactions unavailable; use the mobile app) | [app.degate.com](https://app.degate.com) |
-| Stock token list | [app.degate.com/stocks](https://app.degate.com/stocks) |
+| Stock token list | [degate.com/en/stocks](https://degate.com/en/stocks) |
 | Documentation | [docs.degate.com](https://docs.degate.com) |
+| Help Center (FAQ) | [degate.com/en/faq](https://degate.com/en/faq) |
+| Guides | [degate.com/guides](https://degate.com/guides/) |
 | App downloads | [download.degate.com](https://download.degate.com) |
 | Reference library | [degate.com/playbook](https://degate.com/playbook/) |
 

@@ -1,12 +1,12 @@
 # What is DeGate
 
-DeGate is a self-custody multichain crypto wallet for trading on-chain stocks and managing stock liquidity positions.
+DeGate brings on-chain stock trading and stock liquidity provision (LP) into one self-custody multichain crypto wallet.
 
-Use the **iOS or Android app** to buy and sell supported stock and ETF tokens, open stock liquidity provision (LP) positions through **Turbo Range**, claim fees, and close positions. The app also supports token swaps, cross-chain transfers, and other DeFi services.
+Use the **iOS or Android app** to buy and sell supported stock and ETF tokens, open and manage stock LP positions through **Turbo Range**, claim fees, and close positions. The app also supports token swaps, cross-chain transfers, and other DeFi services.
 
 ## What you can do with DeGate
 
-* **Trade on-chain stocks and ETFs.** Find Coinbase Tokenized Stocks on Base and Robinhood Stock Tokens on Robinhood Chain in **Trade**. Select the token and amount, then review the live quote before confirming. See [On-Chain Stocks](features/on-chain-stocks.md).
+* **Trade on-chain stocks and ETFs.** Find Ondo stock tokens and xStocks in **Stocks**, or request quotes for Coinbase Tokenized Stocks on Base and Robinhood Stock Tokens on Robinhood Chain in **Trade**. Select the token and amount, then review the live quote before confirming. See [On-Chain Stocks](features/on-chain-stocks.md).
 * **Open and manage stock LP positions.** Select an available Ondo stock/USDC pool on Ethereum in [Turbo Range](features/turbo-range.md). Open with USDC alone or both pool assets, review the position in **My Positions**, claim fees, or close it.
 * **Swap and move assets across chains.** Use [Cross-chain Swap](features/cross-chain-swap.md) to trade through available routes, or [Built-in USDC](features/built-in-usdc.md) to transfer USDC between supported networks.
 * **Manage wallets and assets.** Create or import a recovery phrase wallet, connect a supported hardware or external wallet, or continue with email. View balances, send and receive assets, and check transaction records.

@@ -14,7 +14,7 @@ No. The earlier order book DEX closed in June 2025. The current product is a sel
 DeGate supports **16+ mainnet blockchains**, including Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and Robinhood Chain. More: [Supported networks](../README.md#supported-networks).
 
 **Is there a desktop or web version?**
-The web app at [app.degate.com](https://app.degate.com) does not support transactions. Use the **iOS or Android mobile app** for swaps, transfers, and Turbo Range position actions.
+The web app does not support transactions. Use the **iOS or Android mobile app** for swaps, transfers, and Turbo Range position actions.
 
 **What languages does the app support?**
 The app supports 13 languages, including English, Deutsch, Français, Español, Italiano, 日本語, 한국어, and Chinese (simplified and traditional). The interface follows your device language settings.
@@ -31,7 +31,7 @@ Ordinary swaps have two platform fee tiers, based on the token traded against US
 Card purchases are not currently available in DeGate. Fund your wallet by depositing crypto from any supported chain; see [Quickstart](../getting-started/quickstart.md).
 
 **Does using DeGate require identity verification?**
-You can create a recovery phrase wallet without uploading identity documents or completing exchange-style identity verification. Email sign-in has its own setup, including email verification and a DeGate password. Third-party services may have separate identity and regional requirements; see [Create a Wallet](../getting-started/create-a-wallet.md).
+No. DeGate does not require identity verification to create or use a wallet.
 
 ## Troubleshooting
 
