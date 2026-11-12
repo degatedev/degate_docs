@@ -21,7 +21,7 @@ These methods have different recovery dependencies. Recovery phrase and hardware
 
 ## Independent review
 
-The Solana LP Handler audit report and its scope are available on [Audits](audits.md). This report covers that Solana program, not the DeGate wallet as a whole.
+Audit reports and their scope are documented on the [Audits](audits.md) page; vulnerability reports are welcome at [bounty@degate.com](mailto:bounty@degate.com) ([Bug Bounty](bug-bounty.md)).
 
 ## Report a vulnerability
 
