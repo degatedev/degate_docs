@@ -5,10 +5,10 @@ The Action Wallet is an operating wallet derived from **your hardware wallet.** 
 The Action Wallet keeps a small balance for network fees and handles the tokens or position NFT needed for the operation.
 
 {% hint style="info" %}
-Your hardware wallet never signs DeFi contract calls or token approvals.
+_Your hardware wallet never signs DeFi contract calls or token approvals._
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/action-wallet-setup-details-preview (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/action-wallet-setup-details-preview (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Why use an Action Wallet?&#x20;
 

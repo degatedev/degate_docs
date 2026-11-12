@@ -28,7 +28,9 @@
 ## Security & Self-Custody
 
 * [Security Overview](security/security-overview.md)
-* [Action Wallet](security-and-self-custody/security-overview-1.md)
+* [Action Wallet](security-and-self-custody/security-overview-1/README.md)
+  * [How It Works](security-and-self-custody/security-overview-1/how-it-works.md)
+  * [Misc/FAQ](security-and-self-custody/security-overview-1/misc-faq.md)
 * [Wallet Addresses & Networks](security/wallet-address-and-networks.md)
 * [Audits](security/audits.md)
 * [Bug Bounty](security/bug-bounty.md)
