@@ -2,7 +2,7 @@
 
 Use Simple Earn to deposit USDC or SOL into available DeFi vaults. There is no DeGate deposit, withdrawal, or performance fee. The vault protocol determines how deposits are used and how returns are generated.
 
-* **Underlying protocols.** Available vaults use Morpho on Ethereum and Kamino on Solana. The live vault list is in the app.
+* **Established underlying protocols.** Vaults connect to Morpho (on Ethereum) and Kamino (on Solana), both established, audited DeFi lending and yield protocols. The live vault list is in the app.
 * **Cross-chain deposits.** On supported routes, your USDC is sent to the selected vault's network. Check the destination and quote before depositing. On Solana you can also deposit SOL (via the Kamino Jito Market).
 * **Position management.** View deposits and available actions in the app. Review the current value, estimated yield, and withdrawal conditions for the vault you select.
 

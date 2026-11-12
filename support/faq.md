@@ -49,5 +49,8 @@ Deposits can take a few minutes depending on the blockchain's confirmation time.
 **Who holds my keys?**
 Key handling and recovery depend on the wallet type. Recovery phrase and hardware wallets differ from email and external-wallet / web-sync accounts. See [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md) before choosing a backup method.
 
+**Has DeGate been audited?**
+The Solana LP Handler was audited by Adevar Labs in March 2026. More: [Audits](../security/audits.md).
+
 **How do I verify I am on the real DeGate?**
 Check every link against [Official Links](../about-degate/official-links.md).

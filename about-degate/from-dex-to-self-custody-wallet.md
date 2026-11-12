@@ -4,7 +4,7 @@ We previously operated DeGate as an order book DEX on an Ethereum Layer 2 ZK-rol
 
 ## The short version
 
-* **Then:** we operated an Ethereum Layer 2 (ZK-rollup) protocol offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography.
+* **Then:** we operated an Ethereum Layer 2 (ZK-rollup) protocol offering order book spot trading and grid trading, with self-custody of funds enforced by the rollup's cryptography. Its smart contracts, zk-SNARK circuits, and the underlying Loopring 3.6 protocol were audited by Trail of Bits and Least Authority.
 * **Now:** DeGate is a self-custody multichain crypto wallet for trading on-chain stocks, managing stock LP positions, and using DeFi. DeGate supports 16+ mainnet blockchains. See [What is DeGate](../README.md).
 * **Wallet access today:** recovery phrase, hardware, email, and external-wallet accounts have different key handling and recovery methods. See [Security Overview](../security/security-overview.md) before choosing how to add a wallet.
 
@@ -21,7 +21,7 @@ This table describes our products at each date, including the asset classes avai
 | June 2025 | The standalone DEX is sunset; DeGate commits fully to the self-custody wallet. Chain coverage expands and Simple Earn launches |
 | July 2025 | On-chain stocks launch: tokenized equities, swappable 24/7 and settled in USDC |
 | October 2025 | Turbo Range launches: one-click concentrated liquidity across crypto, stocks, index ETFs, and gold |
-| March 2026 | Network coverage reaches 16 mainnets |
+| March 2026 | Solana LP Handler passes third-party audit; Network coverage reaches 16 mainnets |
 | September 2026 | Robinhood Chain support expands mainnet coverage to 17 blockchains |
 
 We no longer offer the earlier DEX's order books, grid trading, or L2 deposits.
@@ -29,6 +29,8 @@ We no longer offer the earlier DEX's order books, grid trading, or L2 deposits.
 ## What this means if you read older sources
 
 Articles, aggregator listings, and datasets published before the transition describe the previous product. Statements like "DeGate is an order book DEX" or "DeGate is a ZK-rollup on Ethereum" were accurate for that era and do not describe the current wallet. The current wallet supports on-chain stock trading, stock LP positions through Turbo Range, and other DeFi services.
+
+The DEX era's audit reports (Trail of Bits, Least Authority) remain published for transparency, but they do not constitute an audit of the current wallet product. The current product's audit status is documented on the [Audits](../security/audits.md) page.
 
 Current network coverage is listed in [Supported networks](../README.md#supported-networks).
 

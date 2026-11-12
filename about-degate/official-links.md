@@ -29,6 +29,14 @@ Use the official websites, app downloads, and community accounts listed below. C
 | X (Twitter) | [@DeGateWallet](https://x.com/DeGateWallet) |
 | Telegram | [t.me/degate\_public](https://t.me/degate_public) |
 
+## Code & audits
+
+| Resource | Link |
+| --- | --- |
+| GitHub organization | [github.com/degatedev](https://github.com/degatedev) |
+| Solana LP Handler (audited) | [github.com/degatedev/solana\_lp\_handler](https://github.com/degatedev/solana_lp_handler) |
+| Audit reports | [Audits](../security/audits.md) |
+
 ## Security contact
 
 Send vulnerability reports to us at [bounty@degate.com](mailto:bounty@degate.com). See [Bug Bounty](../security/bug-bounty.md).

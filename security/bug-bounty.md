@@ -1,6 +1,6 @@
 # Bug Bounty
 
-Report security issues in the live web and mobile apps through the bug bounty program: vulnerability reports go to [bounty@degate.com](mailto:bounty@degate.com). If you find a security issue, report it to us privately so we can investigate before details are published.
+Report security issues in the live web and mobile apps through the bug bounty program: vulnerability reports go to [bounty@degate.com](mailto:bounty@degate.com). If you find a security issue, report it to us privately so we can investigate before details are published. The bounty complements the audit coverage described in [Audits](https://docs.degate.com/security-and-self-custody/audits).
 
 ## What we look for
 
