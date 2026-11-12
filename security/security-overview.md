@@ -19,6 +19,10 @@ Key storage and recovery work as follows:
 
 These methods have different recovery dependencies. Recovery phrase and hardware wallets can work with compatible software outside the app. Email and external-wallet / web-sync recovery currently requires the app. Read [What this means for recovery](wallet-address-and-networks.md#what-this-means-for-recovery) before choosing a method.
 
+## Independent review
+
+The Solana LP Handler audit report and its scope are available on [Audits](audits.md). This report covers that Solana program, not the DeGate wallet as a whole.
+
 ## Report a vulnerability
 
 If you find a security issue, report it to [bounty@degate.com](mailto:bounty@degate.com). See [Bug Bounty](bug-bounty.md) for reporting instructions.

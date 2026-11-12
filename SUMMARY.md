@@ -30,6 +30,7 @@
 * [Security Overview](security/security-overview.md)
 * [Action Wallet](security-and-self-custody/security-overview-1.md)
 * [Wallet Addresses & Networks](security/wallet-address-and-networks.md)
+* [Audits](security/audits.md)
 * [Bug Bounty](security/bug-bounty.md)
 * [Self-Custody FAQ](security/self-custody-faq.md)
 
