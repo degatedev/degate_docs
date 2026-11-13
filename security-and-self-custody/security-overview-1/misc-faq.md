@@ -52,7 +52,7 @@ It pays the network fees for each trade. If it runs low, the app will ask you to
 
 #### **I sent tokens to my Action Wallet by mistake. What now?**
 
-Always use your hardware wallet address to receive funds. If something ended up in your Action Wallet, [contact support](https://docs.degate.com/about-degate/official-links).
+Always use your hardware wallet address to receive funds. If something ended up in your Action Wallet, [contact support](../../support/contact-support.md).
 
 #### **I removed my hardware wallet from the app. Is my money gone?**
 

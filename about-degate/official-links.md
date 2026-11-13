@@ -11,7 +11,7 @@ Use the official websites, app downloads, and community accounts listed below. C
 | Documentation | [docs.degate.com](https://docs.degate.com) |
 | Help Center (FAQ) | [degate.com/en/faq](https://degate.com/en/faq) |
 | Guides | [degate.com/guides](https://degate.com/guides/) |
-| App downloads | [download.degate.com](https://download.degate.com) |
+| App downloads | [iOS and Android](../getting-started/quickstart.md#1-install-the-app) |
 | Reference library | [degate.com/playbook](https://degate.com/playbook/) |
 
 ## Mobile apps
