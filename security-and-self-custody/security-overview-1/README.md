@@ -12,7 +12,7 @@ _Your hardware wallet never signs DeFi contract calls or token approvals._
 
 ### Why use an Action Wallet?&#x20;
 
-Hardware wallets are the safest place to keep crypto, but using them directly with DeFi carries two risks:
+Hardware wallets are the safest place to keep digital assets, but using them directly with DeFi carries two risks:
 
 * **Unlimited token approvals -** DeFi apps often ask permission to spend all of a token. If that app is ever hacked, those funds can be drained, even from a hardware wallet.
 * **Blind signing -** Your hardware wallet can't display complex transactions, so you end up approving something you can't read.
