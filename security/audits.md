@@ -6,7 +6,7 @@
 
 DeGate’s Solana LP Handler has been independently audited by **Adevar Labs**, a boutique blockchain security firm with over 100 audits completed and a track record securing protocols across Solana, Ethereum, and beyond.
 
-The audit covered the full `programs/*` codebase of the Solana LP Handler, a wrapper around Raydium CLMM liquidity management flows that powers DeGate’s [Turbo Range](https://app.slack.com/features/turbo-range.md) product on Solana.
+The audit covered the full `programs/*` codebase of the Solana LP Handler, a wrapper around Raydium CLMM liquidity management flows that powers DeGate’s [Turbo Range](../features/turbo-range.md) product on Solana.
 
 ### What was audited
 
@@ -27,7 +27,7 @@ All High and Medium severity findings were resolved before the first production 
 
 ### Ongoing security review
 
-The Adevar Labs report above covers the Solana LP Handler. The other components of the current wallet (email-wallet key storage, cross-chain routing, Simple Earn integrations, the mobile and web front ends) are reviewed on an ongoing basis by DeGate’s dedicated security team as part of our regular release process, and are covered by the active [bug bounty](https://app.slack.com/security-and-self-custody/bug-bounty.md), which focuses on the live web and mobile apps.
+The Adevar Labs report above covers the Solana LP Handler. The other components of the current wallet (email-wallet key storage, cross-chain routing, Simple Earn integrations, the mobile and web front ends) are reviewed on an ongoing basis by DeGate’s dedicated security team as part of our regular release process, and are covered by the active [bug bounty](bug-bounty.md), which focuses on the live web and mobile apps.
 
 ### Full report
 
