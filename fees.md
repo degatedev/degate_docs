@@ -32,7 +32,7 @@ If you buy a token in Trade before opening a position, or sell returned tokens i
 
 ## Power Pair swaps
 
-As of 19 November 2026, automatic swaps within [Power Pair](features/power-pair.md) have **no DeGate platform swap fee**. Network costs and pool trading fees may still apply. If the selected pool needs to be created, the investment preview may also show a one-time pool creation cost. Separate swaps in Trade follow the ordinary swap rates above.
+As of 19 November 2026, automatic swaps within [Power Pair](features/power-pair.md) have **no DeGate platform swap fee**. Network costs and pool trading fees may still apply. A one-time pool creation cost applies when opening the position creates a new pool. If the matching pool already exists on-chain, there is no pool creation cost. Separate swaps in Trade follow the ordinary swap rates above.
 
 ## Everything else
 

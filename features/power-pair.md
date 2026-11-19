@@ -14,8 +14,8 @@ On the DeGate app’s **Home** screen, find **Power Pair** and tap **View More**
 
 1. In **Power Pair**, tap **Invest Now**. Under **Create Power Pair**, select **Stock A** and **Stock B**, then tap **Next**.
 2. Choose a **Fee tier** and a **Price range**. Check the order of the pair before setting the range. The screen shows which token the price is quoted in.
-3. Under **Your investment**, choose an investment mode and enter the amount. Choose **USDC Only** to fund the position with USDC. In the AAPLon/NVDAon flow, you can also deposit both stock tokens together or either stock token alone. When the flow uses an automatic swap, review the expected deposit amounts. The app may show a minimum or maximum swap amount.
-4. Tap **Create Position**. On **Review Investment**, check the deposit assets, range, and maximum network fee before tapping **Confirm**. If the selected pool doesn’t exist yet, the fee breakdown can include a one-time pool creation cost.
+3. Under **Your investment**, choose an investment mode and enter the amount. For any supported pair, you can deposit both stock tokens together, either stock token on its own, or USDC through **USDC Only**. When the app swaps assets for you, the amount you can swap depends on available liquidity. Review the expected deposit amounts.
+4. Tap **Create Position**. On **Review Investment**, check the deposit assets, range, and maximum network fee before tapping **Confirm**. A one-time pool creation cost applies when opening the position creates a new pool. If the matching pool already exists on-chain, there is no pool creation cost.
 
 Hardware-wallet users can open and manage Power Pair positions through [Action Wallet](../security-and-self-custody/action-wallet/README.md).
 
@@ -29,7 +29,7 @@ Use **Claim** to collect unclaimed yield while keeping the position open. This b
 
 Automatic swaps within Power Pair have no DeGate platform swap fee. Network costs and pool trading fees may still apply.
 
-The pool's fee tier sets the trading fee paid on swaps that use the pool. Your position can earn a share of those fees when swaps use its liquidity. Estimated APR uses the pair's price volatility over the past 30 days and the range you select. It assumes the price ratio stays within your range and future volatility matches the past 30 days. The **Best APR** fee tier is based on a 30-day backtest that uses the period's low and high as the range. Actual fees depend on how much trading uses your liquidity and how long it stays in range. Check the network fee and any pool creation cost separately in the investment preview.
+The pool's fee tier sets the trading fee paid on swaps that use the pool. Your position can earn a share of those fees when swaps use its liquidity. Estimated APR uses the pair's price volatility over the past 30 days and the range you select. It assumes the price ratio stays within your range and future volatility matches the past 30 days. The **Best APR** fee tier is based on a 30-day backtest that uses the period's low and high as the range. Actual fees depend on how much trading uses your liquidity and how long it stays in range. Review the network fee and any pool creation cost in the investment preview.
 
 A position can lose value if either stock token falls in value. As the relative price changes, the position can hold more of one token and less of the other. Outside the range, it generally holds one of the two tokens and stops earning new fees at the current price. The position may be worth less than holding the two tokens separately, even after fees. Providing liquidity also exposes your assets to the pool's smart-contract risk.
 
