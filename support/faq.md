@@ -14,7 +14,7 @@ No. The earlier order book DEX closed in June 2025. The current product is a sel
 DeGate supports **16+ mainnet blockchains**, including Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and Robinhood Chain. More: [Supported networks](../README.md#supported-networks).
 
 **Is there a desktop or web version?**
-The web app does not support transactions. Use the **iOS or Android mobile app** for swaps, transfers, and Turbo Range position actions.
+The DeGate wallet runs on **iOS and Android**. Use the mobile app for swaps, transfers, and Turbo Range position actions. DeGate Web is for [syncing existing web accounts](../getting-started/create-a-wallet.md#sync-an-existing-degate-web-account).
 
 **What languages does the app support?**
 The app supports 13 languages, including English, Deutsch, Français, Español, Italiano, 日本語, 한국어, and Chinese (simplified and traditional). The interface follows your device language settings.
@@ -47,7 +47,7 @@ Deposits can take a few minutes depending on the blockchain's confirmation time.
 ## Trust
 
 **Who holds my keys?**
-Key handling and recovery depend on the wallet type. Recovery phrase and hardware wallets differ from email and external-wallet / web-sync accounts. See [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md) before choosing a backup method.
+DeGate does not hold the private keys to self-custodial wallets. A recovery phrase wallet keeps its keys on your phone, and a hardware wallet keeps them on the hardware device. Email sign-in uses an email-linked embedded wallet. External-wallet and DeGate Web sync accounts use DeGate addresses derived from the original wallet's signature. See [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md) for details and recovery steps.
 
 **Has DeGate been audited?**
 The Solana LP Handler was audited by Adevar Labs in March 2026. More: [Audits](../security/audits.md).

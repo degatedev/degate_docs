@@ -20,11 +20,17 @@ Your private key stays on the hardware device; DeGate connects to addresses deri
 
 Hardware wallet accounts pay network gas from their own address in the chain's native token, not from your DeGate balance. Keep enough native tokens for the action you want to sign. A current Ethereum stock LP in Turbo Range needs ETH on Ethereum; a send on Base needs ETH on Base. Check an existing position's network before claiming fees or closing it.
 
-### Email, external-wallet, and web-sync wallets
+### Email sign-in
 
-These wallet types don't start from a phrase you write down. Instead, DeGate derives an operating wallet from your existing login (your email-linked embedded wallet, or the external wallet you signed in with), through a signature-based process in the app.
+DeGate derives an operating wallet from the email-linked embedded wallet through a signature-based process in the app.
 
-For an external-wallet or web-sync account, the DeGate-derived addresses are separate from your original external-wallet address. Reconnect the same external wallet account in the DeGate app to restore those addresses and view their balances. If you first restore the external wallet from a backup, select the original account before reconnecting.
+### External wallet connected in the app
+
+DeGate derives a separate set of addresses through a signature from your external wallet. To see the balances at those addresses, reconnect the same external wallet account through **Connect external wallet** in the DeGate app. If you restore the external wallet from a backup first, select the original account before reconnecting.
+
+### DeGate Web sync
+
+If you used DeGate Web, connect the original wallet account on DeGate Web, then sign to generate a QR code. Scan it using **Sync from DeGate Web** in the app. Compare the synced account's DeGate address with the DeGate address you used before. [See the web sync steps](../getting-started/create-a-wallet.md#sync-an-existing-degate-web-account).
 
 ## Supported networks
 
@@ -32,12 +38,13 @@ The current list of supported networks appears in [What is DeGate](../README.md#
 
 ## What this means for recovery
 
-* **Mnemonic wallet:** back up its 12-word recovery phrase. Restore in DeGate, or in wallet software with the same network, derivation path, and account settings, then verify the address. If you created several wallets, back up each phrase separately.
+* **Mnemonic wallet:** [back up its 12-word recovery phrase](self-custody-faq.md#what-do-i-need-to-back-up). Use **Add Wallet → Import wallet** to restore in DeGate, or in wallet software with the same network, derivation path, and account settings, then verify the address. If you created several wallets, back up each phrase separately.
 * **Hardware wallet:** keep the device and the recovery backup created during its setup. Reconnect it to DeGate, or use wallet software that supports the same device, network, and derivation path. Check that the address matches. A pool position may require an interface that supports the underlying protocol.
 * **Email sign-in:** sign in to the DeGate app with the same email address and the six-digit verification code sent to it. Then set up a password or biometric unlock to protect data stored on the new device.
-* **External-wallet / web-sync:** keep access to the original external wallet account and reconnect that account in the DeGate app. Check that the restored DeGate-derived address matches the one you previously used.
+* **External wallet connected in the app:** keep access to the original external wallet account. Reconnect it in the DeGate app and check that the DeGate-derived address matches the one you previously used.
+* **DeGate Web sync:** keep access to the original wallet account you used on DeGate Web. Generate a new QR code on DeGate Web and scan it in the DeGate app. Check that the synced DeGate address matches the one you previously used.
 
-Restoring email and external-wallet / web-sync wallets outside the DeGate app is not currently supported. These methods have different recovery dependencies from a recovery phrase or hardware wallet.
+Email sign-in, external-wallet, and DeGate Web sync accounts require the DeGate app to restore access. These accounts cannot currently be restored in other wallet software.
 
 ### If you lose access to your email
 
