@@ -1,6 +1,6 @@
 # Quickstart
 
-Install the app and add funds to start trading on-chain stocks or opening stock LP positions in Turbo Range. The steps below cover wallet setup and a first trade.
+Install the app, add a wallet, and fund it. You can then make your first trade or open a stock liquidity position in Turbo Range or Power Pair.
 
 ## 1. Install the app
 
@@ -21,12 +21,16 @@ Tap **Receive**, copy your address for the chain you are sending from (or scan t
 
 Open **Trade**, choose a supported stock token or another token, and enter the amount to buy with USDC. Review the quote, expected output, network, and costs before signing. A hardware account needs the relevant native gas token at its own address. Step-by-step guide: [Your First Swap](your-first-swap.md).
 
-To open a stock LP instead, select a pool in [Turbo Range](../features/turbo-range.md). A USDC-only deposit prepares the stock-token side during opening; buying the token first is not required.
+## Open a stock liquidity position
+
+* **Pair one stock token with USDC.** Open [Turbo Range](../features/turbo-range.md) and select a stock/USDC pool. With a USDC-only deposit, the app prepares the stock token during opening.
+* **Pair two stock tokens.** Open [Power Pair](../features/power-pair.md) from **Home → Power Pair → View More** or **Explore → Native Apps → Power Pair**. Tap **Invest Now**, select two supported Ondo stock tokens, and set a range for their relative price. If **USDC Only** is available, the app prepares both pool tokens from USDC.
+
+Review the deposit amounts and network cost before confirming.
 
 ## Where to go next
 
 * Trade supported stock tokens: [On-Chain Stocks](../features/on-chain-stocks.md)
-* Open and manage stock LP positions: [Turbo Range](../features/turbo-range.md)
 * Explore other earning products: [Simple Earn](../features/simple-earn.md)
 * Understand what you pay: [Fees](../fees.md)
 * Choose a wallet and backup method: [Security Overview](../security/security-overview.md)

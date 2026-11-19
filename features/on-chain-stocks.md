@@ -34,7 +34,7 @@ On-chain transfers do not follow stock-exchange opening hours, but a transfer be
 ## FAQ
 
 **What does it cost to trade tokenized stocks on DeGate?**
-Ordinary swaps of Ondo stock tokens and xStocks have a 0.02% DeGate platform fee, as of August 2026. Automatic swaps within Turbo Range have no DeGate platform swap fee, as of 6 November 2026. Network costs and pool trading fees may still apply. See [Fees](../fees.md).
+Ordinary swaps of Ondo stock tokens and xStocks have a 0.02% DeGate platform fee, as of August 2026. Automatic swaps within Turbo Range have no DeGate platform swap fee, as of 6 November 2026. As of 19 November 2026, automatic swaps within Power Pair also have no DeGate platform swap fee. Network costs and pool trading fees may still apply. See [Fees](../fees.md).
 
 **Do I receive dividends?**
 Economically yes, through each issuer's mechanism: xStocks rebase balances, while Ondo reflects dividends in the token price. Neither pays cash to your wallet. Details: [How tokenized stock dividends work](https://degate.com/playbook/tokenized-stock-dividends-mechanisms/).

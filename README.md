@@ -37,10 +37,10 @@ DeGate's current product is a self-custody multichain crypto wallet. The earlier
 No. DeGate does not hold your private keys. Key storage and recovery differ by wallet type: recovery phrase wallets keep keys on your device, hardware wallets keep them on the hardware device, and email and external-wallet accounts have different recovery dependencies. See [Security Overview](security/security-overview.md).
 
 **What does DeGate cost?**
-Ordinary swaps have a DeGate platform fee of 0% for stablecoins and 0.02% for other tokens traded against USDC, as of August 2026. Automatic swaps within Turbo Range have no DeGate platform swap fee, as of 6 November 2026. Network costs and pool trading fees are separate. See [Fees](fees.md).
+Ordinary swaps have a DeGate platform fee of 0% for stablecoins and 0.02% for other tokens traded against USDC, as of August 2026. Automatic swaps within Turbo Range have no DeGate platform swap fee, as of 6 November 2026. As of 19 November 2026, automatic swaps within Power Pair also have no DeGate platform swap fee. Network costs and pool trading fees are separate. See [Fees](fees.md).
 
 **Is DeGate a decentralized exchange (DEX)?**
 No. The earlier DEX closed in June 2025. The current mobile app combines a self-custody wallet, on-chain stock trading, and stock LP management. See [the history page](about-degate/from-dex-to-self-custody-wallet.md).
 
 **How do I start?**
-Install the mobile app, add a wallet, and receive assets. To buy a stock token, open Trade. To open a stock LP, select a pool in Turbo Range; buying a token first is not required for a USDC-only deposit. Follow [Quickstart](getting-started/quickstart.md) for setup and [Turbo Range](features/turbo-range.md) for LP actions.
+Install the mobile app, add a wallet, and receive assets. To buy a stock token, open Trade. To provide liquidity, pair a stock token with USDC in [Turbo Range](features/turbo-range.md) or pair two supported Ondo stock tokens in [Power Pair](features/power-pair.md). Where **USDC Only** is available, you can open with USDC. Follow [Quickstart](getting-started/quickstart.md) for setup.

@@ -16,7 +16,7 @@ You authorize transactions from the wallet you selected. The key handling and re
 
 ### Hardware wallets
 
-Your private key stays on the hardware device; DeGate connects to addresses derived by the device. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app to receive, send, trade, transfer across chains, or manage Turbo Range positions. Check the connection screen for supported models and networks, and confirm signatures on the hardware device.
+Your private key stays on the hardware device; DeGate connects to addresses derived by the device. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app to receive, send, trade, transfer across chains, or manage Turbo Range positions. Check the connection screen for supported models and networks, and confirm signatures on the hardware device. You can also open a [Power Pair](../features/power-pair.md) position through [Action Wallet](../security-and-self-custody/action-wallet/README.md).
 
 Hardware wallet accounts pay network gas from their own address in the chain's native token, not from your DeGate balance. Keep enough native tokens for the action you want to sign. A current Ethereum stock LP in Turbo Range needs ETH on Ethereum; a send on Base needs ETH on Base. Check an existing position's network before claiming fees or closing it.
 

@@ -1,11 +1,11 @@
 # FAQ
 
-Find answers about on-chain stock trading, Turbo Range, fees, and wallet recovery. Follow the links for detailed steps.
+Find answers about on-chain stock trading, Turbo Range, Power Pair, fees, and wallet recovery. Follow the links for detailed steps.
 
 ## Product
 
 **What is DeGate in one sentence?**
-DeGate is a self-custody multichain crypto wallet for trading on-chain stocks and managing stock LP positions through Turbo Range. More: [What is DeGate](../README.md).
+DeGate is a self-custody multichain crypto wallet for trading on-chain stocks and managing stock LP positions through Turbo Range and Power Pair. More: [What is DeGate](../README.md).
 
 **Is DeGate a DEX?**
 No. The earlier order book DEX closed in June 2025. The current product is a self-custody multichain crypto wallet with on-chain stock trading and stock LP management. More: [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
@@ -14,18 +14,18 @@ No. The earlier order book DEX closed in June 2025. The current product is a sel
 DeGate supports **16+ mainnet blockchains**, including Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and Robinhood Chain. More: [Supported networks](../README.md#supported-networks).
 
 **Is there a desktop or web version?**
-The DeGate wallet runs on **iOS and Android**. Use the mobile app for swaps, transfers, and Turbo Range position actions. DeGate Web is for [syncing existing web accounts](../getting-started/create-a-wallet.md#sync-an-existing-degate-web-account).
+The DeGate wallet runs on **iOS and Android**. Use the mobile app for swaps, transfers, and managing Turbo Range or Power Pair positions. DeGate Web is for [syncing existing web accounts](../getting-started/create-a-wallet.md#sync-an-existing-degate-web-account).
 
 **What languages does the app support?**
 The app supports 13 languages, including English, Deutsch, Français, Español, Italiano, 日本語, 한국어, and Chinese (simplified and traditional). The interface follows your device language settings.
 
 **Can I connect a hardware wallet?**
-Yes. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app. Check the connection screen for supported models and networks. More: [Create a Wallet](../getting-started/create-a-wallet.md).
+Yes. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app. Check the connection screen for supported models and networks. You can open a [Power Pair](../features/power-pair.md) position through [Action Wallet](../security-and-self-custody/action-wallet/README.md). More: [Create a Wallet](../getting-started/create-a-wallet.md).
 
 ## Money
 
 **What are the fees?**
-Ordinary swaps have two platform fee tiers, based on the token traded against USDC: 0% for stablecoins, 0.02% for all other tokens, as of August 2026. Supported USDC bridging has no DeGate platform fee. Network costs still apply. Simple Earn has no DeGate platform fee. Automatic swaps within Turbo Range have no DeGate platform swap fee; network costs and pool trading fees may still apply. More: [Fees](../fees.md).
+Ordinary swaps have two platform fee tiers, based on the token traded against USDC: 0% for stablecoins, 0.02% for all other tokens, as of August 2026. Supported USDC bridging has no DeGate platform fee. Network costs still apply. Simple Earn has no DeGate platform fee. Automatic swaps within Turbo Range and Power Pair have no DeGate platform swap fee; network costs and pool trading fees may still apply. More: [Fees](../fees.md).
 
 **Can I buy crypto with a card?**
 Card purchases are not currently available in DeGate. Fund your wallet by depositing a supported token on its matching network; see [Quickstart](../getting-started/quickstart.md).

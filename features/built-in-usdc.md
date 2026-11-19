@@ -3,7 +3,7 @@
 Use Built-in USDC to transfer USDC between supported networks within the app. You can also use USDC on one network to buy a token or fund an eligible DeFi position on another.
 
 * **Transfer USDC across chains.** Choose an available USDC transfer route in the app. Routing is included, so you do not need to open a separate bridge interface.
-* **Fund a swap or position.** On supported routes, your USDC is sent to the network used by the swap, pool, or vault. Funding a position from one chain does not mean the pool is on that chain. New stock LP positions in [Turbo Range](turbo-range.md) currently use Ondo stock/USDC pools on Ethereum. Check the selected product and network before confirming.
+* **Fund a swap or position.** On supported routes, your USDC is sent to the network used by the swap, pool, or vault. Funding a position from one chain does not mean the pool is on that chain. New stock LP positions in [Turbo Range](turbo-range.md) currently use Ondo stock/USDC pools on Ethereum. In [Power Pair](power-pair.md), **USDC Only** can fund a two-stock position where that investment mode is available. Check the funding network and the pool network before confirming.
 * **Review costs before sending.** Supported USDC cross-chain transfers have no DeGate platform fee. Network fees still apply; review the quote and expected receipt before signing.
 
 ## FAQ

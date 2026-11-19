@@ -10,12 +10,12 @@ Two examples:
 There is no subscription fee. Review the platform fee, network cost, and expected output on the confirmation screen before signing.
 
 {% hint style="info" %}
-**Ordinary swaps: 0% DeGate platform fee for stablecoins; 0.02% for other tokens, including stock tokens. Automatic swaps within Turbo Range: 0% DeGate platform swap fee. Network costs and pool trading fees may still apply.**
+**Ordinary swaps: 0% DeGate platform fee for stablecoins; 0.02% for other tokens, including stock tokens. Automatic swaps within Turbo Range and Power Pair: 0% DeGate platform swap fee. Network costs and pool trading fees may still apply.**
 {% endhint %}
 
 ## Swap fees
 
-These tiers apply to ordinary swaps in Trade. For automatic swaps within Turbo Range, see [Turbo Range swaps](#turbo-range-swaps).
+These tiers apply to ordinary swaps in Trade. For automatic swaps when managing a position, see [Turbo Range swaps](#turbo-range-swaps) and [Power Pair swaps](#power-pair-swaps).
 
 | Tier | Fee | What it covers |
 | --- | --- | --- |
@@ -29,6 +29,10 @@ The exact fee for any token is shown in the swap quote before you confirm. If a 
 As of 6 November 2026, automatic swaps within Turbo Range have **no DeGate platform swap fee**, including those that prepare the pool assets when you open or increase a position. The ordinary 0.02% rate does not apply to these swaps. Network costs and any pool trading fees are separate; review the expected output and network cost before signing.
 
 If you buy a token in Trade before opening a position, or sell returned tokens in Trade after closing, that is an ordinary swap and follows the rates above.
+
+## Power Pair swaps
+
+As of 19 November 2026, automatic swaps within [Power Pair](features/power-pair.md) have **no DeGate platform swap fee**. Network costs and pool trading fees may still apply. If the selected pool needs to be created, the investment preview may also show a one-time pool creation cost. Separate swaps in Trade follow the ordinary swap rates above.
 
 ## Everything else
 
@@ -46,7 +50,7 @@ The stablecoin fee tier includes these fiat-pegged tokens: USDC, USDT, PYUSD, US
 The fee and the exchange rate are two different things. A 0% platform fee means no DeGate swap fee is added; it does not set the rate. USDC and USDT are separate assets with their own market prices, so a swap between them executes at the current market rate on the route, which is typically close to, but not exactly, 1:1. The quote shows the exact amount you will receive before you confirm. Moving USDC between supported chains is a same-asset transfer, described as 1:1 with no DeGate platform fee. Network costs are separate.
 
 **What do xStocks and Ondo assets cost to swap?**
-For ordinary swaps, 0.02%, as of August 2026. Automatic swaps within Turbo Range have no DeGate platform swap fee, as of 6 November 2026. One boundary note: the tier follows the token classification, not the issuer. Ondo's USDY, a dollar-denominated yield token, sits in the stablecoin tier and swaps at 0%, while ordinary swaps of Ondo's onchain stocks and ETFs have a 0.02% platform fee.
+For ordinary swaps, 0.02%, as of August 2026. Automatic swaps within Turbo Range have no DeGate platform swap fee, as of 6 November 2026. As of 19 November 2026, automatic swaps within Power Pair also have no DeGate platform swap fee. One boundary note: the tier follows the token classification, not the issuer. Ondo's USDY, a dollar-denominated yield token, sits in the stablecoin tier and swaps at 0%, while ordinary swaps of Ondo's onchain stocks and ETFs have a 0.02% platform fee.
 
 **Who pays gas?**
 You pay the network cost. For non-hardware accounts, eligible assets in the wallet can fund the gas needed for supported actions. Check the network cost before signing. Gas is funded from commonly held tokens in your balance, such as USDC, USDT, or major native coins (some native tokens, such as BTC, cannot fund gas on other chains; they still pay network fees on their own chain). Your balance does need enough to cover the network fees of a transaction.
