@@ -24,7 +24,7 @@ Open **Trade**, choose a supported stock token or another token, and enter the a
 ## Open a stock liquidity position
 
 * **Pair one stock token with USDC.** Open [Turbo Range](../features/turbo-range.md) and select a stock/USDC pool. You can deposit the stock token and USDC together or start with USDC alone. If you start with USDC alone, the app automatically swaps part of it for the stock token when you open the position.
-* **Pair two stock tokens.** Open [Power Pair](../features/power-pair.md) from **Home → Power Pair → View More** or **Explore → Native Apps → Power Pair**. Tap **Invest Now**, select two supported Ondo stock tokens, and set a range for their relative price. If **USDC Only** is available, the app prepares both pool tokens from USDC.
+* **Pair two stock tokens.** Open [Power Pair](../features/power-pair.md) from **Home → Power Pair → View More** or **Explore → Native Apps → Power Pair**. Tap **Invest Now**, select two supported Ondo stock tokens, and set a range for their relative price. To open with USDC, select **USDC Only**. The app swaps USDC into the two stock tokens needed for the position.
 
 Review the deposit amounts and network cost before confirming.
 

@@ -43,4 +43,4 @@ Ordinary swaps have a DeGate platform fee of 0% for stablecoins and 0.02% for ot
 No. The earlier DEX closed in June 2025. The current mobile app combines a self-custody wallet, on-chain stock trading, and stock LP management. See [the history page](about-degate/from-dex-to-self-custody-wallet.md).
 
 **How do I start?**
-Install the mobile app, add a wallet, and receive assets. To buy a stock token, open Trade. To provide liquidity, pair a stock token with USDC in [Turbo Range](features/turbo-range.md) or pair two supported Ondo stock tokens in [Power Pair](features/power-pair.md). Where **USDC Only** is available, you can open with USDC. Follow [Quickstart](getting-started/quickstart.md) for setup.
+Install the mobile app, add a wallet, and receive assets. To buy a stock token, open Trade. To provide liquidity, pair a stock token with USDC in [Turbo Range](features/turbo-range.md) or pair two supported Ondo stock tokens in [Power Pair](features/power-pair.md). You can open either type of position with USDC alone. Follow [Quickstart](getting-started/quickstart.md) for setup.

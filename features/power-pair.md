@@ -14,7 +14,7 @@ On the DeGate app’s **Home** screen, find **Power Pair** and tap **View More**
 
 1. In **Power Pair**, tap **Invest Now**. Under **Create Power Pair**, select **Stock A** and **Stock B**, then tap **Next**.
 2. Choose a **Fee tier** and a **Price range**. Check the order of the pair before setting the range. The screen shows which token the price is quoted in.
-3. Under **Your investment**, choose an investment mode and enter the amount. The AAPLon/NVDAon flow, for example, offers both stock tokens together, either stock token alone, or **USDC Only**. When the flow uses an automatic swap, review the expected deposit amounts. The app may show a minimum or maximum swap amount.
+3. Under **Your investment**, choose an investment mode and enter the amount. Choose **USDC Only** to fund the position with USDC. In the AAPLon/NVDAon flow, you can also deposit both stock tokens together or either stock token alone. When the flow uses an automatic swap, review the expected deposit amounts. The app may show a minimum or maximum swap amount.
 4. Tap **Create Position**. On **Review Investment**, check the deposit assets, range, and maximum network fee before tapping **Confirm**. If the selected pool doesn’t exist yet, the fee breakdown can include a one-time pool creation cost.
 
 Hardware-wallet users can open and manage Power Pair positions through [Action Wallet](../security-and-self-custody/action-wallet/README.md).
@@ -36,7 +36,7 @@ A position can lose value if either stock token falls in value. As the relative 
 ## FAQ
 
 **Do I need to hold both stock tokens before opening a position?**
-You can start with USDC alone when **USDC Only** is available for the pair. Review the automatic swap amounts and estimated network fee before confirming.
+You can start with USDC alone. Select **USDC Only** and review the automatic swap amounts and estimated network fee before confirming.
 
 **How do I collect earnings without closing my position?**
 Open the position in **My Positions** and tap **Claim** when there is yield to collect. The position stays open.
