@@ -4,7 +4,7 @@ Use Trade in the DeGate mobile app to buy a supported token with USDC or sell a 
 
 ## Before you start
 
-Buys on DeGate are paid in USDC, and selling a token settles back into USDC. So you need USDC first, and there are two ways to get it: deposit USDC from any supported chain, or sell a token you already hold (for example, selling TSLAx gives you USDC to buy with; note that a sell still needs network fees covered, so it may not go through if your wallet holds nothing besides that token). Non-hardware accounts can pay network costs for supported actions from eligible asset balances. Hardware accounts need the relevant native token at their own address. See [Quickstart](quickstart.md) if you have not set up yet.
+Buys on DeGate are paid in USDC, and selling a token settles back into USDC. So you need USDC first, and there are two ways to get it: deposit USDC on a network that supports USDC deposits in the app, or sell a token you already hold (for example, selling TSLAx gives you USDC to buy with; note that a sell still needs network fees covered, so it may not go through if your wallet holds nothing besides that token). Non-hardware accounts can pay network costs for supported actions from eligible asset balances. Hardware accounts need the relevant native token at their own address. See [Quickstart](quickstart.md) if you have not set up yet.
 
 ## Steps
 
@@ -14,7 +14,7 @@ Buys on DeGate are paid in USDC, and selling a token settles back into USDC. So 
 4. Review the quote. Check the expected output and price impact before confirming. The displayed amount reflects the DeGate platform swap fee for that token tier (see [Fees](../fees.md)).
 5. Confirm. Same-chain swaps complete in seconds; cross-chain swaps typically take 30 seconds to 2 minutes, and the app shows an estimated completion time before you confirm. You can follow progress in the **Activity** tab.
 
-A quote can change or become unavailable before execution. If a swap fails or stays pending, check its status and transaction record before trying again. Use Feedback in the app if you need us to investigate.
+A quote can change or become unavailable before execution. If a swap fails or stays pending, check its status and transaction record in the app. Before requesting a new quote, confirm that the original action has settled and check whether the payment asset is still available in your wallet or has been returned. Use Feedback in the app if you need us to investigate.
 
 ## What happens in the background
 

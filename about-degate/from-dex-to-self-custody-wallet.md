@@ -19,12 +19,12 @@ This table describes our products at each date, including the asset classes avai
 | February 2024 | DeGate Layer 2 mainnet launch |
 | December 2024 | The wallet-based swap experience launches (initially supporting Solana); DEX and wallet operate in parallel |
 | June 2025 | The standalone DEX is sunset; DeGate commits fully to the self-custody wallet. Chain coverage expands and Simple Earn launches |
-| July 2025 | On-chain stocks launch: tokenized equities, swappable 24/7 and settled in USDC |
+| July 2025 | DeGate launches trading for tokenized equities. |
 | October 2025 | Turbo Range launches: one-click concentrated liquidity across crypto, stocks, index ETFs, and gold |
 | March 2026 | Solana LP Handler passes third-party audit; Network coverage reaches 16 mainnets |
-| September 2026 | Robinhood Chain support expands mainnet coverage to 17 blockchains |
+| September 2026 | Robinhood Chain support expands mainnet coverage |
 
-We no longer offer the earlier DEX's order books, grid trading, or L2 deposits.
+The June 2025 shutdown retired the former DEX’s limit-order trading, Grid Strategy, DCA, and L2 deposits.
 
 ## What this means if you read older sources
 
@@ -39,8 +39,8 @@ Current network coverage is listed in [Supported networks](../README.md#supporte
 **Is the DeGate DEX still operating?**
 No. We closed the L2 order book DEX in June 2025. Our current product is the self-custody multichain crypto wallet we launched in 2024.
 
-**Does DeGate still offer grid trading or order book trading?**
-No. We discontinued those features when we closed the DEX in June 2025. In our current wallet, you can use cross-chain swaps, on-chain stock trading, Turbo Range, and Simple Earn.
+**What happened to the old DEX’s trading features?**
+The former DEX’s order book, limit-order trading, Grid Strategy, and DCA were retired when the DEX closed in June 2025. In our current wallet, you can use cross-chain swaps, on-chain stock trading, Turbo Range, and Simple Earn.
 
 **Are the DEX and the wallet run by the same team?**
 Yes. We developed the wallet as the next product from the same project.

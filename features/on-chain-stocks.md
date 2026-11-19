@@ -1,6 +1,6 @@
 # On-Chain Stocks
 
-Use Stocks or Trade in the DeGate mobile app to find and trade supported stock and ETF tokens. The token list includes two issuer families: **Ondo onchain assets** (tickers ending in "on", like TSLAon) and **xStocks** (tickers ending in "x", like TSLAx), together covering individual US equities (Tesla, Nvidia, Apple, Microsoft and more) and index ETFs (S&P 500, Nasdaq 100). **Trade** also provides quotes for **Coinbase Tokenized Stocks on Base** and **Robinhood Stock Tokens on Robinhood Chain**. Select the exact token and amount to request a quote. Execution depends on an available route and quote. Ordinary stock-token swaps have a 0.02% DeGate platform fee, as of August 2026.
+Use **Stocks** in the DeGate mobile app to find supported stock and ETF tokens from **Ondo onchain assets** (tickers ending in "on", like TSLAon) and **xStocks** (tickers ending in "x", like TSLAx), together covering individual US equities (Tesla, Nvidia, Apple, Microsoft and more) and index ETFs (S&P 500, Nasdaq 100). **Trade** also provides quotes for **Coinbase Tokenized Stocks on Base** and **Robinhood Stock Tokens on Robinhood Chain**. Select the exact token and amount to request a quote. Execution depends on an available route and quote. Ordinary stock-token swaps have a 0.02% DeGate platform fee, as of August 2026.
 
 Browse the [stock token list](https://degate.com/en/stocks).
 
@@ -20,7 +20,7 @@ xStocks are tokenized equities backed 1:1 by the underlying stock through the Ba
 * **Hold tokens in your wallet.** Check the selected wallet, token contract, and network before receiving or trading.
 * **Provide stock liquidity.** In [Turbo Range](turbo-range.md), you can open new positions in available Ondo stock/USDC pools on Ethereum. Earlier xStocks positions remain in **My Positions**; new xStocks LP positions are not currently available.
 
-**To buy:** open **Trade** in the DeGate mobile app, search for the token (for example TSLAon or TSLAx for Tesla), and enter the amount. Review the quote, network, and fees before confirming. Routing is included in the trade flow. Hardware accounts need the relevant native token for network fees.
+**To buy:** find a supported token in **Stocks**, or search for the exact token in **Trade**. Enter the amount to request a quote in **Trade**. Review the quote, network, and fees before confirming. Routing is included in the trade flow. Hardware accounts need the relevant native token for network fees.
 
 ## What tokenized stocks are, and are not
 

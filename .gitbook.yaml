@@ -16,6 +16,10 @@ redirects:
   your-wallet/security: security/security-overview.md
   your-wallet/audit-report: security/audits.md
   security/audits: security/audits.md
+  # Previous Action Wallet paths
+  security-and-self-custody/security-overview-1: security-and-self-custody/action-wallet/README.md
+  security-and-self-custody/security-overview-1/how-it-works: security-and-self-custody/action-wallet/how-it-works.md
+  security-and-self-custody/security-overview-1/misc-faq: security-and-self-custody/action-wallet/misc-faq.md
   # Legacy DEX-era paths still present in search indexes (404 since the rebrand)
   product_en/concepts/protocol-fees: fees.md
   product_en/concepts/keys-and-signatures: security/wallet-address-and-networks.md

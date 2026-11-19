@@ -4,13 +4,13 @@
 
 ### Overview
 
-DeGate’s Solana LP Handler has been independently audited by **Adevar Labs**, a boutique blockchain security firm with over 100 audits completed and a track record securing protocols across Solana, Ethereum, and beyond.
+In March 2026, **Adevar Labs** audited DeGate’s Solana LP Handler, the component used for Turbo Range liquidity management on Solana through Raydium CLMM.
 
-The audit covered the full `programs/*` codebase of the Solana LP Handler, a wrapper around Raydium CLMM liquidity management flows that powers DeGate’s [Turbo Range](../features/turbo-range.md) product on Solana.
+The report covers the Solana LP Handler’s `programs/*` codebase. New stock LP positions in [Turbo Range](../features/turbo-range.md) currently use Ondo stock/USDC pools on Ethereum. Those pools run on the third-party Community V3 protocol, whose Ethereum pool contracts are outside the scope of this Solana audit.
 
 ### What was audited
 
-The Solana LP Handler supports:
+The audited Solana LP Handler covered these flows:
 
 * Position creation and liquidity management (increase/decrease)
 * Token swaps into the required deposit ratio (zap flows)

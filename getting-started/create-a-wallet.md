@@ -17,7 +17,7 @@ Choose one of the six options on the **Add Wallet** screen:
 * **Create wallet:** generate a new wallet with a 12-word recovery phrase, created locally on your device. Write the phrase down and store it offline.
 * **Connect hardware wallet:** connect a Bluetooth-capable OneKey or Ledger model. Check the connection screen for supported models and networks. See the FAQ below.
 * **Import wallet:** bring an existing 12-word recovery phrase.
-* **Continue with email:** add a wallet through email sign-in. Enter your email, confirm the code from your inbox, and set a DeGate password (separate from the password you use to sign in to your email provider).
+* **Continue with email:** add or access a wallet with your email address and the six-digit verification code sent to it. Then choose how to unlock the app on this device, with a password or biometrics. This unlock method protects data stored on the device. On a new device, sign in with the same email address and a new code, then set up the unlock method again.
 * **Sync from DeGate Web:** bring an account you use on the DeGate web app into the mobile app.
 * **Connect external wallet:** sign in with a wallet you already have, via WalletConnect (up to 10 external wallet accounts).
 

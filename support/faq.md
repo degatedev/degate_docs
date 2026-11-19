@@ -25,10 +25,10 @@ Yes. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app
 ## Money
 
 **What are the fees?**
-Ordinary swaps have two platform fee tiers, based on the token traded against USDC: 0% for stablecoins, 0.02% for all other tokens, as of August 2026. Supported USDC bridging and Simple Earn have no DeGate platform fee. Automatic swaps within Turbo Range have no DeGate platform swap fee; network costs and pool trading fees may still apply. More: [Fees](../fees.md).
+Ordinary swaps have two platform fee tiers, based on the token traded against USDC: 0% for stablecoins, 0.02% for all other tokens, as of August 2026. Supported USDC bridging has no DeGate platform fee. Network costs still apply. Simple Earn has no DeGate platform fee. Automatic swaps within Turbo Range have no DeGate platform swap fee; network costs and pool trading fees may still apply. More: [Fees](../fees.md).
 
 **Can I buy crypto with a card?**
-Card purchases are not currently available in DeGate. Fund your wallet by depositing crypto from any supported chain; see [Quickstart](../getting-started/quickstart.md).
+Card purchases are not currently available in DeGate. Fund your wallet by depositing a supported token on its matching network; see [Quickstart](../getting-started/quickstart.md).
 
 **Does using DeGate require identity verification?**
 No. DeGate does not require identity verification to create or use a wallet.
@@ -36,7 +36,7 @@ No. DeGate does not require identity verification to create or use a wallet.
 ## Troubleshooting
 
 **My swap is taking longer than expected.**
-Cross-chain swaps typically complete within 30 seconds to 2 minutes; the app shows an estimated completion time before you confirm. Check the status in the **Activity** tab; network congestion can occasionally cause delays. If it fails or remains pending, check its status and transaction record before trying again. Send us the transaction hash through Feedback if you need help.
+Cross-chain swaps typically complete within 30 seconds to 2 minutes; the app shows an estimated completion time before you confirm. Check the status in the **Activity** tab; network congestion can occasionally cause delays. If it fails or remains pending, check its status and transaction record. Before requesting a new quote, confirm the original action has settled and check the balance of the asset you paid with. Send us the transaction hash through Feedback if you need help.
 
 **My hardware wallet transaction failed for lack of gas.**
 Hardware wallet accounts pay network gas from their own address in the chain's native token, not from your DeGate balance. Add a small amount of that chain's native token (for example, ETH on Base) and retry. Details: [Fees](../fees.md).
