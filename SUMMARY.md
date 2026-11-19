@@ -16,6 +16,7 @@
 
 * [On-Chain Stocks](features/on-chain-stocks.md)
 * [Turbo Range](features/turbo-range.md)
+* [Power Pair](features/power-pair.md)
 * [Cross-chain Swap](features/cross-chain-swap.md)
 * [Simple Earn](features/simple-earn.md)
 * [Built-in USDC](features/built-in-usdc.md)

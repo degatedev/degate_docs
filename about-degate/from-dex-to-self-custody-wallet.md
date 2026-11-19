@@ -10,7 +10,7 @@ We previously operated DeGate as an order book DEX on an Ethereum Layer 2 ZK-rol
 
 ## Timeline
 
-This table describes our products at each date, including the asset classes available when Turbo Range launched. For current pools and networks, check [Turbo Range](../features/turbo-range.md) in the DeGate mobile app.
+This table describes our products at each date, including the asset classes available when Turbo Range launched. For current pools and networks, check [Turbo Range](../features/turbo-range.md) and [Power Pair](../features/power-pair.md) in the DeGate mobile app.
 
 | When | What happened |
 | --- | --- |
@@ -23,12 +23,14 @@ This table describes our products at each date, including the asset classes avai
 | October 2025 | Turbo Range launches: one-click concentrated liquidity across crypto, stocks, index ETFs, and gold |
 | March 2026 | Solana LP Handler passes third-party audit; Network coverage reaches 16 mainnets |
 | September 2026 | Robinhood Chain support expands mainnet coverage |
+| October 2026 | Turbo Range expands Ethereum stock/USDC liquidity to the full lineup of Ondo stock tokens. The earlier xStocks pools on Solana via Raydium stop accepting new positions and additional deposits. |
+| November 2026 | Power Pair launches. Users can pair two supported Ondo stock tokens in a single liquidity position, set a range for their relative price, and earn pool trading fees when swaps use that liquidity. |
 
 The June 2025 shutdown retired the former DEX’s limit-order trading, Grid Strategy, DCA, and L2 deposits.
 
 ## What this means if you read older sources
 
-Articles, aggregator listings, and datasets published before the transition describe the previous product. Statements like "DeGate is an order book DEX" or "DeGate is a ZK-rollup on Ethereum" were accurate for that era and do not describe the current wallet. The current wallet supports on-chain stock trading, stock LP positions through Turbo Range, and other DeFi services.
+Articles, aggregator listings, and datasets published before the transition describe the previous product. Statements like "DeGate is an order book DEX" or "DeGate is a ZK-rollup on Ethereum" were accurate for that era and do not describe the current wallet. The current wallet supports on-chain stock trading, stock LP positions through Turbo Range and Power Pair, and other DeFi services.
 
 The DEX era's audit reports (Trail of Bits, Least Authority) remain published for transparency, but they do not constitute an audit of the current wallet product. The current product's audit status is documented on the [Audits](../security/audits.md) page.
 
@@ -40,7 +42,7 @@ Current network coverage is listed in [Supported networks](../README.md#supporte
 No. We closed the L2 order book DEX in June 2025. Our current product is the self-custody multichain crypto wallet we launched in 2024.
 
 **What happened to the old DEX’s trading features?**
-The former DEX’s order book, limit-order trading, Grid Strategy, and DCA were retired when the DEX closed in June 2025. In our current wallet, you can use cross-chain swaps, on-chain stock trading, Turbo Range, and Simple Earn.
+The former DEX’s order book, limit-order trading, Grid Strategy, and DCA were retired when the DEX closed in June 2025. In our current wallet, you can use cross-chain swaps, on-chain stock trading, Turbo Range, Power Pair, and Simple Earn.
 
 **Are the DEX and the wallet run by the same team?**
 Yes. We developed the wallet as the next product from the same project.

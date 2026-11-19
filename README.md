@@ -2,21 +2,22 @@
 
 DeGate brings on-chain stock trading and stock liquidity provision (LP) into one self-custody multichain crypto wallet.
 
-Use the **iOS or Android app** to buy and sell supported stock and ETF tokens, open and manage stock LP positions through **Turbo Range**, claim fees, and close positions. The app also supports token swaps, cross-chain transfers, and other DeFi services.
+Use the **iOS or Android app** to buy and sell supported stock and ETF tokens, open and manage stock LP positions through **Turbo Range** or **Power Pair**, claim fees, and close positions. The app also supports token swaps, cross-chain transfers, and other DeFi services.
 
 ## What you can do with DeGate
 
 * **Trade on-chain stocks and ETFs.** Find Ondo stock tokens and xStocks in **Stocks**, or request quotes for Coinbase Tokenized Stocks on Base and Robinhood Stock Tokens on Robinhood Chain in **Trade**. Select the token and amount, then review the live quote before confirming. See [On-Chain Stocks](features/on-chain-stocks.md).
-* **Open and manage stock LP positions.** Select an available Ondo stock/USDC pool on Ethereum in [Turbo Range](features/turbo-range.md). Open with USDC alone or both pool assets, review the position in **My Positions**, claim fees, or close it.
+* **Pair a stock token with USDC.** Select an available Ondo stock/USDC pool on Ethereum in [Turbo Range](features/turbo-range.md). Open with USDC alone or both pool assets, review the position in **My Positions**, claim fees, or close it.
+* **Pair two on-chain stocks.** In [Power Pair](features/power-pair.md), choose two supported Ondo stock tokens for one liquidity position. Set a range for their relative price and earn a share of pool trading fees when swaps use your liquidity.
 * **Swap and move assets across chains.** Use [Cross-chain Swap](features/cross-chain-swap.md) to trade through available routes, or [Built-in USDC](features/built-in-usdc.md) to transfer USDC between supported networks.
 * **Manage wallets and assets.** Create or import a recovery phrase wallet, connect a supported hardware or external wallet, or continue with email. View balances, send and receive assets, and check transaction records.
 * **Use other DeFi services.** Deposit into available vaults through [Simple Earn](features/simple-earn.md), or access applications such as Hyperliquid and Polymarket through [Integrations](features/integrations.md) and the in-app browser.
 
 ## How DeGate works
 
-Buying a stock token and opening an LP position are separate actions. A purchase in Trade adds the token to your wallet. Opening a position in Turbo Range deposits assets into third-party pool contracts. The pool's contracts govern the position; Turbo Range provides the interface for opening and managing it.
+Buying a stock token and opening an LP position are separate actions. A purchase in Trade adds the token to your wallet. Opening a position through Turbo Range or Power Pair deposits assets into third-party pool contracts. Those contracts govern the position.
 
-Manage an open position in **My Positions**, where you can claim fees or close it. See [Turbo Range](features/turbo-range.md) for deposit, fee, and exit details.
+Manage an open position in **My Positions**, where you can claim fees or close it. See [Turbo Range](features/turbo-range.md) and [Power Pair](features/power-pair.md) for deposit, fee, and exit details.
 
 Key handling and recovery depend on how you add a wallet. Recovery phrase, hardware, email, and external-wallet accounts have different backup requirements. Read [Security Overview](security/security-overview.md) and [Wallet Addresses & Networks](security/wallet-address-and-networks.md) before adding funds.
 

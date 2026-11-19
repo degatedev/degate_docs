@@ -18,7 +18,8 @@ xStocks are tokenized equities backed 1:1 by the underlying stock through the Ba
 
 * **Trade against USDC.** Ordinary stock-token swaps have a 0.02% DeGate platform fee, as of August 2026. See [Fees](../fees.md).
 * **Hold tokens in your wallet.** Check the selected wallet, token contract, and network before receiving or trading.
-* **Provide stock liquidity.** In [Turbo Range](turbo-range.md), you can open new positions in available Ondo stock/USDC pools on Ethereum. Earlier xStocks positions remain in **My Positions**; new xStocks LP positions are not currently available.
+* **Provide stock liquidity.** In [Turbo Range](turbo-range.md), you can open new positions in available Ondo stock/USDC pools on Ethereum. Earlier xStocks positions remain in **My Positions**; new xStocks LP positions are not currently available in Turbo Range.
+* **Pair two stock tokens.** In [Power Pair](power-pair.md), choose two supported Ondo stock tokens and provide liquidity within a range based on their relative price. You can earn a share of trading fees when swaps use your liquidity.
 
 **To buy:** find a supported token in **Stocks**, or search for the exact token in **Trade**. Enter the amount to request a quote in **Trade**. Review the quote, network, and fees before confirming. Routing is included in the trade flow. Hardware accounts need the relevant native token for network fees.
 

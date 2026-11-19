@@ -4,7 +4,7 @@ Use Turbo Range to open and manage stock liquidity provision (LP) positions. Sel
 
 ## What you can provide liquidity for
 
-Check **Turbo Range in the mobile app** for the current pools, assets, and networks. A token available in Trade may have no Turbo Range pool. New stock LP positions currently use Ondo stock/USDC pools on Ethereum. You can find earlier xStocks positions in **My Positions**. The web app does not support transactions.
+Check **Turbo Range in the mobile app** for the current pools, assets, and networks. A token available in Trade may have no Turbo Range pool. New stock LP positions currently use Ondo stock/USDC pools on Ethereum. You can find earlier xStocks positions in **My Positions**.
 
 ## Where it runs
 
