@@ -26,7 +26,9 @@ DeGate derives an operating wallet from the email-linked embedded wallet through
 
 ### External wallet connected in the app
 
-DeGate derives a separate set of addresses through a signature from your external wallet. To see the balances at those addresses, reconnect the same external wallet account through **Connect external wallet** in the DeGate app. If you restore the external wallet from a backup first, select the original account before reconnecting.
+DeGate uses a signature from your external wallet to derive a separate set of addresses. To check that your wallet signs consistently, the app asks it to sign the same message twice. The app continues only if the signatures match. You sign off-chain, so there’s no gas fee. Signing this message gives no permission to spend your tokens.
+
+To see your DeGate balances again, choose **Connect external wallet** in the app and reconnect the same account. If you restored your external wallet from a backup, select the original account before reconnecting.
 
 ### DeGate Web sync
 

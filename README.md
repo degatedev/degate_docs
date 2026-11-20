@@ -4,6 +4,12 @@ DeGate brings on-chain stock trading and stock liquidity provision (LP) into one
 
 Use the **iOS or Android app** to buy and sell supported stock and ETF tokens, open and manage stock LP positions through **Turbo Range** or **Power Pair**, claim fees, and close positions. The app also supports token swaps, cross-chain transfers, and other DeFi services.
 
+## Built for self-custody
+
+With a self-custodial wallet, you control the keys that authorize transfers. DeGate cannot sign a transfer on your behalf or freeze your wallet address. If you use a recovery phrase wallet, the app encrypts your phrase on your phone. Your recovery phrase and private keys stay on your phone and are never sent to DeGate's servers. If you connect a hardware wallet, the keys stay on the hardware device.
+
+When you use Action Wallet for DeFi, you can check the destination and amount on your hardware wallet before signing the transfer. Action Wallet handles token approvals and contract calls from a separate address, which reduces blind-signing risk. See [Security Overview](security/security-overview.md) for wallet recovery options and where your assets go when you use DeFi.
+
 ## What you can do with DeGate
 
 * **Trade on-chain stocks and ETFs.** Find Ondo stock tokens and xStocks in **Stocks**, or request quotes for Coinbase Tokenized Stocks on Base and Robinhood Stock Tokens on Robinhood Chain in **Trade**. Select the token and amount, then review the live quote before confirming. See [On-Chain Stocks](features/on-chain-stocks.md).

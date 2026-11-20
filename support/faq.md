@@ -46,6 +46,9 @@ Deposits can take a few minutes depending on the blockchain's confirmation time.
 
 ## Trust
 
+**Is DeGate safe to use?**
+With a self-custodial wallet, you control the keys. DeGate cannot sign transfers on your behalf or freeze your wallet address. Keep a secure backup and check each request before you sign it. See [Security Overview](../security/security-overview.md) for how each wallet type works and where your assets go when you use DeFi.
+
 **Who holds my keys?**
 DeGate does not hold the private keys to self-custodial wallets. A recovery phrase wallet keeps its keys on your phone, and a hardware wallet keeps them on the hardware device. Email sign-in uses an email-linked embedded wallet. External-wallet and DeGate Web sync accounts use DeGate addresses derived from the original wallet's signature. See [Security Overview](../security/security-overview.md) and the [Self-Custody FAQ](../security/self-custody-faq.md) for details and recovery steps.
 
