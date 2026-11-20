@@ -30,7 +30,7 @@ These methods have different recovery dependencies. Recovery phrase and hardware
 
 ## Audits and vulnerability reporting
 
-In March 2026, Adevar Labs audited the Solana LP Handler that DeGate used for its earlier Solana pools. You can read the report and check what it covered on the [Audits](audits.md) page. The Ethereum pool contracts used by Turbo Range and Power Pair are outside that report’s scope.
+In March 2026, Adevar Labs audited the Solana LP Handler that DeGate used for its earlier Solana pools. You can read the report and check what it covered on the [Audits](audits.md) page.
 
 Report security vulnerabilities privately to [bounty@degate.com](mailto:bounty@degate.com). See [Bug Bounty](bug-bounty.md) for reporting instructions.
 

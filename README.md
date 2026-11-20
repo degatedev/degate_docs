@@ -1,14 +1,18 @@
 # What is DeGate
 
-DeGate brings on-chain stock trading and stock liquidity provision (LP) into one self-custody multichain crypto wallet.
+DeGate is a self-custodial multichain crypto wallet for trading on-chain stocks, providing liquidity with stock tokens, and accessing decentralized finance (DeFi) services.
 
-Use the **iOS or Android app** to buy and sell supported stock and ETF tokens, open and manage stock LP positions through **Turbo Range** or **Power Pair**, claim fees, and close positions. The app also supports token swaps, cross-chain transfers, and other DeFi services.
+DeGate closed its former ZK-rollup order-book DEX in June 2025, retiring limit-order trading, Grid Strategy, and DCA.
 
-## Built for self-custody
+The **iOS and Android app** lets users trade supported stock and ETF tokens, swap tokens, and transfer assets across chains. **Turbo Range** pairs a supported Ondo stock token with USDC, and **Power Pair** pairs two supported Ondo stock tokens. Both let users open and manage liquidity positions, claim fees, and close positions.
 
-With a self-custodial wallet, you control the keys that authorize transfers. DeGate cannot sign a transfer on your behalf or freeze your wallet address. If you use a recovery phrase wallet, the app encrypts your phrase on your phone. Your recovery phrase and private keys stay on your phone and are never sent to DeGate's servers. If you connect a hardware wallet, the keys stay on the hardware device.
+## Self-custody and transaction authorization
 
-When you use Action Wallet for DeFi, you can check the destination and amount on your hardware wallet before signing the transfer. Action Wallet handles token approvals and contract calls from a separate address, which reduces blind-signing risk. See [Security Overview](security/security-overview.md) for wallet recovery options and where your assets go when you use DeFi.
+DeGate does not hold the private keys to self-custodial wallets. Users authorize transactions through the wallet they set up. DeGate cannot sign transfers from those wallets on a user’s behalf or freeze their addresses.
+
+For recovery phrase wallets, the app encrypts the recovery phrase before storing it on the device. The phrase and private keys stay on the device and are never sent to DeGate’s servers. For supported hardware wallets, the private keys stay on the hardware device.
+
+Hardware-wallet users use [Action Wallet](security-and-self-custody/action-wallet/README.md) for supported DeFi operations, including Turbo Range and Power Pair. Before signing a transfer to Action Wallet, they can verify its destination address and amount on the hardware device. Action Wallet handles token approvals and smart contract calls from its own address. This keeps approvals separate from the hardware-wallet address and reduces the risk of blind signing. See [Security Overview](security/security-overview.md) for key storage and recovery by wallet type, and where assets are held during DeFi operations.
 
 ## What you can do with DeGate
 
