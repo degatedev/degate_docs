@@ -47,6 +47,6 @@ It depends on the wallet type. Recovery phrase wallets keep keys on your device;
 No. DeGate does not require identity verification to create a wallet.
 
 **Can I use a hardware wallet?**
-Yes. Connect a **Bluetooth-capable OneKey or Ledger model** in the DeGate mobile app. Check the connection screen for supported models and networks. Hardware-wallet accounts support receiving, sending, trading, cross-chain transfers, and Turbo Range. You can also open a [Power Pair](../features/power-pair.md) position through [Action Wallet](../security-and-self-custody/action-wallet/README.md). Confirm signatures on the hardware device; do not enter its recovery phrase into your phone.
+Yes. Connect a **Bluetooth-capable OneKey or Ledger model** in the DeGate app. You can receive, send, trade, and transfer across supported networks, and open or manage [Turbo Range](../features/turbo-range.md) and [Power Pair](../features/power-pair.md) positions through [Action Wallet](../security-and-self-custody/action-wallet/README.md). Hardware-wallet accounts in DeGate currently do not support Bitcoin mainnet. Check the connection screen for supported models and networks. Confirm signatures on the hardware device and never enter its recovery phrase into your phone.
 
-Hardware-wallet accounts pay network gas from their own address in the chain's native token. Keep enough native tokens there (for example, ETH on Base) for the action you intend to sign. Review network costs on the confirmation screen.
+Your hardware-wallet address pays gas for its own transactions, including transfers and gas top-ups to Action Wallet. Action Wallet pays the position operation’s network fees from its own gas balance. Review the fees on the confirmation screen. See [Fees](../fees.md).

@@ -39,7 +39,7 @@ Concentrated-liquidity positions are subject to impermanent loss and smart-contr
 ## FAQ
 
 **What does DeGate handle when I open an LP position?**
-Select a pool, deposit one or both assets, and manage the position in the DeGate mobile app. Review the pool protocol, network, deposit assets, and costs before signing. Hardware-wallet accounts need the chain's native token at their hardware address to pay network fees; see [Fees](../fees.md).
+Select a pool, deposit one or both assets, and manage the position in the DeGate mobile app. Review the pool protocol, network, deposit assets, and costs before signing. Hardware-wallet users open and manage Turbo Range positions through [Action Wallet](../security-and-self-custody/action-wallet/README.md). Your hardware-wallet address pays gas for transfers it sends to Action Wallet, including gas top-ups. Action Wallet pays the position operation’s network fees from its own gas balance. See [Fees](../fees.md).
 
 **Can I withdraw at any time?**
 Yes. There is no lock-up period.
