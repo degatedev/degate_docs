@@ -2,7 +2,7 @@
 
 Power Pair lets you put two supported Ondo stock tokens into one concentrated-liquidity position and earn a share of pool trading fees when swaps use your liquidity. Choose the two tokens and the price range in which you want to provide liquidity.
 
-Stock pools in [Turbo Range](turbo-range.md) pair a stock token with USDC. Power Pair pairs two stock tokens, so the range tracks the price of one token in units of the other. For example, in an AAPLon/NVDAon pair, the range is measured in NVDAon per AAPLon. The position's value also depends on the market prices of both tokens.
+Stock pools in [Turbo Range](turbo-range.md) pair a stock token with USDC. Power Pair pairs two stock tokens, so you set the range using their relative price, measured in units of one token per unit of the other. When the pair is shown as AAPLon/NVDAon, the range shows how many NVDAon one AAPLon is worth. Tap the switch icon next to the pair to view the same range as NVDAon/AAPLon. The lower and upper bounds become their reciprocals and trade places. The position stays the same. Its value also depends on the market prices of both tokens.
 
 ## Where it runs
 
@@ -13,7 +13,7 @@ Power Pair uses pools of Ondo stock tokens on Ethereum that run on the third-par
 On the DeGate app’s **Home** screen, find **Power Pair** and tap **View More**. You can also open it from **Explore → Native Apps → Power Pair**. Power Pair supports Ondo stock tokens. xStocks are unavailable for Power Pair positions.
 
 1. In **Power Pair**, tap **Invest Now**. Under **Create Power Pair**, select **Stock A** and **Stock B**, then tap **Next**.
-2. Choose a **Fee tier** and a **Price range**. Check the order of the pair before setting the range. The screen shows which token the price is quoted in.
+2. Choose a **Fee tier** and a **Price range**. Before setting the range, check which token the price is quoted in. You can switch the display direction to view the same range in the inverse quote.
 3. Under **Your investment**, choose an available investment mode and enter the amount. Depending on the pair and fee tier, you can deposit both stock tokens together, either stock token on its own, or USDC through **USDC Only**.
 
    When your deposit requires an automatic swap, the minimum swap amount is $1. The maximum depends on available liquidity and is shown in the app. When U.S. stock market liquidity is unavailable, for example outside market hours, you cannot submit a **USDC Only** or single-stock deposit that requires an automatic swap. Try again later. Review the expected deposit amounts before confirming.
