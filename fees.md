@@ -26,7 +26,7 @@ The exact fee for any token is shown in the swap quote before you confirm. If a 
 
 ## Turbo Range swaps
 
-As of 6 November 2026, automatic swaps within Turbo Range have **no DeGate platform swap fee**, including those that prepare the pool assets when you open or increase a position. The ordinary 0.02% rate does not apply to these swaps. Network costs and any pool trading fees are separate; review the expected output and network cost before signing.
+As of 19 November 2026, automatic swaps within Turbo Range have **no DeGate platform swap fee**, including those that prepare the pool assets when you open or increase a position. The ordinary 0.02% rate does not apply to these swaps. Network costs and any pool trading fees are separate; review the expected output and network cost before signing.
 
 If you buy a token in Trade before opening a position, or sell returned tokens in Trade after closing, that is an ordinary swap and follows the rates above.
 

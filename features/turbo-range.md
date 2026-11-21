@@ -28,7 +28,7 @@ To end up with only USDC, request a separate quote in **Trade** after closing to
 
 ## Swap fees
 
-As of 6 November 2026, automatic swaps within Turbo Range have **no DeGate platform swap fee**, including swaps that prepare the pool assets when you open or increase a position. The ordinary 0.02% swap fee does not apply to these swaps. Network costs and pool trading fees may still apply. Review the swap result and network cost before signing.
+As of 19 November 2026, automatic swaps within Turbo Range have **no DeGate platform swap fee**, including swaps that prepare the pool assets when you open or increase a position. The ordinary 0.02% swap fee does not apply to these swaps. Network costs and pool trading fees may still apply. Review the swap result and network cost before signing.
 
 Buying tokens separately in Trade before opening, or selling returned tokens in Trade after closing, follows the [ordinary swap fees](../fees.md).
 

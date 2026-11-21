@@ -37,7 +37,7 @@ Available assets and actions vary by network and wallet type. The wallet's netwo
 
 ## Is DeGate a DEX?
 
-DeGate is a self-custodial multichain crypto wallet. Its former ZK-rollup order-book DEX closed in June 2025, retiring limit-order trading, Grid Strategy, DCA, and the other features of that DEX. See [From DEX to Self-Custody Wallet](about-degate/from-dex-to-self-custody-wallet.md) for the product history.
+No. DeGate is a self-custodial multichain crypto wallet. Its former ZK-rollup order-book DEX closed in June 2025, retiring limit-order trading, Grid Strategy, DCA, and the other features of that DEX. See [From DEX to Self-Custody Wallet](about-degate/from-dex-to-self-custody-wallet.md) for the product history.
 
 ## FAQ
 
@@ -46,9 +46,6 @@ No. DeGate does not hold your private keys. Key storage and recovery differ by w
 
 **What does DeGate cost?**
 Ordinary swaps have a DeGate platform fee of 0% for stablecoins and 0.02% for other tokens traded against USDC, as of August 2026. As of 19 November 2026, automatic swaps in Turbo Range and Power Pair have a 0% DeGate platform swap fee. Network costs and pool trading fees are separate. See [Fees](fees.md).
-
-**Is DeGate a decentralized exchange (DEX)?**
-No. DeGate is a self-custodial wallet for on-chain stock trading, liquidity provision, and DeFi. See [From DEX to Self-Custody Wallet](about-degate/from-dex-to-self-custody-wallet.md) for the product history.
 
 **How do I start?**
 Install the mobile app, add a wallet, and receive assets. To buy a stock token, open Trade. To provide liquidity, pair a stock token with USDC in [Turbo Range](features/turbo-range.md) or pair two supported Ondo stock tokens in [Power Pair](features/power-pair.md). Turbo Range accepts USDC on its own. In Power Pair, the USDC-only option depends on the pair and fee tier. If your deposit needs an automatic swap, the required RFQ quote must be available before you can submit it. Follow [Quickstart](getting-started/quickstart.md) for setup.
