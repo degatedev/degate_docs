@@ -5,7 +5,7 @@ Use a cross-chain swap to trade supported assets on different networks without a
 * **One swap flow.** Choose the token and amount in Trade. Review the route, expected output, price impact, and costs before confirming.
 * **Solver-based routing.** Available routes use integrated cross-chain protocols.
 * **Wallet authorization.** You review and authorize the transaction from your selected wallet. Key handling and recovery depend on your [wallet type](../security/security-overview.md).
-* **Network fees.** Non-hardware accounts can pay network costs for supported actions from eligible asset balances. Hardware accounts need native gas tokens at their hardware address. See [Fees](../fees.md).
+* **Network fees.** Non-hardware accounts can pay network costs for supported actions from eligible asset balances. Supported hardware-wallet trades in the DeGate app use Action Wallet. For each transfer your hardware wallet sends to Action Wallet, including gas top-ups, your hardware-wallet address pays gas in that network’s native token. Action Wallet covers the remaining network fees from its own gas balance. See [Fees](../fees.md).
 
 ## What it replaces
 

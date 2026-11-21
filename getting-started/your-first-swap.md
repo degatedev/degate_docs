@@ -18,7 +18,7 @@ A quote can change or become unavailable before execution. If a swap fails or st
 
 ## What happens in the background
 
-The quoted route includes any required bridging. For non-hardware accounts, eligible asset balances can fund the gas needed for supported actions. You pay that network cost; hardware accounts fund it from native tokens at their own address. You review and authorize the transaction from your selected wallet. The mechanics are described in [Cross-chain Swap](../features/cross-chain-swap.md).
+The quoted route includes any required bridging. For non-hardware accounts, eligible asset balances can fund the gas needed for supported actions. You pay that network cost. Supported hardware-wallet trades in the DeGate app use Action Wallet. For each transfer your hardware wallet sends to Action Wallet, including gas top-ups, your hardware-wallet address pays gas in that network’s native token. Action Wallet covers the remaining network fees from its own gas balance. See [Fees](../fees.md). You review and authorize the transaction from your selected wallet. The mechanics are described in [Cross-chain Swap](../features/cross-chain-swap.md).
 
 ## FAQ
 

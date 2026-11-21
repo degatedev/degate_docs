@@ -20,7 +20,7 @@ The DeGate wallet runs on **iOS and Android**. Use the mobile app for swaps, tra
 The app supports 13 languages, including English, Deutsch, Français, Español, Italiano, 日本語, 한국어, and Chinese (simplified and traditional). The interface follows your device language settings.
 
 **Can I connect a hardware wallet?**
-Yes. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app. You can open and manage Turbo Range and Power Pair positions through [Action Wallet](../security-and-self-custody/action-wallet/README.md). Hardware-wallet accounts in DeGate currently do not support Bitcoin mainnet. See [Create a Wallet](../getting-started/create-a-wallet.md) for connection details.
+Yes. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app. Use [Action Wallet](../security-and-self-custody/action-wallet/README.md) for supported trades and to open or manage Turbo Range and Power Pair positions. Hardware-wallet accounts in DeGate currently do not support Bitcoin mainnet. See [Create a Wallet](../getting-started/create-a-wallet.md) for connection details.
 
 ## Money
 
@@ -39,7 +39,7 @@ No. DeGate does not require identity verification to create or use a wallet.
 Cross-chain swaps typically complete within 30 seconds to 2 minutes; the app shows an estimated completion time before you confirm. Check the status in the **Activity** tab; network congestion can occasionally cause delays. If it fails or remains pending, check its status and transaction record. Before requesting a new quote, confirm the original action has settled and check the balance of the asset you paid with. Send us the transaction hash through Feedback if you need help.
 
 **My hardware wallet transaction failed for lack of gas.**
-Check which address needs gas. For a transaction sent from your hardware-wallet address, including a transfer to Action Wallet or a gas top-up, keep the network’s native token at that address. Action Wallet uses its own gas balance to pay the network fees for Turbo Range and Power Pair position operations. If the app asks you to top up Action Wallet, follow the prompt. See [Fees](../fees.md).
+Check which address needs gas. For a transaction sent from your hardware-wallet address, including a transfer to Action Wallet or a gas top-up, keep the network’s native token at that address. For supported trades and Turbo Range or Power Pair position operations that use Action Wallet, the remaining network fees come from Action Wallet's gas balance. If the app asks you to top up Action Wallet, follow the prompt. See [Fees](../fees.md).
 
 **My balance shows zero after a deposit.**
 Deposits can take a few minutes depending on the blockchain's confirmation time. Pull down to refresh. If the balance is still missing after 10 minutes, check the transaction on a block explorer (Etherscan, Solscan) to confirm it was sent to the correct address on the correct network, then contact support.

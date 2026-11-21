@@ -10,7 +10,7 @@ DeGate does not hold the private keys to self-custodial wallets. Users authorize
 
 For recovery phrase wallets, the app encrypts the recovery phrase before storing it on the device. The phrase and private keys stay on the device and are never sent to DeGate’s servers. For supported hardware wallets, the private keys stay on the hardware device.
 
-Hardware-wallet users use [Action Wallet](security-and-self-custody/action-wallet/README.md) for supported DeFi operations, including Turbo Range and Power Pair. Before signing a transfer to Action Wallet, they can verify its destination address and amount on the hardware device. Action Wallet handles token approvals and smart contract calls from its own address. This keeps approvals separate from the hardware-wallet address and reduces the risk of blind signing. See [Security Overview](security/security-overview.md) for key storage and recovery by wallet type, and where assets are held during DeFi operations.
+Hardware-wallet users use [Action Wallet](security-and-self-custody/action-wallet/README.md) for supported trades and to open or manage Turbo Range and Power Pair positions. Before signing a transfer to Action Wallet, they can verify its destination address and amount on the hardware device. Action Wallet handles token approvals and smart contract calls from its own address. This keeps approvals separate from the hardware-wallet address and reduces the risk of blind signing. See [Security Overview](security/security-overview.md) for key storage and recovery by wallet type, and where assets are held during DeFi operations.
 
 ## What you can do with DeGate
 

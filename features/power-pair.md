@@ -38,7 +38,7 @@ A position can lose value if either stock token falls in value. As the relative 
 ## FAQ
 
 **Can I copy a Power Pair position from the Leaderboard?**
-Yes. The **Leaderboard** on the Power Pair home screen shows open positions ranked by APR. Open a listed position and tap **Copy** to use the same token pair, fee tier, and price range for your own position. Enter your own deposit amount and review the details before confirming.
+Yes. The **Leaderboard** on the Power Pair home screen lists open positions with their APR. Open a listed position and tap **Copy** to use the same token pair, fee tier, and price range for your own position. Enter your own deposit amount and review the details before confirming. A listed position's APR reflects its own past results. Copying its settings does not reproduce those results; your fees and position value depend on later trading and price movement.
 
 **Do I need to hold both stock tokens before opening a position?**
 You can start with USDC alone when **USDC Only** is available for the pair and fee tier. Opening this way requires an automatic swap. If U.S. stock market liquidity is unavailable, for example outside market hours, the app blocks submission. Try again later. Review the automatic swap amounts and estimated network fee before confirming.

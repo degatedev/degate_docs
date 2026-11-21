@@ -19,7 +19,7 @@ Tap **Receive**, copy your address for the chain you are sending from (or scan t
 
 ## 4. Make your first swap
 
-Open **Trade**, choose a supported stock token or another token, and enter the amount to buy with USDC. Review the quote, expected output, network, and costs before signing. A hardware account needs the relevant native gas token at its own address. Step-by-step guide: [Your First Swap](your-first-swap.md).
+Open **Trade**, choose a supported stock token or another token, and enter the amount to buy with USDC. Review the quote, expected output, network, and costs before signing. Supported hardware-wallet trades in the DeGate app use Action Wallet. For each transfer your hardware wallet sends to Action Wallet, including gas top-ups, your hardware-wallet address pays gas in that network’s native token. Action Wallet covers the remaining network fees from its own gas balance. See [Fees](../fees.md). Step-by-step guide: [Your First Swap](your-first-swap.md).
 
 ## Open a stock liquidity position
 

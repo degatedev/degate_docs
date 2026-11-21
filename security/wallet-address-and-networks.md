@@ -16,9 +16,9 @@ You authorize transactions from the wallet you selected. The key handling and re
 
 ### Hardware wallets
 
-Your private key stays on the hardware device. Connect a Bluetooth-capable OneKey or Ledger model to receive, send, trade, or transfer across supported networks. Use [Action Wallet](../security-and-self-custody/action-wallet/README.md) to open and manage [Turbo Range](../features/turbo-range.md) and [Power Pair](../features/power-pair.md) positions. Hardware-wallet accounts in DeGate currently do not support Bitcoin mainnet. Check the app for supported models and networks, and confirm signatures on your device.
+Your private key stays on the hardware device. Connect a Bluetooth-capable OneKey or Ledger model to receive, send, or transfer assets across supported networks. Use [Action Wallet](../security-and-self-custody/action-wallet/README.md) for supported trades and to open and manage [Turbo Range](../features/turbo-range.md) and [Power Pair](../features/power-pair.md) positions. Hardware-wallet accounts in DeGate currently do not support Bitcoin mainnet. Check the app for supported models and networks, and confirm signatures on your device.
 
-Transactions sent from your hardware-wallet address use the native gas token on that network. This covers transfers to Action Wallet, including gas top-ups. When you use Action Wallet for Turbo Range or Power Pair, it pays the position operation’s network fees from its own gas balance. See [Fees](../fees.md) for examples.
+Your hardware-wallet address pays gas in the native token of the network for each transaction it sends. This includes transfers to Action Wallet and any gas top-up transactions. For supported trades and Turbo Range or Power Pair position operations that use Action Wallet, Action Wallet covers the remaining network fees from its own gas balance. If that balance runs low, top it up from your hardware wallet. Review the estimated network fees before signing. See [Fees](../fees.md) for details.
 
 ### Email sign-in
 

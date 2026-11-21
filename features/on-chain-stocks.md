@@ -21,7 +21,7 @@ xStocks are tokenized equities backed 1:1 by the underlying stock through the Ba
 * **Provide stock liquidity.** In [Turbo Range](turbo-range.md), you can open new positions in available Ondo stock/USDC pools on Ethereum. Earlier xStocks positions remain in **My Positions**; new xStocks LP positions are not currently available in Turbo Range.
 * **Pair two stock tokens.** In [Power Pair](power-pair.md), choose two supported Ondo stock tokens and provide liquidity within a range based on their relative price. You can earn a share of trading fees when swaps use your liquidity.
 
-**To buy:** find a supported token in **Stocks**, or search for the exact token in **Trade**. Enter the amount to request a quote in **Trade**. Review the quote, network, and fees before confirming. Routing is included in the trade flow. Hardware accounts need the relevant native token for network fees.
+**To buy:** find a supported token in **Stocks**, or search for the exact token in **Trade**. Enter the amount to request a quote in **Trade**. Review the quote, network, and fees before confirming. Routing is included in the trade flow. Supported hardware-wallet trades in the DeGate app use Action Wallet. For each transfer your hardware wallet sends to Action Wallet, including gas top-ups, your hardware-wallet address pays gas in that network’s native token. Action Wallet covers the remaining network fees from its own gas balance. See [Fees](../fees.md).
 
 ## What tokenized stocks are, and are not
 
