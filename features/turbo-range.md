@@ -14,9 +14,11 @@ For an existing position, open **My Positions** and check its network and pool b
 
 ## How you enter a position
 
-* **Single-token entry.** Deposit USDC alone. The opening flow prepares the two pool assets in the ratio required for your selected range. Dual-asset deposits also work.
+* **Single-token entry.** Deposit USDC alone. The opening flow prepares the two pool assets in the ratio required for your selected range. You can also deposit both the stock token and USDC.
 * **Cross-chain deposits.** For supported routes, fund a position with USDC from another chain. The deposit is routed to the pool's network; check the destination before signing.
 * **No lock-up.** You can close a position at any time; your tokens return to your wallet and earned fees are collected.
+
+An automatic swap requires a request-for-quote (RFQ) price. RFQ availability varies by token. If the required RFQ quote is unavailable, you cannot submit the deposit. If the app shows “U.S. stock market liquidity is currently unavailable,” try again later. When a quote is available, review the expected deposit amounts before confirming.
 
 ## Closing a position
 

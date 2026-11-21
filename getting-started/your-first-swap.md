@@ -4,7 +4,7 @@ Use Trade in the DeGate mobile app to buy a supported token with USDC or sell a 
 
 ## Before you start
 
-Buys on DeGate are paid in USDC, and selling a token settles back into USDC. So you need USDC first, and there are two ways to get it: deposit USDC on a network that supports USDC deposits in the app, or sell a token you already hold (for example, selling TSLAx gives you USDC to buy with; note that a sell still needs network fees covered, so it may not go through if your wallet holds nothing besides that token). Non-hardware accounts can pay network costs for supported actions from eligible asset balances. Hardware accounts need the relevant native token at their own address. See [Quickstart](quickstart.md) if you have not set up yet.
+Buys on DeGate are paid in USDC, and selling a token settles back into USDC. So you need USDC first, and there are two ways to get it: deposit USDC on a network that supports USDC deposits in the app, or sell a token you already hold (for example, selling TSLAx gives you USDC to buy with; note that a sell still needs network fees covered, so it may not go through if your wallet holds nothing besides that token). Non-hardware accounts can pay network costs for supported actions from eligible asset balances. Supported hardware-wallet trades use Action Wallet. Your hardware-wallet address pays gas in the native token of each network it sends from, including when transferring assets or topping up gas. Action Wallet pays the remaining network fees from its own gas balance. See [Quickstart](quickstart.md) if you have not set up yet.
 
 ## Steps
 

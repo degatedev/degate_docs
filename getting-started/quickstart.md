@@ -19,14 +19,14 @@ Tap **Receive**, copy your address for the chain you are sending from (or scan t
 
 ## 4. Make your first swap
 
-Open **Trade**, choose a supported stock token or another token, and enter the amount to buy with USDC. Review the quote, expected output, network, and costs before signing. Supported hardware-wallet trades in the DeGate app use Action Wallet. For each transfer your hardware wallet sends to Action Wallet, including gas top-ups, your hardware-wallet address pays gas in that network’s native token. Action Wallet covers the remaining network fees from its own gas balance. See [Fees](../fees.md). Step-by-step guide: [Your First Swap](your-first-swap.md).
+Open **Trade**, choose a supported stock token or another token, and enter the amount to buy with USDC. Review the quote, expected output, network, and costs before signing. Supported hardware-wallet trades in the DeGate app use Action Wallet. Your hardware-wallet address pays gas for transfers to Action Wallet, including gas top-up transactions, using the native token of the network each transfer is sent on. Action Wallet covers the remaining network fees from its own gas balance. See [Fees](../fees.md). Step-by-step guide: [Your First Swap](your-first-swap.md).
 
 ## Open a stock liquidity position
 
-* **Pair one stock token with USDC.** Open [Turbo Range](../features/turbo-range.md) and select a stock/USDC pool. You can deposit the stock token and USDC together or start with USDC alone. If you start with USDC alone, the app automatically swaps part of it for the stock token when you open the position.
-* **Pair two stock tokens.** Open [Power Pair](../features/power-pair.md) from **Home → Power Pair → View More** or **Explore → Native Apps → Power Pair**. Tap **Invest Now**, select two supported Ondo stock tokens, and set a range for their relative price. To open with USDC, select **USDC Only**. The app swaps USDC into the two stock tokens needed for the position.
+* **Pair one stock token with USDC.** Open [Turbo Range](../features/turbo-range.md) and select a stock/USDC pool. You can deposit the stock token and USDC together or start with USDC alone. If the selected range needs the stock token, the app swaps part of your USDC to prepare the deposit.
+* **Pair two stock tokens.** Open [Power Pair](../features/power-pair.md) from **Home → Power Pair → View More** or **Explore → Native Apps → Power Pair**. Tap **Invest Now**, select two supported Ondo stock tokens, and set a range for their relative price. If the app shows **USDC Only** for your pair and fee tier, select it to fund the position from USDC.
 
-Review the deposit amounts and network cost before confirming.
+For either product, a deposit that needs an automatic swap requires an RFQ quote before you can submit it. If the app shows “U.S. stock market liquidity is currently unavailable,” try again later. Review the expected deposit amounts and network cost before confirming.
 
 ## Where to go next
 

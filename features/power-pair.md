@@ -16,7 +16,7 @@ On the DeGate app’s **Home** screen, find **Power Pair** and tap **View More**
 2. Choose a **Fee tier** and a **Price range**. Before setting the range, check which token the price is quoted in. You can switch the display direction to view the same range in the inverse quote.
 3. Under **Your investment**, choose an available investment mode and enter the amount. Depending on the pair and fee tier, you can deposit both stock tokens together, either stock token on its own, or USDC through **USDC Only**.
 
-   When your deposit requires an automatic swap, the minimum swap amount is $1. The maximum depends on available liquidity and is shown in the app. When U.S. stock market liquidity is unavailable, for example outside market hours, you cannot submit a **USDC Only** or single-stock deposit that requires an automatic swap. Try again later. Review the expected deposit amounts before confirming.
+   When your deposit requires an automatic swap, the minimum swap amount is $1. The maximum depends on available liquidity and is shown in the app. An automatic swap requires a request-for-quote (RFQ) price. RFQ availability varies by token. If the required RFQ quote is unavailable, you cannot submit the deposit. If the app shows “U.S. stock market liquidity is currently unavailable,” try again later. When a quote is available, review the expected deposit amounts before confirming.
 4. Tap **Create Position**. On **Review Investment**, check the deposit assets, range, and maximum network fee before tapping **Confirm**. A one-time pool creation cost applies when opening the position creates a new pool. If the matching pool already exists on-chain, there is no pool creation cost.
 
 Hardware-wallet users can open and manage Power Pair positions through [Action Wallet](../security-and-self-custody/action-wallet/README.md).
@@ -41,7 +41,7 @@ A position can lose value if either stock token falls in value. As the relative 
 Yes. The **Leaderboard** on the Power Pair home screen lists open positions with their APR. Open a listed position and tap **Copy** to use the same token pair, fee tier, and price range for your own position. Enter your own deposit amount and review the details before confirming. A listed position's APR reflects its own past results. Copying its settings does not reproduce those results; your fees and position value depend on later trading and price movement.
 
 **Do I need to hold both stock tokens before opening a position?**
-You can start with USDC alone when **USDC Only** is available for the pair and fee tier. Opening this way requires an automatic swap. If U.S. stock market liquidity is unavailable, for example outside market hours, the app blocks submission. Try again later. Review the automatic swap amounts and estimated network fee before confirming.
+You can start with USDC alone when **USDC Only** is available for the pair and fee tier. Opening this way requires an automatic swap. If the required RFQ quote is unavailable, you cannot submit the deposit. If the app shows “U.S. stock market liquidity is currently unavailable,” try again later. When a quote is available, review the expected deposit amounts and estimated network fee before confirming.
 
 **How do I collect earnings without closing my position?**
 Open the position in **My Positions** and tap **Claim** when there is yield to collect. The position stays open.

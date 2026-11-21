@@ -50,7 +50,7 @@ For email sign-in, external-wallet connections, and DeGate Web sync, access to t
 
 ### If you lose access to your email
 
-If you permanently lose access to the email address linked to your wallet, you may be unable to recover the wallet. To restore access independently of email, use a recovery phrase wallet or a supported hardware wallet and keep your own backup.
+If you permanently lose access to the email address linked to your wallet, you may be unable to recover the wallet. If you want a wallet you can recover independently of email, choose a recovery phrase wallet or a supported hardware wallet and keep your own backup.
 
 ## FAQ
 

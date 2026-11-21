@@ -29,12 +29,12 @@ Tokenized stocks give you economic exposure to the underlying equity; they are n
 
 ## Trading hours and pricing
 
-On-chain transfers do not follow stock-exchange opening hours, but a transfer being possible does not guarantee an executable trade quote. Check the live quote in Trade. The underlying equities trade on exchanges with fixed hours: during US market hours, token prices generally stay close to the underlying through market making and arbitrage; outside those hours, prices form from secondary-market supply and demand, so spreads can be wider and deviations can occur. Full mechanics: [Why 24/7 tokenized stocks do not mean 24/7 price discovery](https://degate.com/playbook/tokenized-stocks-24-7-price-discovery/).
+On-chain transfers do not follow stock-exchange opening hours, but a transfer being possible does not guarantee an executable trade quote. Check the live quote in Trade. The underlying equities trade on exchanges with fixed hours: during US market hours, token prices generally stay close to the underlying through market making and arbitrage; outside those hours, pricing and liquidity vary by token. Some tokens still have request-for-quote (RFQ) pricing. Some on-chain pools may continue trading outside those hours. Automatic swaps for Turbo Range and Power Pair deposits require their own RFQ quotes. Spreads and slippage can be higher, so review the live quote and expected output before confirming. Full mechanics: [Why 24/7 tokenized stocks do not mean 24/7 price discovery](https://degate.com/playbook/tokenized-stocks-24-7-price-discovery/).
 
 ## FAQ
 
 **What does it cost to trade tokenized stocks on DeGate?**
-Ordinary swaps of Ondo stock tokens and xStocks have a 0.02% DeGate platform fee, as of August 2026. Automatic swaps within Turbo Range have no DeGate platform swap fee, as of 6 November 2026. As of 19 November 2026, automatic swaps within Power Pair also have no DeGate platform swap fee. Network costs and pool trading fees may still apply. See [Fees](../fees.md).
+Ordinary swaps of Ondo stock tokens and xStocks have a 0.02% DeGate platform fee, as of August 2026. As of 19 November 2026, automatic swaps in Turbo Range and Power Pair have a 0% DeGate platform swap fee. Network costs and pool trading fees may still apply. See [Fees](../fees.md).
 
 **Do I receive dividends?**
 Economically yes, through each issuer's mechanism: xStocks rebase balances, while Ondo reflects dividends in the token price. Neither pays cash to your wallet. Details: [How tokenized stock dividends work](https://degate.com/playbook/tokenized-stock-dividends-mechanisms/).
