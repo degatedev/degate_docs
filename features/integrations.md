@@ -4,7 +4,7 @@ Open third-party services from the app shortcuts or in-app browser. Choose the w
 
 ## Hyperliquid: perpetual futures
 
-Trade crypto perpetuals on Hyperliquid without leaving your self-custody wallet, via the Home screen shortcut or the built-in browser.
+Trade crypto perpetuals on Hyperliquid without leaving your self-custodial wallet, via the Home screen shortcut or the built-in browser.
 
 ## Polymarket: prediction markets
 

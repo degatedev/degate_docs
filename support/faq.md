@@ -5,10 +5,10 @@ Find answers about on-chain stock trading, Turbo Range, Power Pair, fees, and wa
 ## Product
 
 **What is DeGate in one sentence?**
-DeGate is a self-custody multichain crypto wallet for trading on-chain stocks and managing stock LP positions through Turbo Range and Power Pair. More: [What is DeGate](../README.md).
+DeGate is a self-custodial multichain crypto wallet for trading on-chain stocks and managing stock LP positions through Turbo Range and Power Pair. More: [What is DeGate](../README.md).
 
 **Is DeGate a DEX?**
-No. The earlier order book DEX closed in June 2025. The current product is a self-custody multichain crypto wallet with on-chain stock trading and stock LP management. More: [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
+No. The earlier order book DEX closed in June 2025. The current product is a self-custodial multichain crypto wallet with on-chain stock trading and stock LP management. More: [From DEX to Self-Custody Wallet](../about-degate/from-dex-to-self-custody-wallet.md).
 
 **Which chains are supported?**
 DeGate supports **16+ mainnet blockchains**, including Ethereum, Solana, Base, Arbitrum, Optimism, Polygon, BNB Smart Chain, Avalanche, Aptos, Bitcoin, Linea, Sonic, Worldchain, xLayer, HyperEVM, Monad, and Robinhood Chain. More: [Supported networks](../README.md#supported-networks).
@@ -27,8 +27,8 @@ Yes. Connect a Bluetooth-capable OneKey or Ledger model in the DeGate mobile app
 **What are the fees?**
 Ordinary swaps have two platform fee tiers, based on the token traded against USDC: 0% for stablecoins, 0.02% for all other tokens, as of August 2026. Supported USDC bridging has no DeGate platform fee. Network costs still apply. Simple Earn has no DeGate platform fee. Automatic swaps within Turbo Range and Power Pair have no DeGate platform swap fee; network costs and pool trading fees may still apply. More: [Fees](../fees.md).
 
-**Can I buy crypto with a card?**
-Card purchases are not currently available in DeGate. Fund your wallet by depositing a supported token on its matching network; see [Quickstart](../getting-started/quickstart.md).
+**How do I fund my wallet?**
+Open **Receive** in the DeGate app, select a supported asset and its network, and copy your address or share its QR code. Send from another wallet or withdraw from an exchange using the same network. See [Quickstart](../getting-started/quickstart.md) for more details.
 
 **Does using DeGate require identity verification?**
 No. DeGate does not require identity verification to create or use a wallet.

@@ -2,8 +2,6 @@
 
 DeGate is a self-custodial multichain crypto wallet for trading on-chain stocks, providing liquidity with stock tokens, and accessing decentralized finance (DeFi) services.
 
-DeGate closed its former ZK-rollup order-book DEX in June 2025, retiring limit-order trading, Grid Strategy, and DCA.
-
 The **iOS and Android app** lets users trade supported stock and ETF tokens, swap tokens, and transfer assets across chains. **Turbo Range** pairs a supported Ondo stock token with USDC, and **Power Pair** pairs two supported Ondo stock tokens. Both let users open and manage liquidity positions, claim fees, and close positions.
 
 ## Self-custody and transaction authorization
@@ -39,7 +37,7 @@ Available assets and actions vary by network and wallet type. The wallet's netwo
 
 ## Is DeGate a DEX?
 
-DeGate's current product is a self-custody multichain crypto wallet. The earlier order book DEX on an Ethereum ZK-rollup closed in June 2025. See [From DEX to Self-Custody Wallet](about-degate/from-dex-to-self-custody-wallet.md) for the product history.
+DeGate is a self-custodial multichain crypto wallet. Its former ZK-rollup order-book DEX closed in June 2025, retiring limit-order trading, Grid Strategy, DCA, and the other features of that DEX. See [From DEX to Self-Custody Wallet](about-degate/from-dex-to-self-custody-wallet.md) for the product history.
 
 ## FAQ
 
@@ -50,7 +48,7 @@ No. DeGate does not hold your private keys. Key storage and recovery differ by w
 Ordinary swaps have a DeGate platform fee of 0% for stablecoins and 0.02% for other tokens traded against USDC, as of August 2026. Automatic swaps within Turbo Range have no DeGate platform swap fee, as of 6 November 2026. As of 19 November 2026, automatic swaps within Power Pair also have no DeGate platform swap fee. Network costs and pool trading fees are separate. See [Fees](fees.md).
 
 **Is DeGate a decentralized exchange (DEX)?**
-No. The earlier DEX closed in June 2025. The current mobile app combines a self-custody wallet, on-chain stock trading, and stock LP management. See [the history page](about-degate/from-dex-to-self-custody-wallet.md).
+No. DeGate is a self-custodial wallet for on-chain stock trading, liquidity provision, and DeFi. See [Is DeGate a DEX?](#is-degate-a-dex) for its product history.
 
 **How do I start?**
 Install the mobile app, add a wallet, and receive assets. To buy a stock token, open Trade. To provide liquidity, pair a stock token with USDC in [Turbo Range](features/turbo-range.md) or pair two supported Ondo stock tokens in [Power Pair](features/power-pair.md). You can open either type of position with USDC alone. Follow [Quickstart](getting-started/quickstart.md) for setup.

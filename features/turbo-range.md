@@ -20,9 +20,9 @@ For an existing position, open **My Positions** and check its network and pool b
 
 ## Closing a position
 
-Closing returns the assets held by the position at that time, which may include both pool tokens. Review the expected assets and unclaimed fees before confirming. Closing does not currently convert everything to USDC in one step.
+Before closing, review the assets and any unclaimed fees you will receive. Closing returns the assets the position holds at that time, which may include both the stock token and USDC.
 
-If you want only USDC, close the position first, then request a separate sell quote in **Trade** for any returned non-USDC tokens. That sale requires an executable quote and follows the ordinary swap fees and network costs. You can also keep the returned tokens in your wallet.
+To end up with only USDC, request a separate quote in **Trade** after closing to sell any stock tokens you receive. That sale requires an executable quote and follows the ordinary swap fees and network costs. You can also keep the returned tokens in your wallet.
 
 ## Swap fees
 
@@ -45,4 +45,4 @@ Select a pool, deposit one or both assets, and manage the position in the DeGate
 Yes. There is no lock-up period.
 
 **What happens when the price leaves my range?**
-An out-of-range position generally stops earning new trading fees at the current price and holds one side of the pair. You can keep it open or close it. The current stock LP flow does not let you edit the range in place; changing it requires closing and opening a new position, with a new quote and network costs. Your position can lose value even after earning fees.
+An out-of-range position generally stops earning new trading fees at the current price and holds one side of the pair. You can keep it open or close it. Your position can lose value even after earning fees. To change the price range, close the position and open a new one. Review the new quote and network costs before confirming.

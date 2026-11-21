@@ -20,7 +20,7 @@ This repository drives docs.degate.com via GitBook Git Sync. The `multichain-pla
 ## Content rules
 
 - Document **shipped functionality only**. Roadmap items, unreleased features, and internal plans do not appear in public docs.
-- Product category wording is standardized as **self-custody multichain crypto wallet**; follow the terminology used on the live site and in the app UI (button names as displayed).
+- Product category wording is standardized as **self-custodial multichain crypto wallet**; follow the terminology used on the live site and in the app UI (button names as displayed).
 - Describe capabilities concretely rather than borrowing regulated-industry category labels (broker/brokerage, exchange, bank) for DeGate itself.
 - Every fact must trace to a first-hand source (product, engineering, or verified official pages). Anything unverified is marked `> ⚠️ [NEEDS VERIFICATION: ...]` and must be cleared before merge: `grep -rn "NEEDS VERIFICATION" .` must return empty.
 - Numbers and rates carry an "as of [month year]" qualifier. Avoid absolute wording (every/always/only/never) unless factually exact.

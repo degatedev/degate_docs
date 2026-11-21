@@ -15,7 +15,7 @@ No. DeGate does not hold the private keys to self-custodial wallets. DeGate cann
 It depends on how you created the wallet:
 
 * **Mnemonic (recovery phrase) wallet:** Select the wallet itself in the wallet management screen, open **Wallet Details**, and select **Recovery phrase**. If the row shows **Back up now**, follow the prompts. Write down the phrase and store it securely offline. Never store it digitally. Keep a separate backup for each recovery phrase wallet; we cannot replace a lost recovery phrase for you.
-* **Email sign-in:** keep access to the linked email address. When you sign in to the DeGate app, enter the six-digit verification code sent to that address. The app asks you to set up a password or biometric unlock on the new device to protect its local data. If you permanently lose access to the linked email, you may be unable to recover the wallet. We do not recommend keeping large balances in an email wallet.
+* **Email sign-in:** keep access to the linked email address. When you sign in to the DeGate app, enter the six-digit verification code sent to that address. The app asks you to set up a password or biometric unlock on the new device to protect its local data. If you permanently lose access to the linked email, you may be unable to recover the wallet. To restore access independently of email, use a recovery phrase wallet or a supported hardware wallet and keep your own backup.
 * **External wallet connected in the app:** back up the external wallet according to its recovery method. On the new device, reconnect the original account through **Connect external wallet** to restore its DeGate-derived addresses and view their balances. These addresses are separate from the external wallet’s own address.
 * **DeGate Web sync:** keep access to the wallet account you used on DeGate Web. Connect it on DeGate Web and sign to generate a QR code. On the new phone, select **Sync from DeGate Web** and scan it within 60 seconds. Keep the code private. [See the web sync steps](../getting-started/create-a-wallet.md#sync-an-existing-degate-web-account).
 * **Hardware wallet:** your device (and the recovery sheet you set up with its manufacturer) is the backup.
@@ -32,12 +32,12 @@ In the DeGate app on the additional device, use the recovery method above for th
 
 ## How is this different from keeping assets on an exchange?
 
-With an exchange account, the exchange holds the assets and your balance is a claim on the operator; a hack, insolvency, or account restriction can affect your access. With a self-custody wallet, you hold the assets directly on-chain. You are responsible for your backup and the transactions you authorize. Follow the recovery steps above for the wallet or account you use.
+With an exchange account, the exchange holds the assets and your balance is a claim on the operator; a hack, insolvency, or account restriction can affect your access. With a self-custodial wallet, you hold the assets directly on-chain. You are responsible for your backup and the transactions you authorize. Follow the recovery steps above for the wallet or account you use.
 
 ## "Non-custodial", "self-custodial", "unhosted": what's the difference?
 
-DeGate is described as a self-custody wallet. You may see the other terms in descriptions of wallets, but a label does not explain how a particular wallet stores keys or restores access. Check the recovery requirements for the method you use, as described above.
+DeGate is a self-custodial wallet. You may see the other terms in descriptions of wallets, but a label does not explain how a particular wallet stores keys or restores access. Check the recovery requirements for the method you use, as described above.
 
 ## Is self-custody harder to use?
 
-Supported flows include routing, bridging, and network fees in the app, so you do not need to arrange them separately before each action. You still need to keep the appropriate wallet backup and review what you sign. Hardware accounts need native gas tokens at their own address.
+Supported flows include routing, bridging, and network fees in the app, so you do not need to arrange them separately before each action. You still need to keep the appropriate wallet backup and review what you sign.

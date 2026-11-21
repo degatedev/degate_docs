@@ -22,7 +22,7 @@ Choose one of the six options on the **Add Wallet** screen:
 * **Connect external wallet:** connect or reconnect your external wallet directly in the app via WalletConnect (up to 10 external wallet accounts).
 
 {% hint style="info" %}
-We do not recommend keeping large balances in an email wallet. If you permanently lose access to its linked email, you may be unable to recover it. For higher-value assets, we recommend **Create wallet** or **Import wallet** (or connecting a hardware wallet), so that you hold the recovery phrase yourself.
+If you permanently lose access to the email address linked to your wallet, you may be unable to recover the wallet. To restore access independently of email, use a recovery phrase wallet or a supported hardware wallet and keep your own backup.
 {% endhint %}
 
 ## Sync an existing DeGate Web account

@@ -46,11 +46,11 @@ The current list of supported networks appears in [What is DeGate](../README.md#
 * **External wallet connected in the app:** keep access to the original external wallet account. Reconnect it in the DeGate app and check that the DeGate-derived address matches the one you previously used.
 * **DeGate Web sync:** keep access to the original wallet account you used on DeGate Web. Generate a new QR code on DeGate Web and scan it in the DeGate app. Check that the synced DeGate address matches the one you previously used.
 
-Email sign-in, external-wallet, and DeGate Web sync accounts require the DeGate app to restore access. These accounts cannot currently be restored in other wallet software.
+For email sign-in, external-wallet connections, and DeGate Web sync, access to the DeGate wallet can be restored only in the DeGate app. Web sync starts on DeGate Web and finishes in the app.
 
 ### If you lose access to your email
 
-An email wallet depends on access to its linked email address. If you permanently lose access to that email, you may be unable to recover the wallet. We do not recommend keeping large balances in an email wallet; for funds you need to recover independently of email sign-in, consider a recovery phrase wallet or a supported hardware wallet and keep its backup securely.
+If you permanently lose access to the email address linked to your wallet, you may be unable to recover the wallet. To restore access independently of email, use a recovery phrase wallet or a supported hardware wallet and keep your own backup.
 
 ## FAQ
 
